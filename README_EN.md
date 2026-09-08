@@ -18,6 +18,12 @@ Natural language → intent → relevant domain knowledge → internal brief →
 
 It does not merely return a longer prompt. It executes the task by default. It asks a question only when an answer would materially change the result, authorize an external effect, or cannot be inferred safely.
 
+## Before and after
+
+For the same request—prepare a three-minute AI customer-service pilot proposal for a budget-conscious manager—the baseline produced a useful five-page plan but introduced a fixed budget that the user had not supplied. Intent Compiler produced a tighter four-page decision brief, treated the missing budget as an explicit assumption, and added measurable continuation and stop conditions.
+
+In this single directional test, the Skill output used about 3.6% fewer characters but 5.9% more total tokens. Its value is more consistent intent handling, not guaranteed token savings. See the [full comparison](examples/before-after.md).
+
 ## Install
 
 ### Codex
@@ -68,4 +74,3 @@ Slash-command hosts may also expose `/intent-compiler`, `/intent-brief`, and `/i
 Most updates only require editing Markdown. Add a real example, adjust one relevant rule, update `CHANGELOG.md`, and open a pull request. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Licensed under the [MIT License](LICENSE).
-
