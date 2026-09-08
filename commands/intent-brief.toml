@@ -1,0 +1,3 @@
+description = "Compile a rough idea into a clear brief without executing it"
+prompt = "Use $intent-compiler in brief mode for {{args}}. Return the compact compiled brief and do not execute the task."
+

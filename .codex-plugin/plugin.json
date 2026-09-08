@@ -1,0 +1,33 @@
+{
+  "name": "intent-compiler",
+  "version": "0.1.0",
+  "description": "Turn ordinary language into a domain-aware execution brief, carry out the task, and repair the result.",
+  "author": {
+    "name": "Intent Compiler contributors",
+    "url": "https://github.com/dawwnforu"
+  },
+  "homepage": "https://github.com/dawwnforu/intent-compiler-skill",
+  "repository": "https://github.com/dawwnforu/intent-compiler-skill",
+  "license": "MIT",
+  "keywords": ["intent", "requirements", "prompting", "productivity", "non-technical"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Intent Compiler（需求编译器）",
+    "shortDescription": "Say it naturally. Get a professional result.",
+    "longDescription": "Reconstructs intent, supplies relevant domain knowledge, executes the work, and checks the result without requiring prompt-engineering expertise.",
+    "developerName": "Intent Compiler contributors",
+    "category": "Productivity",
+    "capabilities": ["Instructions", "Domain guidance"],
+    "websiteURL": "https://github.com/dawwnforu/intent-compiler-skill",
+    "termsOfServiceURL": "https://github.com/dawwnforu/intent-compiler-skill/blob/main/LICENSE",
+    "brandColor": "#3157D5",
+    "composerIcon": "./skills/intent-compiler/assets/intent-compiler.svg",
+    "logo": "./skills/intent-compiler/assets/intent-compiler.svg",
+    "defaultPrompt": [
+      "Use Intent Compiler to turn this rough idea into a finished result.",
+      "Compile this request into a clear brief before executing it.",
+      "Improve this draft using the relevant professional standards."
+    ]
+  }
+}
+

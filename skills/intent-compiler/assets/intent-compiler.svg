@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Intent Compiler</title>
+  <desc id="desc">A friendly line-art profile turning a loose thought into a checked brief.</desc>
+  <rect width="512" height="512" rx="112" fill="#F4F6FF"/>
+  <g fill="none" stroke="#18204A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M188 354c-32-22-52-60-52-103 0-70 51-127 120-127s120 57 120 127c0 43-20 81-52 103"/>
+    <path d="M202 223c19-27 83-34 112 0"/>
+    <circle cx="216" cy="261" r="8" fill="#18204A" stroke="none"/>
+    <circle cx="296" cy="261" r="8" fill="#18204A" stroke="none"/>
+    <path d="M226 312c20 15 40 15 60 0M256 124V84M221 132l-18-34M291 132l18-34"/>
+    <path d="M83 193c20-21 41-21 62 0s41 21 62 0" stroke="#3157D5"/>
+    <path d="M362 180h70v105h-70zM378 222l14 14 25-31" stroke="#3157D5"/>
+    <path d="M182 406c42-30 106-30 148 0"/>
+  </g>
+</svg>
+

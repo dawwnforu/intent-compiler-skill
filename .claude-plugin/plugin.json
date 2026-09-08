@@ -1,0 +1,15 @@
+{
+  "name": "intent-compiler",
+  "displayName": "Intent Compiler（需求编译器）",
+  "version": "0.1.0",
+  "description": "Turn ordinary language into a domain-aware execution brief and finished result.",
+  "author": {
+    "name": "Intent Compiler contributors",
+    "url": "https://github.com/dawwnforu"
+  },
+  "homepage": "https://github.com/dawwnforu/intent-compiler-skill",
+  "repository": "https://github.com/dawwnforu/intent-compiler-skill",
+  "license": "MIT",
+  "skills": "./skills/"
+}
+
