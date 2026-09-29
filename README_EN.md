@@ -1,76 +1,90 @@
-<p align="center">
-  <img src="skills/intent-compiler/assets/intent-compiler.svg" width="220" alt="Intent Compiler line-art avatar turning natural language into an executable task">
-</p>
+<p align="center"><img src="skills/intent-compiler/assets/intent-compiler.svg" width="220" alt="Original Intent Compiler line-art avatar"></p>
 
-<h1 align="center">Intent Compiler</h1>
+# Intent Compiler
 
-<p align="center"><strong>You speak naturally. The agent supplies the missing professional structure and gets the work done.</strong></p>
+**Describe the outcome. The agent discovers, retrieves and applies the knowledge needed to get it done.**
 
-<p align="center"><a href="README.md">中文</a> · <a href="LICENSE">MIT License</a></p>
+[中文](README.md) · [MIT License](LICENSE)
 
-Intent Compiler is an Agent Skill for office workers, creators, students, and other non-technical users. Describe the outcome in ordinary language; the Skill reconstructs the intent, adds only the domain knowledge needed, chooses an execution path, checks the result, and delivers it.
-
-## How it works
+An intent-driven, knowledge-enhanced workflow for non-technical users. Users need no prompt-engineering, coding, design, deployment or asset-licensing vocabulary. A longer prompt is not the default deliverable.
 
 ```text
-Natural language → intent → relevant domain knowledge → internal brief → execution → repair → delivery
+Understand intent → route knowledge → retrieve what matters → discover prerequisites
+→ explain consequential choices → execute within authorization → verify → deliver
 ```
 
-It does not merely return a longer prompt. It executes the task by default. It asks a question only when an answer would materially change the result, authorize an external effect, or cannot be inferred safely.
+## Behavior
 
-## Before and after
+Simple edits go straight to the result. For substantive work, inspect context and existing artifacts, keep a compact execution brief, and consult the [knowledge index](skills/intent-compiler/references/knowledge-index.md):
 
-For the same request—prepare a three-minute AI customer-service pilot proposal for a budget-conscious manager—the baseline produced a useful five-page plan but introduced a fixed budget that the user had not supplied. Intent Compiler produced a tighter four-page decision brief, treated the missing budget as an explicit assumption, and added measurable continuation and stop conditions.
+1. Required now: read the relevant module/section.
+2. Conditional: load only when its actual dependency appears.
+3. Irrelevant to delivery: leave unloaded and out of scope.
 
-In this single directional test, the Skill output used about 3.6% fewer characters but 5.9% more total tokens. Its value is more consistent intent handling, not guaranteed token savings. See the [full comparison](examples/before-after.md).
+Stop retrieval when prerequisites and acceptance are clear with no new critical gap. If necessary evidence is inaccessible, stop that branch, finish independent work and name the blocker. Never invent business facts, budgets, permissions, sources or completion.
 
-## Install
+## Three core scenarios
 
-### Codex
+| Goal | Missing knowledge supplied | Boundary |
+|---|---|---|
+| Render or fabricate a product | Models/references, materials, lighting, composition and output; dimensions, units, materials, process and assembly only for physical use; mechanics only for relevant functional demands | No fabrication escalation from rendering; an image proves no strength |
+| Add an editor font library | Real files, loading/fallback, glyph coverage, source/license and use-specific rights | A dropdown is insufficient; “free” does not authorize every use |
+| Let others access a website | Existing stack/runtime, backend/storage/auth/uploads, public content, account/deployment prerequisites and real access checks | Distinguish local preview, temporary demo, persistent deployment and custom domain; no assumed payment or exposure of private data |
+
+Prices, official capabilities, licenses and regional requirements are verified against applicable authoritative sources at execution time, recording source, scope and date. Static docs promise neither fixed prices nor permanent free service or blanket compliance.
+
+## Install and use
+
+Non-programmers can give their current agent the repository URL and ask it to check the host's supported installation method, install the Skill and verify discovery. Host permissions still apply.
+
+Codex CLI (syntax checked against local CLI help; full installation untested):
 
 ```bash
 codex plugin marketplace add dawwnforu/intent-compiler-skill
 codex plugin add intent-compiler@intent-compiler
 ```
 
-Restart Codex after installation.
-
-### Claude Code
+Claude Code (checked against official documentation; full installation untested):
 
 ```text
 /plugin marketplace add dawwnforu/intent-compiler-skill
 /plugin install intent-compiler@intent-compiler
 ```
 
-### Skill only
+Start a fresh session and check discovery. Alternatively copy the complete `skills/intent-compiler` folder to the host's supported local Skills location. See [COMPATIBILITY.md](COMPATIBILITY.md) for paths, manifests, invocation differences, source dates and smoke checks. A GitHub repository is not a public plugin-directory listing or a universal compatibility claim.
 
-Copy `skills/intent-compiler` into your agent's Skills directory. If you do not know where that is, ask your current AI agent to install the Skill from this GitHub repository.
-
-## Use
-
-Speak normally, or invoke it explicitly:
+Codex examples:
 
 ```text
-$intent-compiler Turn these meeting notes into an action list.
-$intent-compiler brief -- Structure this idea without executing it.
-$intent-compiler teach -- Explain the missing UI concepts I should know.
-$intent-compiler improve -- Improve this existing proposal.
+$intent-compiler do -- Add a usable font library to my editor.
+$intent-compiler brief -- Outline website launch requirements without deploying.
+$intent-compiler teach -- Explain why this joint affects printed-part assembly.
+$intent-compiler improve -- Inspect and repair this existing proposal.
 ```
 
-Slash-command hosts may also expose `/intent-compiler`, `/intent-brief`, and `/intent-improve`.
+`do` executes and verifies; `brief` delivers a specification only; `teach` explains necessary concepts; `improve` preserves constraints and repairs an existing artifact. Brief/teach do not implement external actions. Claude uses namespaced invocation; see the compatibility guide.
 
-## What is included
+## Capabilities and dependencies
 
-- Office, research, visual/design, 3D, product, and coding lenses
-- A low-friction clarification policy
-- A single-pass result quality loop
-- Examples written for non-technical users
-- Markdown-only maintenance guidance
-- Codex and Claude Code plugin manifests
-- An original SVG line-art identity
+This project supplies Markdown behavior, routing, domain judgments, evidence boundaries, acceptance rules and cases. Routing is followed by the host model, not an independent program; model compliance is not guaranteed.
 
-## Maintenance
+Retrieval, file editing, image generation, modeling and deployment depend on the host model, specialist skills/tools, source access, accounts and authorization. Installing this Skill does not supply those tools or credentials. There is no database, backend service or paid API dependency. Optional repository checks use Python's standard library; the Skill requires no Python runtime.
 
-Most updates only require editing Markdown. Add a real example, adjust one relevant rule, update `CHANGELOG.md`, and open a pull request. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+## Validation and maintenance
 
-Licensed under the [MIT License](LICENSE).
+[Six regression cases](examples/validation-cases.md) cover render-only scope, fabrication prerequisites, font resources/rights, deployment exposure/cost, fast text edits and unavailable data/tools/permissions.
+
+Rules and cases have been statically reviewed; model behavior comparisons are **not run**. No improvement percentages are claimed. Old percentages without reproducible raw records have been removed. [TESTING.md](TESTING.md) defines the raw request / short generic rules / full Skill comparison and evidence log.
+
+To add knowledge, fill the [Markdown template](skills/intent-compiler/references/knowledge-module-template.md), add an index row and cases. No routing code changes are needed. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+CI runs `python tests/check_repository.py` for links, packaged paths, manifest consistency and case completeness. This does not establish model behavior or host installation success.
+
+## Entry points
+
+- [SKILL.md](skills/intent-compiler/SKILL.md): core behavior and modes.
+- [references](skills/intent-compiler/references/knowledge-index.md): conditional domain guidance, sources and acceptance.
+- [examples](examples/validation-cases.md): regression cases alongside existing office, design, research and coding examples.
+- [CHANGELOG](CHANGELOG.md): behavior and compatibility changes.
+
+The user expresses the outcome. The system supplies necessary knowledge and does the work, without inventing facts or authority, expanding requirements, or claiming unverified completion.

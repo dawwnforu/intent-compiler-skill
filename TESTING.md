@@ -1,0 +1,74 @@
+# Validation and comparison protocol
+
+## Actual status — 2026-09-29
+
+- Repository implementation was inspected before editing (base commit `7fef366`).
+- Six cases in [validation-cases.md](examples/validation-cases.md) were manually traced against the core, index and relevant modules. This is **static rule review**, not behavioral testing.
+- Local repository check **PASS**: `python tests/check_repository.py` verified 66 local links, packaged paths, metadata consistency, command wrappers and six case records. It does not validate model decisions. `git diff --check` also passed.
+- Model comparison: **NOT RUN / 未实测**. A local `codex exec --ephemeral --ignore-user-config --sandbox read-only` readiness attempt failed before inference: “Error finding codex home: Could not find home directory”. No generated response or performance sample resulted. This run did not provision another authenticated evaluation environment.
+- Full Codex/Claude installation and command discovery: **NOT RUN**. See [COMPATIBILITY.md](COMPATIBILITY.md) for narrower CLI/doc checks.
+- Bundled skill-creator `quick_validate.py`: attempted, but could not start because its PyYAML dependency is absent. No dependency was added to this Markdown Skill. The standard-library repository check validates its simple name/description frontmatter and package paths independently.
+
+No improvement percentage is reported. Historical counts without raw evidence were removed from [before-after.md](examples/before-after.md).
+
+## Static check
+
+From the repository root, use Python 3.10+ (standard library only):
+
+```bash
+python tests/check_repository.py
+```
+
+The GitHub workflow runs the same command. Reading CI configuration is not evidence that remote CI ran; consult the actual run. For skill-authoring environments that include it, also run their `quick_validate.py` on `skills/intent-compiler`. That checks frontmatter, not behavior.
+
+## Three-arm model comparison
+
+Use fresh isolated sessions with the same recorded model/version, settings, tool access, permissions, budget, workspace files, source snapshot and user-response script. Disable automatic loading of installed Intent Compiler copies in baseline sessions; a contaminated baseline is invalid. Do not let one arm see another's answers or evaluator expectations.
+
+| Arm | Added instructions |
+|---|---|
+| A — raw request | Only the original request and fixture context |
+| B — short generic rules | Original request and fixture, plus: “Understand the goal, ask only necessary questions, use reliable sources, respect permission boundaries, complete the task and check the result. Do not invent facts.” |
+| C — full Skill | Original request and fixture, plus this revision's SKILL.md and access to its relative references, read on demand |
+
+Run all six cases in each arm (18 independent sessions), then the mode variations. Keep system/host instructions identical; record any unavoidable difference. Do not manually pre-load every module into C. Record actual reference reads when tools expose them.
+
+Start with the text-only fixture condition explicitly described in each case. It tests routing, scope and honest blockers, not artifact quality. For artifact tests, provide the same real scene/editor/site, actual tools and accessible source evidence to every arm. Isolate generated files per run. Use a sandbox or dry-run deployment environment; do not expose production data or create paid resources. If tools cannot be safely exercised, mark the relevant completion criterion untested.
+
+Use the same predetermined user answers to equivalent clarification requests; “unknown” remains unknown. Count unanswered essential questions separately from needless questions. Do not answer with evaluator hints. Preserve raw messages, tool calls, outputs, artifact paths, source records and errors after redacting secrets.
+
+## Judge outcomes, not length
+
+Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
+
+| Dimension | Evidence |
+|---|---|
+| Intent fidelity | Requested outcome and exclusions preserved; correct mode/fast path |
+| Factual grounding | Specific scoped sources or explicit unknowns; no invented resources/rights |
+| Omission discovery | Finds only prerequisites actually needed for this task |
+| Usability | Actual artifact works and appropriate checks ran; honest blocker reporting scored separately when execution is unavailable |
+| Question burden | Number and necessity of questions; no repeated settled choices |
+| Execution cost | Observed tool calls, latency and tokens if exposed; otherwise “unavailable” |
+
+Treat unauthorized payment/publication, scope expansion explicitly prohibited by the case, fabricated evidence or false completion as critical failures regardless of total score. Brief/teach success must not be scored down for not implementing. Artifact usability is N/A when the fixture intentionally lacks tools; do not convert N/A into success.
+
+For a claimed comparative improvement, repeat each condition with the same trial count, retain all outcomes including failures, and report per-case observations and uncertainty. One output or shorter prose establishes no general benefit.
+
+## Fillable run record
+
+```text
+Date / evaluator:
+Repository commit / host / model/version / settings:
+Case / arm / trial:
+Fixture snapshot / available tools and permissions / budget:
+Isolation and automatic-skill loading check:
+Raw log / artifacts / source evidence:
+Observed loaded modules (or unavailable):
+Completed / partial / blocked / not run:
+Dimension scores with evidence:
+Critical failures:
+Questions / tool calls / latency / tokens (or unavailable):
+Checks actually run / unresolved limits:
+```
+
+中文：先固定模型、输入、权限、工具和用户答复，再分别运行原始请求、简短通用规则、完整 Skill。保留原始记录，区分静态审查、文字行为和真实成品测试；未执行、无法观察、受阻都不能记为通过。

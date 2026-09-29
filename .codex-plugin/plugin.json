@@ -1,7 +1,7 @@
 {
   "name": "intent-compiler",
-  "version": "0.1.0",
-  "description": "Turn ordinary language into a domain-aware execution brief, carry out the task, and repair the result.",
+  "version": "0.2.0",
+  "description": "An intent-driven, knowledge-enhanced workflow: discover prerequisites, execute within authorization, and verify outcomes.",
   "author": {
     "name": "Intent Compiler contributors",
     "url": "https://github.com/dawwnforu"
@@ -9,12 +9,12 @@
   "homepage": "https://github.com/dawwnforu/intent-compiler-skill",
   "repository": "https://github.com/dawwnforu/intent-compiler-skill",
   "license": "MIT",
-  "keywords": ["intent", "requirements", "prompting", "productivity", "non-technical"],
+  "keywords": ["intent", "knowledge", "workflow", "productivity", "non-technical"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Intent Compiler（需求编译器）",
     "shortDescription": "Say it naturally. Get a professional result.",
-    "longDescription": "Reconstructs intent, supplies relevant domain knowledge, executes the work, and checks the result without requiring prompt-engineering expertise.",
+    "longDescription": "Routes only necessary knowledge, discovers missing prerequisites, executes within authorization, and verifies real outcomes using the host's available tools.",
     "developerName": "Intent Compiler contributors",
     "category": "Productivity",
     "capabilities": ["Instructions", "Domain guidance"],

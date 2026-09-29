@@ -1,8 +1,8 @@
 interface:
   display_name: "Intent Compiler（需求编译器）"
   short_description: "把自然语言变成专业、可执行的结果"
-  icon_small: "../assets/intent-compiler.svg"
-  icon_large: "../assets/intent-compiler.svg"
+  icon_small: "./assets/intent-compiler.svg"
+  icon_large: "./assets/intent-compiler.svg"
   brand_color: "#3157D5"
-  default_prompt: "Use $intent-compiler to turn my rough idea into a finished, domain-aware result."
+  default_prompt: "Use $intent-compiler to discover necessary knowledge, complete my task within scope, and verify the result."
 

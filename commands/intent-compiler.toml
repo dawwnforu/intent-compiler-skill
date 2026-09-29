@@ -1,3 +1,0 @@
-description = "Turn a natural-language request into a finished, domain-aware result"
-prompt = "Use $intent-compiler {{args}}. Infer ordinary missing details, ask only when a material decision cannot be inferred safely, execute the task, and check the result once before delivery."
-

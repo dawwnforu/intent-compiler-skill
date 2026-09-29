@@ -1,3 +1,0 @@
-description = "Improve an existing draft using relevant professional standards"
-prompt = "Use $intent-compiler in improve mode for {{args}}. Identify the most important gaps, repair the draft, and return the improved result."
-
