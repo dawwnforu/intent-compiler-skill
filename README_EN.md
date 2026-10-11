@@ -76,7 +76,7 @@ Retrieval, file editing, image generation, modeling and deployment depend on the
 
 [Six regression cases](examples/validation-cases.md) cover render-only scope, fabrication prerequisites, font resources/rights, deployment exposure/cost, fast text edits and unavailable data/tools/permissions.
 
-The candidate has67 actual generations, including24 frozen new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. V2 had lower median output than V1 on both repeated tasks; general superiority over a short generic instruction was not established. Read the [results and limits](docs/v2-results.md), including input/cache/time counters and unchanged or worse outcomes. [TESTING.md](TESTING.md) separates static checks from behavioral evidence; unsupported historical percentages remain removed.
+The frozen candidate snapshot has 67 actual generations, including 24 new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. It had lower median output than V1 on both repeated tasks; general superiority over generic instructions was not established. Later dialogues exposed an aggregate/per-item rule error; the repair has a separate three-turn regression and two positive/negative transfer checks. Earlier cost figures do not validate the new repair's efficiency. Read [results and limits](docs/v2-results.md) and [testing methods](TESTING.md), including failures and worse outcomes.
 
 To add knowledge, fill the [Markdown template](skills/intent-compiler/references/knowledge-module-template.md), add an index row and cases. No routing code changes are needed. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 

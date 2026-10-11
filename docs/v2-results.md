@@ -2,7 +2,7 @@
 
 2026-10-12 local date. **Partial efficiency gains, no general superiority established.** 共67次真实生成：43次开发集，冻结后24次新题；没有删掉较慢或无改善的结果。候选版本仍未正式发布。
 
-随后补充4个真实连续对话（每组2轮，共8次响应），发现冻结V2的一个必要条件遗漏；同样的计算错误也出现在G/V1。初始评测答案本身亦有错误，已通过反例纠正并保留记录。当前分支已加通用粒度规则，尚待行为回归；下面67次数据只支持此前冻结版本，不能自动支持新修复。见[回归案例](../tests/v2-granularity-regression.md)。
+随后补充4个真实连续对话（每组2轮），发现冻结V2的一个必要条件遗漏；同样的计算错误也出现在G/V1。初始评测答案本身亦有错误，已通过反例纠正并保留记录。修复c51d267已通过一个三轮开发回归和两个新领域正反例；下面67次成本数据只支持此前冻结版本，不作为新修复的成本结论。见[回归案例](../tests/v2-granularity-regression.md)。
 
 ## Repeated new tasks
 
@@ -46,6 +46,8 @@ V2比V1在两个任务的输入/输出和耗时中位数低。G的数据分析�
 Core text compressed from5495 to4241 Unicode characters while preserving routing, modes, boundaries and verification. Text size is not a token-saving percentage. Papers informed hypotheses and modules; no model training or reproduction of paper results occurred. See [research/read scope](v2-research.md).
 
 ## Evidence limits and next decision
+
+The repaired dialogue keeps lodging reimbursement unknown after the policy arrives because nightly amounts remain missing. After the same conversation receives actual nightly amounts200/520, the generated CSV correctly computes lodging500 and total730 instead of assuming830. Independent CSV parsing checked every original/allowed/difference value and unchanged source inputs. Two new parcel examples distinguish per-parcel caps (need component values) from an explicit whole-order cap (800 determined; no extra question). [Repair evidence](../tests/results/v2-repair.json) includes actual responses and raw CLI counters. This is one targeted regression and two brief transfer checks, not a repeated superiority benchmark. Resumed-conversation counters are retained as returned and may include accumulated session usage; do not sum them or treat them as verified per-turn increments.
 
 The committed JSON contains all67 CLI counter records, not independent semantic grades. Full raw events, generated artifacts, browser profiles/downloads and screenshots remain in the local evaluation workspace, outside this lightweight repository. Published fixtures allow a new reproduction, not exact regeneration. Review was by the development agent using external calculations/runtime observations; no blinded human preference study occurred.
 
