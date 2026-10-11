@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — 2.0 candidate
+
+- Narrow routine output to requested artifacts and consequential evidence; avoid unsolicited secondary guides and repeated narration.
+- Add outcome-based prerequisites for interactive products, surveys/data, workflows/knowledge, web runtime, print layout and game mods.
+- Add research hypotheses, reconstructed public-project cases and a four-arm evaluation protocol. Candidate effectiveness is not yet established.
+- Keep release manifests at 0.2.0 pending validation; do not change the license or normal installation during experiments.
+
 ## 0.2.0 - 2026-09-29
 
 - Reworked the core into intent-driven knowledge routing, gap discovery, authorized execution and evidence-based delivery, preserving do/brief/teach/improve.
