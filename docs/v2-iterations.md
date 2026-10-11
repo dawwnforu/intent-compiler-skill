@@ -33,3 +33,11 @@ Four fresh runs used identical synthetic conflicting records and four natural-la
 Output tokens: A3562, G3187, V13779, V23203. Elapsed seconds: A84.48, G82.47, V1101.15, V251.92. Human-readable Markdown files: A4, G5, V16, V21. File count is an observation, not a quality score; V2 consolidated current answers, pending decisions, provenance and maintenance in one document. No broad superiority is established over G. G's source ledger falsely says the identical duplicate differs in trailing whitespace; independent bytes contradict that incidental claim. Its four requested answers are still correct. Do not add a universal new rule merely for this one incidental error.
 
 Independent recomputation of the original survey CSV now confirms the previously recorded denominators/counts/mean. This verifies the source calculation, not every possible claim in every generated artifact. Workflow failure/recovery, remaining domains, and repeated unseen tests are pending.
+
+## R2 local workflow: actual failure and recovery
+
+All four generated processors were copied unchanged into fresh verification folders and given the same two valid meeting files plus malformed bytes. Each produced two records and a separate failure. Unchanged rerun kept two records; repairing only the invalid fixture produced one additional record; another rerun kept three. Valid input bytes remained unchanged. All described deterministic extraction honestly rather than claiming a live AI integration.
+
+Output tokens A5685, G4579, V14406, V25234; elapsed seconds A120.83, G115.08, V1102.57, V2114.52. V2 is not more efficient than G or V1 on this case, and the required recovery behavior did not distinguish the arms.
+
+Evaluator correction: a nonzero process exit during partial failure can accurately report the invalid file and must not be classified as total workflow failure. Likewise run logs and backup files are not duplicate notes. The corrected check counts actual note records (2→2→3→3), records each command's stdout/status, and leaves generated code unchanged. Initial verifier artifacts remain separate. This checks sequential local recovery, not concurrent execution, power loss, browser search usability or live model/provider orchestration. Broader and repeated held-out evaluation remains pending.
