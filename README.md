@@ -76,7 +76,7 @@ $intent-compiler improve -- 检查并修好这份现有方案
 
 新增[六组验证案例](examples/validation-cases.md)，覆盖渲染不扩展、实物条件、字体资源/授权、网站公开/付费边界、文本快速路径及缺少资料/工具/权限。
 
-已进行规则与案例的静态审查；模型行为对照**未实测**，不发布提升比例。已有旧版示例中的百分比因缺少可复查原始记录而撤下。三组 raw request / 简短通用规则 / 完整 Skill 的公平执行方法和记录表见 [TESTING.md](TESTING.md)。
+候选版已完成67次真实生成，其中24次为冻结后的两类新题、四组各三次重复，并做独立内容或浏览器核验。新版在两类新题中比旧版的输出中位数低，但没有证明全面优于简短通用规则；输入、缓存、时间和质量需一起看。[实测结果与限制](docs/v2-results.md)保留无改善和更慢的情况，[测试方法](TESTING.md)区分静态检查与行为验证。早期缺少证据的百分比仍不使用。
 
 非程序员只需填写[知识模块模板](skills/intent-compiler/references/knowledge-module-template.md)、增加索引行和案例，无需改路由代码。详见[维护指南](MAINTAINING.md)与[贡献指南](CONTRIBUTING.md)。
 

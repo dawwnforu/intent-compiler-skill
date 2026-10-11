@@ -1,6 +1,10 @@
 # Validation and comparison protocol
 
-## Actual status — 2026-09-29
+## Candidate status — 2026-10-12
+
+67 actual generations:43 development trials and24 frozen new-task trials. See [results/limits](docs/v2-results.md), [all counters](tests/results/v2-runs.json), [four-arm protocol](tests/v2-protocol.md) and [reproduction fixtures](tests/v2-heldout-cases.md). Independent calculations/content review and real Edge operations support the explicitly listed checks only. Full logs/artifacts remain local. Cross-model, live-service and domain-wide superiority claims are untested.
+
+## Historical release review — 2026-09-29
 
 - Repository implementation was inspected before editing (base commit `7fef366`).
 - Six cases in [validation-cases.md](examples/validation-cases.md) were manually traced against the core, index and relevant modules. This is **static rule review**, not behavioral testing.
@@ -9,7 +13,7 @@
 - Full Codex/Claude installation and command discovery: **NOT RUN**. See [COMPATIBILITY.md](COMPATIBILITY.md) for narrower CLI/doc checks.
 - Bundled skill-creator `quick_validate.py`: attempted, but could not start because its PyYAML dependency is absent. No dependency was added to this Markdown Skill. The standard-library repository check validates its simple name/description frontmatter and package paths independently.
 
-No improvement percentage is reported. Historical counts without raw evidence were removed from [before-after.md](examples/before-after.md).
+This earlier unsuccessful readiness attempt is retained as history, not the current candidate status. Historical counts without raw evidence were removed from [before-after.md](examples/before-after.md).
 
 ## Static check
 

@@ -76,7 +76,7 @@ Retrieval, file editing, image generation, modeling and deployment depend on the
 
 [Six regression cases](examples/validation-cases.md) cover render-only scope, fabrication prerequisites, font resources/rights, deployment exposure/cost, fast text edits and unavailable data/tools/permissions.
 
-Rules and cases have been statically reviewed; model behavior comparisons are **not run**. No improvement percentages are claimed. Old percentages without reproducible raw records have been removed. [TESTING.md](TESTING.md) defines the raw request / short generic rules / full Skill comparison and evidence log.
+The candidate has67 actual generations, including24 frozen new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. V2 had lower median output than V1 on both repeated tasks; general superiority over a short generic instruction was not established. Read the [results and limits](docs/v2-results.md), including input/cache/time counters and unchanged or worse outcomes. [TESTING.md](TESTING.md) separates static checks from behavioral evidence; unsupported historical percentages remain removed.
 
 To add knowledge, fill the [Markdown template](skills/intent-compiler/references/knowledge-module-template.md), add an index row and cases. No routing code changes are needed. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
