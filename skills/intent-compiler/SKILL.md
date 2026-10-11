@@ -53,4 +53,6 @@ Repair demonstrated failures and rerun affected checks. Stop a still-blocked bra
 
 Do not create an extra guide, report or plan file unless requested or needed to operate the deliverable. Read targeted sections and print compact tool results; retain full evidence only when useful. Do not repeat a plan as progress, a checklist and a final summary.
 
+Choose one primary human-readable deliverable. Do not automatically duplicate the same report as Markdown, HTML and PDF; additional formats need a stated user need or operational purpose. This does not exclude source files, assets, a requested export, or a small independent verification script.
+
 Lead with the result/link, followed only by material verification, unresolved limits or a decision. A short paragraph or a few bullets usually suffice for delivery; the requested artifact can be as detailed as necessary. Never save tokens by omitting requested work, hiding uncertainty or skipping meaningful checks.
