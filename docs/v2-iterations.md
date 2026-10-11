@@ -41,3 +41,15 @@ All four generated processors were copied unchanged into fresh verification fold
 Output tokens A5685, G4579, V14406, V25234; elapsed seconds A120.83, G115.08, V1102.57, V2114.52. V2 is not more efficient than G or V1 on this case, and the required recovery behavior did not distinguish the arms.
 
 Evaluator correction: a nonzero process exit during partial failure can accurately report the invalid file and must not be classified as total workflow failure. Likewise run logs and backup files are not duplicate notes. The corrected check counts actual note records (2→2→3→3), records each command's stdout/status, and leaves generated code unchanged. Initial verifier artifacts remain separate. This checks sequential local recovery, not concurrent execution, power loss, browser search usability or live model/provider orchestration. Broader and repeated held-out evaluation remains pending.
+
+## R2 fast-path regression
+
+All four returned “我们预计将于下周完成。” without tools or generated files. V1 and V2 also announced use of the Skill, consistent with the host's skill announcement instruction; do not override higher-priority host rules to optimize this benchmark. Output tokens including reasoning: A53, G23, V142, V237; elapsed seconds A4.59, G3.97, V14.43, V25.09. These tiny one-run differences do not demonstrate an efficiency benefit. The direct wording task does not need domain routing. No new candidate rule is justified by this result.
+
+## R2 URLs and backend readiness
+
+All four inspected the same synthetic localhost message board and repaired hardcoded API URLs, premature save confirmation, and restart data loss. They distinguished local access from public hosting and domain binding and reported public access unverified. No EADDRINUSE occurrence appears in the generation logs. Independent verification used fresh copies and separate ephemeral ports, not the shared fixture default.
+
+Actual Node restart and Edge checks passed for all four: saved data survives restart, empty messages are rejected, the frontend reads/writes on a nondefault port, and stopping the server produces an unsuccessful-save message while retaining the draft input. No internet deployment, domain purchase or account change was performed. These checks do not certify public deployment readiness, multi-instance storage or full security.
+
+Output tokens A6116, G5874, V15609, V27551; elapsed seconds A143.72, G134.57, V1142.35, V2169.57. Agent-message characters A911, G1020, V1765, V2806. Thus V2's larger total output is not explained simply by more user-facing prose; it also produced implementation/verification artifacts and commands. Character counts are not token counts, and the extra output has not been established as all redundant. Keep this negative efficiency result; do not delete necessary checks merely to improve token counts.
