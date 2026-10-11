@@ -29,6 +29,23 @@ V2比V1在两个任务的输入/输出和耗时中位数低。G的数据分析�
 
 ## Development cases and changes
 
+### Post-repair efficiency regression
+
+Six additional runs used the same already-exposed course/habit prompts, three each, with repaired corec51d267 (repository61423aa). These are regressions, not a new holdout or contemporaneous randomized comparison. All results retained; [raw counters/ranges](../tests/results/v2-efficiency-regression.json).
+
+| Median | Historical G | Historical V1 | Frozen V2 | Repaired V2 |
+|---|---:|---:|---:|---:|
+| Course output tokens | 3325 | 4852 | 3705 | 4189 |
+| Habit output tokens | 8437 | 8778 | 7211 | 9527 |
+| Course seconds | 90.38 | 123.55 | 101.88 | 118.58 |
+| Habit seconds | 175.90 | 212.62 | 185.64 | 243.39 |
+
+Repaired input/cache medians: course146750/130304, habit359136/338560. Latest UI results did **not** retain the earlier output/time advantage; do not advertise the frozen numbers as the current version's savings. Phase, sampling and implementation choices prevent attributing this change to the added rule. Actual UI reads did not load the data-analysis module, so an unnecessary data-module load is not supported as the explanation.
+
+All three course reports retained correct core statistics and synthetic/noncausal boundaries. One described an unknown completion state's blank as definitely structural missingness; the available record does not independently establish that path. This is an interpretation precision limitation, not an arithmetic error or an all-sentences-correct pass. All three pages passed the same independent Edge interaction, real export, persistence, literal-name, screenshot and date-reopen checks; no new core UI failure observed. The checkbox variant was located through its native label. Full accessibility and real-device tests remain outside these checks.
+
+### Earlier development evidence
+
 [迭代记录](v2-iterations.md)保留每轮正反结果。九个公开项目README用于还原自然语言需求，没有声称恢复原始聊天或审计全部代码。
 
 | Area | Observed outcome / change |

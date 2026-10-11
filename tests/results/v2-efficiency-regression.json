@@ -1,0 +1,163 @@
+{
+  "protocol": {
+    "repository_commit": "61423aa611c6d0157f8636a3a78f2adb4c120fd3",
+    "core_repair_commit": "c51d267",
+    "scope": "Three course and three habit repeats, V2 only, same prior prompts/fixtures/settings. Exposed regression cases, not new holdout; historical arms are descriptive references with phase/time confounds. No tuning or exclusions in this batch.",
+    "prompts": {
+      "course_analysis": "我做了一次小课程，收了这些反馈。帮我看大家最需要补什么、学完有没有变化，做一份能给同事看的结果，建议下一次先改哪里。资料在 inputs。",
+      "habit_ui": "做个手机上用的学习打卡小页面。我能添加自己的学习项目，每天勾选完成，点错也能取消，看今天完成了多少。关掉再打开记录还在，能导出自己的数据。界面清爽，有一点反馈动效，先在本机用，不需要账号。"
+    },
+    "rounds": [
+      "e1",
+      "e2",
+      "e3"
+    ]
+  },
+  "scope": "Raw counters and descriptive summaries only. Six exposed-case regressions; quality review and browser evidence are separate. Historical comparison is not a randomized contemporaneous control.",
+  "runs": [
+    {
+      "case": "course_analysis",
+      "repetition": "e1",
+      "exit_code": 0,
+      "wall_seconds": 93.84,
+      "usage": {
+        "input_tokens": 142942,
+        "cached_input_tokens": 130304,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3535,
+        "reasoning_output_tokens": 166
+      },
+      "agent_prose_characters": 374
+    },
+    {
+      "case": "course_analysis",
+      "repetition": "e2",
+      "exit_code": 0,
+      "wall_seconds": 118.58,
+      "usage": {
+        "input_tokens": 172196,
+        "cached_input_tokens": 158336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4753,
+        "reasoning_output_tokens": 266
+      },
+      "agent_prose_characters": 426
+    },
+    {
+      "case": "course_analysis",
+      "repetition": "e3",
+      "exit_code": 0,
+      "wall_seconds": 123.06,
+      "usage": {
+        "input_tokens": 146750,
+        "cached_input_tokens": 130048,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4189,
+        "reasoning_output_tokens": 104
+      },
+      "agent_prose_characters": 439
+    },
+    {
+      "case": "habit_ui",
+      "repetition": "e1",
+      "exit_code": 0,
+      "wall_seconds": 243.39,
+      "usage": {
+        "input_tokens": 359136,
+        "cached_input_tokens": 338560,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9133,
+        "reasoning_output_tokens": 319
+      },
+      "agent_prose_characters": 442
+    },
+    {
+      "case": "habit_ui",
+      "repetition": "e2",
+      "exit_code": 0,
+      "wall_seconds": 235.08,
+      "usage": {
+        "input_tokens": 324404,
+        "cached_input_tokens": 304512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9527,
+        "reasoning_output_tokens": 368
+      },
+      "agent_prose_characters": 440
+    },
+    {
+      "case": "habit_ui",
+      "repetition": "e3",
+      "exit_code": 0,
+      "wall_seconds": 296.96,
+      "usage": {
+        "input_tokens": 593471,
+        "cached_input_tokens": 567936,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10313,
+        "reasoning_output_tokens": 749
+      },
+      "agent_prose_characters": 577
+    }
+  ],
+  "summary": {
+    "course_analysis": {
+      "n": 3,
+      "usage_available_n": 3,
+      "input_tokens": {
+        "median": 146750,
+        "min": 142942,
+        "max": 172196
+      },
+      "cached_input_tokens": {
+        "median": 130304,
+        "min": 130048,
+        "max": 158336
+      },
+      "output_tokens": {
+        "median": 4189,
+        "min": 3535,
+        "max": 4753
+      },
+      "wall_seconds": {
+        "median": 118.58,
+        "min": 93.84,
+        "max": 123.06
+      },
+      "agent_prose_characters": {
+        "median": 426,
+        "min": 374,
+        "max": 439
+      }
+    },
+    "habit_ui": {
+      "n": 3,
+      "usage_available_n": 3,
+      "input_tokens": {
+        "median": 359136,
+        "min": 324404,
+        "max": 593471
+      },
+      "cached_input_tokens": {
+        "median": 338560,
+        "min": 304512,
+        "max": 567936
+      },
+      "output_tokens": {
+        "median": 9527,
+        "min": 9133,
+        "max": 10313
+      },
+      "wall_seconds": {
+        "median": 243.39,
+        "min": 235.08,
+        "max": 296.96
+      },
+      "agent_prose_characters": {
+        "median": 442,
+        "min": 440,
+        "max": 577
+      }
+    }
+  }
+}

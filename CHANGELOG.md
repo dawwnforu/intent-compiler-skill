@@ -8,6 +8,7 @@
 - Record67 real generations,24 frozen repetitions, independent content/Edge checks, portable fixtures and all token/time counters. Partial savings versus V1; no general superiority over generic instructions established. Preserve slower outcomes and untested limits.
 - Keep release manifests at 0.2.0 pending validation; do not change the license or normal installation during experiments.
 - After four two-turn dialogues exposed an aggregate/per-item calculation error, add a general data-granularity prerequisite. Preserve the evaluator's corrected gold-answer mistake. Repaired candidate passed a three-turn regression with independent CSV checks and two positive/negative parcel-domain checks; no new broad efficiency claim.
+- Preserve six post-repair efficiency regressions: basic outcomes retained, one missingness wording limitation, UI output/time higher than historical V1. Current savings cannot be inferred from the earlier frozen snapshot.
 
 ## 0.2.0 - 2026-09-29
 
