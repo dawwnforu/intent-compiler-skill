@@ -34,6 +34,8 @@ For a gap, identify what fails without it:
 
 Separate necessities, recommendations and optional features. Add an implicit requirement only to support the requested outcome or prevent an evidenced failure; never restore excluded features or make optional improvements mandatory.
 
+After new information, recheck remaining dependencies. Match a rule's unit to the available data: totals or averages do not establish per-item values. If missing detail can change the result, ask for it or report a supported bound; do not present an assumed split as a determined answer.
+
 When a user decision remains, explain the consequence and smallest needed input in ordinary language; use [clarification-policy.md](references/clarification-policy.md) as needed. Preserve settled choices.
 
 ## Execute with evidence

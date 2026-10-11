@@ -7,6 +7,7 @@
 - Add research hypotheses, reconstructed public-project cases and a four-arm evaluation protocol. Candidate effectiveness is not yet established.
 - Record67 real generations,24 frozen repetitions, independent content/Edge checks, portable fixtures and all token/time counters. Partial savings versus V1; no general superiority over generic instructions established. Preserve slower outcomes and untested limits.
 - Keep release manifests at 0.2.0 pending validation; do not change the license or normal installation during experiments.
+- After four two-turn dialogues exposed an aggregate/per-item calculation error, add a general data-granularity prerequisite and regression case. Preserve the evaluator's corrected gold-answer mistake; repaired-candidate model verification remains pending.
 
 ## 0.2.0 - 2026-09-29
 

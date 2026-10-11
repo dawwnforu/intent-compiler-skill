@@ -2,6 +2,8 @@
 
 2026-10-12 local date. **Partial efficiency gains, no general superiority established.** 共67次真实生成：43次开发集，冻结后24次新题；没有删掉较慢或无改善的结果。候选版本仍未正式发布。
 
+随后补充4个真实连续对话（每组2轮，共8次响应），发现冻结V2的一个必要条件遗漏；同样的计算错误也出现在G/V1。初始评测答案本身亦有错误，已通过反例纠正并保留记录。当前分支已加通用粒度规则，尚待行为回归；下面67次数据只支持此前冻结版本，不能自动支持新修复。见[回归案例](../tests/v2-granularity-regression.md)。
+
 ## Repeated new tasks
 
 A=原始请求，G=一句通用规则，V1=0.2.0，V2=冻结候选。每任务每组3次，模型`gpt-6.1-sol`、low reasoning、工具/权限一致、独立工作目录。方法、原始中文需求和材料见[可复测用例](../tests/v2-heldout-cases.md)，每次用量/耗时及中位数范围见[记录](../tests/results/v2-runs.json)。
@@ -47,6 +49,6 @@ Core text compressed from5495 to4241 Unicode characters while preserving routing
 
 The committed JSON contains all67 CLI counter records, not independent semantic grades. Full raw events, generated artifacts, browser profiles/downloads and screenshots remain in the local evaluation workspace, outside this lightweight repository. Published fixtures allow a new reproduction, not exact regeneration. Review was by the development agent using external calculations/runtime observations; no blinded human preference study occurred.
 
-Untested: cross-model/Claude behavior, repeated new tasks in every domain, live third-party Agent integrations, real manufacturing/load tests, full font-rights/provider checks, internet deployment, actual phones, full accessibility/storage failures, concurrent/power-loss workflow stress, and an identical-answer multi-turn clarification experiment. Earlier six scenario records remain separately labeled static cases. These limits are not implied passes.
+Untested: cross-model/Claude behavior, repeated new tasks in every domain, live third-party Agent integrations, real manufacturing/load tests, full font-rights/provider checks, internet deployment, actual phones, full accessibility/storage failures and concurrent/power-loss workflow stress. The added identical-answer two-turn experiment is completed, with the failure above; it is not a broad conversational-capability pass. Earlier six scenario records remain separately labeled static cases. These limits are not implied passes.
 
 Recommended status: reviewable candidate. Use routing/gap discovery where useful; simple work may need only a brief instruction. Do not market this as universally smarter, cheaper or an “astonishing” improvement. No license change, marketplace upload, purchase or normal-installation replacement occurred during these experiments.

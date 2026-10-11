@@ -18,6 +18,8 @@ Inspect schema, observation unit, missing-value codes, duplicates, denominators 
 
 Use the applicable valid base for each proportion; multi-select percentages need not total 100%. Keep skipped/not-applicable separate from zero. Do not compare weekly/monthly counts as equal units. State sample bases on charts and separate observations, interpretation and proposed actions.
 
+When applying a policy or formula, match its observation unit to the data. Per-item caps, thresholds and eligibility cannot generally be applied to an average or combined total. Different valid component values may produce different answers for the same total. Request the missing breakdown, or calculate only supported subtotals/bounds and label them; knowing the policy does not mean knowing every required input. Test a contrasting decomposition before calling a result uniquely determined. Do not request a breakdown when the supplied rule explicitly applies to the aggregate instead.
+
 Do not infer representativeness, causality, validated scales or intervention effectiveness from a convenience sample/prototype. Missing evidence means limited analysis, not invented records.
 
 ## Sources, execution and stop
