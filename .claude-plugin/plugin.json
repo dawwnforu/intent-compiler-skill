@@ -1,8 +1,8 @@
 {
   "name": "intent-compiler",
   "displayName": "Intent Compiler（需求编译器）",
-  "version": "0.1.0",
-  "description": "Turn ordinary language into a domain-aware execution brief and finished result.",
+  "version": "0.2.0",
+  "description": "An intent-driven, knowledge-enhanced workflow: discover prerequisites, execute within authorization, and verify outcomes.",
   "author": {
     "name": "Intent Compiler contributors",
     "url": "https://github.com/dawwnforu"

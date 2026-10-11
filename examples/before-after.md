@@ -1,24 +1,9 @@
-# Before / after: AI customer-service pilot
+# Before/after evidence status
 
-## Same task
+The previous version described a single customer-service pilot comparison with page, character and token counts. Reproducible raw outputs, runner configuration and a generic-rule baseline were not committed. Those numbers cannot substantiate this refactor and have been removed from current claims.
 
-> 我们公司有30人的客服团队，想试试AI，但预算有限。我下周要给老板汇报，老板只看3分钟，我不懂AI。帮我做一份能直接用的AI客服试点方案。
+Also corrected: labeling a budget amount or percentage as an assumption does not authorize spending. A proposed ceiling must remain a proposal pending the user's decision.
 
-The same Codex model handled this task once without the Skill and once with `$intent-compiler do --`.
+Use [TESTING.md](../TESTING.md) and the [six cases](validation-cases.md) for a reproducible three-arm comparison. Current model comparison status: **not run**. Do not turn the illustrative expected outcomes into measured results.
 
-## Directional result
-
-| | Without Skill | With Intent Compiler |
-|---|---|---|
-| Presentation | 5 pages | 4 pages |
-| Main framing | Explains the pilot | Centers the approval decision |
-| Missing budget | Introduces a fixed ¥20,000 ceiling | Uses a relative ceiling and labels it as an assumption |
-| Decision gate | Continue, adjust, or stop | Quantified continuation and immediate-stop conditions |
-| Length | 1,876 characters, 132 lines | 1,809 characters, 112 lines |
-| Total tokens | 13,875 | 14,699 |
-
-## What changed
-
-The baseline was already useful. Intent Compiler's improvement was narrower and practical: it made the decision clearer, treated missing business inputs more carefully, and tightened the deliverable for the stated three-minute audience.
-
-This is one comparison, not a benchmark. It does not show that the Skill always reduces cost, time, or output length.
+旧版数字缺少可复查原始记录，已撤下。预算假设不等于授权；本轮模型对照未实测，执行方法见测试文档。

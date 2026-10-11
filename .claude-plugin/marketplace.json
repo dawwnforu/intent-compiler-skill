@@ -1,0 +1,11 @@
+{
+  "name": "intent-compiler",
+  "owner": {"name": "Intent Compiler contributors"},
+  "plugins": [
+    {
+      "name": "intent-compiler",
+      "source": "./",
+      "description": "An intent-driven, knowledge-enhanced workflow for non-technical users."
+    }
+  ]
+}

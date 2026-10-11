@@ -22,3 +22,7 @@ Contributions from non-programmers are welcome. The best report includes the ori
 
 Keep changes narrow, remove private information, place conditional detail in `references/`, and update `CHANGELOG.md` when behavior changes.
 
+Use the [module template](skills/intent-compiler/references/knowledge-module-template.md) for new domain guidance and update the [knowledge index](skills/intent-compiler/references/knowledge-index.md) with loading, exclusion and stop conditions. Add a realistic positive case and an exclusion case. Follow [TESTING.md](TESTING.md); distinguish static checks from model tests and never invent improvement figures. Python is optional for maintainers and unnecessary for Skill use.
+
+新增领域请填写模板并更新知识索引，提供应加载和不应加载的案例。按测试文档区分静态检查、模型实测和安装测试；未实测就明确注明，不编造提升比例。
+

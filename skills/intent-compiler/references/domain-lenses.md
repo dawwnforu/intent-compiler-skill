@@ -1,6 +1,8 @@
 # Domain lenses
 
-Read only the section relevant to the current request. Combine sections only for genuinely cross-domain work.
+These are lightweight fallback lenses, not complete specialist modules. Read only the relevant section after routing through [knowledge-index.md](knowledge-index.md). Reuse an available specialist skill before adding local guidance. Combine sections only for genuinely cross-domain work.
+
+For each lens: apply when its deliverable is requested; exclude adjacent outcomes; inspect supplied inputs and available tools first; retrieve only a method or evidence needed for acceptance; stop once those conditions are clear or report the specific blocker. Office/writing require source-faithful readable artifacts, research requires scoped evidence, UI/visuals require actual output inspection, and coding requires relevant runnable checks. Use project docs and the chosen tool's official documentation as source entry points, with [source-policy.md](source-policy.md) for external claims. Do not infer business facts or permissions from a lens.
 
 ## Office work
 
@@ -20,7 +22,7 @@ Translate intent into subject, composition, medium, lighting, palette, texture, 
 
 ## Blender and 3D
 
-Clarify the output target: still, animation, game asset, print, or simulation. Infer sensible scale, topology, materials, lighting, camera, render engine, and export format from that target. Distinguish modeling, rigging, shading, animation, simulation, and rendering; do not prescribe all stages when only one is needed.
+Route digital visual outputs to [render-model.md](render-model.md). Load [physical-fabrication.md](physical-fabrication.md) only for intended physical use. Never infer measured scale or structural usability from a picture. Do not prescribe modeling, rigging, animation, simulation and fabrication when only one stage is needed.
 
 ## Product and process
 
