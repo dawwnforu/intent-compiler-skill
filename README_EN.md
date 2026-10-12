@@ -27,6 +27,8 @@ Stop retrieval when prerequisites and acceptance are clear with no new critical 
 
 For an unfamiliar project with unsettled scope, the candidate requires a visible explanation of the understood goal, recommended first version and consequential choices before substantial implementation. Explain concrete effects at the user's stated experience level instead of delegating architecture questions to them. Challenge conflicts with reasons and alternatives, preserve informed choices, and execute once enough is known. This guidance belongs in the ongoing conversation; delivery reports actual completion and remaining gaps. It is not a claim that every latent need can be inferred correctly.
 
+Distinguish final use, current execution limits and confirmed choices: “do not publish now” does not mean “only a demo.” Recommendations and silence are not user answers. Wait on work affected by a necessary missing answer, while executing explicitly delegated low-impact choices. Reliability still requires evidence; see the [decision-boundary check](tests/v2-decision-boundary.md).
+
 ## Three core scenarios
 
 | Goal | Missing knowledge supplied | Boundary |

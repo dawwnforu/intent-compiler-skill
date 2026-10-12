@@ -45,6 +45,8 @@ Use the same predetermined user answers to equivalent clarification requests; â€
 
 For novice-project dialogue, use the [R7 scope-guidance protocol](tests/v2-scope-dialogue.md): inspect when a necessary boundary was explained, whether a recommendation helps the user decide, and whether later answers change the plan. A polished final report does not compensate for premature implementation based on unspoken assumptions. User satisfaction remains unmeasured without user feedback.
 
+The [R9 decision-boundary check](tests/v2-decision-boundary.md) separately tests waiting for real answers, preserving final use despite local execution restrictions, and acting on explicit delegation. Its fixed supplements test response to provided information, not full adaptive elicitation; incomplete conversations and timeouts cannot support broad comparative claims.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |

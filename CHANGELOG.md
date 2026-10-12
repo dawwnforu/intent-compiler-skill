@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Distinguish intended use, execution restrictions and confirmed/delegated choices; a prototype with unsettled business roles is dependent work too. Add a frozen decision-boundary regression/transfer protocol and a real CSV delegation check. Extend research notes with clarification-specific evaluation and scoped prototyping guidance without importing paper performance claims.
+
 - Make scope guidance visible before substantial implementation of unfamiliar, underspecified projects: recommend a useful first version, explain consequential choices, adapt to stated experience and challenge conflicting requests with reasons. Preserve settled scope and the simple-task fast path.
 - Retain the incomplete scope-dialogue comparison and three narrow exclusion checks. Waiting for scope improved in one completed conversation, but prioritization remained weaker than raw A; an additional rule trial reproduced premature implementation and was explicitly stopped and withdrawn. No stable conversational advantage established.
 - Clarify survey missingness using the actual instrument/export rules: unknown applicability is not automatically a confirmed skip. Six fixed before/after checks retained the correct interpretation in both versions; no comparative gain established.

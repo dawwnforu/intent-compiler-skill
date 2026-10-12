@@ -21,3 +21,12 @@ The candidate removes repeated execution narration and unsolicited secondary gui
 Hypotheses: fewer unsupported assumptions and omitted prerequisites; equally usable artifacts with less nonessential narration; more relevant validation. Counter-hypotheses: the base model already does this; additional modules cost more than they help; concise delivery hides necessary explanations; domain routing overfits examples.
 
 Test all of these with [the evaluation protocol](../tests/v2-protocol.md), including unchanged and worse results. Keep research out of routine Skill loading.
+
+## Dialogue follow-up reviewed 2026-10-12
+
+| Source | Actual read scope | Application and limit |
+|---|---|---|
+| [Clarify When Necessary](https://arxiv.org/abs/2311.09469) | Abstract; an attempted v3 HTML URL was unavailable, so no full-body claim | Separate when to clarify, what to ask and using the answer. Its intent-sim estimator and QA/translation/inference experiments are not implemented or reproduced here. |
+| [ClarQ-LLM](https://arxiv.org/html/2409.06097v2) | Abstract, introduction and sections III–V on task construction, provider behavior and evaluation | Evaluate acquisition of required information, not similarity to a preferred sentence; guessing a correct answer is not confirmed intent. Track irrelevant/repeated questions separately. Our fixed-supplement tests do not replicate its adaptive provider or establish human satisfaction. |
+
+The [GOV.UK alpha guidance](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works), read in the overview, risky-assumptions and scope passages, motivates a separate product-judgment hypothesis: a prototype should help resolve a consequential uncertainty. Do not score fewer features as automatically better; examine the decision each feature supports. This is transferable design guidance, not a requirement to import government delivery phases or a claim that our current candidate reliably prioritizes features. No new runtime guidance was added during the frozen R9 batch.
