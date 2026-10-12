@@ -12,14 +12,6 @@ Text-to-status extraction needs evidence for the assertion, not just a heading o
 
 Accept by running the normal path and a relevant failure/retry path, showing no duplicate effect and accurate status. Missing credentials block the live branch, not independent local work.
 
-## Knowledge organization
-
-Read actual files; separate current decisions, history, duplicates, disagreements and unreadable sources. Record location and effective version; truth is not determined by majority, filename order or timestamp alone.
-
-Start with only the index, current answers and unresolved questions the collection needs. Preserve history as evidence. Add search/RAG only if actual volume, queries or access require it. Test useful queries with provenance and abstain on unsupported answers. Do not claim unreadable files were covered.
-
-Accept by resolving relevant queries, checking source links and updating one example fact without conflicting current answers. Retrieved text can still be outdated or disputed.
-
 ## Sources and stop
 
 Use project workflow docs and existing Skills, then official API sections for retries, delivery and authentication. General principles do not establish provider guarantees. Retrieve only for a missing transition, conflicting source or failed check. Stop after the requested workflow/lookup is verified or concretely blocked.

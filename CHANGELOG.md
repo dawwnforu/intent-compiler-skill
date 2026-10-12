@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Split unchanged knowledge-organization paragraphs into a separately routed module. Four actual comparisons show narrower source-question loading; combined workflow work still reads both modules. Preserve mixed costs and answer differences without general efficiency claims.
+
 - Repair common evaluation-runner isolation after host Skill updates. Preserve the initial probe, refresh newly observed paths and fail before generation if extras remain. Five checks and actual raw/candidate inventory probes pass; this is harness maintenance, not a product-effectiveness claim.
 
 - Simplify source-policy instructions while preserving evidence and trust boundaries. Four fixed comparisons retain concrete source/rights judgments; record the pre-model isolation failure, decoding confound and limited cost evidence. No generic savings or accuracy claim.

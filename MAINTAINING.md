@@ -57,3 +57,7 @@ Run the repository check and follow TESTING.md. Record static review, model beha
 来源记录应保留具体依据、范围和核验时间，不要求每次面向用户输出固定证据表格。知识模块的可填写模板仍完整保留。改动这类规则时，至少检查有明确资料和资料冲突的情形，记录实际读取而非只匹配引用文字。
 
 Source records retain evidence, scope and dates without requiring a fixed user-facing ledger. Keep the fillable knowledge template; test supplied-evidence and conflicting-record cases, and inspect actual reads.
+
+项目资料问答使用 knowledge-organization.md；重复执行、重试和提取器使用 workflow-knowledge.md。确实跨两类工作时可以同时读取，不为了减少读文件次数而删必要知识。拆分模块需检查实际读取与完整结果。
+
+Use knowledge-organization.md for source questions and workflow-knowledge.md for repeated execution. Combined tasks may need both; verify actual reads and full results after routing changes.

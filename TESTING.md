@@ -2,6 +2,8 @@
 
 ## Evaluation maintenance — 2026-10-13
 
+[R27 module routing](tests/v2-route-split.md) completes four actual comparisons after the preflight repair. The source-question task loads less unrelated guidance; combined workflow plans still need both modules. Full responses, unchanged fixtures and mixed costs are retained; no new workflow runtime claim.
+
 [R26 isolation repair](tests/v2-isolation-refresh.md) passes five deterministic checks and two actual host inventory probes without model generation. New Skill paths from host updates are disabled and rechecked before common runners proceed. Product behavior and existing quality results are unchanged; the new inline human comparison is still pending.
 
 ## Candidate status — 2026-10-12

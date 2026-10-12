@@ -202,3 +202,7 @@ Adopt a shorter module after four fixed source/rights comparisons. Required fact
 ## R26 evaluation isolation
 
 Repair the shared single-turn/dialogue preflight after the observed host update. Five deterministic checks and two live Skill-inventory probes pass; no model turns. See [scope and evidence](../tests/v2-isolation-refresh.md). An additional excerpt-level human preference question is pending, not a result.
+
+## R27 narrower knowledge loading
+
+Move existing organization paragraphs into a separate module and index row. Four model turns retain necessary judgments, with narrower source-question reads and mixed costs. See [results and limits](../tests/v2-route-split.md).
