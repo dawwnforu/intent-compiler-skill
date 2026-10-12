@@ -6,6 +6,8 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+[Current candidate decision and optional starter prompt (Chinese)](docs/v2-decision.md) separates observed improvements from unresolved effectiveness claims. The broad goal remains open; the next behavior change should target an observed decision or user-experience failure, with fixed baselines and unseen transfer checks rather than more synonymous instructions.
+
 Source guidance is shorter while retaining evidence, scope and verification dates. Four project-record/font-evidence comparisons preserve required judgments; this is not established general token savings. See [tests and limits](tests/v2-evidence-trim.md).
 
 Source questions and repeated workflows now route separately, combining only when needed. [Four actual comparisons](tests/v2-route-split.md) show narrower loading for source questions, without establishing overall time or token savings.
