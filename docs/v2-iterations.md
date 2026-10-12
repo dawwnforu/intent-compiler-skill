@@ -1,5 +1,9 @@
 # Candidate iteration log
 
+## R21 — retain a partial workflow-domain improvement
+
+One module paragraph changes, with two completed repair generations and ten independent processor executions. Both retain the original fix, cache/source/retry behavior; the after artifact additionally handles an unaccepted proposal and quoted pending terminology. Two shared semantic errors remain, and cost rises. Retain the exact tested paragraph as a bounded domain correction, not a general pass. See [protocol](../tests/v2-status-evidence.md).
+
 ## R20 — repair a saved workflow, shared remaining failure
 
 Reproduced uncertainty hidden by a decision heading in the historical processor. Three real repairs fix original records and cache migration; fifteen independent executions preserve sources, source anchors, idempotence and failure/retry. All miss the new discussion-only case. Preserve the failure and target meaning-to-status validation next, without importing the model's own passing tests as full acceptance. See [evidence and reproduction](../tests/v2-workflow-classification.md).

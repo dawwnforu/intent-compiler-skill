@@ -6,6 +6,8 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+Candidate workflow guidance now distinguishes proposals, conditions, confirmed decisions and quoted terms, and checks updates to derived records. The [latest actual comparison](tests/v2-status-evidence.md) shows only partial improvement, with remaining errors and higher cost; general semantic understanding is not established.
+
 This branch develops a **2.0 candidate**; the released version remains 0.2.0. It adds task-specific rules for surveys/data, interactive motion, workflows, web runtime, print layouts and game mods while reducing redundant narration and unsolicited documents. Effectiveness requires the [four-arm evaluation](tests/v2-protocol.md); [research hypotheses](docs/v2-research.md) and [reconstructed cases](examples/v2-cases.md) are not improvement claims.
 
 An intent-driven, knowledge-enhanced workflow for non-technical users. Users need no prompt-engineering, coding, design, deployment or asset-licensing vocabulary. A longer prompt is not the default deliverable.

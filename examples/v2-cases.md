@@ -1,5 +1,7 @@
 # V2 case catalog / 自然语言案例
 
+Actual repair extension: “会议工具把还没确认的事当作决定，请修好并保留原文和重试能力。” Check uncertain statements, confirmed prohibitions and quoted status words, plus old-cache updates. [R20/R21 evidence](../tests/v2-status-evidence.md) shows partial repairs and remaining semantic errors; it is not a passed general-understanding case.
+
 Requests below are reconstructions inspired by public project descriptions, not recovered original chat messages. Full implementations and evaluation criteria stay out of generation prompts. These are planned coverage, not passed tests.
 
 | ID / source | Ordinary-language request | Observable acceptance | Near-miss / exclusion |
