@@ -155,3 +155,9 @@ Do not adopt the change. Repository Skill still equals the before snapshot/R12. 
 Replaced one core paragraph in a frozen snapshot; two new actual-resume conversations per variant plus the settled creative exclusion completed all nine turns. Both variants already waited and created no first-turn products. After openings were more directly about the purpose and omitted early environment preparation; both variants later produced useful source-readiness and interview-portfolio plans. Portfolio after wrote a longer brief and unnecessarily quoted internal instructions in the opening. [Full evidence and raw counters](../tests/v2-purpose-gate.md).
 
 Retain the exact tested paragraph as a narrow ordering correction; current Skill equals the after snapshot. No claim of unique downstream correctness or stable total savings. The creative brief preserves all three hard requirements. All handles are terminal. A new inline user question compares the concrete support openings; unanswered preference remains unknown, not approval.
+
+## R16: explicit user preference and legacy boundary coverage
+
+The user subsequently chose “乙，更贴近实际目的” in the inline R15 support-opening comparison. Record this as a preference about the summarized opening, not a blind full-conversation judgment. Retain R15 without further instruction tuning.
+
+Twelve raw/generic/candidate text attempts completed for C1/C2/C4/C5. All identified relevant blockers or kept the fast path, with no false image/strength/deployment claim. Candidate routing matched the intended domains but was not uniquely correct and cost more in the three domain cases. C6/V2 then failed at capacity before reading the injected note or producing a response; C6/G/A were not attempted under the stopping rule. [Every attempt and exact limitations](../tests/v2-legacy-boundaries.md). All runner handles are terminal; no failed attempt was replaced and no Skill rule changed.

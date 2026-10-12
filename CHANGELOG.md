@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Record the user's preference for R15's purpose-oriented support-opening summary, with no full-transcript or general-satisfaction claim. Complete twelve legacy text attempts; retain C6's model-capacity interruption and two unattempted arms. No new Skill rule.
+
 - Sequence a concrete purpose question before detailed scope when the purpose is unclear. Nine completed turns retain more focused openings, similar downstream quality, mixed follow-up cost and an unnecessary internal-rule citation. No overall savings or preference claim.
 
 - Test but do not adopt a narrower clarification-index trigger: eight completed attempts retained; fewer reads did not establish lower output/time or improved purpose elicitation. R14 kept R12 unchanged.

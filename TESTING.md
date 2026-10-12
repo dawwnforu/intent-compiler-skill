@@ -2,7 +2,7 @@
 
 ## Candidate status — 2026-10-12
 
-67 actual generations:43 development trials and24 frozen new-task trials. See [results/limits](docs/v2-results.md), [all counters](tests/results/v2-runs.json), [four-arm protocol](tests/v2-protocol.md) and [reproduction fixtures](tests/v2-heldout-cases.md). Independent calculations/content review and real Edge operations support the explicitly listed checks only. Full logs/artifacts remain local. Cross-model, live-service and domain-wide superiority claims are untested.
+Initial corpus:67 actual generations,43 development trials and24 frozen new-task trials. Later scoped experiments are recorded separately below and in [results/limits](docs/v2-results.md). See [initial counters](tests/results/v2-runs.json), [four-arm protocol](tests/v2-protocol.md) and [reproduction fixtures](tests/v2-heldout-cases.md). Independent calculations/content review and real Edge operations support the explicitly listed checks only. Full logs/artifacts remain local. Cross-model, live-service and domain-wide superiority claims are untested.
 
 ## Historical release review — 2026-09-29
 
@@ -55,7 +55,9 @@ The [R13 missing-font comparison](tests/v2-font-gap.md) separately executes text
 
 The [R14 routing-cost trial](tests/v2-routing-cost.md) repeats a one-row index change against the same candidate and checks a positive clarification trigger. All eight attempts completed. Fewer policy reads did not produce lower output/time; the change was not adopted. Text-only restrictions do not test spontaneous waiting before implementation.
 
-The [R15 purpose-question sequence](tests/v2-purpose-gate.md) retains nine completed turns and the exact one-paragraph correction. Both variants already waited; after openings were more purpose-focused with less initial work, while follow-up quality was similar and cost mixed. Preserve the internal-rule citation and pending preference as limits.
+The [R15 purpose-question sequence](tests/v2-purpose-gate.md) retains nine completed turns and the exact one-paragraph correction. Both variants already waited; after openings were more purpose-focused with less initial work, while follow-up quality was similar and cost mixed. Preserve the internal-rule citation and mixed follow-up cost as limits.
+
+Subsequent user feedback favored the after support-opening summary; its narrow scope is recorded in R15. [R16](tests/v2-legacy-boundaries.md) completes twelve legacy text attempts across rendering, fabrication, temporary access and fast rewriting. C6/V2 hit capacity before a response; remaining C6 arms were not attempted. No broad efficiency or artifact-runtime claim follows.
 
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
