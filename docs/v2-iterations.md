@@ -143,3 +143,9 @@ Retain the exact tested substitution as a narrow correction. No template, depend
 Four fresh text-only C3 sessions completed, with identical absent files/licenses, fictional names and disabled browsing. A/G offered system-family alternatives; V1/V2 explained real resource, embedding evidence, glyph/weight and failure prerequisites. All preserved excluded upload/download features and made no false implementation or verification claim. [Full responses and counters](../tests/v2-font-gap.md). This closes this specific unrun case, not other legacy cases or mode variations.
 
 Candidate output572 exceeded A288/G283/V1537 and candidate input exceeded release input; one trial cannot establish stable savings. The current candidate also read the clarification policy without an observed need. No unique correctness failure supports a new rule, so retain R12 unchanged. All four sessions are terminal; no replacement trials, model errors, generated product files, live rights checks or human preference results.
+
+## R14: reject the proposed clarification-routing cost fix
+
+Tested one narrower index row in isolated snapshots. Three interleaved repetitions per font condition plus a positive-trigger platform pair completed: all eight full responses reviewed. Font policy reads2/3→1/3, but output/time medians558/34.50s→597/42.23s; lower median input did not establish stable overall savings. Both platform variants read the policy; only before explicitly asked demonstration versus real use, and neither identified the user's immediate decision. [Protocol, exact rejected row, responses and limitations](../tests/v2-routing-cost.md).
+
+Do not adopt the change. Repository Skill still equals the before snapshot/R12. This text-only batch cannot test spontaneous waiting, and its reused editor wording in the platform boundary is retained as a confound. No within-batch adjustment, failed attempt or replacement trial was hidden.

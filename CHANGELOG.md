@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Test but do not adopt a narrower clarification-index trigger: eight completed attempts retained; fewer reads did not establish lower output/time or improved purpose elicitation. Active Skill remains R12.
+
 - Evaluation: execute missing-font C3 in four text-only conditions; retain honest alternatives, shared release/candidate strengths and higher candidate output without changing Skill rules. See tests/v2-font-gap.md.
 
 - Replace two clarification bullets to connect scope to the actual job, experience or decision, while preserving reaffirmed creative requirements. Retain nine completed test turns: a useful training follow-up change, similar knowledge correctness and a preserved creative exclusion. First-turn feature anchoring remains; no stable savings or human-preference claim.

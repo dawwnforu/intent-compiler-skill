@@ -53,6 +53,8 @@ The [R12 purpose/scope comparison](tests/v2-outcome-elicitation.md) checks actua
 
 The [R13 missing-font comparison](tests/v2-font-gap.md) separately executes text-only C3 without files or browsing. All four arms honestly report their limits; release/candidate describe more prerequisites, while raw/generic propose a limited system-font alternative. Candidate output is not lower and no unique correctness gain is established.
 
+The [R14 routing-cost trial](tests/v2-routing-cost.md) repeats a one-row index change against the same candidate and checks a positive clarification trigger. All eight attempts completed. Fewer policy reads did not produce lower output/time; the change was not adopted. Text-only restrictions do not test spontaneous waiting before implementation.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |
