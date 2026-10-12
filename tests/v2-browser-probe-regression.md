@@ -47,3 +47,9 @@ Independent Edge checks of all six saved artifacts (including the explicitly mar
 After p1 attempted a probe but already contained the larger harness before successful capability confirmation; adoption was partial. After p2 obtained a minimal browser evaluation before adding its full test file. Before p2 wrote an extra WebSocket helper while diagnosing connection problems. These are observed behaviors, not proof of a causal reduction in waste. Host GPU/path/startup failures affected the runs.
 
 The two complete pairs point in opposite directions. Remove the experimental paragraph from the active module; preserve it here and retain both frozen local snapshots. A general tool-capability boundary already remains in the core. Further model trials require available account usage; do not buy credits, change models, or silently replace failed attempts to produce a favorable result.
+
+## Separate recovery after usage became available
+
+A later desktop query reported ordinary usage allowed. One additional fresh-workspace attempt used the exact interrupted request and frozen after snapshot; both were compared directly. It completed with7731 output tokens,238598 input/219904 cached input and318.92 seconds. [Separate recovery record](results/v2-browser-probe-recovery.json) preserves the result without modifying the original six-attempt JSON.
+
+The recovery page passed the same independent Edge checks, actual JSON export, screenshot review and date-reopen diagnostic. All seven saved artifacts have now been inspected, including the interrupted one. This does not turn the original six attempts into an uninterrupted balanced experiment. The extra paragraph remains withdrawn: neither the mixed original pairs nor this additional observation establish a reliable efficiency benefit. All generation and verification processes for this comparison are terminal.

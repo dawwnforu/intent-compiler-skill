@@ -48,6 +48,8 @@ All three course reports retained correct core statistics and synthetic/noncausa
 
 A later [browser-probe ablation](../tests/v2-browser-probe-regression.md) tested a small verification-planning paragraph with six sequential attempts. Five completed; the sixth hit an account usage limit and has no complete token record. Two complete pairs disagree on cost direction, and self-verification completion differs. Independent checks passed for the six saved pages, including the explicitly partial one, without repairing them. This is neither a complete balanced comparison nor evidence of general savings. The extra paragraph was removed; the active Skill remains the repaired pre-ablation version. All attempt records and the failed run are retained.
 
+After ordinary usage became available, a separately recorded recovery completed with7731 output tokens and318.92 seconds; its saved page also passed independent core checks. The original failed record is unchanged. This additional phase does not establish a benefit or justify retaining the added paragraph; no further ablation process is running.
+
 [迭代记录](v2-iterations.md)保留每轮正反结果。九个公开项目README用于还原自然语言需求，没有声称恢复原始聊天或审计全部代码。
 
 | Area | Observed outcome / change |
