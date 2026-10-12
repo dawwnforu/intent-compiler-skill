@@ -25,6 +25,8 @@ Simple edits go straight to the result. For substantive work, inspect context an
 
 Stop retrieval when prerequisites and acceptance are clear with no new critical gap. If necessary evidence is inaccessible, stop that branch, finish independent work and name the blocker. Never invent business facts, budgets, permissions, sources or completion.
 
+For an unfamiliar project with unsettled scope, the candidate requires a visible explanation of the understood goal, recommended first version and consequential choices before substantial implementation. Explain concrete effects at the user's stated experience level instead of delegating architecture questions to them. Challenge conflicts with reasons and alternatives, preserve informed choices, and execute once enough is known. This guidance belongs in the ongoing conversation; delivery reports actual completion and remaining gaps. It is not a claim that every latent need can be inferred correctly.
+
 ## Three core scenarios
 
 | Goal | Missing knowledge supplied | Boundary |

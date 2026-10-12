@@ -21,3 +21,11 @@ Requests below are reconstructions inspired by public project descriptions, not 
 | X06 regression / fast path | 把“我们预计下周完成”改得正式一点，不改含义 | One faithful rewrite without retrieval or extra report | No interpretation of next week's date or invented guarantee |
 
 Inputs for statistical cases are synthetic and clearly labeled. Do not retrieve private respondent records. Maintain positive and exclusion cases when adding a module; deeper technical expectations remain evaluator material.
+
+## Conversational scope guidance
+
+Example requirement, not a claimed transcript: a novice asks for a training platform with courses, registration, payments, teacher management and community features. Before substantial implementation, distinguish a proposal/demo from real operation, explain why this changes the work, and recommend an initial scope conditionally. Ask the few decisions that change the result instead of requiring the user to specify a technical architecture.
+
+If the user clarifies that this is a local demonstration to a manager, propose a coherent course-selection/registration/result flow with clearly fictional data; explain why real collection of money and community operations can wait. Describe future prerequisites as conditions, not purchases or commitments already approved. If the user instead confirms real multi-user use, retain that goal and investigate the corresponding data/access/operation requirements.
+
+Exclusions: do not interview a user again about an already settled scope, and do not apply this workflow to a one-sentence edit. See the [actual two-turn test protocol](../tests/v2-scope-dialogue.md) for the fixed inputs and evidence limits.

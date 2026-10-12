@@ -43,6 +43,8 @@ Use the same predetermined user answers to equivalent clarification requests; â€
 
 ## Judge outcomes, not length
 
+For novice-project dialogue, use the [R7 scope-guidance protocol](tests/v2-scope-dialogue.md): inspect when a necessary boundary was explained, whether a recommendation helps the user decide, and whether later answers change the plan. A polished final report does not compensate for premature implementation based on unspoken assumptions. User satisfaction remains unmeasured without user feedback.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |

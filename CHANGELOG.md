@@ -2,6 +2,10 @@
 
 ## Unreleased — 2.0 candidate
 
+- Make scope guidance visible before substantial implementation of unfamiliar, underspecified projects: recommend a useful first version, explain consequential choices, adapt to stated experience and challenge conflicting requests with reasons. Preserve settled scope and the simple-task fast path.
+- Retain the incomplete scope-dialogue comparison and three narrow exclusion checks. Waiting for scope improved in one completed conversation, but prioritization remained weaker than raw A; an additional rule trial reproduced premature implementation and was explicitly stopped and withdrawn. No stable conversational advantage established.
+- Clarify survey missingness using the actual instrument/export rules: unknown applicability is not automatically a confirmed skip. Six fixed before/after checks retained the correct interpretation in both versions; no comparative gain established.
+
 - Narrow routine output to requested artifacts and consequential evidence; avoid unsolicited secondary guides and repeated narration.
 - Add outcome-based prerequisites for interactive products, surveys/data, workflows/knowledge, web runtime, print layout and game mods.
 - Add research hypotheses, reconstructed public-project cases and a four-arm evaluation protocol. Candidate effectiveness is not yet established.

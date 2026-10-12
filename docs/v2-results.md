@@ -64,7 +64,13 @@ After ordinary usage became available, a separately recorded recovery completed 
 | Agent gap | All delivered local drafts and reported absent live integrations. Post-hoc negation/conditional/unaccepted-proposal inputs broke A's extractor; G/V1/V2 retained uncertainty. Not V2-only or a pre-registered intent score. |
 | Simple edit | All produced the sentence without tool work; no efficiency advantage established. |
 
-Core text compressed from5495 to4241 Unicode characters while preserving routing, modes, boundaries and verification. Text size is not a token-saving percentage. Papers informed hypotheses and modules; no model training or reproduction of paper results occurred. See [research/read scope](v2-research.md).
+The earlier core was compressed from5495 to4241 Unicode characters while preserving routing, modes, boundaries and verification; subsequent dialogue guidance adds text and is outside that size comparison. Text size is not a token-saving percentage. Papers informed hypotheses and modules; no model training or reproduction of paper results occurred. See [research/read scope](v2-research.md).
+
+## R7: scope guidance is visible, prioritization still weak
+
+The user's clarified target is useful judgment in the conversation before unnecessary implementation. In the [fixed two-turn training-platform check](../tests/v2-scope-dialogue.md), the revised candidate explained consequential choices and waited for an answer without generating platform files. Raw A implemented first; the previous candidate asked a provider-model question but continued implementing and timed out after900 seconds. G encountered a capacity error, so this is an incomplete comparison, not a four-way ranking.
+
+After the same local-demo supplement, both completed conversations respected the no-code instruction. The candidate explained later operating requirements but kept simulated payment, teacher management and course discussion in the first version. A more clearly recommended deferring these features. This negative result is retained: better timing of clarification is not proof of better feature prioritization. Three candidate-only exclusion checks preserved a simple rewrite, settled scope and real multi-user requirements. No human satisfaction study or independent runtime check of these new platform artifacts was performed. [Responses](../tests/results/v2-scope-dialogue.json), [exclusions](../tests/results/v2-scope-exclusions.json).
 
 ## Evidence limits and next decision
 

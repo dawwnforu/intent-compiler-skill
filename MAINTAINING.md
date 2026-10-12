@@ -16,6 +16,8 @@
 
 可以直接告诉 AI：“它把只要渲染图的请求扩展成制造。请检查相关规则，修正适用条件并加入反例。”这只授权维护请求本身，不自动授权发布版本或合并其他改动。
 
+如果问题是“用户不懂怎么定范围，AI 就直接写了一堆代码”，保存实际多轮对话和开始实施的时点。检查它是否解释必要选择、提出有理由的建议，并根据补充信息调整行动；不要只检查最终总结是否提到了边界。同时保留简单任务、已定范围和真实上线目标的反例，避免把修复变成每次都盘问或强制缩小项目。可参考[对话验证协议](tests/v2-scope-dialogue.md)。
+
 ## 新增知识模块
 
 1. 检查已有模块、可用专业 Skill 和项目资料能否解决；不要重复造知识库。
@@ -35,6 +37,8 @@
 ## English
 
 Maintain this Skill by editing Markdown. Capture a redacted request, inputs, observed failure and desired observable behavior. Change the relevant module; change the core only for shared behavior. Add an applicable case and an exclusion case, update the index and changelog, and open a branch/PR.
+
+For premature implementation, retain the actual conversation and timing of actions. Check whether consequential choices were explained before affected work began and whether later answers changed the plan. Include simple, settled-scope and genuine multi-user cases so guidance does not become a mandatory interview or automatic downsizing.
 
 To add a module, copy the linked template and fill its applicability, prerequisites, decisions, sources, execution, acceptance and stop conditions. Prefer existing specialist skills. No routing code or database changes are needed. Keep time-sensitive claims as execution-time verification tasks.
 

@@ -17,7 +17,7 @@ Use goals, context, artifacts, project state, and intended use together. Words a
 | [Domain lenses](domain-lenses.md) | Other office, research, UI, image, product, coding, or writing work needs domain judgment | A relevant section reveals a necessary specialist method; reuse a skill or retrieve that method | Read only that section; no domain expansion from a loose keyword association |
 | [Visual quality](visual-quality.md) | Appearance affects acceptance | Actual inspection reveals a composition, readability, material, lighting, or export problem | Skip nonvisual work; stop after relevant checks/targeted repair |
 | [Source policy](source-policy.md) | External facts, current claims, or rights affect a decision | Evidence does not cover the actual resource/version/use/region, or materially conflicts | Stop on sufficient scoped evidence; unavailable evidence stays unknown |
-| [Clarification policy](clarification-policy.md) | An unresolved choice materially changes the result or exceeds authorization | Existing evidence cannot settle it | Do not ask about settled authorization or reversible details |
+| [Clarification policy](clarification-policy.md) | An unfamiliar project needs a visible scope recommendation, or an unresolved choice materially changes the result or exceeds authorization | New information changes a consequential boundary or reveals a necessary knowledge gap | Stop asking when scope and acceptance suffice; skip settled choices and reversible details |
 | [Quality check](quality-check.md) | A substantial artifact or external outcome needs verification | A failed check justifies repair and rerun | Stop after relevant checks; report unresolved failure rather than looping |
 
 ## Three tiers

@@ -17,6 +17,8 @@ Self-contained edits: produce and check the result directly; skip routing and fo
 
 Otherwise infer outcome, audience/use, inputs, exclusions and observable completion from context and the actual project. Ask only when unresolved interpretations change the deliverable; choose reversible defaults yourself. Do not ask the user for specialist vocabulary or routinely print a requirements form.
 
+For an unfamiliar, underspecified project, make that understanding visible before substantial implementation: explain the intended outcome, recommend an initial scope and surface the few unresolved choices that would change it. Follow [clarification-policy.md](references/clarification-policy.md). Adapt explanations to the user's stated experience and observed task knowledge; do not infer ability from writing style. If a requested approach conflicts with the goal or constraints, explain the concrete consequence and recommend an alternative. Preserve informed user choices; do not silently replace their goal with a smaller one.
+
 ## Route only useful knowledge
 
 Use [knowledge-index.md](references/knowledge-index.md) to select required-now knowledge, conditional knowledge with an observed trigger, and excluded knowledge. Load only relevant sections. Prefer an available specialist Skill or project method; if no module fits, retrieve a method for the actual outcome rather than forcing a category.

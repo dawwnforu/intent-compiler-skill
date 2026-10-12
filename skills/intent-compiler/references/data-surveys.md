@@ -16,7 +16,7 @@ Define answer types, skip rules and scoring after answer changes. Test branches,
 
 Inspect schema, observation unit, missing-value codes, duplicates, denominators and multi-select/conditional items before computing. Preserve raw inputs and document deduplication/conflicting records. Same name does not establish duplicate people.
 
-Use the applicable valid base for each proportion; multi-select percentages need not total 100%. Keep skipped/not-applicable separate from zero. Do not compare weekly/monthly counts as equal units. State sample bases on charts and separate observations, interpretation and proposed actions.
+Use the applicable valid base for each proportion; multi-select percentages need not total 100%. Use the instrument and export codes to distinguish confirmed skips, unanswered applicable items and unknown applicability. A blank or unknown prerequisite alone does not prove a skip; use explicit routing evidence when available. Keep missing/not-applicable values separate from valid zero. Do not compare weekly/monthly counts as equal units. State sample bases on charts and separate observations, interpretation and proposed actions.
 
 When applying a policy or formula, match its observation unit to the data. Per-item caps, thresholds and eligibility cannot generally be applied to an average or combined total. Different valid component values may produce different answers for the same total. Request the missing breakdown, or calculate only supported subtotals/bounds and label them; knowing the policy does not mean knowing every required input. Test a contrasting decomposition before calling a result uniquely determined. Do not request a breakdown when the supplied rule explicitly applies to the aggregate instead.
 
@@ -25,5 +25,7 @@ Do not infer representativeness, causality, validated scales or intervention eff
 ## Sources, execution and stop
 
 Start with the instrument, export dictionary and methodology; reuse a spreadsheet/research Skill. Consult applicable method documentation, e.g. [NIST](https://www.itl.nist.gov/div898/handbook/), instead of inventing formulas. Verify changing platform policies or regulated uses as needed.
+
+The [CDC documentation tutorial](https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx/1000) illustrates checking missing-value codes and skip patterns; the actual survey's codebook controls, not another dataset's codes or thresholds.
 
 Recompute key counts from rows, independently check denominators and inspect charts. Supply a reproducible calculation when needed. Stop at the evidence level that answers the request. Extra studies/models remain optional unless necessary.
