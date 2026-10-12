@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Replace two clarification bullets to connect scope to the actual job, experience or decision, while preserving reaffirmed creative requirements. Retain nine completed test turns: a useful training follow-up change, similar knowledge correctness and a preserved creative exclusion. First-turn feature anchoring remains; no stable savings or human-preference claim.
+
 - Add a real-font four-arm comparison with independent offline rendering, actual PNG pixel checks and injected load failures. Preserve three completed deliveries and a service-capacity interruption with a checked partial artifact. No unique core capability or stable cost advantage established; active Skill remains unchanged.
 
 - Test and withdraw extra product-prioritization guidance: retain six completed before/after briefs, exact changed instructions and mixed counters. Both existing and expanded candidates preserved the principal requirements; no unique quality gain established. Active Skill remains the R9 candidate.

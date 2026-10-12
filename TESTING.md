@@ -49,6 +49,8 @@ The [R9 decision-boundary check](tests/v2-decision-boundary.md) separately tests
 
 The [R11 real-font comparison](tests/v2-font-library.md) uses identical supplied fonts/licenses and a real editor across raw/generic/release/candidate conditions. Independent browser loading, actual PNG pixel comparisons and injected loading failures are separate from generation status. Three deliveries completed; the fourth hit service capacity, and its working partial artifact is not counted as a completed delivery.
 
+The [R12 purpose/scope comparison](tests/v2-outcome-elicitation.md) checks actual follow-up choices after the same clarification, plus a creative exclusion. Preserve first-turn shortcomings and count draft/rewrite work separately; smaller scope is only useful when it serves the user's purpose.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |
