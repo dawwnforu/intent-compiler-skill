@@ -198,3 +198,7 @@ Four real before/after runs preserve correct decision evidence and all explicitl
 ## R25 source-policy simplification
 
 Adopt a shorter module after four fixed source/rights comparisons. Required facts and scoped evidence remain. Retain the initial pre-model isolation failure and before-read decoding confound; no stable savings claim. See [full record](../tests/v2-evidence-trim.md).
+
+## R26 evaluation isolation
+
+Repair the shared single-turn/dialogue preflight after the observed host update. Five deterministic checks and two live Skill-inventory probes pass; no model turns. See [scope and evidence](../tests/v2-isolation-refresh.md). An additional excerpt-level human preference question is pending, not a result.

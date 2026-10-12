@@ -35,6 +35,8 @@ Show per-trial observations and medians, not only the best example or an aggrega
 
 ## Case coverage
 
+Before model execution, inspect the actual enabled Skill paths rather than trusting a cached inventory. If a host update adds paths, preserve the initial probe, disable newly observed extras and recheck once; stop if isolation still fails. The [verified refresh procedure](v2-isolation-refresh.md) covers the common single-turn and dialogue runners. This is declared-inventory isolation, not proof of identical hidden host prompts.
+
 Use [the case catalog](../examples/v2-cases.md). Include simple edits and negative routing alongside complex tasks; include multi-turn clarification with an identical prepared answer available to every arm. Never let different user help explain an apparent Skill advantage.
 
 No extra paid services, dependency installation, publication, purchases, live private data or real-project mutations in these tests unless separately authorized. Missing tools are evidence, not permission to bypass a boundary.

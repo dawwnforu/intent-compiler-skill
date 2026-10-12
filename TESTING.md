@@ -1,5 +1,9 @@
 # Validation and comparison protocol
 
+## Evaluation maintenance — 2026-10-13
+
+[R26 isolation repair](tests/v2-isolation-refresh.md) passes five deterministic checks and two actual host inventory probes without model generation. New Skill paths from host updates are disabled and rechecked before common runners proceed. Product behavior and existing quality results are unchanged; the new inline human comparison is still pending.
+
 ## Candidate status — 2026-10-12
 
 [R25 source-policy simplification](tests/v2-evidence-trim.md) retains required judgments in four fixed comparisons. Full source reads and unchanged fixtures are checked; decoding and preflight issues are preserved. The shorter policy is adopted without claiming stable savings or improved accuracy.

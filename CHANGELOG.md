@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Repair common evaluation-runner isolation after host Skill updates. Preserve the initial probe, refresh newly observed paths and fail before generation if extras remain. Five checks and actual raw/candidate inventory probes pass; this is harness maintenance, not a product-effectiveness claim.
+
 - Simplify source-policy instructions while preserving evidence and trust boundaries. Four fixed comparisons retain concrete source/rights judgments; record the pre-model isolation failure, decoding confound and limited cost evidence. No generic savings or accuracy claim.
 
 - Test but do not adopt a purpose-based output paragraph: four completed runs retain correct decision evidence and full requested teaching detail, without stable savings. Expand the actual read scope of clarification research to two PDF sections; no sampled-intent/NLI dependency or claimed reproduction is introduced.
