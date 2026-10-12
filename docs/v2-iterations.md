@@ -186,3 +186,7 @@ The separate C6 recovery then completed V2/G/A on the byte-identical snapshot. E
 # R22 feedback closure
 
 Two actual turns in a fresh persistent session close the exposed workflow status regressions after independent failure feedback. First-turn results remain in the record; final labels are regression results, not unseen accuracy. The original ephemeral resume failed before model execution. No Skill instruction changed. See [protocol and limits](../tests/v2-status-feedback.md).
+
+## R23 new decision transfer
+
+Three fixed raw/generic/candidate runs on page-conversion data all discover the source-mix condition and retain causal limits. Candidate output is higher than both baselines; no unique quality benefit or instruction change. See [full evidence](../tests/v2-conversion-decision.md).

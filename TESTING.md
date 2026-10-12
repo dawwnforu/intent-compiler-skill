@@ -2,6 +2,8 @@
 
 ## Candidate status — 2026-10-12
 
+[R23 new decision task](tests/v2-conversion-decision.md) compares raw/generic/full Skill on misleading aggregate page-conversion rates. All three identify the consequential source-mix condition and produce correct decision notes. Full reports and independent arithmetic show no unique candidate benefit or savings.
+
 [R22 feedback repair](tests/v2-status-feedback.md) closes the reported errors through two real persistent-session turns and independent execution. All final contrast cases were exposed by feedback; retain the first-turn failures and do not count this as unseen accuracy or an arm comparison.
 
 An explicit `improve` request now has a [three-arm actual workflow repair](tests/v2-workflow-classification.md), with independent execution and a retained shared semantic failure. This is not full mode/command coverage or a clean overall pass.

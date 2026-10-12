@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add a fixed new-task raw/generic/candidate comparison on page-selection data. All discover the source-mix condition and preserve causal limits; retain full reports, correct arithmetic and higher candidate output without adding another rule or claiming exclusive benefit.
+
 - Preserve a failed ephemeral-session resume and a separate two-turn workflow repair. Independent execution closes exposed classification regressions after actual feedback; retain first-turn false unknowns and all limits. No additional Skill rule or superiority claim.
 
 - Strengthen only the workflow module's text-to-status evidence rule. One frozen before/after repair pair retains a local gain on quoted terminology and unaccepted proposals, with two shared semantic errors and higher candidate cost. Preserve actual code, cache/retry checks and the narrow contrast-set methodology boundary.
