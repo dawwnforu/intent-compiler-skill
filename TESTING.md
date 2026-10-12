@@ -2,6 +2,8 @@
 
 ## Candidate status — 2026-10-12
 
+[R24 detail control](tests/v2-decision-detail.md) completes four before/after runs with complete-artifact review and independent arithmetic. The explicit-detail countercheck passes both variants; shorter decision text does not establish stable efficiency, and the paragraph substitution is not adopted.
+
 [R23 new decision task](tests/v2-conversion-decision.md) compares raw/generic/full Skill on misleading aggregate page-conversion rates. All three identify the consequential source-mix condition and produce correct decision notes. Full reports and independent arithmetic show no unique candidate benefit or savings.
 
 [R22 feedback repair](tests/v2-status-feedback.md) closes the reported errors through two real persistent-session turns and independent execution. All final contrast cases were exposed by feedback; retain the first-turn failures and do not count this as unseen accuracy or an arm comparison.

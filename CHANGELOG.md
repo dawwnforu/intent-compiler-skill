@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Test but do not adopt a purpose-based output paragraph: four completed runs retain correct decision evidence and full requested teaching detail, without stable savings. Expand the actual read scope of clarification research to two PDF sections; no sampled-intent/NLI dependency or claimed reproduction is introduced.
+
 - Add a fixed new-task raw/generic/candidate comparison on page-selection data. All discover the source-mix condition and preserve causal limits; retain full reports, correct arithmetic and higher candidate output without adding another rule or claiming exclusive benefit.
 
 - Preserve a failed ephemeral-session resume and a separate two-turn workflow repair. Independent execution closes exposed classification regressions after actual feedback; retain first-turn false unknowns and all limits. No additional Skill rule or superiority claim.

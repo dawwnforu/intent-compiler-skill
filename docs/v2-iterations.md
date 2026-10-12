@@ -190,3 +190,7 @@ Two actual turns in a fresh persistent session close the exposed workflow status
 ## R23 new decision transfer
 
 Three fixed raw/generic/candidate runs on page-conversion data all discover the source-mix condition and retain causal limits. Candidate output is higher than both baselines; no unique quality benefit or instruction change. See [full evidence](../tests/v2-conversion-decision.md).
+
+## R24 detail-control trial
+
+Four real before/after runs preserve correct decision evidence and all explicitly requested teaching calculations. The changed paragraph still yields extra derivations, no decision-time reduction and higher teaching cost; it is not adopted. See [full comparison](../tests/v2-decision-detail.md).

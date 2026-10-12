@@ -26,10 +26,12 @@ Test all of these with [the evaluation protocol](../tests/v2-protocol.md), inclu
 
 | Source | Actual read scope | Application and limit |
 |---|---|---|
-| [Clarify When Necessary](https://arxiv.org/abs/2311.09469) | Abstract; an attempted v3 HTML URL was unavailable, so no full-body claim | Separate when to clarify, what to ask and using the answer. Its intent-sim estimator and QA/translation/inference experiments are not implemented or reproduced here. |
+| [Clarify When Necessary](https://arxiv.org/pdf/2311.09469) | Abstract, then PDF sections 2.1 and 6.1 on 2026-10-12; the earlier v3 HTML attempt was unavailable | Separate ambiguity from missing knowledge and assess whether clarification can improve the answer. INTENT-SIM samples possible user answers and groups them with a separate NLI model. That estimator and its experiments are not implemented or reproduced here. |
 | [ClarQ-LLM](https://arxiv.org/html/2409.06097v2) | Abstract, introduction and sections III–V on task construction, provider behavior and evaluation | Evaluate acquisition of required information, not similarity to a preferred sentence; guessing a correct answer is not confirmed intent. Track irrelevant/repeated questions separately. Our fixed-supplement tests do not replicate its adaptive provider or establish human satisfaction. |
 
 The [GOV.UK alpha guidance](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works), read in the overview, risky-assumptions and scope passages, motivates a separate product-judgment hypothesis: a prototype should help resolve a consequential uncertainty. Do not score fewer features as automatically better; examine the decision each feature supports. This is transferable design guidance, not a requirement to import government delivery phases or a claim that our current candidate reliably prioritizes features. No new runtime guidance was added during the frozen R9 batch.
+
+The later PDF read makes the implementation boundary more concrete: uncertainty alone is not a reason to ask the user. Missing specialist knowledge may require retrieval; an unknown user choice may require clarification. This is a design interpretation, not an entropy estimator. Reproducing the paper's sampled-answer/NLI pipeline would add calls and a model dependency; this lightweight Skill does not silently introduce them or claim their reported gains. Its question quality still needs observed task outcomes and real answers.
 
 ## Meaning-changing checks reviewed 2026-10-12
 
