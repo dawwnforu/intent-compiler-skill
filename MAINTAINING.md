@@ -53,3 +53,7 @@ Check purpose questions before detailed scope separately from the follow-up: a s
 To add a module, copy the linked template and fill its applicability, prerequisites, decisions, sources, execution, acceptance and stop conditions. Prefer existing specialist skills. No routing code or database changes are needed. Keep time-sensitive claims as execution-time verification tasks.
 
 Run the repository check and follow TESTING.md. Record static review, model behavior and installation tests separately; never call an unrun test successful. Keep both READMEs and manifest versions consistent. Release only with authorization.
+
+来源记录应保留具体依据、范围和核验时间，不要求每次面向用户输出固定证据表格。知识模块的可填写模板仍完整保留。改动这类规则时，至少检查有明确资料和资料冲突的情形，记录实际读取而非只匹配引用文字。
+
+Source records retain evidence, scope and dates without requiring a fixed user-facing ledger. Keep the fillable knowledge template; test supplied-evidence and conflicting-record cases, and inspect actual reads.

@@ -194,3 +194,7 @@ Three fixed raw/generic/candidate runs on page-conversion data all discover the 
 ## R24 detail-control trial
 
 Four real before/after runs preserve correct decision evidence and all explicitly requested teaching calculations. The changed paragraph still yields extra derivations, no decision-time reduction and higher teaching cost; it is not adopted. See [full comparison](../tests/v2-decision-detail.md).
+
+## R25 source-policy simplification
+
+Adopt a shorter module after four fixed source/rights comparisons. Required facts and scoped evidence remain. Retain the initial pre-model isolation failure and before-read decoding confound; no stable savings claim. See [full record](../tests/v2-evidence-trim.md).

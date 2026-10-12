@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Simplify source-policy instructions while preserving evidence and trust boundaries. Four fixed comparisons retain concrete source/rights judgments; record the pre-model isolation failure, decoding confound and limited cost evidence. No generic savings or accuracy claim.
+
 - Test but do not adopt a purpose-based output paragraph: four completed runs retain correct decision evidence and full requested teaching detail, without stable savings. Expand the actual read scope of clarification research to two PDF sections; no sampled-intent/NLI dependency or claimed reproduction is introduced.
 
 - Add a fixed new-task raw/generic/candidate comparison on page-selection data. All discover the source-mix condition and preserve causal limits; retain full reports, correct arithmetic and higher candidate output without adding another rule or claiming exclusive benefit.

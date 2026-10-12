@@ -2,6 +2,8 @@
 
 ## Candidate status — 2026-10-12
 
+[R25 source-policy simplification](tests/v2-evidence-trim.md) retains required judgments in four fixed comparisons. Full source reads and unchanged fixtures are checked; decoding and preflight issues are preserved. The shorter policy is adopted without claiming stable savings or improved accuracy.
+
 [R24 detail control](tests/v2-decision-detail.md) completes four before/after runs with complete-artifact review and independent arithmetic. The explicit-detail countercheck passes both variants; shorter decision text does not establish stable efficiency, and the paragraph substitution is not adopted.
 
 [R23 new decision task](tests/v2-conversion-decision.md) compares raw/generic/full Skill on misleading aggregate page-conversion rates. All three identify the consequential source-mix condition and produce correct decision notes. Full reports and independent arithmetic show no unique candidate benefit or savings.
