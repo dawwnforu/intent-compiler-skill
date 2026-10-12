@@ -82,6 +82,8 @@ Retrieval, file editing, image generation, modeling and deployment depend on the
 
 The frozen candidate snapshot has 67 actual generations, including 24 new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. It had lower median output than V1 on both repeated tasks; general superiority over generic instructions was not established. Later dialogues exposed an aggregate/per-item rule error; the repair has a separate three-turn regression and two positive/negative transfer checks. Earlier cost figures do not validate the new repair's efficiency. Read [results and limits](docs/v2-results.md) and [testing methods](TESTING.md), including failures and worse outcomes.
 
+A separate [real-font four-arm trial](tests/v2-font-library.md) had three completed deliveries and one service-capacity interruption. All saved pages passed independent offline loading and PNG pixel checks; the interrupted run remains a partial artifact. Candidate output was lower in this sample, without a unique core capability or stable superiority claim.
+
 Six additional efficiency regressions on the repaired version preserved core statistics and basic UI functionality, but UI output/time medians exceeded the historical V1 results. Universal token savings are not established; the specific correctness repair and efficiency tradeoff are reported separately.
 
 A later browser-capability-probe paragraph was tested and removed: two complete pairs disagreed, and the last attempt hit an account usage limit. All attempts remain recorded; interruption is not counted as a saving or a completed comparison.

@@ -47,6 +47,8 @@ For novice-project dialogue, use the [R7 scope-guidance protocol](tests/v2-scope
 
 The [R9 decision-boundary check](tests/v2-decision-boundary.md) separately tests waiting for real answers, preserving final use despite local execution restrictions, and acting on explicit delegation. Its fixed supplements test response to provided information, not full adaptive elicitation; incomplete conversations and timeouts cannot support broad comparative claims.
 
+The [R11 real-font comparison](tests/v2-font-library.md) uses identical supplied fonts/licenses and a real editor across raw/generic/release/candidate conditions. Independent browser loading, actual PNG pixel comparisons and injected loading failures are separate from generation status. Three deliveries completed; the fourth hit service capacity, and its working partial artifact is not counted as a completed delivery.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |

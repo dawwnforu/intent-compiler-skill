@@ -32,6 +32,8 @@ These are executable-by-a-host test specifications, not claimed model outputs. I
 
 **Fail:** Fabricated fonts/URLs/licenses; “free implies all commercial uses”; paid license presumed necessary; forbidden upload/download added. **Static route review:** font-library + source-policy; other use-rights branches remain conditional. **Model status:** not run.
 
+A separate [real-resource font integration trial](../tests/v2-font-library.md) supplies identical actual files and licenses and checks browser loading/export. Its results do not change the unrun status of this missing-resource text-only condition.
+
 ## C4 — Website access / 上线目标和边界
 
 **Request:** “我想让朋友能访问这个网站，先做临时演示，不买域名、不订阅付费服务。”

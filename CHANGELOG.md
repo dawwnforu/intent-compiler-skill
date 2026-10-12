@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add a real-font four-arm comparison with independent offline rendering, actual PNG pixel checks and injected load failures. Preserve three completed deliveries and a service-capacity interruption with a checked partial artifact. No unique core capability or stable cost advantage established; active Skill remains unchanged.
+
 - Test and withdraw extra product-prioritization guidance: retain six completed before/after briefs, exact changed instructions and mixed counters. Both existing and expanded candidates preserved the principal requirements; no unique quality gain established. Active Skill remains the R9 candidate.
 
 - Distinguish intended use, execution restrictions and confirmed/delegated choices; a prototype with unsettled business roles is dependent work too. Add a frozen decision-boundary regression/transfer protocol and a real CSV delegation check. Extend research notes with clarification-specific evaluation and scoped prototyping guidance without importing paper performance claims.
