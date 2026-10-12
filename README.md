@@ -80,6 +80,8 @@ $intent-compiler improve -- 检查并修好这份现有方案
 
 最新修复另做6次效率回归：数据分析主要数值正确，页面基本交互通过，但页面输出和耗时高于此前旧版中位数。当前不能承诺普遍节省token；具体漏项修复与成本取舍分别报告。
 
+随后测试的“先探测浏览器能力”附加规则未保留：两组完整对照结果相反，最后一次因账号用量上限中断。全部记录保留，未把中断样本当作节省或补造完整对比。
+
 非程序员只需填写[知识模块模板](skills/intent-compiler/references/knowledge-module-template.md)、增加索引行和案例，无需改路由代码。详见[维护指南](MAINTAINING.md)与[贡献指南](CONTRIBUTING.md)。
 
 仓库 CI 执行 `python tests/check_repository.py` 检查链接、包内路径、清单一致性和案例完整性；它不能证明模型行为或宿主安装成功。

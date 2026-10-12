@@ -80,6 +80,8 @@ The frozen candidate snapshot has 67 actual generations, including 24 new-task r
 
 Six additional efficiency regressions on the repaired version preserved core statistics and basic UI functionality, but UI output/time medians exceeded the historical V1 results. Universal token savings are not established; the specific correctness repair and efficiency tradeoff are reported separately.
 
+A later browser-capability-probe paragraph was tested and removed: two complete pairs disagreed, and the last attempt hit an account usage limit. All attempts remain recorded; interruption is not counted as a saving or a completed comparison.
+
 To add knowledge, fill the [Markdown template](skills/intent-compiler/references/knowledge-module-template.md), add an index row and cases. No routing code changes are needed. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 CI runs `python tests/check_repository.py` for links, packaged paths, manifest consistency and case completeness. This does not establish model behavior or host installation success.
