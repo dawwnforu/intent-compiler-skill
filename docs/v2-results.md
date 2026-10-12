@@ -74,6 +74,8 @@ After the same local-demo supplement, both completed conversations respected the
 
 ## Evidence limits and next decision
 
+R15 retains one core-paragraph sequencing change: clarify an unknown purpose before detailed scope. All nine turns completed; both variants already waited without product files. After first turns asked more directly about the job/experience/decision and did less early preparation. Both follow-ups correctly prioritized evidence-based support assessment and interview-oriented case studies; portfolio after wrote a longer document and cited an internal rule in its opening. Creative requirements survived. [Every response, brief and counter](../tests/v2-purpose-gate.md). This supports a narrow ordering correction, not unique final quality, stable whole-task savings or human preference.
+
 R14 tested a narrower clarification-index trigger in six repeated font responses and two platform responses. All completed; font policy reads changed from2/3 to1/3, but median output558→597 and time34.50→42.23 seconds worsened. Necessary font guidance remained; the platform pair offered no purpose-elicitation improvement. The row change was not adopted, and R12 remains active. [All attempts, exact rejected text and confounds](../tests/v2-routing-cost.md).
 
 R13 completes the previously unrun missing-font C3 text condition in four arms. All avoided invented files, rights and completed implementation; A/G offered an explicit system-font alternative, while V1/V2 explained actual resource, loading and use-right prerequisites. V2's572 output tokens exceeded A288/G283/V1537. This is no exclusive2.0 correctness or efficiency win; [full results](../tests/v2-font-gap.md) preserve the differing approaches. No new rule was added.

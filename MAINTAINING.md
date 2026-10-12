@@ -20,6 +20,8 @@
 
 如果它问过问题后仍把愿望清单全部做成演示，检查是否弄清这版要支持的工作、体验或决定，以及每项保留/暂缓的理由。参考[目的与范围对照](tests/v2-outcome-elicitation.md)，同时保留用户明确坚持的创意要求；不能以功能少或问得多直接判为更好。
 
+如果提问前已经展开大量功能，参考[先问用途的对照](tests/v2-purpose-gate.md)，分别检查首轮和补充后的实际行为。不要把较短开场当作整段会话省时，也不要把引用内部规则当作面向用户的有用解释。
+
 ## 新增知识模块
 
 1. 检查已有模块、可用专业 Skill 和项目资料能否解决；不要重复造知识库。
@@ -43,6 +45,8 @@ Maintain this Skill by editing Markdown. Capture a redacted request, inputs, obs
 For premature implementation, retain the actual conversation and timing of actions. Check whether consequential choices were explained before affected work began and whether later answers changed the plan. Include simple, settled-scope and genuine multi-user cases so guidance does not become a mandatory interview or automatic downsizing.
 
 If a wish list still becomes a full demo after clarification, inspect the actual job, experience or decision and the reasons for keeping/deferring work. Preserve reaffirmed creative requirements; fewer features or more questions alone do not establish better judgment.
+
+Check purpose questions before detailed scope separately from the follow-up: a shorter opening does not prove lower whole-conversation cost, and citing internal instructions is not a useful user-facing explanation.
 
 To add a module, copy the linked template and fill its applicability, prerequisites, decisions, sources, execution, acceptance and stop conditions. Prefer existing specialist skills. No routing code or database changes are needed. Keep time-sensitive claims as execution-time verification tasks.
 

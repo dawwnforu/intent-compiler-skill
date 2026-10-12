@@ -149,3 +149,9 @@ Candidate output572 exceeded A288/G283/V1537 and candidate input exceeded releas
 Tested one narrower index row in isolated snapshots. Three interleaved repetitions per font condition plus a positive-trigger platform pair completed: all eight full responses reviewed. Font policy reads2/3→1/3, but output/time medians558/34.50s→597/42.23s; lower median input did not establish stable overall savings. Both platform variants read the policy; only before explicitly asked demonstration versus real use, and neither identified the user's immediate decision. [Protocol, exact rejected row, responses and limitations](../tests/v2-routing-cost.md).
 
 Do not adopt the change. Repository Skill still equals the before snapshot/R12. This text-only batch cannot test spontaneous waiting, and its reused editor wording in the platform boundary is retained as a confound. No within-batch adjustment, failed attempt or replacement trial was hidden.
+
+## R15: purpose question before detailed recommendations
+
+Replaced one core paragraph in a frozen snapshot; two new actual-resume conversations per variant plus the settled creative exclusion completed all nine turns. Both variants already waited and created no first-turn products. After openings were more directly about the purpose and omitted early environment preparation; both variants later produced useful source-readiness and interview-portfolio plans. Portfolio after wrote a longer brief and unnecessarily quoted internal instructions in the opening. [Full evidence and raw counters](../tests/v2-purpose-gate.md).
+
+Retain the exact tested paragraph as a narrow ordering correction; current Skill equals the after snapshot. No claim of unique downstream correctness or stable total savings. The creative brief preserves all three hard requirements. All handles are terminal. A new inline user question compares the concrete support openings; unanswered preference remains unknown, not approval.

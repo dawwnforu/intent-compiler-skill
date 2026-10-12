@@ -55,6 +55,8 @@ The [R13 missing-font comparison](tests/v2-font-gap.md) separately executes text
 
 The [R14 routing-cost trial](tests/v2-routing-cost.md) repeats a one-row index change against the same candidate and checks a positive clarification trigger. All eight attempts completed. Fewer policy reads did not produce lower output/time; the change was not adopted. Text-only restrictions do not test spontaneous waiting before implementation.
 
+The [R15 purpose-question sequence](tests/v2-purpose-gate.md) retains nine completed turns and the exact one-paragraph correction. Both variants already waited; after openings were more purpose-focused with less initial work, while follow-up quality was similar and cost mixed. Preserve the internal-rule citation and pending preference as limits.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |

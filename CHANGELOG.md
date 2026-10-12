@@ -2,7 +2,9 @@
 
 ## Unreleased — 2.0 candidate
 
-- Test but do not adopt a narrower clarification-index trigger: eight completed attempts retained; fewer reads did not establish lower output/time or improved purpose elicitation. Active Skill remains R12.
+- Sequence a concrete purpose question before detailed scope when the purpose is unclear. Nine completed turns retain more focused openings, similar downstream quality, mixed follow-up cost and an unnecessary internal-rule citation. No overall savings or preference claim.
+
+- Test but do not adopt a narrower clarification-index trigger: eight completed attempts retained; fewer reads did not establish lower output/time or improved purpose elicitation. R14 kept R12 unchanged.
 
 - Evaluation: execute missing-font C3 in four text-only conditions; retain honest alternatives, shared release/candidate strengths and higher candidate output without changing Skill rules. See tests/v2-font-gap.md.
 
