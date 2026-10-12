@@ -2,6 +2,8 @@
 
 ## Candidate status — 2026-10-12
 
+Natural-language teaching now has a [three-arm, six-turn transfer](tests/v2-teach-transfer.md). It verifies explanations and proposed checks only; no backend was built and command-wrapper/mode coverage is still incomplete.
+
 Initial corpus:67 actual generations,43 development trials and24 frozen new-task trials. Later scoped experiments are recorded separately below and in [results/limits](docs/v2-results.md). See [initial counters](tests/results/v2-runs.json), [four-arm protocol](tests/v2-protocol.md) and [reproduction fixtures](tests/v2-heldout-cases.md). Independent calculations/content review and real Edge operations support the explicitly listed checks only. Full logs/artifacts remain local. Cross-model, live-service and domain-wide superiority claims are untested.
 
 ## Historical release review — 2026-09-29

@@ -1,5 +1,9 @@
 # Candidate iteration log
 
+## R18 — teaching transfer, no rule change
+
+Three real resumed conversations explain the gap between local persistence and shared club registration. Six turns completed; shared baseline strengths, candidate recovery-choice nuance and raw migration guidance all retained. Candidate output/time is higher. This closes one natural-language teaching coverage gap without a general-quality claim. See [protocol](../tests/v2-teach-transfer.md).
+
 ## R17 — source presentation, not adopted
 
 Six completed fixed attempts distinguish internal-module attribution from actual source evidence. Two missing-font after responses omitted decorative attribution; both supplied-source variants inspected and cited actual licenses. One after response invented a minimum two-font requirement. Retain all records and keep R15 active; no general judgment or stable cost advantage follows. See [protocol and limitations](../tests/v2-source-presentation.md).
