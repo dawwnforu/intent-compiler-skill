@@ -1,5 +1,7 @@
 # V2 candidate evaluation / 候选版实测
 
+[R20 工作流实际修复](../tests/v2-workflow-classification.md)：三组均修正原有“未定却标为决定”的记录及旧缓存，独立验证原文保留、重复运行和坏文件重试通过；但新句子“仅供讨论”三组仍误标为明确决定。候选版更慢、输出更多。实际 improve 行为已补测，语义分类仍未修全，不能把机械检查通过当作整体正确。
+
 [R19 后续解释精简实验](../tests/v2-followup-focus.md)六次全部完成。替换一段规则后仍重讲概念，第二轮用时未改善，判断质量各有长短；“没听懂，请再解释”的检查两版都完成。未采纳该替换。用户提供新事实不代表已经理解，所以不能仅按重复字数判断解释无用。
 
 [R18 教学型连续对话](../tests/v2-teach-transfer.md)三组共六轮完成：三组都正确解释多人报名所需的共享存储和权限。候选版把换设备恢复身份作为待确认条件；原始组独自提醒旧数据迁移。候选版更长、更慢，未证明整体优势，也未新增规则。该证据只覆盖自然语言教学请求，不代表全部模式或实际部署已验证。
@@ -104,6 +106,6 @@ The repaired dialogue keeps lodging reimbursement unknown after the policy arriv
 
 The committed JSON contains all67 CLI counter records, not independent semantic grades. Full raw events, generated artifacts, browser profiles/downloads and screenshots remain in the local evaluation workspace, outside this lightweight repository. Published fixtures allow a new reproduction, not exact regeneration. Review was by the development agent using external calculations/runtime observations; no blinded human preference study occurred.
 
-Untested: cross-model/Claude behavior, repeated new tasks in every domain, live third-party Agent integrations, real manufacturing/load tests, full font-rights/provider checks, internet deployment, actual phones, full accessibility/storage failures and concurrent/power-loss workflow stress. The added identical-answer two-turn experiment is completed, with the failure above; it is not a broad conversational-capability pass. Legacy C1/C2/C4/C5 have R16 text results, C3 has separate R13 results, and C6 has a separate recovery after the retained capacity failure. Mode variations remain unrun. These limits are not implied passes.
+Untested: cross-model/Claude behavior, repeated new tasks in every domain, live third-party Agent integrations, real manufacturing/load tests, full font-rights/provider checks, internet deployment, actual phones, full accessibility/storage failures and concurrent/power-loss workflow stress. The added identical-answer two-turn experiment is completed, with the failure above; it is not a broad conversational-capability pass. Legacy C1/C2/C4/C5 have R16 text results, C3 has separate R13 results, and C6 has a separate recovery after the retained capacity failure. Mode coverage remains incomplete: R18 checks natural-language teaching and R20 checks an explicit improve request, with the retained semantic failure. These limits are not implied passes.
 
 Recommended status: reviewable candidate. Use routing/gap discovery where useful; simple work may need only a brief instruction. Do not market this as universally smarter, cheaper or an “astonishing” improvement. No license change, marketplace upload, purchase or normal-installation replacement occurred during these experiments.

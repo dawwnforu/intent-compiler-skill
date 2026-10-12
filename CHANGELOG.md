@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Reproduce a historical workflow classification bug and run three actual repairs. Independent cache/retry/source checks pass for all; all still mislabel a new discussion-only sentence. Preserve partial repairs and remaining failure; no Skill rule change or candidate advantage claim.
+
 - Test but do not adopt a follow-up output-rule substitution. Six completed attempts retain repeated explanations and mixed decision quality; explicit re-explanation still works. No stable savings claim, and user comprehension was not measured.
 
 - Complete a three-arm, six-turn teaching transfer for real shared registration. All identify access/storage/permissions; candidate adds conditional account-recovery guidance, raw adds migration guidance, and candidate is longer/slower. Retain mixed results without another Skill rule.

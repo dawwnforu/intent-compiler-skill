@@ -1,5 +1,9 @@
 # Candidate iteration log
 
+## R20 — repair a saved workflow, shared remaining failure
+
+Reproduced uncertainty hidden by a decision heading in the historical processor. Three real repairs fix original records and cache migration; fifteen independent executions preserve sources, source anchors, idempotence and failure/retry. All miss the new discussion-only case. Preserve the failure and target meaning-to-status validation next, without importing the model's own passing tests as full acceptance. See [evidence and reproduction](../tests/v2-workflow-classification.md).
+
 ## R19 — follow-up focus, not adopted
 
 One output paragraph substituted in isolation, with six completed attempts. Repeated concepts remain; both variants support explicitly requested re-explanation, and decision quality is mixed. Keep the existing smaller rule. The fixed follow-up never confirms comprehension, limiting any claim that repeated concepts were settled or wasteful. See [protocol and all outcomes](../tests/v2-followup-focus.md).
