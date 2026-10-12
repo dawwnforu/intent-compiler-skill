@@ -1,5 +1,9 @@
 # Candidate iteration log
 
+## R19 — follow-up focus, not adopted
+
+One output paragraph substituted in isolation, with six completed attempts. Repeated concepts remain; both variants support explicitly requested re-explanation, and decision quality is mixed. Keep the existing smaller rule. The fixed follow-up never confirms comprehension, limiting any claim that repeated concepts were settled or wasteful. See [protocol and all outcomes](../tests/v2-followup-focus.md).
+
 ## R18 — teaching transfer, no rule change
 
 Three real resumed conversations explain the gap between local persistence and shared club registration. Six turns completed; shared baseline strengths, candidate recovery-choice nuance and raw migration guidance all retained. Candidate output/time is higher. This closes one natural-language teaching coverage gap without a general-quality claim. See [protocol](../tests/v2-teach-transfer.md).

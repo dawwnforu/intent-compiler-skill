@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Test but do not adopt a follow-up output-rule substitution. Six completed attempts retain repeated explanations and mixed decision quality; explicit re-explanation still works. No stable savings claim, and user comprehension was not measured.
+
 - Complete a three-arm, six-turn teaching transfer for real shared registration. All identify access/storage/permissions; candidate adds conditional account-recovery guidance, raw adds migration guidance, and candidate is longer/slower. Retain mixed results without another Skill rule.
 
 - Retain six completed source-presentation trials without adopting another instruction paragraph: decorative module citations decreased in the exposed missing-font case; actual source handling was already sound, and one after response invented a minimum font count. No general quality or savings claim.
