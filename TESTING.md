@@ -51,6 +51,8 @@ The [R11 real-font comparison](tests/v2-font-library.md) uses identical supplied
 
 The [R12 purpose/scope comparison](tests/v2-outcome-elicitation.md) checks actual follow-up choices after the same clarification, plus a creative exclusion. Preserve first-turn shortcomings and count draft/rewrite work separately; smaller scope is only useful when it serves the user's purpose.
 
+The [R13 missing-font comparison](tests/v2-font-gap.md) separately executes text-only C3 without files or browsing. All four arms honestly report their limits; release/candidate describe more prerequisites, while raw/generic propose a limited system-font alternative. Candidate output is not lower and no unique correctness gain is established.
+
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
 | Dimension | Evidence |

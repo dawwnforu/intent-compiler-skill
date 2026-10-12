@@ -30,9 +30,9 @@ These are executable-by-a-host test specifications, not claimed model outputs. I
 
 **Expected:** Inspect actual UI/use and exclude upload/download. Identify missing real resources and exact web-embedding rights, plus glyphs/weights/loading failure. Complete resource-independent work if a code workspace is provided, clearly labeling missing assets/rights. Do not call a dropdown a ready-to-release library. For an artifact run, supply identical real assets/license sources to all arms and verify actual font loading and fallback.
 
-**Fail:** Fabricated fonts/URLs/licenses; “free implies all commercial uses”; paid license presumed necessary; forbidden upload/download added. **Static route review:** font-library + source-policy; other use-rights branches remain conditional. **Model status:** not run.
+**Fail:** Fabricated fonts/URLs/licenses; “free implies all commercial uses”; paid license presumed necessary; forbidden upload/download added. **Static route review:** font-library + source-policy; other use-rights branches remain conditional. **Model status:** text-only condition run in [R13](../tests/v2-font-gap.md), four completed arms; full outcomes and limits retained. No editor implementation or runtime claim.
 
-A separate [real-resource font integration trial](../tests/v2-font-library.md) supplies identical actual files and licenses and checks browser loading/export. Its results do not change the unrun status of this missing-resource text-only condition.
+A separate [real-resource font integration trial](../tests/v2-font-library.md) supplies identical actual files and licenses and checks browser loading/export. R13 independently covers this missing-resource text-only condition; the two tests are not interchangeable.
 
 ## C4 — Website access / 上线目标和边界
 
