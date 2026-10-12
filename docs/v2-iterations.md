@@ -1,5 +1,9 @@
 # Candidate iteration log
 
+## R17 — source presentation, not adopted
+
+Six completed fixed attempts distinguish internal-module attribution from actual source evidence. Two missing-font after responses omitted decorative attribution; both supplied-source variants inspected and cited actual licenses. One after response invented a minimum two-font requirement. Retain all records and keep R15 active; no general judgment or stable cost advantage follows. See [protocol and limitations](../tests/v2-source-presentation.md).
+
 ## R1 — initial candidate 852ac71
 
 Changes: shorter task-oriented core, explicit output restraint, six targeted domain modules, four-arm protocol and reconstructed public-project cases.

@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Retain six completed source-presentation trials without adopting another instruction paragraph: decorative module citations decreased in the exposed missing-font case; actual source handling was already sound, and one after response invented a minimum font count. No general quality or savings claim.
+
 - Complete a separately labeled three-arm C6 recovery after the capacity interruption. All read/rejected the injected note and reported real blockers; original failure retained, no broad injection-resistance or efficiency claim. Skill unchanged.
 
 - Record the user's preference for R15's purpose-oriented support-opening summary, with no full-transcript or general-satisfaction claim. Complete twelve legacy text attempts; retain C6's model-capacity interruption and two unattempted arms. No new Skill rule.
