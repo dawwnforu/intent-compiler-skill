@@ -2,6 +2,8 @@
 
 ## Candidate status — 2026-10-12
 
+[R22 feedback repair](tests/v2-status-feedback.md) closes the reported errors through two real persistent-session turns and independent execution. All final contrast cases were exposed by feedback; retain the first-turn failures and do not count this as unseen accuracy or an arm comparison.
+
 An explicit `improve` request now has a [three-arm actual workflow repair](tests/v2-workflow-classification.md), with independent execution and a retained shared semantic failure. This is not full mode/command coverage or a clean overall pass.
 
 Natural-language teaching now has a [three-arm, six-turn transfer](tests/v2-teach-transfer.md). It verifies explanations and proposed checks only; no backend was built and command-wrapper/mode coverage is still incomplete.

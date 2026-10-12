@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Preserve a failed ephemeral-session resume and a separate two-turn workflow repair. Independent execution closes exposed classification regressions after actual feedback; retain first-turn false unknowns and all limits. No additional Skill rule or superiority claim.
+
 - Strengthen only the workflow module's text-to-status evidence rule. One frozen before/after repair pair retains a local gain on quoted terminology and unaccepted proposals, with two shared semantic errors and higher candidate cost. Preserve actual code, cache/retry checks and the narrow contrast-set methodology boundary.
 
 - Reproduce a historical workflow classification bug and run three actual repairs. Independent cache/retry/source checks pass for all; all still mislabel a new discussion-only sentence. Preserve partial repairs and remaining failure; no Skill rule change or candidate advantage claim.
