@@ -2,6 +2,12 @@
 
 User feedback favored the raw habit app because “功能更实用、完整”. The user then explicitly requested broader optimization without cutting useful functionality to save tokens. This round tests a single replacement paragraph against current 2.0 (`8943b1b`), not against raw requests or release V1. Both snapshots, complete prompts, synthetic inputs, commands, outputs, product sources and independent checks are in the [record](results/v2-practical-utility.json).
 
+## User feedback received, 2026-10-13
+
+The user was shown a textual comparison of the quotation tools: both find the current lowest unit price; after adds historical quotes and complete backup/restore, with generation time increasing from about 219 to 434 seconds. The user answered: **“值得，实用功能比这点等待更重要”** (worth it; useful functionality matters more than this extra wait).
+
+This supports keeping these concrete capabilities and evaluating usefulness before output/time cost. It is feedback on the described tradeoff, not a new hands-on UI test, a blanket preference for more features, approval of unlimited latency/spending, or evidence of general Skill superiority. The question also described manual-copy backup in the old quotation tool; that workaround was not independently verified as a delivered feature and must not be counted as one. The historical-view and after backup/restore checks remain the recorded behavioral evidence.
+
 ## Change and cases
 
 The replacement asks the agent to consider use beyond the first successful action and include small supporting capabilities when their absence forces recurring manual work or loses useful work. It retains authorization, exclusions and settled scope. It does not prescribe charts, accounts, backup buttons or a feature count for every task. The tested paragraph is adopted exactly; no habit-specific rule or dependency is added.
