@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R35 practical usefulness](tests/v2-practical-utility.md): six actual before/after runs cover equipment loans, weekly quotations and exact copy editing. Adopt one tested core paragraph after observing useful correction/history/backup support, with independent logic checks and a preserved simple-edit boundary. Substantive output/time costs increased; UI verification is partial, with no general superiority claim.
+
 [R34 game motion](tests/v2-game-motion.md): four actual repairs fix reduced-motion ground scrolling and retain gameplay in independent script execution. All pass; V2 takes longer, with no exclusive gain. Browser evidence covers rendering/start only. No Skill rule adopted.
 
 [Historical game jump audit](tests/v2-game-jump.md) corrects the old frame-change inference. Actual execution of all four unchanged saved scripts verifies upward motion against a suppressed-pointer control, using mocked DOM/canvas at 60 Hz. This is not new model generation, real-device touch validation or a current-candidate advantage.

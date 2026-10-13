@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Adopt a tested core criterion for useful follow-through in open-ended tasks. Six before/after runs across equipment loans, weekly quotations and a copy-edit control show concrete supporting capabilities with higher substantive-task costs; preserve independent logic evidence, partial UI checks and scope limits.
+
 - Complete four local registration-access repairs and independent HTTP checks. Preserve the shared public demo-credential replay failure despite passing direct-request checks; no Skill change or full security claim. Record model-side interpreter discovery limits separately from evaluator runtime checks.
 
 - Align the workflow module's title, scope and stopping sentence with the R27 split: source-only project questions point to knowledge organization. Execution paragraphs are unchanged. This corrects stale documentation; reduced loading or model-quality improvement has not been measured for this wording.
