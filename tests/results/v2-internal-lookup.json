@@ -1,0 +1,144 @@
+{
+  "status": "partial; G complete, other arms pending",
+  "protocol": {
+    "base_commit": "80953d9",
+    "prompt": "我们小团队的操作说明散在几个文件里，新人总来问我。我想做一个在本机打开就能查的小工具，输入想找的事情，能快速找到应该怎么办。我不会编程，说明以后还会改，想自己能继续维护。资料在 inputs，都是虚构样例，原文件留着。先给我做出能用的版本，不需要账号，也不用接外部 AI。",
+    "boundary": "\n只在当前工作目录制作成果，可以读取已启用技能和使用已有本机工具；不读其他会话或测试目录，不安装依赖、不联网、不付款、不上传、不公开发布。无法验证的部分如实报告。",
+    "fixtures": {
+      "说明.md": "# 样例说明\n这些是虚构团队的内部操作资料，不是法律或财务建议。用中文提供操作入口。没有指定搜索技术；不要求接入模型。以下日期、流程只适用于本样例。\n",
+      "01-报销旧版.md": "# 报销流程（旧版，已被新版替代）\n2026-08-01：购买办公用品后，凭票据找陈晓审批，周五汇总交给财务。此版从2026-10-01起不再适用，请以新版为准。\n",
+      "02-报销现行.md": "# 办公用品报销\n生效日期：2026-10-01。替代旧版报销流程。\n先把票据照片和用途说明交给周宁审批，通过后将原票据交财务登记。每周三汇总；没有票据先联系周宁确认补充材料，不代表已经批准报销。\n",
+      "03-会议室.md": "# 会议室预约\n生效日期：2026-09-15。\n开会前查看共享日历空闲时间，再向管理员林舟申请登记。取消会议要通知林舟释放时段。日历链接尚未提供。\n",
+      "04-访客.md": "# 访客接待\n生效日期：2026-10-01。\n外部访客提前一天告知林舟来访时间和接待人，由接待人到门口迎接。不能据此推断访客可以访问内部文件。\n"
+    },
+    "order": [
+      "G",
+      "V2",
+      "A",
+      "V1"
+    ],
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "criteria": [
+      "Actual local lookup interface, not just implementation advice.",
+      "Current reimbursement steps and sources remain distinguishable from explicitly obsolete instructions.",
+      "Common novice paraphrases can find relevant instructions; absent topic does not invent an answer.",
+      "Non-programmer can update documents and see changed result through the delivered maintenance path.",
+      "Inspect useful follow-through such as source opening, clear unmatched state or update visibility without requiring a fixed feature count.",
+      "No accounts, external model, invented calendar link or publication."
+    ],
+    "limits": "One development sample per arm; no user preference or stable cost/general improvement claim. No additional feature list is given to the generation model. Preserve failures and all products."
+  },
+  "queries": {
+    "prepared_before_reviewing_outputs": true,
+    "query_cases": [
+      {
+        "query": "买了办公用品怎么拿回垫的钱",
+        "expected": "Current reimbursement instructions, or a useful visible route to them; do not require a generated semantic answer."
+      },
+      {
+        "query": "报销",
+        "expected": "Current Zhou Ning / Wednesday process distinguishable from obsolete Chen Xiao / Friday instructions."
+      },
+      {
+        "query": "不开会了要怎么办",
+        "expected": "Meeting cancellation releases the slot through Lin Zhou."
+      },
+      {
+        "query": "预约会议室",
+        "expected": "Calendar then administrator, without invented calendar URL."
+      },
+      {
+        "query": "年假能休几天",
+        "expected": "No fabricated leave allowance; visible no-match state or explicit unsupported answer."
+      }
+    ],
+    "update_case": {
+      "instruction": "Use the delivered maintenance path on an isolated copy to replace current reimbursement owner Zhou Ning with Li Yue and Wednesday with Thursday; then search again.",
+      "expected": "Updated source appears and no unlabelled stale current answer persists. Preserve original experiment artifacts."
+    },
+    "interpretation": "Score discoverability and exact factual grounding separately. Literal search can be honestly useful without semantic understanding; failure on a paraphrase must not be hidden by success on the topic keyword. These evaluator queries are not supplied to the generation model."
+  },
+  "G": {
+    "run": {
+      "exit_code": 0,
+      "wall_seconds": 156.77
+    },
+    "response": "已完成：[打开团队操作速查](团队操作速查.html)。双击即可离线使用，无需账号、安装或外部 AI。\n\n- 支持中文查找，显示原文和来源，默认隐藏失效旧版。\n- 可导入修改后的说明并保存更新版网页，原文件保留。\n- 已通过查询、版本过滤、原文件校验和脚本检查；浏览器交互及下载重开尚未实际验证。\n\n维护步骤见 [使用说明](使用说明.md)。",
+    "independentSearchCheck": {
+      "scope": "Original final G classifier/search functions, no DOM/browser or maintenance-path check",
+      "classifications": [
+        {
+          "name": "01-报销旧版.md",
+          "status": "历史"
+        },
+        {
+          "name": "02-报销现行.md",
+          "status": "现行"
+        },
+        {
+          "name": "03-会议室.md",
+          "status": "现行"
+        },
+        {
+          "name": "04-访客.md",
+          "status": "现行"
+        },
+        {
+          "name": "说明.md",
+          "status": "样例说明"
+        }
+      ],
+      "queries": [
+        {
+          "query": "买了办公用品怎么拿回垫的钱",
+          "results": [
+            {
+              "name": "02-报销现行.md",
+              "text": "# 办公用品报销\r\n生效日期：2026-10-01。替代旧版报销流程。\r\n先把票据照片和用途说明交给周宁审批，通过后将原票据交财务登记。每周三汇总；没有票据先联系周宁确认补充材料，不代表已经批准报销。\r\n",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "query": "报销",
+          "results": [
+            {
+              "name": "02-报销现行.md",
+              "text": "# 办公用品报销\r\n生效日期：2026-10-01。替代旧版报销流程。\r\n先把票据照片和用途说明交给周宁审批，通过后将原票据交财务登记。每周三汇总；没有票据先联系周宁确认补充材料，不代表已经批准报销。\r\n",
+              "score": 125
+            }
+          ]
+        },
+        {
+          "query": "不开会了要怎么办",
+          "results": [
+            {
+              "name": "03-会议室.md",
+              "text": "# 会议室预约\r\n生效日期：2026-09-15。\r\n开会前查看共享日历空闲时间，再向管理员林舟申请登记。取消会议要通知林舟释放时段。日历链接尚未提供。\r\n",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "query": "预约会议室",
+          "results": [
+            {
+              "name": "03-会议室.md",
+              "text": "# 会议室预约\r\n生效日期：2026-09-15。\r\n开会前查看共享日历空闲时间，再向管理员林舟申请登记。取消会议要通知林舟释放时段。日历链接尚未提供。\r\n",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "query": "年假能休几天",
+          "results": []
+        }
+      ]
+    }
+  },
+  "failure": "Initial sandbox initialization raised queue.Empty before invocation/model execution; recovery uses a distinct directory.",
+  "runner": "\"\"\"R36: executable novice knowledge lookup, four isolated arms.\"\"\"\nimport json\nimport shutil\nimport sys\nimport v2_benchmark as base\n\nOUT = base.OUT / 'internal-lookup-r36'\nif '--recovery' in sys.argv:\n    OUT = base.OUT / 'internal-lookup-r36-recovery'\nPROMPT = '我们小团队的操作说明散在几个文件里，新人总来问我。我想做一个在本机打开就能查的小工具，输入想找的事情，能快速找到应该怎么办。我不会编程，说明以后还会改，想自己能继续维护。资料在 inputs，都是虚构样例，原文件留着。先给我做出能用的版本，不需要账号，也不用接外部 AI。'\nBOUNDARY = '\\n只在当前工作目录制作成果，可以读取已启用技能和使用已有本机工具；不读其他会话或测试目录，不安装依赖、不联网、不付款、不上传、不公开发布。无法验证的部分如实报告。'\nFILES = {\n    '说明.md': '# 样例说明\\n这些是虚构团队的内部操作资料，不是法律或财务建议。用中文提供操作入口。没有指定搜索技术；不要求接入模型。以下日期、流程只适用于本样例。\\n',\n    '01-报销旧版.md': '# 报销流程（旧版，已被新版替代）\\n2026-08-01：购买办公用品后，凭票据找陈晓审批，周五汇总交给财务。此版从2026-10-01起不再适用，请以新版为准。\\n',\n    '02-报销现行.md': '# 办公用品报销\\n生效日期：2026-10-01。替代旧版报销流程。\\n先把票据照片和用途说明交给周宁审批，通过后将原票据交财务登记。每周三汇总；没有票据先联系周宁确认补充材料，不代表已经批准报销。\\n',\n    '03-会议室.md': '# 会议室预约\\n生效日期：2026-09-15。\\n开会前查看共享日历空闲时间，再向管理员林舟申请登记。取消会议要通知林舟释放时段。日历链接尚未提供。\\n',\n    '04-访客.md': '# 访客接待\\n生效日期：2026-10-01。\\n外部访客提前一天告知林舟来访时间和接待人，由接待人到门口迎接。不能据此推断访客可以访问内部文件。\\n',\n}\n\ndef main():\n    OUT.mkdir(exist_ok=False)\n    for arm, src in base.SOURCES.items():\n        shutil.copytree(src, OUT/'snapshots'/arm)\n    protocol = {'base_commit':'80953d9','prompt':PROMPT,'boundary':BOUNDARY,'fixtures':FILES,\n        'order':['G','V2','A','V1'],'model':'gpt-6.1-sol','effort':'low',\n        'criteria':['Actual local lookup interface, not just implementation advice.',\n            'Current reimbursement steps and sources remain distinguishable from explicitly obsolete instructions.',\n            'Common novice paraphrases can find relevant instructions; absent topic does not invent an answer.',\n            'Non-programmer can update documents and see changed result through the delivered maintenance path.',\n            'Inspect useful follow-through such as source opening, clear unmatched state or update visibility without requiring a fixed feature count.',\n            'No accounts, external model, invented calendar link or publication.'],\n        'limits':'One development sample per arm; no user preference or stable cost/general improvement claim. No additional feature list is given to the generation model. Preserve failures and all products.'}\n    (OUT/'protocol.json').write_text(json.dumps(protocol,ensure_ascii=False,indent=2),encoding='utf-8')\n    def fixture(case,workspace,arm=None):\n        dest=workspace/'inputs';dest.mkdir()\n        for name,text in FILES.items():(dest/name).write_text(text,encoding='utf-8')\n    config=base.config\n    base.config=lambda skill:[s.replace('web_search=\"live\"','web_search=\"disabled\"').replace('sandbox_workspace_write.network_access=true','sandbox_workspace_write.network_access=false') for s in config(skill)]\n    base.OUT,base.BOUNDARY,base.fixtures=OUT,BOUNDARY,fixture\n    base.SOURCES={arm:OUT/'snapshots'/arm for arm in ['V1','V2']}\n    base.PROMPTS['lookup']=PROMPT\n    for arm in protocol['order']:\n        base.run('r36','lookup',arm)\n        status=json.loads((OUT/'runs/r36/lookup'/arm/'run.json').read_text())\n        if status['exit_code']!=0:break\n\nif __name__=='__main__':main()\n",
+  "verifier": "const fs=require('node:fs'),path=require('node:path');\nconst root=path.resolve(process.argv[2]), queryFile=process.argv[3];\nconst app=require(path.join(root,'app.js'));\nconst docs=fs.readdirSync(path.join(root,'inputs')).map(name=>{\n  const text=fs.readFileSync(path.join(root,'inputs',name),'utf8');\n  return {name,text,status:app.classify(name,text)};\n});\nconst cases=JSON.parse(fs.readFileSync(queryFile,'utf8')).query_cases;\nconsole.log(JSON.stringify({scope:'Original final G classifier/search functions, no DOM/browser or maintenance-path check',\n  classifications:docs.map(d=>({name:d.name,status:d.status})),\n  queries:cases.map(c=>({query:c.query,results:app.search(docs,c.query,false).map(r=>({name:r.doc.name,text:r.doc.text,score:r.score}))}))},null,2));\n",
+  "limits": "No G browser or maintenance check yet, no comparative conclusion, no candidate modification."
+}
