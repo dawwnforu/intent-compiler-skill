@@ -165,5 +165,14 @@
       "generated_paths": []
     }
   ],
-  "not_attempted": []
+  "not_attempted": [],
+  "subsequent_user_feedback": {
+    "status": "answered",
+    "date": "2026-10-13",
+    "scope": "Preference between two short identity-design excerpts from real R18 turn-two answers; not full-answer or blinded general satisfaction.",
+    "A_source": "teach-transfer-r18/A/turn2/response.md",
+    "B_source": "teach-transfer-r18/after/turn2/response.md",
+    "new_answer": "乙：先说明使用需求如何影响方案",
+    "interpretation": "One user prefers explaining the usage consequence before selecting an identity mechanism. No evidence of overall response superiority, comprehension gain, implementation quality or token savings."
+  }
 }

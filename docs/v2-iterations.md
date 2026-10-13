@@ -201,7 +201,7 @@ Adopt a shorter module after four fixed source/rights comparisons. Required fact
 
 ## R26 evaluation isolation
 
-Repair the shared single-turn/dialogue preflight after the observed host update. Five deterministic checks and two live Skill-inventory probes pass; no model turns. See [scope and evidence](../tests/v2-isolation-refresh.md). An additional excerpt-level human preference question is pending, not a result.
+Repair the shared single-turn/dialogue preflight after the observed host update. Five deterministic checks and two live Skill-inventory probes pass; no model turns. See [scope and evidence](../tests/v2-isolation-refresh.md). The additional excerpt-level question subsequently received “乙：先说明使用需求如何影响方案” on 2026-10-13. This supports the usage-first explanation in that excerpt only; it does not change model results or cost conclusions.
 
 ## R27 narrower knowledge loading
 

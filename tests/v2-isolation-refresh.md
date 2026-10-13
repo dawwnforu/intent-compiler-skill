@@ -8,4 +8,4 @@ The single-turn and resumed-dialogue runners now inspect actual enabled Skills b
 
 This checks the host's declared Skill inventory, not every hidden instruction or tool, and is not a model-quality gain. Historical invocations/results remain unchanged; specialized legacy runners still require their own preflight. Reproduce by running the recorded check script with the common runner module available; it uses local standard-library mocks followed by actual inventory probes, not a paid model test.
 
-An inline user-feedback question separately compares two short actual R18 excerpts about choosing authentication versus first deciding whether cross-device recovery is needed. It is pending, not a recorded preference or overall satisfaction result. Prior R15 opening preference remains distinct.
+An inline user-feedback question separately compares two short actual R18 excerpts about choosing authentication versus first deciding whether cross-device recovery is needed. On 2026-10-13 the user answered “乙：先说明使用需求如何影响方案”. This is a preference for B in this excerpt, not an overall satisfaction result. Prior R15 opening preference remains distinct.
