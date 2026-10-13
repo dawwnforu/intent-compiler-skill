@@ -44,7 +44,7 @@ The core Skill supplies that entrypoint; no duplicate same-name command is packa
 
 Other Agent Skills hosts: copy only using that host's documented installation route, verify discovery, then run the fast-path and blocked-input cases. Compatibility is untested; `commands/*.md` are not universal commands. A chat that cannot read local references needs those files made accessible; pasting the entrypoint alone loses the knowledge modules.
 
-The package supplies instructions only, with no bundled search, renderer, font files, hosting account or permission manager. Tools and credentials come from the host/user. Source access or execution may be unavailable even when the Skill loads successfully.
+The package supplies instructions and an optional read-only HTML script check, with no bundled search, renderer, font files, hosting account or permission manager. The check uses an existing Python standard library; Python is not required for other Skill work and should not be installed just for this check. Tools and credentials come from the host/user. Source access or execution may be unavailable even when the Skill loads successfully. A markup check does not establish browser compatibility or working interaction.
 
 ## 中文说明
 

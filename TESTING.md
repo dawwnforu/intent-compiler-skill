@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R42 HTML helper](tests/v2-html-helper.md) is in progress: a conditional, read-only standard-library script is compared against the current candidate on the same two known repair tasks. Helper unit checks pass; no completed behavioral result or adoption claim.
+[R42 HTML helper](tests/v2-html-helper.md): four repairs complete. Actual browser checks show before vocabulary remains blank while after works; explanation works in both arms. Adopt the optional helper with a separately tested base-URL correction, retaining frozen snapshots and higher vocabulary cost. Run `python tests/test_html_scripts_candidate.py` for its bounded checks; these are not browser or model-behavior tests.
 
 [R41 final entry](tests/v2-final-entry.md): four repairs complete. Both arms repair explanation practice and retain tested behavior, but both miss the vocabulary tool's unclosed script tag and fail startup despite reading the module. No quality gain; the experimental sentence is not adopted. Actual browser checks and original-entry diagnostics remain separate from helper tests.
 

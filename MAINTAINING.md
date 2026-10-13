@@ -1,6 +1,8 @@
 # 非程序员维护 / Maintenance without programming
 
-日常维护是修改 Markdown；Skill 没有数据库或后台。Python 只用于可选的仓库静态检查，不参与任务执行。
+日常维护是修改 Markdown；Skill 没有数据库或后台。独立 HTML 的可选只读检查使用已有 Python 标准库；没有 Python 时继续用宿主可用工具验证，不要求用户安装。
+
+修改 HTML 检查脚本时，请让 AI 运行 `python tests/test_html_scripts_candidate.py`，再检查实际页面；脚本检查通过不等于网页可用。保留 [R42 冻结实验](tests/v2-html-helper.md)中的原版脚本，后续修订单独记录，不能改写既有实验结果。
 
 候选版已有[实测结果](docs/v2-results.md)和[公开回归材料](tests/v2-heldout-cases.md)。修改后可用它们查回归；若用这些题调优，就不能继续称为未见集。新效果声明需保留失败、输入/缓存/输出用量和实际产物检查，不把CI绿灯当作行为改善。
 

@@ -84,7 +84,9 @@ $intent-compiler improve -- Inspect and repair this existing proposal.
 
 This project supplies Markdown behavior, routing, domain judgments, evidence boundaries, acceptance rules and cases. Routing is followed by the host model, not an independent program; model compliance is not guaranteed.
 
-Retrieval, file editing, image generation, modeling and deployment depend on the host model, specialist skills/tools, source access, accounts and authorization. Installing this Skill does not supply those tools or credentials. There is no database, backend service or paid API dependency. Optional repository checks use Python's standard library; the Skill requires no Python runtime.
+Retrieval, file editing, image generation, modeling and deployment depend on the host model, specialist skills/tools, source access, accounts and authorization. Installing this Skill does not supply those tools or credentials. There is no database, backend service or paid API dependency. Python is not required to use the Skill.
+
+The 2.0 candidate includes an optional read-only script check for standalone HTML, used only when Python is already available. It checks script tags and some local resources, not actual initialization or interaction. In [four repair comparisons](tests/v2-html-helper.md), after repaired a blank page that before still missed, at higher cost. This does not establish general cross-domain superiority.
 
 ## Validation and maintenance
 

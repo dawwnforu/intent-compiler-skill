@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add an optional read-only HTML script check, routed only for standalone HTML when Python is available. Four R42 repairs show a fixed blank-page entry and retained useful behavior where baseline remains broken; explanation practice passes in both arms. Preserve higher vocabulary cost and failed browser attempts. A subsequent tested correction leaves base-URL resources explicitly unchecked; it is separate from frozen model results. No installed release or license change.
+
 - Adopt a tested core criterion for useful follow-through in open-ended tasks. Six before/after runs across equipment loans, weekly quotations and a copy-edit control show concrete supporting capabilities with higher substantive-task costs; preserve independent logic evidence, partial UI checks and scope limits.
 
 - Complete four local registration-access repairs and independent HTTP checks. Preserve the shared public demo-credential replay failure despite passing direct-request checks; no Skill change or full security claim. Record model-side interpreter discovery limits separately from evaluator runtime checks.

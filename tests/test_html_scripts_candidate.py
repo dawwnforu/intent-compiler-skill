@@ -6,7 +6,7 @@ import sys
 import tempfile
 import unittest
 
-SCRIPT = Path(__file__).parent / "fixtures/html-entry-helper/check_html_scripts.py"
+SCRIPT = Path(sys.argv.pop(1)) if len(sys.argv) > 1 else Path(__file__).parents[1] / "skills/intent-compiler/scripts/check_html_scripts.py"
 spec = importlib.util.spec_from_file_location("html_scripts", SCRIPT)
 helper = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(helper)
@@ -26,6 +26,8 @@ class CheckScripts(unittest.TestCase):
                 ('<script src="%E5%BA%94%E7%94%A8.js?v=2#x"></script>', True),
                 ('<script src="missing.js"></script>', False),
                 ('<script src=""></script>', False),
+                ('<textarea><script>example</textarea>', True),
+                ('<title><script>example</title>', True),
             ]
             for markup, passed in cases:
                 with self.subTest(markup=markup):
@@ -45,6 +47,14 @@ class CheckScripts(unittest.TestCase):
             result = subprocess.run([sys.executable, str(SCRIPT), str(Path(directory) / "absent.html")], capture_output=True, text=True)
             self.assertEqual(result.returncode, 1)
             self.assertIn('"passed": false', result.stdout)
+
+    def test_base_path_requires_serving_context(self):
+        with tempfile.TemporaryDirectory(dir=SCRIPT.parent) as directory:
+            page = Path(directory) / "index.html"
+            page.write_text('<base href="/assets/"><script src="app.js"></script>', encoding="utf-8")
+            result = helper.check(page)
+            self.assertTrue(result["passed"])
+            self.assertEqual(len(result["skipped"]), 1)
 
 
 if __name__ == "__main__":
