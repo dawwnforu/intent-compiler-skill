@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R44 purchasing](tests/v2-purchase-comparison.md) freezes a new raw/generic/current-Skill comparison: a novice requests a quantity-based tool, while supplier documents contain pack sizes, minimums and unknown shipping. Fixture arithmetic is checked; product results remain unevaluated.
+[R44 purchasing](tests/v2-purchase-comparison.md): all three actual tools pass initial costs and clarified shipping updates. Preserve an evaluator waiver-threshold ambiguity and V2's opening cost omission. A post-hoc case finds G alone offers cheaper extra packs (115 versus122); this is a concrete V2 gap, not a frozen-score or general comparison win. Actual browser coverage and native-file limits are recorded; no Skill change adopted.
 
 [R43 volunteer scheduling](tests/v2-volunteer-schedule.md): all three actual generations satisfy independent scheduling/export checks. V2 adds verified manual correction and saved-project reopen at higher cost; G's sample button fails. V2 browser checks pass for initial/withdrawal/overlap and rejected conflicts, with native file operations unverified. No new Skill rule or general superiority claim.
 
