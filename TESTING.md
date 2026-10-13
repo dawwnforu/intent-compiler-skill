@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R29 intent-restatement substitution](tests/v2-intent-assumption.md): six before/after explanations complete. The prior false paraphrase did not recur in the fresh baseline; both variants preserve the animation control. No exclusive gain, mixed cost, no adoption. Snapshot/inventory checks do not claim visibility into host core injection.
+
 ## Evaluation maintenance — 2026-10-13
 
 [R27 module routing](tests/v2-route-split.md) completes four actual comparisons after the preflight repair. The source-question task loads less unrelated guidance; combined workflow plans still need both modules. Full responses, unchanged fixtures and mixed costs are retained; no new workflow runtime claim.
