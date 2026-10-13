@@ -13,4 +13,12 @@ Compare raw request A, current Skill V2 (`8b304b4`, behavior unchanged from R42)
 - Reject invalid values rather than producing a valid recommendation from zero/default substitutions. Expose excess purchased units and missing cost information understandably. Assess supporting reuse capabilities through the user's work, not a feature-count score.
 - Separate generated self-tests, independent program checks and actual browser checks. Preserve failed commands, unsupported checks and costs.
 
-The independent fixture calculation passes. Model results are not yet evaluated; no Skill change, preference or improvement is claimed. Single generations will not establish stable broad superiority. Reproduction requires the existing local evaluation harness and equal prepared environments, not new hosted services or paid API dependencies.
+The independent fixture calculation passes. Single generations will not establish stable broad superiority. Reproduction requires the existing local evaluation harness and equal prepared environments, not new hosted services or paid API dependencies.
+
+## Progress: raw request completed
+
+A finished in 211.21 seconds. Its original calculation module passes independent checks for the initial quantity, changed quantity, both shipping updates, six invalid values and unchanged source inputs. Actual browser operations also pass: 30 → 110 quantity change, unknown-cost warning, C shipping 20 → 80 changes the winner correctly, saved draft survives reload, and negative quantity clears valid results with an error. Native file selection/download and backup restoration remain unverified; localhost storage behavior does not establish direct file:// compatibility.
+
+A already identifies packaging, order minimums and unknown costs, and supplies local drafts and backups. Those capabilities therefore cannot be presumed exclusive Skill gains. V2/G are still pending; no comparative improvement, new user preference or Skill change is claimed.
+
+An observed V2 intermediate message states “乙店需买 3 包，合计 69 元”, omitting the quoted 12 shipping. This is an inaccurate explanation of order cost even if its supplier choice is right. Preserve it separately from final artifact correctness; final generation and any later correction are still pending. A's intermediate explanation correctly gave 81.
