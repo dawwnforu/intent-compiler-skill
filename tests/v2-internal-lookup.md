@@ -1,5 +1,17 @@
 # R36: novice internal-document lookup (in progress)
 
+## Current status
+
+G, V2 and A have completed; V1 is running. All three completed arms return the expected sources for the four fixed topic/paraphrase queries and no result for the unsupported leave-policy query. Their original import/edit handlers independently pass the contact/day update checks. A also offers direct editing and JSON backup/restore, so direct editing is not a V2-exclusive benefit (backup/restore is source-inspected only). No Skill change is justified by these partial comparisons.
+
+| Arm | Output tokens | Generation seconds |
+|---|---:|---:|
+| Generic G | 5,117 | 156.77 |
+| Candidate V2 | 16,572 | 595.67 |
+| Raw A | 6,118 | 204.89 |
+
+V2 now has an independent actual browser maintenance check: edit current reimbursement contact/day, apply, query, download the updated HTML, reopen the unchanged downloaded bytes in a fresh loopback browser tab, and query again. Li Yue/Thursday survives. The downloaded HTML is retained in the record. This is not an OS file-association test; original-source links require the `inputs` folder beside the downloaded file, as the product explains. G actual browser checks cover query/no-match only, and A browser checks are not run. Do not convert these unequal verification depths into a product-quality ranking. The following notes preserve the order in which evidence became available; this status supersedes their pending statements.
+
 This round transfers the R35 practical-usefulness criterion to a new executable knowledge-lookup task. The user wants a local tool for newcomers to find operating instructions and for a non-programmer to maintain changing documents. Inputs are synthetic Chinese documents: an explicitly obsolete reimbursement process, its explicitly current replacement, meeting-room booking/cancellation and visitor handling. No external model, account, dependency installation or publication is allowed.
 
 The frozen protocol compares generic instructions (G), candidate 2.0 (V2 at `80953d9`), raw request (A) and installed release (V1), in that order, using the existing isolated-Skill evaluator and the same prepared Python environment. Each has one trial. This is development evidence, not a repeated or blinded user study. Generation models receive the same request and files; evaluator queries are withheld.
