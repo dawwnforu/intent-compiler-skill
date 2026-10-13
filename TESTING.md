@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R31 public credentials](tests/v2-public-credentials.md): four before/after runs completed. Both repair the exposed access path and pass actual browser role switching; both simple edits preserve exact scope. New rule not adopted because no exclusive gain was observed. Existing Python was made discoverable equally, so R30 cost comparisons are not causal.
+
 [R30 registration access](tests/v2-registration-access.md) completes four actual repairs and independent local HTTP checks. All pass the direct-request matrix yet retain a replayable organizer demo credential in public HTML. The full access goal remains unmet; the added replay diagnostic is separate, with no broad security or superiority claim.
 
 [Full UI user review](tests/v2-ui-user-review.md) presents first-repetition historical A/V2 artifacts without modifying them. The comparison is open locally and feedback is pending; it is not a current-version benchmark or an improvement result.
