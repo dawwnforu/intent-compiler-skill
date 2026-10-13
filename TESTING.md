@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R39 daily learning](tests/v2-daily-review.md) is in progress: raw-request baseline already passes independent practice/mistake/reuse/update handler checks. Remaining arms and browser checks are not yet verified; no Skill gain claimed.
+[R39 daily learning](tests/v2-daily-review.md): all three generations and independent reuse/update handlers pass. Real browser practice exposes A's answer table; V2 hides answers and retains unfinished history, with a parsed actual backup. G browser renders an empty body of unknown cause. Limited useful transfer evidence, no general superiority or new core rule.
 
 [R38 user entry](tests/v2-user-entry.md): four real repairs pass independent default-launcher data/error/reuse checks. After runs cost less, but after-XLSX leaves damaged logs; a separately labelled evaluator repair fixes them. No stable gain or core-rule adoption. The interrupted, confounded initial protocol is retained and excluded.
 
