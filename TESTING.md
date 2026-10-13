@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R39 daily learning](tests/v2-daily-review.md) is in progress: raw-request baseline already passes independent practice/mistake/reuse/update handler checks. Remaining arms and browser checks are not yet verified; no Skill gain claimed.
+
 [R38 user entry](tests/v2-user-entry.md): four real repairs pass independent default-launcher data/error/reuse checks. After runs cost less, but after-XLSX leaves damaged logs; a separately labelled evaluator repair fixes them. No stable gain or core-rule adoption. The interrupted, confounded initial protocol is retained and excluded.
 
 [R37 text transfer](tests/v2-text-transfer.md): four before/after runs complete. Extra encoding guidance is not adopted: both after cases cost more, and both registration launchers fail without the evaluator's prepared Python PATH. Independent catalog updates and conditional CSV/XLSX processing pass. Default entry-point usability remains distinct from interpreter-level success.
