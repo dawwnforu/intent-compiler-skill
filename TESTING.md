@@ -10,7 +10,7 @@
 
 [R30 registration access](tests/v2-registration-access.md) completes four actual repairs and independent local HTTP checks. All pass the direct-request matrix yet retain a replayable organizer demo credential in public HTML. The full access goal remains unmet; the added replay diagnostic is separate, with no broad security or superiority claim.
 
-[Full UI user review](tests/v2-ui-user-review.md) presents first-repetition historical A/V2 artifacts without modifying them. The comparison is open locally and feedback is pending; it is not a current-version benchmark or an improvement result.
+[Full UI user review](tests/v2-ui-user-review.md) presents first-repetition historical A/V2 artifacts without modifying them. The user prefers 日日学 (raw A), citing more useful/complete functionality; this is not a current-version benchmark or a candidate improvement result.
 
 The subsequent workflow scope-text correction removes stale source-question applicability left after R27. Execution guidance is unchanged, links are checked, and the original R27 results are not presented as new behavioral evidence for this wording.
 
