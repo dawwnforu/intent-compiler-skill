@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R41 final entry](tests/v2-final-entry.md) is in progress: a one-sentence experimental verification change is compared on two actual startup failures with original self-tests retained. No completed result or adoption claim.
+[R41 final entry](tests/v2-final-entry.md): four repairs complete. Both arms repair explanation practice and retain tested behavior, but both miss the vocabulary tool's unclosed script tag and fail startup despite reading the module. No quality gain; the experimental sentence is not adopted. Actual browser checks and original-entry diagnostics remain separate from helper tests.
 
 [R40 learning route](tests/v2-learning-route.md): four conditions completed after one preserved auth failure/retry. Candidate loads learning guidance for explanation practice but not entertainment; actual practice and revision checks pass while baseline startup fails. Both already choose recall/self-assessment; mixed cost and one implementation failure do not isolate module benefit, so no adoption.
 
