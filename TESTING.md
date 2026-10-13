@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R38 user entry](tests/v2-user-entry.md): four real repairs pass independent default-launcher data/error/reuse checks. After runs cost less, but after-XLSX leaves damaged logs; a separately labelled evaluator repair fixes them. No stable gain or core-rule adoption. The interrupted, confounded initial protocol is retained and excluded.
+
 [R37 text transfer](tests/v2-text-transfer.md): four before/after runs complete. Extra encoding guidance is not adopted: both after cases cost more, and both registration launchers fail without the evaluator's prepared Python PATH. Independent catalog updates and conditional CSV/XLSX processing pass. Default entry-point usability remains distinct from interpreter-level success.
 
 [R36 internal-document lookup](tests/v2-internal-lookup.md): all four actual generations completed. Fixed query and maintenance-handler checks pass across all arms; V2 actual edit/download/reopen also works, but browser coverage differs. No exclusive quality gain; V2 has the highest output/time cost. Preserve all products and failed commands; no Skill change adopted.
