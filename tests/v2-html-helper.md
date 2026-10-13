@@ -1,0 +1,11 @@
+# R42: a narrow executable HTML check — in progress
+
+R41's extra verification sentence did not repair the vocabulary entry. R42 tests an executable alternative: a Python standard-library helper, conditionally referenced for standalone HTML, that reads script markup and checks relative script-file existence. It makes no network requests, changes no product files and explicitly does not test JavaScript startup, rendering or interaction.
+
+The helper remains an [experimental fixture](fixtures/html-entry-helper/check_html_scripts.py), outside the shipped Skill. Its [tests](test_html_scripts_candidate.py) pass three unittest methods, including eight markup/resource subcases. The initial sandbox temp-directory permission failure was resolved by placing test temporary directories under the fixture directory. Tests cover comments, script text, XML-style self-closing scripts, encoded relative paths, missing resources, remote/root-relative resources reported unchecked and unreadable input. They do not constitute a full HTML validator.
+
+The [frozen protocol and artifacts](results/v2-html-helper.json) use the same known broken vocabulary and explanation products as R41. Both arms receive identical original self-tests, guides and synthetic inputs without the evaluator's diagnosis. The after snapshot adds only the helper and its conditional instruction; the failed R41 sentence is absent. Four fresh runs use identical prepared tools and model settings, in the order vocabulary-after, explanation-before, vocabulary-before, explanation-after.
+
+Acceptance requires the actual delivered entry with original data to start, while practice, feedback/self-rating, progress reload and material updates remain usable. Check helper invocation and completion claims separately. Its direct diagnosis must reject the known vocabulary markup, while its pass on the broken explanation HTML demonstrates why markup checks cannot establish JavaScript initialization success.
+
+Generation is in progress. No adoption, token reduction, general intent-recognition advantage or new-task prevention claim. Installed Skill, license and marketplace package remain unchanged. Reproduce helper tests with `python -X utf8 -B tests/test_html_scripts_candidate.py`; reproduce model comparisons using the frozen runner, fixtures and snapshots in fresh isolated workspaces.
