@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[Full UI user review](tests/v2-ui-user-review.md) presents first-repetition historical A/V2 artifacts without modifying them. The comparison is open locally and feedback is pending; it is not a current-version benchmark or an improvement result.
+
 The subsequent workflow scope-text correction removes stale source-question applicability left after R27. Execution guidance is unchanged, links are checked, and the original R27 results are not presented as new behavioral evidence for this wording.
 
 [R29 intent-restatement substitution](tests/v2-intent-assumption.md): six before/after explanations complete. The prior false paraphrase did not recur in the fresh baseline; both variants preserve the animation control. No exclusive gain, mixed cost, no adoption. Snapshot/inventory checks do not claim visibility into host core injection.
