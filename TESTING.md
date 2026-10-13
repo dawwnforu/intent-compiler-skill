@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R43 volunteer scheduling](tests/v2-volunteer-schedule.md) is in progress: raw/generic/current Skill on a new weekly-use office tool. An independent exhaustive oracle confirms input feasibility and withheld withdrawal/overlap bounds; no generated-product result or advantage is claimed yet.
+[R43 volunteer scheduling](tests/v2-volunteer-schedule.md): all three actual generations satisfy independent scheduling/export checks. V2 adds verified manual correction and saved-project reopen at higher cost; G's sample button fails. V2 browser checks pass for initial/withdrawal/overlap and rejected conflicts, with native file operations unverified. No new Skill rule or general superiority claim.
 
 [R42 HTML helper](tests/v2-html-helper.md): four repairs complete. Actual browser checks show before vocabulary remains blank while after works; explanation works in both arms. Adopt the optional helper with a separately tested base-URL correction, retaining frozen snapshots and higher vocabulary cost. Run `python tests/test_html_scripts_candidate.py` for its bounded checks; these are not browser or model-behavior tests.
 
