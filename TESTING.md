@@ -113,6 +113,6 @@ Checks actually run / unresolved limits:
 
 中文：先固定模型、输入、权限、工具和用户答复，再分别运行原始请求、简短通用规则、完整 Skill。保留原始记录，区分静态审查、文字行为和真实成品测试；未执行、无法观察、受阻都不能记为通过。
 
-## R28: incomplete unattended-workflow transfer
+## R28: completed unattended-workflow explanation transfer
 
-[Protocol and preserved results](tests/v2-unattended-transfer.md): G completed two turns, then recovery completed A/V2 and V1's first turn. V1 turn 2 remains blocked by model capacity. A/G/V2 all cover the main explanation requirements; V2 has no exclusive quality gain and higher output counters. Frozen snapshots, Skill isolation and thread continuity were checked; no implementation or broad efficiency claim. Skill behavior is unchanged.
+[Protocol and preserved results](tests/v2-unattended-transfer.md): all four arms now have two completed answers; the release continuation succeeded after the retained capacity failures. All cover the main explanation requirements. V2 has no exclusive quality gain, with output counters below V1 but above A/G. Frozen snapshots, Skill isolation and thread continuity were checked; no implementation or broad efficiency claim. Skill behavior is unchanged.

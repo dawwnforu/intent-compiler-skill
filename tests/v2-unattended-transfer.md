@@ -1,6 +1,6 @@
-# R28: unattended workflow explanation — incomplete comparison
+# R28: unattended workflow explanation — completed with preserved failures
 
-**Recovery update:** A and V2 now have completed two-turn conversations; V1 completed its first turn but failed its second due to capacity. G's original two turns remain unchanged. The four-arm comparison is still incomplete. The initial-attempt narrative below is retained as history; see the recovery section for current status.
+**Completion update:** All four arms now have two completed answers. V1's second turn succeeded on a later resume of its original conversation; previous capacity failures and the preflight timeout remain recorded. All four cover the main second-turn explanation requirements, with no exclusive candidate quality gain. The initial-attempt and recovery narratives below are historical; see the final section for current status.
 
 This new development transfer follows the user's R18 preference for explaining usage consequences before technical choices. The fixed task asks for a daily meeting-to-task assistant, then specifies a shut-down personal computer, results before work the next morning, edited shared-folder files, proposals versus decisions, recoverable corrections, and no accounts, approved budget or permission to execute/upload. It does not request implementation in these two turns.
 
@@ -39,3 +39,9 @@ A/G/V2 second turns all cover the six predeclared explanation criteria: availabl
 All four first turns suggest completion before the workday ends although the first request does not settle timing. A/G ask about timing and V1 frames it as a recommendation; V2 begins by paraphrasing that time as understood intent. This is a concrete limitation: a plausible suggestion should not silently become the user's stated goal. All three completed second turns correctly update to next-morning completion. That correction does not erase the first-turn limitation. V2 initial module reads omit explicit UTF-8, garbling some bilingual index text; English rules remain visible. No added behavior rule, no implementation test and no new human preference claim.
 
 Still missing: V1 turn 2. It can later resume the recorded persistent conversation with the exact second input in a separate log folder; preserve the failed invocation and confirm the thread ID before using its answer. Do not rerun completed arms solely to seek a more favorable result.
+
+## Final release continuation — 2026-10-13
+
+The previously missing V1 second turn completed in 34.00 seconds with output counter 1715. Its prompt and command flags match the failed invocation except for the new output log path. The original conversation ID, frozen Skill bytes and exact enabled Skill were verified; no product files were generated. [Response, events, invocation and checks](results/v2-unattended-release-completion.json). All execution handles are terminal.
+
+V1 also explains the six required points, including source-version evidence, changed or withdrawn tasks, preserving human corrections, distinguishing proposals, authorized execution and tests of actual overnight completion. All four completed second turns follow the explicit next-morning goal. Candidate output counters (763/1609) are below V1 (808/1715) but above A (646/1483) and G (541/1318); this single scenario, staggered recovery and possibly cumulative resume accounting do not establish stable savings. No product behavior change follows from these results. The four-arm explanation comparison is complete; actual automation and broad goal completion remain unproven.

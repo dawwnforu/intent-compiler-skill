@@ -124,6 +124,6 @@ Untested: cross-model/Claude behavior, repeated new tasks in every domain, live 
 
 Recommended status: reviewable candidate. Use routing/gap discovery where useful; simple work may need only a brief instruction. Do not market this as universally smarter, cheaper or an “astonishing” improvement. No license change, marketplace upload, purchase or normal-installation replacement occurred during these experiments.
 
-## R28：关机后的自动整理，比较未完成
+## R28：关机后的自动整理，四组解释对照完成
 
-[完整记录](../tests/v2-unattended-transfer.md)：通用规则组完成后，补跑已完成候选版与原始组两轮、旧版第一轮；旧版第二轮容量失败。A/G/V2 均解释夜间运行、补改、来源与人工修正，候选版没有独有质量优势且输出计数更高。四组首轮均建议下班前整理，候选版把时间写成理解到的目标；三个完成第二轮的组均按明确补充修正。保留全部失败，四组对照仍不完整，无新规则改动。
+[完整记录](../tests/v2-unattended-transfer.md)：四组两轮现已完成，旧版第二轮通过原会话恢复，保留全部容量失败。四组均解释夜间运行、补改、来源与人工修正，候选版没有独有质量优势；输出计数低于旧版，高于原始请求与通用规则。四组首轮均建议下班前整理，候选版把时间写成理解到的目标；全部第二轮均按明确补充修正。没有实际自动化验收或稳定节省结论，无新规则改动。
