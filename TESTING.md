@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R36 internal-document lookup](tests/v2-internal-lookup.md): all four actual generations completed. Fixed query and maintenance-handler checks pass across all arms; V2 actual edit/download/reopen also works, but browser coverage differs. No exclusive quality gain; V2 has the highest output/time cost. Preserve all products and failed commands; no Skill change adopted.
+
 [R35 practical usefulness](tests/v2-practical-utility.md): six actual before/after runs cover equipment loans, weekly quotations and exact copy editing. Adopt one tested core paragraph after observing useful correction/history/backup support, with independent logic checks and a preserved simple-edit boundary. Substantive output/time costs increased; UI verification is partial, with no general superiority claim.
 
 [R34 game motion](tests/v2-game-motion.md): four actual repairs fix reduced-motion ground scrolling and retain gameplay in independent script execution. All pass; V2 takes longer, with no exclusive gain. Browser evidence covers rendering/start only. No Skill rule adopted.
