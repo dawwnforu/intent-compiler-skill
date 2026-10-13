@@ -36,6 +36,12 @@ Before-quote generation reported failed browser verification and rejected tempor
 
 ## Decision and reproduction
 
+### Follow-up: quote UI data flow (2026-10-13)
+
+The unchanged after-quote UI event handlers now have an independent [integration check](check_quote_ui_flow.cjs) and [execution record](results/v2-quote-ui-flow.json). It executes the original UI and core with an in-memory DOM, storage and download dispatch. Ten assertions cover valid/invalid/valid batch import, historical rendering, backup Blob contents, cancelled and confirmed clear, complete restoration, duplicate restoration, corrupted-backup preservation, fresh-context reload, search and the explicitly unfiltered export. A deliberately mutated temporary copy stops at the invalid file; the same check rejects it. Original products and inputs were not changed, and no new model generation occurred.
+
+Run `node tests/check_quote_ui_flow.cjs <after-quotes-workspace>` against the original artifact, or reconstruct `quote-ui.js`, `quote-core.js` and `inputs` from the R35 record. This closes the handler/data-flow gap, not the browser file-picker, actual download, layout or native desktop usability gaps. It does not add a comparative win or token claim.
+
 Adopt this limited usefulness criterion because it produced concrete support for continued use in both new domains while preserving the tested simple-edit boundary. Treat this as a development signal requiring further transfer/user evaluation, not a measured increase in satisfaction or a token reduction. Preserve the cost increase and capability tradeoffs.
 
 To reproduce, use the exact protocol, snapshots and synthetic files in the JSON, fresh workspaces and recorded model settings. Its embedded runner makes real model calls through the existing local evaluator. The four independent verifier sources can be saved and run against the corresponding unchanged artifacts. PowerShell records must be written to a fresh isolated directory; do not run these checks against user loan data. JSON artifact strings retain decoded text; save PowerShell with UTF-8 BOM for Windows PowerShell when reconstructing files. The existing local artifacts retain their original encoding. No installed Skill, license or marketplace package is changed.

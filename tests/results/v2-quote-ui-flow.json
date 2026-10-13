@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "artifactRecord": "v2-practical-utility.json",
+  "arm": "after/quotes",
+  "actual": {
+    "passed": true,
+    "checks": [
+      "mixed valid-invalid-valid import retains both valid files",
+      "history toggle renders old quotes",
+      "backup actual Blob equals stored rows",
+      "cancelled clear preserves rows",
+      "confirmed clear and restore recovers all rows",
+      "duplicate restore adds zero",
+      "corrupt restore preserves rows",
+      "fresh UI context reloads stored rows",
+      "search narrows rendered groups",
+      "export contains all specifications with explicit notice"
+    ],
+    "scope": "Original UI event handlers and core executed with mocked DOM, storage and download dispatch; no browser file picker, actual downloaded file, layout or native GUI assertion"
+  },
+  "negativeControl": {
+    "mutation": "Stop at first invalid CSV instead of continuing to the next valid file",
+    "exitCode": 1,
+    "stderr": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n3 !== 9\n\n    at C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\work\\intent-compiler-skill\\tests\\check_quote_ui_flow.cjs:30:10 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: 3,\n  expected: 9,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n"
+  },
+  "modelCalls": 0,
+  "productChanged": false
+}
