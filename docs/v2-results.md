@@ -90,7 +90,7 @@ After ordinary usage became available, a separately recorded recovery completed 
 | Knowledge/update | All resolved current vs historical facts and updated from the same new decision; inputs/links checked. V2 retained one document with lower update output. File continuity is not conversation-memory proof. |
 | Recovery workflow | All unchanged processors passed sequential partial-failure and2→2→3→3 idempotence checks; V2 did not beat G/V1 output cost. |
 | URLs/frontend/backend | All repaired same-origin API access, save failure and restart persistence; local server/Edge checks passed. No public deployment/domain purchase tested. |
-| Touch game/animation | All passed touch jump, moving frames, collision/end and restart at mobile size; V2 had highest output/time in this development trial. |
+| Touch game/animation | Historical browser checks observed changing frames after touch dispatch, collision/end and restart at mobile size; frame changes alone did not prove jumping. A later [saved-script unit check](../tests/v2-game-jump.md) directly verifies all four pointer handlers cause upward movement. Real-device touch and reduced-motion effectiveness remain unverified. V2 had highest output/time in this development trial. |
 | Agent gap | All delivered local drafts and reported absent live integrations. Post-hoc negation/conditional/unaccepted-proposal inputs broke A's extractor; G/V1/V2 retained uncertainty. Not V2-only or a pre-registered intent score. |
 | Simple edit | All produced the sentence without tool work; no efficiency advantage established. |
 

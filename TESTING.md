@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[Historical game jump audit](tests/v2-game-jump.md) corrects the old frame-change inference. Actual execution of all four unchanged saved scripts verifies upward motion against a suppressed-pointer control, using mocked DOM/canvas at 60 Hz. This is not new model generation, real-device touch validation or a current-candidate advantage.
+
 [R32 interpreter setup](tests/v2-eval-environment.md) makes the evaluator's existing Python discoverable equally in common-runner child environments, with per-run resolution/version records. Five process/static checks pass, no model calls. Historical environment differences remain explicit; this is not a Skill-effectiveness result.
 
 [R31 public credentials](tests/v2-public-credentials.md): four before/after runs completed. Both repair the exposed access path and pass actual browser role switching; both simple edits preserve exact scope. New rule not adopted because no exclusive gain was observed. Existing Python was made discoverable equally, so R30 cost comparisons are not causal.
