@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R40 learning route](tests/v2-learning-route.md) is in progress. One experimental module stays outside the shipped Skill. Baseline actual startup fails despite internal self-tests; an auth-failed near-miss control was preserved and one retry succeeded. No completed comparison or adoption claim.
+
 [R39 daily learning](tests/v2-daily-review.md): all three generations and independent reuse/update handlers pass. Real browser practice exposes A's answer table; V2 hides answers and retains unfinished history, with a parsed actual backup. G's missing script closing tag causes an empty body; a separate one-tag repair restores browser practice. Limited useful transfer evidence, no general superiority or new core rule.
 
 [R38 user entry](tests/v2-user-entry.md): four real repairs pass independent default-launcher data/error/reuse checks. After runs cost less, but after-XLSX leaves damaged logs; a separately labelled evaluator repair fixes them. No stable gain or core-rule adoption. The interrupted, confounded initial protocol is retained and excluded.

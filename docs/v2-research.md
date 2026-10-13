@@ -24,6 +24,8 @@ Test all of these with [the evaluation protocol](../tests/v2-protocol.md), inclu
 
 ## Dialogue follow-up reviewed 2026-10-12
 
+Related domain-method experiment, reviewed 2026-10-13: [Roediger and Karpicke (2006)](https://pubmed.ncbi.nlm.nih.gov/16507066/) and [Butler and Roediger (2008)](https://pubmed.ncbi.nlm.nih.gov/18491500/), **abstracts only**. The former compares testing and restudy of prose across retention delays; the latter studies corrective feedback after multiple-choice tests. Their findings motivate a learning-product design hypothesis: distinguish recalling or applying material from merely displaying a quiz interface, and separate attempted answers from reference feedback. They do not establish this Skill's effectiveness, an ideal review schedule, speech-assessment accuracy or universal superiority of a question format. The [experimental module](../tests/fixtures/learning-practice-candidate.md) lives outside the shipped Skill; R40 compares personal explanation practice and a near-miss entertainment quiz before any adoption decision. This is domain-method retrieval, not a new theory of LLM intent recognition.
+
 | Source | Actual read scope | Application and limit |
 |---|---|---|
 | [Clarify When Necessary](https://arxiv.org/pdf/2311.09469) | Abstract, then PDF sections 2.1 and 6.1 on 2026-10-12; the earlier v3 HTML attempt was unavailable | Separate ambiguity from missing knowledge and assess whether clarification can improve the answer. INTENT-SIM samples possible user answers and groups them with a separate NLI model. That estimator and its experiments are not implemented or reproduced here. |
