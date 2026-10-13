@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R44 purchasing](tests/v2-purchase-comparison.md) freezes a new raw/generic/current-Skill comparison: a novice requests a quantity-based tool, while supplier documents contain pack sizes, minimums and unknown shipping. Fixture arithmetic is checked; product results remain unevaluated.
+
 [R43 volunteer scheduling](tests/v2-volunteer-schedule.md): all three actual generations satisfy independent scheduling/export checks. V2 adds verified manual correction and saved-project reopen at higher cost; G's sample button fails. V2 browser checks pass for initial/withdrawal/overlap and rejected conflicts, with native file operations unverified. No new Skill rule or general superiority claim.
 
 [R42 HTML helper](tests/v2-html-helper.md): four repairs complete. Actual browser checks show before vocabulary remains blank while after works; explanation works in both arms. Adopt the optional helper with a separately tested base-URL correction, retaining frozen snapshots and higher vocabulary cost. Run `python tests/test_html_scripts_candidate.py` for its bounded checks; these are not browser or model-behavior tests.
