@@ -206,3 +206,7 @@ Repair the shared single-turn/dialogue preflight after the observed host update.
 ## R27 narrower knowledge loading
 
 Move existing organization paragraphs into a separate module and index row. Four model turns retain necessary judgments, with narrower source-question reads and mixed costs. See [results and limits](../tests/v2-route-split.md).
+
+## R28 — usage-consequence transfer, incomplete
+
+The new unattended-workflow dialogue retains four planned arms and fixed supplemental facts. G completed two turns; V2 failed before an answer due to model capacity. A/V1 remain unattempted. Preserve the initial preflight timeout and approved recovery separately. No Skill changes or comparison claim. See [protocol](../tests/v2-unattended-transfer.md).

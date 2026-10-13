@@ -112,3 +112,7 @@ Checks actually run / unresolved limits:
 ```
 
 中文：先固定模型、输入、权限、工具和用户答复，再分别运行原始请求、简短通用规则、完整 Skill。保留原始记录，区分静态审查、文字行为和真实成品测试；未执行、无法观察、受阻都不能记为通过。
+
+## R28: incomplete unattended-workflow transfer
+
+[Protocol and preserved results](tests/v2-unattended-transfer.md): G completed two turns; V2 encountered capacity failure before an answer; A/V1 were not attempted. This is not a comparative result, and Skill behavior is unchanged.

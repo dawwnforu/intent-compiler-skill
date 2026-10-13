@@ -123,3 +123,7 @@ The committed JSON contains all67 CLI counter records, not independent semantic 
 Untested: cross-model/Claude behavior, repeated new tasks in every domain, live third-party Agent integrations, real manufacturing/load tests, full font-rights/provider checks, internet deployment, actual phones, full accessibility/storage failures and concurrent/power-loss workflow stress. The added identical-answer two-turn experiment is completed, with the failure above; it is not a broad conversational-capability pass. Legacy C1/C2/C4/C5 have R16 text results, C3 has separate R13 results, and C6 has a separate recovery after the retained capacity failure. Mode coverage remains incomplete: R18 checks natural-language teaching and R20 checks an explicit improve request, with the retained semantic failure. These limits are not implied passes.
 
 Recommended status: reviewable candidate. Use routing/gap discovery where useful; simple work may need only a brief instruction. Do not market this as universally smarter, cheaper or an “astonishing” improvement. No license change, marketplace upload, purchase or normal-installation replacement occurred during these experiments.
+
+## R28：关机后的自动整理，比较未完成
+
+[完整记录](../tests/v2-unattended-transfer.md)：通用规则组两轮已解释夜间运行、补改、来源与人工修正；候选组首轮容量失败，原始组与旧版未启动。保存初次隔离超时和后续容量错误，不能计为 Skill 增益或质量失败。无新规则改动。
