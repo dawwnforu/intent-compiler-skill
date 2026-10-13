@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R43 volunteer scheduling](tests/v2-volunteer-schedule.md) is in progress: raw/generic/current Skill on a new weekly-use office tool. An independent exhaustive oracle confirms input feasibility and withheld withdrawal/overlap bounds; no generated-product result or advantage is claimed yet.
+
 [R42 HTML helper](tests/v2-html-helper.md): four repairs complete. Actual browser checks show before vocabulary remains blank while after works; explanation works in both arms. Adopt the optional helper with a separately tested base-URL correction, retaining frozen snapshots and higher vocabulary cost. Run `python tests/test_html_scripts_candidate.py` for its bounded checks; these are not browser or model-behavior tests.
 
 [R41 final entry](tests/v2-final-entry.md): four repairs complete. Both arms repair explanation practice and retain tested behavior, but both miss the vocabulary tool's unclosed script tag and fail startup despite reading the module. No quality gain; the experimental sentence is not adopted. Actual browser checks and original-entry diagnostics remain separate from helper tests.
