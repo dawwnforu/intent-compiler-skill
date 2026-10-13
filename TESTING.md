@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R37 text transfer](tests/v2-text-transfer.md): four before/after runs complete. Extra encoding guidance is not adopted: both after cases cost more, and both registration launchers fail without the evaluator's prepared Python PATH. Independent catalog updates and conditional CSV/XLSX processing pass. Default entry-point usability remains distinct from interpreter-level success.
+
 [R36 internal-document lookup](tests/v2-internal-lookup.md): all four actual generations completed. Fixed query and maintenance-handler checks pass across all arms; V2 actual edit/download/reopen also works, but browser coverage differs. No exclusive quality gain; V2 has the highest output/time cost. Preserve all products and failed commands; no Skill change adopted.
 
 [R35 practical usefulness](tests/v2-practical-utility.md): six actual before/after runs cover equipment loans, weekly quotations and exact copy editing. Adopt one tested core paragraph after observing useful correction/history/backup support, with independent logic checks and a preserved simple-edit boundary. Substantive output/time costs increased; UI verification is partial, with no general superiority claim.
