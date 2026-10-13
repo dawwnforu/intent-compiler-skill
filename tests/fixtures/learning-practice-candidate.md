@@ -24,4 +24,4 @@ Prefer provided subject material and existing educational methods. Retrieve more
 
 Exercise an initial attempt, incorrect response, corrective feedback and a later attempt using the actual artifact. Inspect for unrequested answer exposure across the rendered page. For reuse, verify saved progress and one material update. Stop when the requested flow works and claims match observed evidence; report unavailable subject validation or runtime checks. Do not require a longitudinal learning experiment merely to deliver a personal tool, or claim that interface tests prove learning effectiveness.
 
-Status: experimental R40 candidate; no behavioral benefit established. Positive trigger: personal practice from supplied training notes. Negative trigger: a playful personality quiz without right answers.
+Status: R40 development comparison completed; appropriate routing and candidate runtime observed, but isolated domain-method benefit remains unproven. Not adopted into the shipped Skill. Positive trigger: personal practice from supplied training notes. Negative trigger: a playful personality quiz without right answers.

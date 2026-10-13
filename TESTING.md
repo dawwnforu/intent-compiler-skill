@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R40 learning route](tests/v2-learning-route.md) is in progress. One experimental module stays outside the shipped Skill. Baseline actual startup fails despite internal self-tests; an auth-failed near-miss control was preserved and one retry succeeded. No completed comparison or adoption claim.
+[R40 learning route](tests/v2-learning-route.md): four conditions completed after one preserved auth failure/retry. Candidate loads learning guidance for explanation practice but not entertainment; actual practice and revision checks pass while baseline startup fails. Both already choose recall/self-assessment; mixed cost and one implementation failure do not isolate module benefit, so no adoption.
 
 [R39 daily learning](tests/v2-daily-review.md): all three generations and independent reuse/update handlers pass. Real browser practice exposes A's answer table; V2 hides answers and retains unfinished history, with a parsed actual backup. G's missing script closing tag causes an empty body; a separate one-tag repair restores browser practice. Limited useful transfer evidence, no general superiority or new core rule.
 
