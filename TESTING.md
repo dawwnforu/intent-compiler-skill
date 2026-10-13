@@ -115,4 +115,4 @@ Checks actually run / unresolved limits:
 
 ## R28: incomplete unattended-workflow transfer
 
-[Protocol and preserved results](tests/v2-unattended-transfer.md): G completed two turns; V2 encountered capacity failure before an answer; A/V1 were not attempted. This is not a comparative result, and Skill behavior is unchanged.
+[Protocol and preserved results](tests/v2-unattended-transfer.md): G completed two turns, then recovery completed A/V2 and V1's first turn. V1 turn 2 remains blocked by model capacity. A/G/V2 all cover the main explanation requirements; V2 has no exclusive quality gain and higher output counters. Frozen snapshots, Skill isolation and thread continuity were checked; no implementation or broad efficiency claim. Skill behavior is unchanged.
