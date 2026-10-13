@@ -1,5 +1,7 @@
 # R27: separate source questions from execution guidance
 
+Subsequent scope correction (2026-10-13): the workflow title/intro still named knowledge collections and conflicting project knowledge after the split. Align them with the index and link source-only questions to the organization module; remove “lookup” from the workflow stopping sentence. The execution section is unchanged. The four historical runs below predate this correction and do not prove its effect on loading or model quality. Repository checks and comparison of the preserved execution section cover this maintenance change; no new model runs.
+
 2026-10-13. Split the knowledge-organization paragraphs out of the workflow module and give them their own index row. Move the paragraphs unchanged; retain a conditional link to execution guidance when an actual processor is needed. Core instructions are unchanged. Adopt this for narrower source-only loading, not general savings or superior answers.
 
 [Exact snapshots, prompts, fixtures, responses and commands](results/v2-route-split.json) cover four actual runs: one before/after pair for project-record questions and one for a local meeting-processing brief. Base `d41e4a3`, `gpt-6.1-sol`, low reasoning, isolated Skills, offline/read-only. The common refreshed preflight ran before each model invocation.

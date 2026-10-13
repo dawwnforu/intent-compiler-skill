@@ -1,6 +1,6 @@
-# Workflows and knowledge collections
+# Repeated workflows and Agents
 
-Load for repeated processing, AI/tool orchestration or conflicting project knowledge; exclude a one-off wording edit. Reuse available tools before adding frameworks, vector databases or services.
+Load for repeated processing or AI/tool orchestration; exclude a one-off wording edit. Source-only project questions use [knowledge-organization.md](knowledge-organization.md). Reuse available tools before adding frameworks, vector databases or services.
 
 ## Repeated work and Agents
 
@@ -14,4 +14,4 @@ Accept by running the normal path and a relevant failure/retry path, showing no 
 
 ## Sources and stop
 
-Use project workflow docs and existing Skills, then official API sections for retries, delivery and authentication. General principles do not establish provider guarantees. Retrieve only for a missing transition, conflicting source or failed check. Stop after the requested workflow/lookup is verified or concretely blocked.
+Use project workflow docs and existing Skills, then official API sections for retries, delivery and authentication. General principles do not establish provider guarantees. Retrieve only for a missing transition, conflicting source or failed check. Stop after the requested workflow is verified or concretely blocked.

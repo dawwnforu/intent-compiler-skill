@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Align the workflow module's title, scope and stopping sentence with the R27 split: source-only project questions point to knowledge organization. Execution paragraphs are unchanged. This corrects stale documentation; reduced loading or model-quality improvement has not been measured for this wording.
+
 - Split unchanged knowledge-organization paragraphs into a separately routed module. Four actual comparisons show narrower source-question loading; combined workflow work still reads both modules. Preserve mixed costs and answer differences without general efficiency claims.
 
 - Repair common evaluation-runner isolation after host Skill updates. Preserve the initial probe, refresh newly observed paths and fail before generation if extras remain. Five checks and actual raw/candidate inventory probes pass; this is harness maintenance, not a product-effectiveness claim.

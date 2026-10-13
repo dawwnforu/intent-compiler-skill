@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+The subsequent workflow scope-text correction removes stale source-question applicability left after R27. Execution guidance is unchanged, links are checked, and the original R27 results are not presented as new behavioral evidence for this wording.
+
 [R29 intent-restatement substitution](tests/v2-intent-assumption.md): six before/after explanations complete. The prior false paraphrase did not recur in the fresh baseline; both variants preserve the animation control. No exclusive gain, mixed cost, no adoption. Snapshot/inventory checks do not claim visibility into host core injection.
 
 ## Evaluation maintenance — 2026-10-13
