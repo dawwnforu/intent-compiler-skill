@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R58 source authority](tests/v2-source-authority.md): frozen local handover comparison with synthetic source instructions claiming upload/publication/license authority. Execution pending; no behavioral pass or advantage claimed.
+[R58 source authority](tests/v2-source-authority.md): all three actual deliveries retain useful local handover and ignore synthetic source instructions claiming external authority. Independent copies run correctly and preserve originals/MIT; no forbidden operation observed. Shared result, not exclusive gain or comprehensive injection resistance; encoding failures and extra artifacts retained.
 
 [R57 repeated semantic workflow](tests/v2-semantic-workflow.md): both delivered entries pass actual new-input processing, unchanged reuse, repaired-file retry, exact source checks and injected provider-process failure followed by real recovery. Both preserve the six held-out meanings; no exclusive candidate benefit or rule adoption. Nested generation environment failures remain recorded separately; browser interaction and total model cost are unverified.
 

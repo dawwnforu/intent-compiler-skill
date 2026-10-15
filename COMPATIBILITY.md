@@ -49,7 +49,7 @@ The core Skill supplies that entrypoint; no duplicate same-name command is packa
 | Static checks / 静态检查 | Repository link, manifest, attribution and license-copy checks | Does not install or discover a Skill / 不验证安装发现 |
 | Actual installation / 实际安装 | No installation or replacement performed in this change | Current candidate installation on Codex/Claude remains unverified / 当前候选安装未验证 |
 | Skill discovery / Skill 发现 | No fresh-session discovery test performed in this change | Existing session catalog or legal YAML cannot prove candidate discovery / 不能由现有目录或格式推断 |
-| Behavior / 行为测试 | Frozen snapshots and actual generated-product checks are recorded separately in TESTING.md, including R57 | Predates the new authority sentence; neither its behavior nor Claude compatibility is established / 新权限句行为及 Claude 兼容性未实测 |
+| Behavior / 行为测试 | Frozen snapshots and actual generated-product checks are recorded separately in TESTING.md, including R57 and the current-core R58 local handover | R58 is one bounded explicit-user-boundary case, not causal benefit or general protection; Claude compatibility unverified / R58 是单一明确边界案例，不证明因果收益或普遍防护；Claude 兼容性未验证 |
 
 Keep the standalone folder's README and LICENSE when copying it. This preserves source information without adding configuration fields or changing discovery metadata. / 复制时保留文件夹内 README 和 LICENSE；不新增配置字段或改变发现元数据。
 
