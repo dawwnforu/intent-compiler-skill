@@ -42,6 +42,17 @@ The core Skill supplies that entrypoint; no duplicate same-name command is packa
 
 ## Other hosts and limitations
 
+### Current candidate evidence / 当前候选证据（2026-10-15）
+
+| Evidence layer / 层级 | What is established / 已知范围 | Remaining limit / 限制 |
+|---|---|---|
+| Static checks / 静态检查 | Repository link, manifest, attribution and license-copy checks | Does not install or discover a Skill / 不验证安装发现 |
+| Actual installation / 实际安装 | No installation or replacement performed in this change | Current candidate installation on Codex/Claude remains unverified / 当前候选安装未验证 |
+| Skill discovery / Skill 发现 | No fresh-session discovery test performed in this change | Existing session catalog or legal YAML cannot prove candidate discovery / 不能由现有目录或格式推断 |
+| Behavior / 行为测试 | Frozen snapshots and actual generated-product checks are recorded separately in TESTING.md, including R57 | Predates the new authority sentence; neither its behavior nor Claude compatibility is established / 新权限句行为及 Claude 兼容性未实测 |
+
+Keep the standalone folder's README and LICENSE when copying it. This preserves source information without adding configuration fields or changing discovery metadata. / 复制时保留文件夹内 README 和 LICENSE；不新增配置字段或改变发现元数据。
+
 Other Agent Skills hosts: copy only using that host's documented installation route, verify discovery, then run the fast-path and blocked-input cases. Compatibility is untested; `commands/*.md` are not universal commands. A chat that cannot read local references needs those files made accessible; pasting the entrypoint alone loses the knowledge modules.
 
 The package supplies instructions and an optional read-only HTML script check, with no bundled search, renderer, font files, hosting account or permission manager. The check uses an existing Python standard library; Python is not required for other Skill work and should not be installed just for this check. Tools and credentials come from the host/user. Source access or execution may be unavailable even when the Skill loads successfully. A markup check does not establish browser compatibility or working interaction.

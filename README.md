@@ -6,6 +6,10 @@
 
 [English](README_EN.md) · [MIT License](LICENSE)
 
+原始项目：[Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill)。现有署名：**Intent Compiler contributors**；版权：Copyright (c) 2026 Intent Compiler contributors。宿主清单版本 **0.2.0**；本分支为**未发布的 2.0 候选版**，不是已发布的 2.0。提交历史记录具体贡献，不能据此编造作者身份。
+
+来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；未来打包时须保留这些文件，当前未制作或发布上传包。
+
 打印知识已补充分清份数与尺寸：本次不打印可以设为 0，同时保留名单；实体标签尺寸不能为 0。[实际修复验证](tests/v2-print-counts.md)覆盖网页导出、全零处理和恢复打印，仅证明这一已知缺口的局部修复。
 
 2.0 现在检查“第一次完成之后是否方便继续使用”：只在具体工作流需要时补足实用能力，不为压缩输出而删掉它们。[借还与报价对照](tests/v2-practical-utility.md)观察到局部实用性补充，也记录了更高成本和未验证的界面范围。

@@ -6,6 +6,10 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+Original project: [Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill). Existing attribution: **Intent Compiler contributors**, Copyright (c) 2026 Intent Compiler contributors. Host manifests remain at **0.2.0**; this branch is an **unreleased 2.0 candidate**, not a published 2.0 release. Specific contributions are recorded in Git history; no additional author identity is asserted.
+
+Source labels provide attribution and traceability, not copy prevention or proof of ownership. The standard MIT license remains unchanged, permitting copying, modification, redistribution and commercial use subject to its conditions. Redistribution alone is not evidence of infringement. The standalone Skill folder includes [bilingual source information](skills/intent-compiler/README.md) and the same license; retain both in any future package. No upload package has been created or published in this change.
+
 Print guidance now distinguishes copy counts from physical dimensions: zero copies omit a record from this batch while retaining it; physical label dimensions must stay positive. [Actual repair checks](tests/v2-print-counts.md) cover browser exports, an all-zero batch and restored printing. This is a bounded known-failure repair, not a general effectiveness claim.
 
 2.0 now checks usefulness beyond the first successful action: add supporting capabilities when the actual workflow warrants them, rather than cutting utility to shorten output. [Loan and quotation comparisons](tests/v2-practical-utility.md) record concrete additions, higher costs and incomplete UI verification.

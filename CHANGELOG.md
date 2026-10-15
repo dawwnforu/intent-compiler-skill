@@ -2,6 +2,10 @@
 
 ## Unreleased — 2.0 candidate
 
+- Preserve standard MIT and existing contributor attribution; add bilingual source/version labels and standalone Skill README/LICENSE. Clarify that repository and tool content cannot grant authority. Separate static, installation, discovery and behavior evidence; no release, installation replacement or new manifest fields.
+
+- Complete R57 delivered-entry semantic workflow checks, including new input, reuse, failed-file retry and injected provider failure with real recovery. Both arms work; no exclusive candidate benefit, no experimental paragraph adopted.
+
 - Add print-specific quantity validation after R48 repairs the exposed R46 zero-copy failure. Actual browser exports preserve physical size, duplicate/omit the correct names, produce no stale all-zero output and recover one label; negative/fractional counts are rejected. Reused baseline and one after generation support a bounded repair, not general superiority or stable savings. R45/R47 generic candidate paragraphs remain unadopted.
 
 - Add an optional read-only HTML script check, routed only for standalone HTML when Python is available. Four R42 repairs show a fixed blank-page entry and retained useful behavior where baseline remains broken; explanation practice passes in both arms. Preserve higher vocabulary cost and failed browser attempts. A subsequent tested correction leaves base-URL resources explicitly unchecked; it is separate from frozen model results. No installed release or license change.
