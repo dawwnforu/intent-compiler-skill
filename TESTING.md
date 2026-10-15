@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R46 print transfer](tests/v2-print-alternatives.md) tests the unchanged R45 paragraph in a new physical-label task and explicit-orientation control. Three conditions have independent PDF/render/browser evidence: both flexible products fit one page, so no exclusive layout gain; all three reject the held-out zero-copy update. Fixed-after remains pending; no candidate adoption yet.
+[R46 print transfer](tests/v2-print-alternatives.md): all four generations and independent PDF/render/browser checks complete. Both flexible products fit one page and both fixed products preserve two upright pages; all four reject the held-out zero-copy update. Fixed-after's optional Python CLI also fails on a corrupted filename. No exclusive layout gain or stable savings claim; paragraph not adopted.
 
 [R45 alternatives](tests/v2-decision-alternatives.md): four actual runs complete. After exposes the115 alternative missed by before; both exact40 controls retain122 and exclude oversupply. Independent program checks cover all four, browser checks both after products. Lower single-run cost is not stable savings; source conflict retained and candidate unadopted pending transfer.
 

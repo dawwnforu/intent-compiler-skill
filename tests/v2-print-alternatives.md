@@ -1,4 +1,21 @@
-# R46: physical print-layout transfer — frozen experiment
+# R46: physical print-layout transfer — completed comparison
+
+## Final result and decision
+
+All four actual generations completed. Initial PDFs satisfy their paper/size/orientation requirements, independently checked through geometry and rendered pages. Original browser interfaces were opened and edited for all four. **All four reject the predeclared first-copies2/second-copies0 update.** No product source was repaired. These are partial functional results, not four complete passes.
+
+| Condition | Output tokens | Seconds | Initial PDF | Zero-copy update |
+|---|---:|---:|---|---|
+| Flexible before | 20260 | 573.92 | One page, correct geometry/content | Rejected |
+| Flexible after | 15856 | 398.43 | One page, correct geometry/content | Rejected |
+| Fixed before | 18659 | 500.50 | Two upright pages, correct geometry/content | Rejected |
+| Fixed after | 17141 | 307.20 | Two upright pages, correct geometry/content | Rejected |
+
+Before already compares feasible orientations, and both fixed conditions preserve the explicit constraint. Lower after costs in single samples do not prove stable efficiency; different environment-recovery work is included. R45 retains its narrow positive development result, but this transfer establishes no exclusive layout benefit. **Do not adopt the paragraph into runtime Skill on this evidence.** The overall upgrade goal remains open.
+
+Fixed-after rasterizes names. The text-extraction warning is retained as a checker limitation; visual inspection of both rendered pages confirms all six Chinese names/groups once each and upright. Geometry checks pass. Its optional Python CLI independently fails on corrupted `inputs/??.csv`. The separate HTML entry opens and rejects invalid copies; the malformed source and traceback are retained without repair.
+
+Native file selection/download, launcher double-click, physical printing and all unsupported/oversize variants were not exhaustively tested. No regenerated2/0 PDF exists because every tool rejects that input. Original inputs remain byte-identical. Long embedded binary payloads are omitted from the public text record; original local logs/PDFs/screenshots remain. Generated launcher text requiring GB18030 fallback is labelled. Earlier pending observations below are chronological, not the final status.
 
 Test the unchanged R45 alternatives paragraph on a new domain: a novice wants a reusable local label tool, printable PDF, and less wasted paper. Six synthetic name/group records each request one100×60mm label. Ordinary A4 paper,10mm margins and5mm gaps are supplied physical requirements, not optional suggestions. There are no historical finished products in generator workspaces.
 
