@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R52 throw game](tests/v2-throw-game.md): a fresh browser-game comparison inspired by a pinned user-project README; protocol frozen, no results yet. Actual playable loop and useful supporting functions matter more than output length. This is not PEAK or multiplayer validation.
+
 [R51 connection truth](tests/v2-connection-truth.md): both repairs pass independent HTTP and actual browser checks for temporary service failure/recovery while retaining synchronization, refresh, late join and isolation. Both fix the stale sidebar; candidate additionally labels last-confirmed time/count, with no established material advantage. Less output but longer generation is not stable efficiency. Candidate paragraph not adopted; exposed-failure repair only.
 
 [R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
