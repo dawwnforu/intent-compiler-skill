@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R48 print counts](tests/v2-print-counts.md) freezes a print-module-only repair for the exposed zero-copy failure, reusing the verified R46 baseline rather than repeating it. Same materials/settings, no new result or adoption yet; not an unseen-transfer or stable-cost claim.
+
 [R47 run selection](tests/v2-run-selection.md): four actual runs and scoped independent checks complete. Both variable products preserve three/zero/two outputs and collection; both all-member controls retain six messages without selectors. Candidate was read but offers no exclusive gain, with mixed costs; paragraph not adopted. Native file operations remain unverified.
 
 [R46 print transfer](tests/v2-print-alternatives.md): all four generations and independent PDF/render/browser checks complete. Both flexible products fit one page and both fixed products preserve two upright pages; all four reject the held-out zero-copy update. Fixed-after's optional Python CLI also fails on a corrupted filename. No exclusive layout gain or stable savings claim; paragraph not adopted.
