@@ -1,5 +1,13 @@
 # R55: unseen wording against the existing meeting processor
 
+Executed: the unchanged R22 second-turn processor matched5 of8 declared labels. [Exact input, processor, command, generated records and runner](results/v2-status-transfer.json). This is a selected diagnostic count, not general accuracy or a current Skill comparison.
+
+The three misses are `unchanged.txt`, `refused.txt`, and `price.txt`: clear continued action/rejection was returned as unresolved. All8 source inputs and archived originals retained exact bytes; process exit was0. The other unresolved cases and quoted-label decision matched the frozen expectations. No code or labels were repaired after observing results.
+
+Source inspection after freezing explains the failure: closed predicate families and anchored actor/action patterns abstain on normal but unsupported wording. R22's exposed15-case success did not establish transferable semantic understanding. Mechanical preservation and successful execution do not fix this gap.
+
+Next-method requirement: distinguish uncertainty in the meeting evidence from inability of the implementation to interpret it. A semantic workflow needs an actual available interpreter at execution time, not merely a model that wrote a keyword classifier once. Any host-assisted or provider-backed design must verify its real invocation and preserve the requested repeated workflow; missing runtime capability must be explained without presenting a manual substitute as completed automation. No provider, dependency, runtime rule or classifier patch is introduced by this diagnostic.
+
 Protocol frozen before executing the R22 second-turn processor on these statements. No new model generation or Skill change. R22 fixed its exposed regression set; this check asks whether those fixes transfer to different wording, without editing the processor or sending the new answers back for repair.
 
 All inputs retain the existing `决定：` format. Expected labels are either confirmed decision or unresolved; original text must remain available. These eight hand-authored cases are a small diagnostic set, not a general accuracy benchmark.
