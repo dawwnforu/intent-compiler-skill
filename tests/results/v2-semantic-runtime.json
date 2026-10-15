@@ -1,0 +1,56 @@
+{
+  "status": "Frozen before invocation; not run",
+  "protocol": {
+    "sourceCommit": "87c617c",
+    "prompt": "请读取 inputs/statements.json 中的会议记录，逐条判断原文是否已经明确决定（decision），还是提议、等待批准、未定或缺少决定证据（unresolved）。区分决定的对象和引用文字，不要仅按标题或单个词匹配。对有多个层次或歧义的句子在 reason 中说清，不能编造已获批准的事项。只返回一个JSON对象，键为items；每项包含file、status、evidence（原文中的精确片段）、reason（简短中文理由）。不写代码，不创建文件，不执行脚本，不调用其他模型。",
+    "boundary": "\n只读取当前inputs里的合成材料，不联网、不读取其他目录或会话，不修改原文。",
+    "inputs": [
+      {
+        "file": "defer.txt",
+        "text": "决定：增加预算这件事先搁一搁，等下周再议。"
+      },
+      {
+        "file": "unchanged.txt",
+        "text": "决定：原定周五的演示照常进行。"
+      },
+      {
+        "file": "refused.txt",
+        "text": "决定：经理已明确表示不同意延期。"
+      },
+      {
+        "file": "personal.txt",
+        "text": "决定：关于加人，目前只是小李的个人想法。"
+      },
+      {
+        "file": "price.txt",
+        "text": "决定：会议未采纳涨价建议，售价保持不变。"
+      },
+      {
+        "file": "not-approved.txt",
+        "text": "决定：听起来可以，不代表已经获批。"
+      },
+      {
+        "file": "finance.txt",
+        "text": "决定：负责人还需要征求财务意见，预算暂不能敲定。"
+      },
+      {
+        "file": "label.txt",
+        "text": "决定：会议一致同意把按钮上的“尚未通过”改成“待审核”。"
+      }
+    ],
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "arms": [
+      "A"
+    ],
+    "expectedLabelsWithheld": true,
+    "purpose": "Test actual existing-host semantic execution on the same R55 statements before designing a repeated semantic workflow. No Skill enabled, no automatic product claimed.",
+    "criteria": [
+      "Return every input once; allowed statuses only; exact source evidence and no unsupported approvals.",
+      "Review each decision against the frozen R55 labels; retain the defer annotation ambiguity and reasons, not just a binary total.",
+      "Preserve all inputs; record real invocation, response, output/time and failures. Schema validity is not semantic validity."
+    ],
+    "limits": "One real batch, exposed selected statements, current hosted model rather than offline standalone code. No full-Skill versus raw/generic result, unattended integration, stable accuracy or cost claim."
+  },
+  "runner": "\"\"\"R56: bounded real semantic invocation, not a Skill superiority trial.\"\"\"\nimport argparse\nimport json\nfrom pathlib import Path\nimport v2_benchmark as base\n\nOUT=base.OUT/'semantic-runtime-r56'\nREPO=base.ROOT/'work/intent-compiler-skill'\nPROMPT='请读取 inputs/statements.json 中的会议记录，逐条判断原文是否已经明确决定（decision），还是提议、等待批准、未定或缺少决定证据（unresolved）。区分决定的对象和引用文字，不要仅按标题或单个词匹配。对有多个层次或歧义的句子在 reason 中说清，不能编造已获批准的事项。只返回一个JSON对象，键为items；每项包含file、status、evidence（原文中的精确片段）、reason（简短中文理由）。不写代码，不创建文件，不执行脚本，不调用其他模型。'\nBOUNDARY='\\n只读取当前inputs里的合成材料，不联网、不读取其他目录或会话，不修改原文。'\n\ndef prepare():\n    OUT.mkdir(exist_ok=False)\n    previous=json.loads((REPO/'tests/results/v2-status-transfer.json').read_text(encoding='utf-8'))\n    inputs=[{'file':c['file'],'text':c['text']} for c in previous['cases']]\n    protocol={'sourceCommit':'87c617c','prompt':PROMPT,'boundary':BOUNDARY,'inputs':inputs,\n      'model':'gpt-6.1-sol','effort':'low','arms':['A'],'expectedLabelsWithheld':True,\n      'purpose':'Test actual existing-host semantic execution on the same R55 statements before designing a repeated semantic workflow. No Skill enabled, no automatic product claimed.',\n      'criteria':['Return every input once; allowed statuses only; exact source evidence and no unsupported approvals.',\n       'Review each decision against the frozen R55 labels; retain the defer annotation ambiguity and reasons, not just a binary total.',\n       'Preserve all inputs; record real invocation, response, output/time and failures. Schema validity is not semantic validity.'],\n      'limits':'One real batch, exposed selected statements, current hosted model rather than offline standalone code. No full-Skill versus raw/generic result, unattended integration, stable accuracy or cost claim.'}\n    (OUT/'protocol.json').write_text(json.dumps(protocol,ensure_ascii=False,indent=2),encoding='utf-8')\n    (REPO/'tests/results/v2-semantic-runtime.json').write_text(json.dumps({'status':'Frozen before invocation; not run','protocol':protocol,'runner':Path(__file__).read_text(encoding='utf-8')},ensure_ascii=False,indent=2),encoding='utf-8')\n\ndef run():\n    protocol=json.loads((OUT/'protocol.json').read_text(encoding='utf-8'))\n    def fixtures(case,workspace,arm=None):\n        (workspace/'inputs').mkdir()\n        (workspace/'inputs/statements.json').write_text(json.dumps(protocol['inputs'],ensure_ascii=False,indent=2),encoding='utf-8')\n    config=base.config\n    base.config=lambda skill:[s.replace('web_search=\"live\"','web_search=\"disabled\"').replace('sandbox_workspace_write.network_access=true','sandbox_workspace_write.network_access=false') for s in config(skill)]\n    base.OUT,base.BOUNDARY=OUT,BOUNDARY\n    base.SOURCES={};base.fixtures=fixtures;base.PROMPTS['interpret']=PROMPT\n    base.run('r56','interpret','A')\n\nif __name__=='__main__':\n    parser=argparse.ArgumentParser();parser.add_argument('action',choices=['prepare','run'])\n    prepare() if parser.parse_args().action=='prepare' else run()\n"
+}
