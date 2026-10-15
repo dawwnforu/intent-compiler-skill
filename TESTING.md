@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R57 repeated semantic workflow](tests/v2-semantic-workflow.md): frozen same-tool before/after repairs with explicit existing-host authorization and evaluator-only new-input cases. Snapshot comparison confirms only the intended workflow paragraph differs. Generation is in progress; no implementation or improvement is accepted yet.
+
 [R56 semantic runtime](tests/v2-semantic-runtime.md): one actual existing-host invocation correctly interprets7 unambiguous R55 statements and explains the predeclared deferral ambiguity. JSON/source checks passed; no Skill enabled, no8/8 claim, no unattended integration or runtime rule adoption.
 
 [R55 wording transfer](tests/v2-status-transfer.md): unchanged historical R22 processor matches5/8 frozen new phrasings; three clear decisions become unresolved. Source/archive bytes are preserved. This identifies a method limitation, not a current full-Skill comparison or general accuracy score; no keyword patch or new dependency added.

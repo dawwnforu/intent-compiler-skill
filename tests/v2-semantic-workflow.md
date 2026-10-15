@@ -2,6 +2,8 @@
 
 Status: same-product fixtures, before/after Skill snapshots and new-input acceptance frozen before generation. [Exact protocol and snapshots](results/v2-semantic-workflow.json). No runtime adoption.
 
+Pre-execution snapshot comparison confirms that only `references/workflow-knowledge.md` differs, and removing the exact candidate paragraph restores identical normalized text. The baseline's initial commentary already proposes a real current-Codex interpreter and source validation; that intention is not yet a working implementation, and the method must not later be credited as an exclusive candidate discovery.
+
 Both arms repair the same historical R22 tool, with identical source files showing ordinary decisions, an agreed deferral, an individual proposal, quoted UI text, a task and an unreadable file. The novice asks for one-entry repeated processing using their existing AI, with no new API signup or hand-labeling. Synthetic current-host model use is explicitly authorized equally; no credentials may be inspected or changed. The frozen holdout meanings are evaluator-only.
 
 The copied candidate module adds one paragraph separating the runtime interpreter from deterministic orchestration, preserving action/object/outcome scope, checking evidence before recording success, and distinguishing source uncertainty from unavailable interpretation. Core and maintained modules remain unchanged. This tests an implementation method following R55/R56; it is not evidence that more instructions or a live model automatically solve the workflow.
