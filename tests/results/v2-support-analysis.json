@@ -1,5 +1,12 @@
 {
   "status": "3/3 terminal generations; independent report acceptance recorded separately.",
+  "humanFeedback": {
+    "receivedDate": "2026-10-15",
+    "presentation": "Inline summary of verified G versus V2 differences: both identify duplicates/open tickets/unanswered work; V2 adds ticket navigation, expandable source events/lines and owner/next-check fields. Output 4765 vs3951 tokens, approximately108 vs106 seconds.",
+    "response": "乙更有用，这些操作值得保留",
+    "scope": "One user's explicit preference for the described practical differences and cost tradeoff; not a blinded full-artifact usability trial, satisfaction rate or proof of general superiority.",
+    "decision": "Preserve evidence navigation and actionable follow-up fields when supported by the actual workflow. Do not cut them merely to reduce tokens or require them for unrelated tasks. No new generic instruction needed."
+  },
   "protocol": {
     "sourceCommit": "61bffc9",
     "runtimeBehaviorBaseline": "7395bfb",
