@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R50 co-watching](tests/v2-cowatch.md): project-derived raw/current/generic comparison frozen for actual multi-client playback, late join/reconnect and room separation. Not yet behaviorally tested; no quality claim.
+[R50 co-watching](tests/v2-cowatch.md): raw A passes independent HTTP and actual-browser playback/sync, late join, explicit reload/rejoin, room isolation and disconnect indication. Skill generation is complete but unevaluated; generic is running. No winner yet; native launcher and internet delivery untested.
 
 [R49 scoped knowledge](tests/v2-scoped-knowledge.md): all three initial deliveries and three AI-assisted updates answer the scoped/date-dependent questions correctly, retain originals and preserve unaffected rules. No exclusive quality gain or new rule; single-run cost differences are not stable savings. Raw's extra backup copies have broken relative source links, while current documents resolve. Environment recovery and corrected evaluator newline comparison remain separate from model results.
 
