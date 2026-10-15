@@ -14,4 +14,12 @@ Use the exact R45 before/after snapshots with identical tools/model/settings. Th
 
 Fixture capacities are4 per portrait upright grid,6 per landscape upright grid, and6 per portrait rotated grid. The one-page solution is feasible, not a claim to solve arbitrary rectangle packing. Order: flexible-after, fixed-before, flexible-before, fixed-after. One run per condition cannot establish stable cost savings or broad superiority. Reportlab and pypdf are available in the same prepared interpreter for all arms; no dependency is installed for this test.
 
-No generated result, user preference or adoption is claimed. The candidate remains outside the shipped Skill until evidence supports it. Read-only evaluator PDF checks follow the PDF skill; this does not enable additional Skills inside generator conditions.
+The candidate remains outside the shipped Skill until evidence supports it. Read-only evaluator PDF checks follow the PDF skill; this does not enable additional Skills inside generator conditions.
+
+## Interim observation: first completed condition
+
+Flexible-after completed in398.43seconds with15856output tokens. Independent PDF operator/text checks found one A4 page, six100×60mm labels, correct copies, required margins/gaps and no overlaps. Poppler rendering was visually inspected: complete Chinese names/groups, readable and unclipped. The actual browser interface compares upright, rotated and mixed arrangements instead of silently choosing only the first feasible layout.
+
+The held-out copies update **fails**: first person2/second person0 is rejected because this generated tool requires every row to have1–1000 copies. This was reproduced through both the original parser and the actual browser's Update Preview button. Negative and fractional copies are correctly rejected. Original input bytes remain unchanged. No evaluator repair was applied; a successful initial PDF is not a successful reusable-tool result.
+
+The generator encountered unavailable desktop GUI support and delivered a local browser application. The evaluator verified that original app through its loopback server. Native file chooser/download, launcher double-click and physical printing remain untested. Other conditions are still pending; this observation establishes neither an improvement over the before condition nor a stable efficiency result. The linked record includes original artifact source and independent checker source for reproducibility.
