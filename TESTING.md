@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R46 print transfer](tests/v2-print-alternatives.md) freezes the unchanged R45 paragraph in a new physical-label task and explicit-orientation control. Feasible capacities are checked; actual PDF results remain pending. No candidate adoption yet.
+[R46 print transfer](tests/v2-print-alternatives.md) tests the unchanged R45 paragraph in a new physical-label task and explicit-orientation control. Two conditions have independent PDF/render/browser evidence: initial layouts pass, but both reject the held-out zero-copy update. Matched comparisons remain pending; no candidate adoption yet.
 
 [R45 alternatives](tests/v2-decision-alternatives.md): four actual runs complete. After exposes the115 alternative missed by before; both exact40 controls retain122 and exclude oversupply. Independent program checks cover all four, browser checks both after products. Lower single-run cost is not stable savings; source conflict retained and candidate unadopted pending transfer.
 
