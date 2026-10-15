@@ -6,6 +6,8 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+The quality module now omits six generic questions already covered by the core, retaining actual verification and failure handling. [Four comparisons](tests/v2-quality-trim.md) retain handover utility, backup/recovery guidance and correct registration-capacity decisions. Lower single-run output with differing formats does not establish stable token savings.
+
 Original project: [Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill). Existing attribution: **Intent Compiler contributors**, Copyright (c) 2026 Intent Compiler contributors. Host manifests remain at **0.2.0**; this branch is an **unreleased 2.0 candidate**, not a published 2.0 release. Specific contributions are recorded in Git history; no additional author identity is asserted.
 
 Source labels provide attribution and traceability, not copy prevention or proof of ownership. The standard MIT license remains unchanged, permitting copying, modification, redistribution and commercial use subject to its conditions. Redistribution alone is not evidence of infringement. The standalone Skill folder includes [bilingual source information](skills/intent-compiler/README.md) and the same license; retain both in any future package. No upload package has been created or published in this change.

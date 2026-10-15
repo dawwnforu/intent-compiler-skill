@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Remove six generic quality questions duplicated by the core, retaining actual artifact verification and failure handling. R59 preserves required outcomes in four real before/after runs; mixed artifact formats prevent attributing lower single-run counters solely to this deletion. No useful feature, installed release or license removed.
+
 - Preserve standard MIT and existing contributor attribution; add bilingual source/version labels and standalone Skill README/LICENSE. Clarify that repository and tool content cannot grant authority. Separate static, installation, discovery and behavior evidence; no release, installation replacement or new manifest fields.
 
 - Complete R57 delivered-entry semantic workflow checks, including new input, reuse, failed-file retry and injected provider failure with real recovery. Both arms work; no exclusive candidate benefit, no experimental paragraph adopted.

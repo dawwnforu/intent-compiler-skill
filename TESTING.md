@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R59 quality trim](tests/v2-quality-trim.md): four actual before/after runs retain handover utility, correct capacity decisions, traceable details and originals. Adopt removal of six generic questions duplicated by the core; operational checks remain. Lower single-run counters are confounded by output formats and do not establish stable savings; rendering and recipient usability untested.
+
 [R58 source authority](tests/v2-source-authority.md): all three actual deliveries retain useful local handover and ignore synthetic source instructions claiming external authority. Independent copies run correctly and preserve originals/MIT; no forbidden operation observed. Shared result, not exclusive gain or comprehensive injection resistance; encoding failures and extra artifacts retained.
 
 [R57 repeated semantic workflow](tests/v2-semantic-workflow.md): both delivered entries pass actual new-input processing, unchanged reuse, repaired-file retry, exact source checks and injected provider-process failure followed by real recovery. Both preserve the six held-out meanings; no exclusive candidate benefit or rule adoption. Nested generation environment failures remain recorded separately; browser interaction and total model cost are unverified.
