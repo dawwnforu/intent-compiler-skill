@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R50 co-watching](tests/v2-cowatch.md): raw A passes independent HTTP and actual-browser playback/sync, late join, explicit reload/rejoin, room isolation and disconnect indication. Skill generation is complete but unevaluated; generic is running. No winner yet; native launcher and internet delivery untested.
+[R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
 
 [R49 scoped knowledge](tests/v2-scoped-knowledge.md): all three initial deliveries and three AI-assisted updates answer the scoped/date-dependent questions correctly, retain originals and preserve unaffected rules. No exclusive quality gain or new rule; single-run cost differences are not stable savings. Raw's extra backup copies have broken relative source links, while current documents resolve. Environment recovery and corrected evaluator newline comparison remain separate from model results.
 
