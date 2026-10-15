@@ -1,6 +1,12 @@
 # R53: feedback grounded in the deciding event
 
-Status: protocol, product fixture and before/after Skill snapshots frozen before generation; not tested. [Exact inputs and runner](results/v2-outcome-feedback.json).
+Status: both generations completed; partial independent browser acceptance recorded, remaining checks pending. [Exact inputs, deliveries and evidence](results/v2-outcome-feedback.json).
+
+Actual pointer play in both arms confirmed that a displayed23% underthrow now recommends increasing force, retains that feedback after automatic retry, and a subsequent64% throw on the same platform succeeds. Both advance to station02, cap a long hold at100%, recommend reducing excessive force, and preserve best1 when the next failure resets the streak. This repairs the exposed R52 defect in both arms; it is not an exclusive candidate correctness gain.
+
+Baseline generation took189.12 seconds and7086 output tokens; candidate255.82 seconds and7986 output tokens. These are one run each with differing verification effort, not stable cost estimates. Source inspection shows baseline lengthened automatic reset to1.8 seconds, whereas candidate retains original0.65-second failure and1.3-second success delays. Candidate also displays a force marker and numeric shortfall; usefulness beyond the common repair has not been rated by a user. Timing was not independently measured in the browser.
+
+Remaining independent checks: near-edge miss whose later position is misleading, narrow controls, reload persistence and input interruption. Full acceptance and adoption are undecided; maintained Skill files remain unchanged. The raw record preserves a broad V2 text wait that returned too early: its later visible success feedback and counters, not that wait, establish success.
 
 R52 supplies an exposed failure: the delivered V2 game tells a23% underthrow to reduce force because it diagnoses the later fallen position. Its short-lived result also disappears when automatic retry begins. The goal of this repair is practical novice learning while preserving quick retry and existing gameplay, not a longer explanation or another generic verification reminder.
 
