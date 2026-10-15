@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R51 connection truth](tests/v2-connection-truth.md): frozen before/after repairs of the same R50 product are running. The candidate distinguishes cached data from live confirmation and actual local execution. No result or runtime adoption yet; this is exposed-failure repair, not unseen transfer.
+
 [R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
 
 [R49 scoped knowledge](tests/v2-scoped-knowledge.md): all three initial deliveries and three AI-assisted updates answer the scoped/date-dependent questions correctly, retain originals and preserve unaffected rules. No exclusive quality gain or new rule; single-run cost differences are not stable savings. Raw's extra backup copies have broken relative source links, while current documents resolve. Environment recovery and corrected evaluator newline comparison remain separate from model results.
