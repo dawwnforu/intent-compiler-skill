@@ -572,8 +572,62 @@
         "Source shows V1 automatic result delay changed to 1.8 seconds from original failure 0.65/success 1.3; V2 retains original delays. This is source evidence, not timed browser measurement.",
         "Both arms fix the observed shortfall and retain feedback. No exclusive correctness gain or broad preference conclusion is established."
       ]
+    },
+    "followup-browser-independent": {
+      "method": "Actual CUA pointer input and rendered state, unchanged products",
+      "reload": "Both reopened at station01/streak0/best1, preserving prior record",
+      "V1": "480ms hold yielded52% and success. After reload, 410ms actual throw yielded45% and correctly advised increasing force; last result persisted.",
+      "V2": "410ms hold yielded46%; correctly advised increasing force, displayed33-unit shortfall, and retained feedback after ready reset.",
+      "nearMissEvidence": "near-miss-independent.json separately derives landing-height and later fallen coordinates from inspected formulas; both observed shots are short despite later x beyond target left edge.",
+      "failedChecks": [
+        "After V1 reload, an old index clicked instructional text instead of the throw button; result wait timed out. Retargeted current button and recorded actual45% result. The no-op is not a failed game throw.",
+        "Viewport override requested390x844 twice, but actual DOM innerWidth remained1280 and scrollWidth1265, including a new tab. Narrow layout is NOT independently verified. v1-browser-narrow.png is a misleading historical filename containing a desktop screenshot; do not cite it as narrow-screen proof. Override reset afterward."
+      ],
+      "limits": "No real phone, sustained held-input interruption or independently timed retry latency. These remain unchecked, not passing. No additional model rerun or product edits."
+    },
+    "near-miss-independent": {
+      "samples": {
+        "V1": [
+          {
+            "charge": 0.445,
+            "atLandingHeight": 574.200874635568,
+            "atFallThreshold": 748.5000000000016
+          },
+          {
+            "charge": 0.45,
+            "atLandingHeight": 578.4689376443439,
+            "atFallThreshold": 751.6000000000034
+          },
+          {
+            "charge": 0.455,
+            "atLandingHeight": 582.7569549235839,
+            "atFallThreshold": 757.8166666666681
+          }
+        ],
+        "V2": [
+          {
+            "charge": 0.455,
+            "atLandingHeight": 585.8218443361129,
+            "atFallThreshold": 757.3418610654928
+          },
+          {
+            "charge": 0.46,
+            "atLandingHeight": 590.1501324581271,
+            "atFallThreshold": 762.1166321794458
+          },
+          {
+            "charge": 0.465,
+            "atLandingHeight": 594.5014768774872,
+            "atFallThreshold": 766.9112820780352
+          }
+        ]
+      },
+      "conclusion": "Observed rounded45% baseline and46% candidate are short at the deciding height, although later fallen positions pass the target left edge. Actual UI in both correctly advised increasing force.",
+      "limits": "Equations inspected in delivered files; endpoints and midpoint sampled, not full numerical coverage. Browser observations separately recorded; no source modified."
     }
   },
-  "diagnosticSources": {},
+  "diagnosticSources": {
+    "check_outcome_feedback.py": "\"\"\"Source-derived check of observed near misses; not a browser test.\"\"\"\nimport json\nimport math\nfrom v2_outcome_feedback import OUT\n\nresults = {}\nfor arm, rounded in [('V1', .45), ('V2', .46)]:\n    source = (OUT / 'runs/r53/repair' / arm / 'workspace/index.html').read_text(encoding='utf-8')\n    for fragment in ('G=650, launch={x:175,y:333}, floor=360',\n                     'speed=240+charge*500', 'person.vx=speed*.8;person.vy=-speed*.75',\n                     'target={x:610,w:185}'):\n        assert fragment in source, 'Inspect changed geometry before reusing this oracle'\n    samples = []\n    for p in (rounded-.005, rounded, rounded+.005):\n        speed = 240 + p*500\n        vx, vy = speed*.8, -speed*.75\n        if arm == 'V1':\n            assert 'crossingX=person.x-person.vx*dt*(1-fraction)' in source\n            x,y = 175.,333.\n            crossing = None\n            for _ in range(600):\n                oldx,oldy = x,y\n                vy += 650/120\n                x += vx/120\n                y += vy/120\n                if crossing is None and vy>0 and oldy<=340<=y:\n                    crossing = oldx+(x-oldx)*(340-oldy)/(y-oldy)\n                if y>575:\n                    break\n            assert crossing is not None\n            later = x\n        else:\n            assert 'Math.sqrt(person.vy*person.vy+2*G*(floor-20-launch.y))' in source\n            t = (-vy+math.sqrt(vy*vy+2*650*7))/650\n            crossing = 175+vx*t\n            later = 175+vx*((-vy+math.sqrt(vy*vy+2*650*242))/650)\n        assert crossing < 620 and later > 610\n        samples.append({'charge':p,'atLandingHeight':crossing,'atFallThreshold':later})\n    results[arm]=samples\nrecord={'samples':results,'conclusion':'Observed rounded45% baseline and46% candidate are short at the deciding height, although later fallen positions pass the target left edge. Actual UI in both correctly advised increasing force.',\n        'limits':'Equations inspected in delivered files; endpoints and midpoint sampled, not full numerical coverage. Browser observations separately recorded; no source modified.'}\n(OUT/'near-miss-independent.json').write_text(json.dumps(record,indent=2),encoding='utf-8')\nprint(json.dumps(record,indent=2))\n"
+  },
   "exporter": "﻿\"\"\"Preserve terminal game deliveries without promoting self-tests to acceptance.\"\"\"\nimport json\nfrom pathlib import Path\nfrom v2_outcome_feedback import OUT, REPO\n\ntarget=REPO/'tests/results/v2-outcome-feedback.json'\nrecord=json.loads(target.read_text(encoding='utf-8'))\nrecord['runs']={}\nfor arm in record['protocol']['order']:\n    folder=OUT/'runs/r53/repair'/arm\n    if not (folder/'run.json').exists():continue\n    workspace=folder/'workspace'\n    events=[json.loads(line) for line in (folder/'events.jsonl').read_text(encoding='utf-8').splitlines()]\n    items=[e['item'] for e in events if e.get('type')=='item.completed']\n    files=list(workspace.glob('*'))\n    for name in ('src','app','assets','public','web'):\n        if (workspace/name).is_dir():files.extend((workspace/name).rglob('*'))\n    record['runs'][arm]={\n        'run':json.loads((folder/'run.json').read_text()),\n        'usage':[e['usage'] for e in events if e.get('type')=='turn.completed'],\n        'commands':[i for i in items if i.get('type')=='command_execution'],\n        'messages':[i['text'] for i in items if i.get('type')=='agent_message'],\n        'response':(folder/'response.md').read_text(encoding='utf-8') if (folder/'response.md').exists() else None,\n        'sourceFiles':{str(p.relative_to(workspace)):p.read_text(encoding='utf-8-sig') for p in files if p.is_file() and p.suffix in ('.md','.py','.js','.mjs','.cjs','.html','.css','.json','.svg')},\n        'invocation':json.loads((folder/'invocation.json').read_text(encoding='utf-8')),\n        'environment':json.loads((folder/'environment.json').read_text(encoding='utf-8')),\n        'limits':'Both arms received the same existing game fixture; no synthetic success assigned. Generated self-tests are distinct from independent actual UI acceptance. Browser profiles and images remain local.'}\nrecord['status']=f\"{len(record['runs'])}/2 terminal generation records; independent acceptance is recorded separately.\"\nrecord['independent']={p.stem:json.loads(p.read_text(encoding='utf-8')) for p in OUT.glob('*-independent.json')}\nrecord['diagnosticSources']={p.name:p.read_text(encoding='utf-8') for p in Path(__file__).parent.glob('check_outcome_feedback*.py')}\nrecord['exporter']=Path(__file__).read_text(encoding='utf-8')\ntarget.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')\nprint(record['status'])\nfor arm,run in record['runs'].items():print(arm,run['run'],run['usage'])\n\n"
 }
