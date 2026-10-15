@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R46 print transfer](tests/v2-print-alternatives.md) freezes the unchanged R45 paragraph in a new physical-label task and explicit-orientation control. Feasible capacities are checked; actual PDF results remain pending. No candidate adoption yet.
+
 [R45 alternatives](tests/v2-decision-alternatives.md): four actual runs complete. After exposes the115 alternative missed by before; both exact40 controls retain122 and exclude oversupply. Independent program checks cover all four, browser checks both after products. Lower single-run cost is not stable savings; source conflict retained and candidate unadopted pending transfer.
 
 [R44 purchasing](tests/v2-purchase-comparison.md): all three actual tools pass initial costs and clarified shipping updates. Preserve an evaluator waiver-threshold ambiguity and V2's opening cost omission. A post-hoc case finds G alone offers cheaper extra packs (115 versus122); this is a concrete V2 gap, not a frozen-score or general comparison win. Actual browser coverage and native-file limits are recorded; no Skill change adopted.
