@@ -1,6 +1,22 @@
 # R52: a playable charge-and-throw loop
 
-Status: all three generations complete. A and V2 have bounded independent actual-browser acceptance; G UI remains pending. V2 has a demonstrated misleading failure hint; no comparison winner or runtime change. [Exact protocol, runner, snapshot and available records](results/v2-throw-game.json).
+Status: all three generations and bounded independent actual-browser checks complete. V2 has a demonstrated misleading failure hint; no runtime change or overall winner. [Exact protocol, runner, snapshot and records](results/v2-throw-game.json).
+
+## Final comparison
+
+All three deliver a working pointer-play loop: charge/release, observable wins and losses, retry/continuation, capped charge, best-score persistence and successful390px play. These are not exclusive Skill gains. Candidate2.0 is the slowest and largest output in this single trial; different model-side verification work prevents a stable efficiency conclusion.
+
+| Arm | Seconds | Output tokens | Observed practical difference / failure |
+|---|---:|---:|---|
+| Raw A |178.66|7172|Manual retry/next station, best score and working Space continuation; failure text is randomly selected encouragement.|
+| Skill V2 |291.93|9983|Automatic retry/next station, manual in-flight reset; actionable23% underthrow advice is demonstrably wrong and result text quickly disappears.|
+| Generic G |224.32|8735|Persistent result view, correct advice for tested17% short and100% long shots; focused retry button ignores Space but works with Enter and pointer.|
+
+G's actual first-level49% throw succeeds; next-level17% fails with a correct increase-force suggestion, and100% fails with a decrease-force suggestion. At390px,50% succeeds with no horizontal overflow; best1 survives reload. A failed Space retry and the following attempted press on a still-disabled throw control remain recorded rather than counted as a successful input. Source inspection suggests global Space keyup suppresses native button activation. Correct advice in two extremes does not validate every G miss; its diagnostic also uses a later body position.
+
+The next useful improvement is outcome-based feedback verification: use evidence from the event that decides success/failure and test whether the recommended adjustment actually improves the attempt, while keeping useful feedback available for the next try. This is a proposed follow-up from an exposed failure, not an adopted generic rule or a passed fix. Simply adding more helpful-sounding functions is not the goal.
+
+All evaluator tabs/servers are closed, viewport overrides reset, and original deliveries unchanged. Physical touch, held-input interruption, native file entry, sound, broad frame-rate behavior and subjective enjoyment remain unverified independently. No PEAK compatibility or multiplayer claim. The whole upgrade objective is still unproven.
 
 ## Candidate V2: usable loop, incorrect corrective advice
 
@@ -10,7 +26,7 @@ The candidate adds calculated directional failure advice. At70% the UI says the 
 
 Failure feedback resets after0.65seconds in the source; the first actual observation missed the message. Semantic waits subsequently captured it. A wait for the expected correct underthrow message timed out and remains recorded; a broader result wait revealed the wrong advice. A helpful-sounding feature is not a benefit when it recommends the wrong adjustment. The candidate's higher observed time/output is not justified merely by its larger feature list, nor does this one case establish general harm.
 
-Both A/V2 evaluator servers and tabs are closed, with viewport overrides reset. G completed in224.32seconds with8735 output tokens but has not yet received independent browser acceptance. Physical mobile, held-input interruption, sound, direct-file entry and frame-rate variation remain unverified independently. Model self-test claims and failures are preserved separately.
+At this intermediate stage G had completed generation but browser acceptance was pending; its completed observations are now above. Physical mobile, held-input interruption, sound, direct-file entry and frame-rate variation remain unverified independently. Model self-test claims and failures are preserved separately.
 
 ## First actual product: raw A
 

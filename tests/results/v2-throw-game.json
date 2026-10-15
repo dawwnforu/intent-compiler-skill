@@ -606,6 +606,52 @@
       "cleanup": "Viewport reset, evaluator tab31 closed, owned server stopped.",
       "limits": "No independent held-input interruption, physical mobile, multiple frame-rate or sound test. Native direct-file opening is untested; actual localhost entry works. One raw generation; candidate/generic still pending. Gameplay success is not a general quality or subjective-fun result."
     },
+    "g-browser-independent": {
+      "arm": "G",
+      "method": "Actual CUA browser pointer holds, result views, keyboard and390px viewport on unchanged delivered game served on8812. No generated-source repair or DOM mutation.",
+      "attempts": [
+        {
+          "level": 1,
+          "holdMs": 600,
+          "visiblePower": 49,
+          "outcome": "Success, best1; result overlay and person visible on target behind it."
+        },
+        {
+          "level": 2,
+          "holdMs": 200,
+          "visiblePower": 17,
+          "outcome": "Failure: 扔近了，下次多蓄一点力。 Result remains until retry."
+        },
+        {
+          "action": "Space on focused retry button",
+          "outcome": "No state change. The next attempted hold was on still-disabled throw button and did nothing; not counted as a launch. Pointer retry then works."
+        },
+        {
+          "level": 2,
+          "holdMs": 2000,
+          "visiblePower": 100,
+          "outcome": "Failure: 飞过头啦，下次少蓄一点力。 Enter on retry button returns to ready."
+        },
+        {
+          "viewport": "390x844",
+          "level": 1,
+          "holdMs": 600,
+          "visiblePower": 50,
+          "outcome": "Success, best1; screenshot saved."
+        }
+      ],
+      "continuedUse": "Pointer next-level and retry work; best1 survives reload while current level returns to1. No duplicate score increment observed in these attempts.",
+      "narrowLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "screenshotInspected": true,
+        "actualPointerSuccess": true,
+        "physicalTouchTested": false
+      },
+      "sourceInspection": "Pure physics module separates velocity, stepping and descending crossing interpolation. Failure advice still uses a later body position; two tested extremes give correct advice, not proof of all miss classifications. Global Space keyup prevents default; observed Space retry failure remains distinct from working Enter retry.",
+      "cleanup": "Viewport reset, tab33 closed, owned server stopped.",
+      "limits": "No independent physical mobile, sustained keyboard charge, held-input interruption, sound or frame-rate variation test. Direct-file launch and claimed100-level reachability are not independently verified. One trial, no broad superiority claim."
+    },
     "v2-browser-independent": {
       "arm": "V2",
       "method": "Actual CUA pointer holds, semantic waits for transient result text, screenshots, keyboard and viewport checks on unchanged delivery served on8811.",

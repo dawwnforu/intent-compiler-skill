@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R52 throw game](tests/v2-throw-game.md): all three generations complete; A/V2 have actual playable-loop and narrow-layout checks, G UI pending. V2's23% underthrow wrongly advises reducing force; actual message plus source-derived flight diagnosis retained. No runtime change or winner; physical touch, input interruption and frame-rate invariance remain unverified. This is not PEAK or multiplayer validation.
+[R52 throw game](tests/v2-throw-game.md): all three generations and bounded actual-browser playthroughs complete. All retain core play, continuation and best scores. V2's23% underthrow wrongly advises reducing force; G keeps result feedback but has a Space-retry defect. No runtime change or overall winner; physical touch, input interruption and frame-rate invariance remain unverified. This is not PEAK or multiplayer validation.
 
 [R51 connection truth](tests/v2-connection-truth.md): both repairs pass independent HTTP and actual browser checks for temporary service failure/recovery while retaining synchronization, refresh, late join and isolation. Both fix the stale sidebar; candidate additionally labels last-confirmed time/count, with no established material advantage. Less output but longer generation is not stable efficiency. Candidate paragraph not adopted; exposed-failure repair only.
 
