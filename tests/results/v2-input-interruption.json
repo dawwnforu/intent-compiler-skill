@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-15",
+  "scope": "Independent follow-up on unchanged R53 artifacts; no new generations or Skill changes.",
+  "handlerChecks": {
+    "method": "Unmodified script executed in Node VM with stub DOM/canvas/storage and explicit frame steps. Invoke registered handlers; no real browser focus or pointer delivery.",
+    "results": {
+      "V1": [
+        {
+          "input": "pointer",
+          "event": "blur",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "key",
+          "event": "blur",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "visibilitychange",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "key",
+          "event": "visibilitychange",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "pointercancel",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "lostpointercapture",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        }
+      ],
+      "V2": [
+        {
+          "input": "pointer",
+          "event": "blur",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "key",
+          "event": "blur",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "visibilitychange",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "key",
+          "event": "visibilitychange",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "pointercancel",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        },
+        {
+          "input": "pointer",
+          "event": "lostpointercapture",
+          "chargedBefore": "32%",
+          "cancelledPower": "0%",
+          "staleReleaseIgnored": true,
+          "newThrowAccepted": true
+        }
+      ]
+    },
+    "limits": "Does not prove OS blur, real pointer capture, touchscreen or background animation timing. Actual held-input browser test remains unverified."
+  },
+  "checkerSource": "// Event-handler unit checks in a stub DOM, not browser/OS input simulation.\nconst fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');\nconst root=path.resolve('outputs/intent-compiler-v2/input-interruption-r60');\nfunction target(){const listeners={};return {style:{},textContent:'',disabled:false,firstChild:{},addEventListener(n,f){(listeners[n]??=[]).push(f)},emit(n,e={}){for(const f of listeners[n]||[])f(e)},setAttribute(){},setPointerCapture(){}};}\nconst results={};\nfor(const arm of ['V1','V2']){\n const source=fs.readFileSync(path.join(root,arm,'index.html'),'utf8');\n const original=fs.readFileSync(path.resolve('outputs/intent-compiler-v2/outcome-feedback-r53/runs/r53/repair',arm,'workspace/index.html'));\n assert.equal(Buffer.compare(Buffer.from(source),original),0);\n results[arm]=[];\n for(const [input,event] of [['pointer','blur'],['key','blur'],['pointer','visibilitychange'],['key','visibilitychange'],['pointer','pointercancel'],['pointer','lostpointercapture']]){\n  const nodes=new Map(),doc=target(),win=target();\n  const get=id=>{if(!nodes.has(id))nodes.set(id,target());return nodes.get(id)};\n  doc.getElementById=get;doc.querySelector=()=>target();doc.hidden=false;\n  const ctx=new Proxy({},{get:(o,k)=>k in o?o[k]:()=>{}});\n  get('game').getContext=()=>ctx;\n  let frame;\n  const sandbox={document:doc,window:win,localStorage:{getItem:()=>null,setItem(){}},matchMedia:()=>({matches:true}),requestAnimationFrame:f=>{frame=f},console};\n  vm.runInNewContext(source.match(/<script>([\\s\\S]*?)<\\/script>/)[1],sandbox);\n  const button=get('throw'),e={button:0,pointerId:7,code:'Space',target:button,repeat:false,preventDefault(){}};\n  const begin=()=>input==='key'?doc.emit('keydown',e):button.emit('pointerdown',e);\n  const end=()=>input==='key'?doc.emit('keyup',e):button.emit('pointerup',e);\n  begin();for(let t=100;t<=400;t+=25)frame(t);\n  const charged=get('power').textContent;\n  assert.ok(parseInt(charged)>0);\n  if(event==='blur')win.emit(event);else if(event==='visibilitychange'){doc.hidden=true;doc.emit(event);doc.hidden=false;doc.emit(event)}else button.emit(event,e);\n  assert.equal(get('power').textContent,'0%');assert.equal(button.disabled,false);\n  const cancelled=button.textContent;\n  end();assert.equal(button.textContent,cancelled);assert.equal(button.disabled,false);\n  begin();for(let t=500;t<=800;t+=25)frame(t);end();assert.equal(button.disabled,true);\n  results[arm].push({input,event,chargedBefore:charged,cancelledPower:'0%',staleReleaseIgnored:true,newThrowAccepted:true});\n }\n}\nfs.writeFileSync(path.join(root,'handlers-independent.json'),JSON.stringify({method:'Unmodified script executed in Node VM with stub DOM/canvas/storage and explicit frame steps. Invoke registered handlers; no real browser focus or pointer delivery.',results,limits:'Does not prove OS blur, real pointer capture, touchscreen or background animation timing. Actual held-input browser test remains unverified.'},null,2));\nconsole.log('PASS: 12 cancellation/release/restart handler cases; browser interruption NOT VERIFIED');\n",
+  "browser": {
+    "host": "Codex in-app browser",
+    "arm": "V2",
+    "action": "Five-second native pointer click on charge control; no successful focus interruption during hold.",
+    "observedAfterRelease": "0% ready; previous throw 100%, overshot safe zone by408 distance units; recommends less force.",
+    "status": "Ordinary long hold passed; actual held-input interruption unverified.",
+    "screenshot": "outputs/intent-compiler-v2/input-interruption-r60/ordinary-hold.png"
+  },
+  "decision": "No exclusive improvement and no runtime change. Stub handler checks do not close browser/OS interruption or narrow/touch acceptance."
+}

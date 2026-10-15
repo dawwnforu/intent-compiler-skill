@@ -10,7 +10,9 @@
 
 [R55 wording transfer](tests/v2-status-transfer.md): unchanged historical R22 processor matches5/8 frozen new phrasings; three clear decisions become unresolved. Source/archive bytes are preserved. This identifies a method limitation, not a current full-Skill comparison or general accuracy score; no keyword patch or new dependency added.
 
-[R54 support analysis](tests/v2-support-analysis.md): all three complete reports pass essential unit, duration, follow-up and evidence-boundary checks. V2 adds verified in-report evidence navigation but has higher output; no unique core analysis or stable efficiency gain. Input-newline verifier correction preserved; no runtime change or human-preference claim.
+[R54 support analysis](tests/v2-support-analysis.md): all three complete reports pass essential unit, duration, follow-up and evidence-boundary checks. V2 adds verified in-report evidence navigation but has higher output; no unique core analysis or stable efficiency gain. Input-newline verifier correction preserved; user prefers the summarized verified navigation/follow-up differences, not a blind whole-product comparison. No runtime change.
+
+[R60 input interruption](tests/v2-input-interruption.md): twelve independent stub event-handler checks pass on unchanged R53 deliveries. Ordinary browser long hold works; actual interruption during hold remains unverified. No new generation, runtime change or compatibility conclusion.
 
 [R53 outcome feedback](tests/v2-outcome-feedback.md): both exposed-game repairs correct shortfall advice, retain feedback and pass observed changed-input success, near misses and reopened record checks. No exclusive correctness gain; candidate paragraph not adopted. Requested narrow viewport did not take effect, so narrow layout and held-input interruption remain independently unchecked.
 
