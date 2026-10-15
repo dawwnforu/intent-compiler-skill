@@ -1,6 +1,12 @@
 # R51: current confirmation versus cached collaboration state
 
-Status: protocol and inputs frozen before generation; no result yet. [Exact protocol, runner and snapshots](results/v2-connection-truth.json).
+Status: baseline V1 repair is terminal; candidate V2 is running. No comparative conclusion or runtime adoption. [Exact protocol, runner, snapshots and available records](results/v2-connection-truth.json).
+
+## First result: baseline repair
+
+V1 completed in459.89seconds with12830 output tokens. Its final source distinguishes recent responses from actual playback and changes the sidebar to unknown on connection failure without the candidate paragraph. These are source observations, not yet independent browser acceptance. Failed model-side browser launches and intermediate assertions are retained alongside the final self-test claims.
+
+Independent real HTTP requests pass bidirectional play/pause/seek, independent-room isolation, elapsed-time late joining, rejoin without resetting existing position and actual media range bytes. Both source inputs remain byte-identical. These checks do not validate the browser's connection messages, media playback or recovery UI; that remains pending until generation finishes and the shared8765 origin is free. The candidate cannot be credited with an exclusive improvement from the baseline's own repair.
 
 R50 exposed a real discrepancy: the current Skill product reported connection loss in its main status but retained an apparently live participant count and automatic-sync claim in its sidebar. It also demonstrated why advancing media time alone cannot establish playback. The existing web module already asks for failed-request checks; repeating that generic instruction is not the hypothesis here.
 

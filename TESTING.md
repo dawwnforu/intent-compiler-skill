@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R51 connection truth](tests/v2-connection-truth.md): frozen before/after repairs of the same R50 product are running. The candidate distinguishes cached data from live confirmation and actual local execution. No result or runtime adoption yet; this is exposed-failure repair, not unseen transfer.
+[R51 connection truth](tests/v2-connection-truth.md): baseline repair completed and passes independent HTTP synchronization/media checks; candidate generation is running. Baseline source already distinguishes cached presence from confirmed execution, but independent browser failure/recovery acceptance remains pending. No comparative conclusion or runtime adoption; this is exposed-failure repair, not unseen transfer.
 
 [R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
 
