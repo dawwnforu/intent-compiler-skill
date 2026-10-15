@@ -1,4 +1,15 @@
-# R45: decision-relevant alternatives — frozen experiment
+# R45: decision-relevant alternatives — completed development experiment
+
+All four generations and independent program checks are complete. The added paragraph fixes the exposed benefit omission in this sample; both before/after exact-quantity controls pass. Both after runs visibly read the candidate paragraph. **Keep the paragraph outside the shipped Skill pending transfer checks.** One known case, one control, unequal browser coverage and the retained source conflict do not establish broad improvement.
+
+| Condition | Output tokens | Seconds | Independent outcome |
+| --- | ---: | ---: | --- |
+| Benefit before | 12,063 | 316.85 | Offers four packs122; misses feasible five packs115. |
+| Benefit after | 9,353 | 251.34 | Shows both122 and115 options, with surplus10; actual browser updates pass. |
+| Exact40 before | 7,738 | 505.19 | B4 packs122; excludes oversupply and updates on input changes. |
+| Exact40 after | 4,669 | 131.96 | Same boundary retained; actual browser changes/reload pass. |
+
+Costs include tool-driven generation, errors and verification; the slower before-control does not prove the rule saves time. Both before-control and after-control generated browser-verification failures, separately retained from evaluator checks. No retries were selected to improve outcomes. The observations below preserve the chronological evidence, including earlier pending states.
 
 R44 exposed a practical omission: current V2 ranked minimally sufficient purchases but missed a cheaper extra-pack option. Test a single [candidate paragraph](fixtures/decision-alternatives-candidate.md) about comparing feasible options against the user's actual outcome, explaining tradeoffs and preserving explicit limits. It contains no supplier, price, shipping or purchasing-specific answer. The shipped Skill and normal installation are unchanged.
 
@@ -28,3 +39,7 @@ Fixed-after finished in131.96 seconds. Independent original-module checks confir
 Benefit-after subsequently finished in251.34 seconds. Independent original-script/handler execution confirms both options are present: four packs122 and five packs115, with50 supplied and10 excess explicitly represented. Quantity30 changes the best result to99; pack price20 at quantity40 yields five packs100; setting shipping0 then chooses four packs80. Invalid quantity is rejected, original source bytes are preserved. This is a positive development result alongside the passing exact-quantity control, but independent browser/save/reopen coverage is still missing for benefit-after, and fixed-before remains pending. Keep the candidate unadopted until the comparison and relevant transfer checks are complete.
 
 Subsequent actual browser checks confirm benefit-after displays both original alternatives, changes to99 for quantity30, and selects four packs92 when the original pack price23 is retained and shipping becomes0. Negative quantity is rejected. These browser updates differ from the earlier sequential price20 handler test, which correctly yielded80. The screenshot is a viewport capture after a failed full-page attempt. Native file operations, backup reopening and direct file:// use remain unverified independently; the final fixed-before condition is still pending.
+
+Final condition: fixed-before completed in505.19 seconds. Original HTML/input-handler execution confirms B4 packs122 at exact40, exclusion of A/C, no exact offer at41,110 after B pack price20, unknown shipping remaining unconfirmed, negative quantity clearing results, and source files preserved. No independent actual-browser check was performed for this condition. Thus scope preservation is shared behavior, not an after-only benefit. All generated products remain unmodified by the evaluator.
+
+Next, freeze a different decision task and a relevant constraint control before running the same unchanged paragraph. The R45 case is exposed development material; repetitions or variants here cannot substitute for cross-domain transfer or actual user preference.
