@@ -1,6 +1,12 @@
 # R56: real semantic-runtime feasibility
 
-Status: protocol frozen before invocation; not yet run. [Exact input, prompt and runner](results/v2-semantic-runtime.json).
+Status: actual invocation complete; response and source evidence independently reviewed. [Exact input, prompt, response and runner](results/v2-semantic-runtime.json).
+
+The model correctly interprets all7 unambiguous R55 cases, including the3 clear decisions missed by the old processor. For `defer.txt`, it labels the agreed postponement as a decision while explicitly stating that the budget increase remains unapproved. This is the annotation ambiguity declared before execution, not a fabricated approval; do not convert it into an8/8 accuracy claim by changing the frozen label.
+
+All8 identifiers occur once, statuses are valid, quoted evidence is an exact nonempty source substring, reasons are present, and input text remains unchanged. These mechanical checks are separate from the manual semantic review. The invocation took21.49 seconds; full counters are in the record. No current Skill was enabled, so this is evidence for an available interpretation method, not a Skill improvement or offline replacement.
+
+The next design must keep the object of each decision: postponement can be agreed while expenditure is not. A whole-line status field alone cannot preserve that distinction. This requirement follows from the observed output; it has not yet been implemented or compared in a repeated workflow. No new runtime paragraph is adopted on this result alone.
 
 R55 identifies a finite-pattern limitation in a previously generated processor. Before adding another Skill paragraph, invoke the existing host model on exactly those source statements, without labels, old code or evaluation findings. Require source evidence, a decision/unresolved status and a brief explanation; preserve ambiguity rather than silently treating the coarse labels as perfect ground truth.
 
