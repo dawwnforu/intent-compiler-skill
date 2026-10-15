@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R52 throw game](tests/v2-throw-game.md): a fresh browser-game comparison inspired by a pinned user-project README; protocol frozen, no results yet. Actual playable loop and useful supporting functions matter more than output length. This is not PEAK or multiplayer validation.
+[R52 throw game](tests/v2-throw-game.md): raw A has actual success/failure, retry, continued play, capped charge and narrow-layout pointer checks; persistent best and keyboard continuation work. V2 is generating, G not started; no comparison winner. Physical touch, input interruption and frame-rate invariance remain unverified. This is not PEAK or multiplayer validation.
 
 [R51 connection truth](tests/v2-connection-truth.md): both repairs pass independent HTTP and actual browser checks for temporary service failure/recovery while retaining synchronization, refresh, late join and isolation. Both fix the stale sidebar; candidate additionally labels last-confirmed time/count, with no established material advantage. Less output but longer generation is not stable efficiency. Candidate paragraph not adopted; exposed-failure repair only.
 
