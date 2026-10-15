@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R51 connection truth](tests/v2-connection-truth.md): baseline repair completed and passes independent HTTP synchronization/media checks; candidate generation is running. Baseline source already distinguishes cached presence from confirmed execution, but independent browser failure/recovery acceptance remains pending. No comparative conclusion or runtime adoption; this is exposed-failure repair, not unseen transfer.
+[R51 connection truth](tests/v2-connection-truth.md): both repairs pass independent HTTP and actual browser checks for temporary service failure/recovery while retaining synchronization, refresh, late join and isolation. Both fix the stale sidebar; candidate additionally labels last-confirmed time/count, with no established material advantage. Less output but longer generation is not stable efficiency. Candidate paragraph not adopted; exposed-failure repair only.
 
 [R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
 
