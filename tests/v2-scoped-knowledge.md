@@ -1,6 +1,22 @@
 # R49: effective dates and scoped knowledge maintenance
 
-Status: frozen before generation; not yet behaviorally tested. [Exact protocol, fixtures, runner and current Skill snapshot](results/v2-scoped-knowledge.json).
+Status: all three initial generations and initial answer checks complete; AI-assisted maintenance continuation running. [Exact protocol, fixtures, runner and current Skill snapshot](results/v2-scoped-knowledge.json).
+
+## Initial comparison
+
+Independent inspection of each delivered knowledge artifact and five-answer document against the frozen source facts confirms all five initial answers in all three arms. All distinguish applicable scope, effective date, unapproved suggestions, external text, duplicates and unsupported fees. Each supplies manual maintenance guidance; no automatic question engine or ingestion service is claimed. The initial outcome is shared capability, not an exclusive Skill gain.
+
+| Arm | Output tokens | Seconds | Initial artifact and outcome |
+|---|---:|---:|---|
+| Raw A | 5160 | 157.50 | Five Markdown documents; all five answers correct |
+| Generic G | 4304 | 130.62 | Entry plus knowledge folder; all five answers correct |
+| Current Skill V2 | 4529 | 124.50 | Single knowledge document; all five answers correct |
+
+V2 uses less output than raw but more than generic in this one sample. It takes less time than both here; this does not establish stable cost savings. File count alone is not usability evidence, and no human preference for these outputs has been collected.
+
+The independent integrity check confirms seven unchanged input files per arm and existing local Markdown targets: A29, G16, V2 28. It does not validate anchors or semantic accuracy. Its first implementation incorrectly compared Windows-written CRLF files with LF string literals, producing false modification flags; comparing to the actual frozen fixture bytes corrects this evaluator error. The initial failed check remains locally preserved. No generated source was repaired.
+
+The exact AI-assisted continuation is frozen separately before continuation calls. It copies each initial delivery, adds the same held-out D source and asks the historical/current/future queries. This is not a human novice manually performing maintenance or an automated ingestion test. Initial outputs remain unchanged. Outcome checks are pending.
 
 Protocol freeze commit: bb0e231. The first runner exited before skill discovery/model invocation because app-server initialization timed out; the accompanying CLI diagnostic reported denied access to its temporary directory. The prepared workspace is preserved as `V2-preflight-failed`. A retry uses the same frozen inputs and child workspace-write/offline boundaries with parent execution permission. This is an environment recovery, not an answer retry or model failure. Initial generation is now running; independent answers and update checks are still pending.
 

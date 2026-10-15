@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R49 scoped knowledge](tests/v2-scoped-knowledge.md): frozen current-candidate/raw/generic comparison of applicable rules, effective dates and novice knowledge maintenance. Generation is underway; no outcome or superiority claim yet. A pre-generation initialization failure is preserved separately from model results.
+[R49 scoped knowledge](tests/v2-scoped-knowledge.md): all three initial deliveries answer five scoped/date-dependent questions correctly and retain original files. No exclusive quality gain; one-sample output/time differences are not stable savings. AI-assisted updates in copies are running. Pre-generation environment recovery and a corrected evaluator newline comparison are preserved separately from model results.
 
 [R48 print counts](tests/v2-print-counts.md): actual browser exports and independent PDF/parser checks repair the exposed zero-copy omission, all-zero state and positive-count recovery while retaining dimensions and source records. Adopt the exact print-module paragraph; reused baseline and one after run support only this bounded repair, not unseen transfer or stable savings.
 
