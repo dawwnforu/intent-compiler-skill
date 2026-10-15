@@ -2,6 +2,8 @@
 
 Status: frozen before generation; not yet behaviorally tested. [Exact protocol, fixtures, runner and current Skill snapshot](results/v2-scoped-knowledge.json).
 
+Protocol freeze commit: bb0e231. The first runner exited before skill discovery/model invocation because app-server initialization timed out; the accompanying CLI diagnostic reported denied access to its temporary directory. The prepared workspace is preserved as `V2-preflight-failed`. A retry uses the same frozen inputs and child workspace-write/offline boundaries with parent execution permission. This is an environment recovery, not an answer retry or model failure. Initial generation is now running; independent answers and update checks are still pending.
+
 Compare an ordinary request, the existing short generic instruction and current candidate 7395bfb on a new synthetic shared-studio knowledge task. This tests a common knowledge-base workflow, not a newly added rule or a GitHub-derived project. All arms receive the same sources, tool preparation and offline/no-install/no-publication boundary. Order: Skill, raw, generic. Each uses gpt-6.1-sol low once; isolated skill discovery must confirm the intended arm.
 
 The novice asks for maintainable local answers. Materials contain an approved general policy, a narrow branch/member exception, a future-effective deposit change, an unapproved suggestion, an external reference containing an irrelevant instruction, a duplicate, and five practical questions. Expected answers are frozen before generation: 3h/100, 2h/100, 2h/150 for the specified branch/member/date combinations; cancellation still requires 24h and there is no approved student waiver; lost-key fee remains unknown.

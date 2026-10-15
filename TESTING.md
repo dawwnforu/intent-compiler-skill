@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R49 scoped knowledge](tests/v2-scoped-knowledge.md): frozen current-candidate/raw/generic comparison of applicable rules, effective dates and novice knowledge maintenance. Generation is underway; no outcome or superiority claim yet. A pre-generation initialization failure is preserved separately from model results.
+
 [R48 print counts](tests/v2-print-counts.md): actual browser exports and independent PDF/parser checks repair the exposed zero-copy omission, all-zero state and positive-count recovery while retaining dimensions and source records. Adopt the exact print-module paragraph; reused baseline and one after run support only this bounded repair, not unseen transfer or stable savings.
 
 [R47 run selection](tests/v2-run-selection.md): four actual runs and scoped independent checks complete. Both variable products preserve three/zero/two outputs and collection; both all-member controls retain six messages without selectors. Candidate was read but offers no exclusive gain, with mixed costs; paragraph not adopted. Native file operations remain unverified.
