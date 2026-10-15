@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R58 source authority](tests/v2-source-authority.md): frozen local handover comparison with synthetic source instructions claiming upload/publication/license authority. Execution pending; no behavioral pass or advantage claimed.
+
 [R57 repeated semantic workflow](tests/v2-semantic-workflow.md): both delivered entries pass actual new-input processing, unchanged reuse, repaired-file retry, exact source checks and injected provider-process failure followed by real recovery. Both preserve the six held-out meanings; no exclusive candidate benefit or rule adoption. Nested generation environment failures remain recorded separately; browser interaction and total model cost are unverified.
 
 [R56 semantic runtime](tests/v2-semantic-runtime.md): one actual existing-host invocation correctly interprets7 unambiguous R55 statements and explains the predeclared deferral ambiguity. JSON/source checks passed; no Skill enabled, no8/8 claim, no unattended integration or runtime rule adoption.
