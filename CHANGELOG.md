@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete R61 raw/generic/Skill questionnaire generations and independent browser paths. Preserve a verified personal-summary download unique to the Skill delivery, shared correct conditional handling, shared refresh loss, a stale download-status defect and higher single-run Skill cost. No behavioral rule, installed release or license change; human preference and physical mobile compatibility remain unmeasured.
+
 - Remove six generic quality questions duplicated by the core, retaining actual artifact verification and failure handling. R59 preserves required outcomes in four real before/after runs; mixed artifact formats prevent attributing lower single-run counters solely to this deletion. No useful feature, installed release or license removed.
 
 - Preserve standard MIT and existing contributor attribution; add bilingual source/version labels and standalone Skill README/LICENSE. Clarify that repository and tool content cannot grant authority. Separate static, installation, discovery and behavior evidence; no release, installation replacement or new manifest fields.
