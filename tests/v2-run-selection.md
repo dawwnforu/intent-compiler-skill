@@ -1,5 +1,20 @@
 # R47: reusable collection and per-run participation
 
+## Final comparison
+
+All four actual runs completed, and both after runs visibly read the candidate paragraph in tool output. Both variable-attendance products pass independent original-handler checks for exact three/zero/two outputs and preserving the six-member collection. Both also preserve event/selection through backup restore handlers and actual browser reload. Both all-member products generate all six correct messages, update the event and omit the explicitly excluded selection workflow. Original inputs remain unchanged in all four; no generated source was repaired.
+
+| Condition | Output tokens | Seconds | Scoped outcome |
+|---|---:|---:|---|
+| Variable before | 6657 | 204.42 | Three/zero/two outputs, collection and backup retained |
+| Variable after | 10333 | 305.95 | Same scoped outcomes |
+| All before | 4830 | 132.46 | All six, no participant controls |
+| All after | 3203 | 99.87 | Same scoped outcomes |
+
+**Do not adopt the candidate paragraph.** It was read but adds no exclusive benefit in this new workflow; variable-after uses more output/time, while the control uses less. One sample per condition does not establish stable efficiency or causation. R46's print zero-copy failure remains unresolved and must not be relabelled fixed because a different product supports empty selection. No user preference for these products has been collected.
+
+Actual browser previews were checked for all four; variable products additionally underwent real reload. Independent scripts execute original handlers and inspect Blob text, including backup/restore through mocked file controls. Native download/file-chooser and direct file:// persistence remain unverified, so this is not full end-to-end native-file validation. The model's failed browser attempts and cleanup rejections remain in the record, separate from later evaluator browser checks. Earlier pending statements below document chronology, not current status.
+
 R46 exposed a shared practical gap: excluding a person from one print run required removing their row or another workaround. This experiment tests a bounded interactive-products module paragraph, not a new core mandate or a print-specific answer. It asks whether a reusable collection differs from participants in the present action, preserves legitimate empty selection and retains explicit all-record scope.
 
 The new synthetic workflow prepares local thank-you messages for recurring reading events. No external messages are sent. Six fictional members and an exact text template are provided; no PDF, graphical assets, accounts or deployment are needed. A second condition expressly requires every member and excludes selecting/pausing/grouping. The [frozen record](results/v2-run-selection.json) includes exact prompts, materials, snapshots, runner and acceptance before model execution.
