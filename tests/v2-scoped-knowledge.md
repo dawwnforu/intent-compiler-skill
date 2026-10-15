@@ -1,6 +1,22 @@
 # R49: effective dates and scoped knowledge maintenance
 
-Status: all three initial generations and initial answer checks complete; AI-assisted maintenance continuation running. [Exact protocol, fixtures, runner and current Skill snapshot](results/v2-scoped-knowledge.json).
+Status: all three initial generations and all three AI-assisted maintenance continuations complete and independently inspected. No new Skill rule adopted. [Exact protocol, fixtures, runner and current Skill snapshot](results/v2-scoped-knowledge.json).
+
+## Final maintenance comparison
+
+All three updated knowledge artifacts correctly preserve the historical hill-student answer (October20:2h/100), apply the new scoped duration (October26:2.5h/100; November05:2.5h/150), preserve river-student duration (October26:3h/100), retain 24h cancellation and leave lost-key fees unknown. Inspection covered the actual knowledge tables and response, including unchanged ordinary-member scopes; the evaluator did not edit generated artifacts. All notice that synthetic D's stated issue date is later than the evaluation date and distinguish provided-file facts from external verification.
+
+| Update arm | Output tokens | Seconds | Scoped result |
+|---|---:|---:|---|
+| Raw A | 4538 | 117.01 | All requested answers correct; current knowledge links valid; extra backup copies have broken source links |
+| Generic G | 4367 | 117.02 | All requested answers correct; current knowledge links valid |
+| Current Skill V2 | 4533 | 103.50 | All requested answers correct; current knowledge links valid |
+
+Each arm preserves all eight source files byte-for-byte against the frozen originals. V2's initially broad end-date maintenance wording did not produce the suspected scope loss in this AI-assisted continuation. This does not prove a novice can manually apply that instruction without confusion.
+
+Raw A adds a folder containing five old document copies. Its 24 relative source links no longer resolve from inside that backup folder, although current documents resolve correctly and the originals still exist. The recursive integrity check intentionally remains failed for those archived links; it is not an input-loss or current-answer failure. No restore operation was performed, and G/V2 do not provide an equivalent backup feature to compare. Record the limitation without turning an extra feature's defect into a general Skill win.
+
+**Decision:** no change to runtime Skill from this round. Both initial knowledge organization and AI-assisted updates are shared capabilities. V2 is faster in these single observations, while generic uses fewer output tokens in both stages; neither establishes stable efficiency or perceived superiority. The copies test AI-assisted maintenance, not automatic ingestion, browser UI, human novice maintenance or a general retrieval system. Earlier pending notes below are retained as chronology.
 
 ## Initial comparison
 
