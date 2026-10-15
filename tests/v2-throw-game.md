@@ -1,6 +1,16 @@
 # R52: a playable charge-and-throw loop
 
-Status: raw A generation and bounded independent browser checks complete; V2 generation is running and G has not started. No comparative conclusion. [Exact protocol, runner, snapshot and available records](results/v2-throw-game.json).
+Status: all three generations complete. A and V2 have bounded independent actual-browser acceptance; G UI remains pending. V2 has a demonstrated misleading failure hint; no comparison winner or runtime change. [Exact protocol, runner, snapshot and available records](results/v2-throw-game.json).
+
+## Candidate V2: usable loop, incorrect corrective advice
+
+V2 completes in291.93seconds with9983 output tokens. Actual browser play verifies flight, visible successful landing, automatic next station, automatic failure retry, capped100% charge, manual restart during flight, persistent best score and390px pointer gameplay without horizontal overflow. Short Space press initiates flight. These retain practical functions, but raw A already supports the core loop and best score.
+
+The candidate adds calculated directional failure advice. At70% the UI says the throw overshot; reducing to65% produces an actual successful landing. However, on station2, two actual23% throws also say “飞过头啦！下次温柔一点。” This is wrong: applying the delivered fixed-step flight equations to the displayed rounding interval's endpoints and midpoint places descending platform-height crossing at x410–418, before the minimum possible target x540. The fail handler instead compares the later fallen body's x with the target's left edge. The post-hoc diagnostic and actual screenshot are separate evidence; no evaluator repair is made.
+
+Failure feedback resets after0.65seconds in the source; the first actual observation missed the message. Semantic waits subsequently captured it. A wait for the expected correct underthrow message timed out and remains recorded; a broader result wait revealed the wrong advice. A helpful-sounding feature is not a benefit when it recommends the wrong adjustment. The candidate's higher observed time/output is not justified merely by its larger feature list, nor does this one case establish general harm.
+
+Both A/V2 evaluator servers and tabs are closed, with viewport overrides reset. G completed in224.32seconds with8735 output tokens but has not yet received independent browser acceptance. Physical mobile, held-input interruption, sound, direct-file entry and frame-rate variation remain unverified independently. Model self-test claims and failures are preserved separately.
 
 ## First actual product: raw A
 
