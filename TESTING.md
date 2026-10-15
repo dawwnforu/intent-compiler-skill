@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R47 run selection](tests/v2-run-selection.md) freezes a new recurring-message workflow and explicit all-member control. Only the interactive-products candidate module differs; exact snapshot/wiring checks pass. No model result or adoption claim yet.
+[R47 run selection](tests/v2-run-selection.md): two conditions checked so far. Before already handles three/zero/two participation with preserved collection and backup; after's all-member control retains six messages without selectors. Original handlers/Blob payloads and actual browser previews checked; remaining comparisons pending, no adoption claim.
 
 [R46 print transfer](tests/v2-print-alternatives.md): all four generations and independent PDF/render/browser checks complete. Both flexible products fit one page and both fixed products preserve two upright pages; all four reject the held-out zero-copy update. Fixed-after's optional Python CLI also fails on a corrupted filename. No exclusive layout gain or stable savings claim; paragraph not adopted.
 

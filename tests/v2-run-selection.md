@@ -16,4 +16,14 @@ Order: variable-before, all-after, variable-after, all-before. Same gpt-6.1-sol 
 
 This is one new synthetic workflow with a scope control, not a GitHub-derived project, independent user preference or broad domain evaluation. One run per condition cannot establish stable efficiency. Observe whether the module was actually read; missing routing is a result, not permission to force a rerun. The print failure motivates this hypothesis but is not rerun or scored as unseen transfer.
 
-Status: protocol frozen; no model result or adoption claim yet. Candidate paragraph stays outside runtime Skill.
+## First completed condition: variable-before
+
+Before completed in204.42seconds. Independent execution of its original script and handlers verifies exact three-person output, empty selection blocking generation without deleting members, and exact two-person output after event rename. Backup/restore handlers preserve all six members, current event and selection. Original input bytes remain unchanged.
+
+Actual browser operations reproduce the three/zero/two preview sequence; a real reload preserves the two selections, event and full member list. Download Blob text is verified through original handlers with mocked file controls, not a native downloaded file. Native backup/file selection and direct file:// storage behavior remain untested. The evaluator did not repair the product.
+
+Thus the proposed behavior is already present in this new baseline. Do not count its selection/backup features as gains from the new paragraph. Other conditions are still running; no adoption or overall comparison claim yet.
+
+## Second completed condition: all-after
+
+After's all-member control completed in99.87seconds. Its delivered text file and independently executed original download handler contain exactly six correct messages; changing the event updates all six, while an empty event blocks output. Actual browser checks confirm the same visible messages and the absence of participant-selection/pause/group controls. Original inputs remain unchanged. Native download remains untested; the model's failed browser attempt and cleanup rejection are retained separately from successful evaluator browser checks. This establishes this control's behavior, not an advantage over its still-pending counterpart.
