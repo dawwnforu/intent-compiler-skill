@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R54 support analysis](tests/v2-support-analysis.md): frozen fresh raw/generic/current-Skill comparison on synthetic tickets and repeated events; generation in progress. Independent fixture arithmetic is available, but generated reports have not yet been accepted. No runtime change.
+[R54 support analysis](tests/v2-support-analysis.md): all three complete reports pass essential unit, duration, follow-up and evidence-boundary checks. V2 adds verified in-report evidence navigation but has higher output; no unique core analysis or stable efficiency gain. Input-newline verifier correction preserved; no runtime change or human-preference claim.
 
 [R53 outcome feedback](tests/v2-outcome-feedback.md): both exposed-game repairs correct shortfall advice, retain feedback and pass observed changed-input success, near misses and reopened record checks. No exclusive correctness gain; candidate paragraph not adopted. Requested narrow viewport did not take effect, so narrow layout and held-input interruption remain independently unchecked.
 
