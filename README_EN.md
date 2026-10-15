@@ -6,6 +6,8 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+Print guidance now distinguishes copy counts from physical dimensions: zero copies omit a record from this batch while retaining it; physical label dimensions must stay positive. [Actual repair checks](tests/v2-print-counts.md) cover browser exports, an all-zero batch and restored printing. This is a bounded known-failure repair, not a general effectiveness claim.
+
 2.0 now checks usefulness beyond the first successful action: add supporting capabilities when the actual workflow warrants them, rather than cutting utility to shorten output. [Loan and quotation comparisons](tests/v2-practical-utility.md) record concrete additions, higher costs and incomplete UI verification.
 
 [Current candidate decision and optional starter prompt (Chinese)](docs/v2-decision.md) separates observed improvements from unresolved effectiveness claims. The broad goal remains open; the next behavior change should target an observed decision or user-experience failure, with fixed baselines and unseen transfer checks rather than more synonymous instructions.

@@ -1,5 +1,15 @@
 # R48: print count versus physical size — targeted repair
 
+## Result and bounded adoption
+
+After generation completed in339.29seconds with12907output tokens, and the exact candidate paragraph appeared in actual tool output. Its original delivered tool passed independent parser checks and actual browser exports. Original six-label PDF, edited2/0/1/1/1/1 PDF and restored1/0/0/0/0/0 PDF all pass geometry/count checks and rendered inspection. The zero-copy row stays in the six-row collection; the omitted name is absent and the duplicated name appears twice. Negative and fractional counts are rejected.
+
+The evaluator clicked Export for all-zero input: the UI reports nothing to print and filesystem inspection shows no new PDF. Restoring one positive count exports a new one-label PDF, with all six editable rows still present. Export writes directly into the tool directory, so these are actual saved files from UI actions rather than mocked download payloads. Original inputs remain byte-identical; no generated source repair was applied. Initial evaluator path resolution failed before the checker ran and was corrected; no product outcome was inferred from that command.
+
+Adopt the exact tested paragraph in the candidate print module. Core Skill and index stay unchanged. Do not adopt R45/R47 generic paragraphs or alter the installed release/license. This is a repair of the exposed R46 failure with a reused baseline; it does not demonstrate new-task generalization, causal token/time savings, or full upgrade completion. The old failure remains recorded.
+
+Original preview, parser and PDF outputs were independently checked; launcher double-click, CSV native file picker and physical printing were not. The model's desktop GUI failure and self-test repairs remain in raw history. The delivered tool uses a loopback web interface, which the evaluator opened and operated without changing its source. Earlier future-tense protocol below is retained as the pre-generation specification.
+
 R46's four tools reject zero copies. R47 shows that an additional generic participation paragraph adds no demonstrated benefit in a different UI workflow. This repair tests concrete print knowledge instead: nonnegative integer copies can omit a record from this batch; positive physical width/height cannot be treated the same way; all-zero input must not export stale labels. Explicit supplied workflow restrictions still control.
 
 Only `references/print-layout.md` differs. Core Skill, index and all other modules are identical. The [frozen record](results/v2-print-counts.json) retains snapshots, candidate, runner and materials before execution.

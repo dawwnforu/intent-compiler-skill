@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add print-specific quantity validation after R48 repairs the exposed R46 zero-copy failure. Actual browser exports preserve physical size, duplicate/omit the correct names, produce no stale all-zero output and recover one label; negative/fractional counts are rejected. Reused baseline and one after generation support a bounded repair, not general superiority or stable savings. R45/R47 generic candidate paragraphs remain unadopted.
+
 - Add an optional read-only HTML script check, routed only for standalone HTML when Python is available. Four R42 repairs show a fixed blank-page entry and retained useful behavior where baseline remains broken; explanation practice passes in both arms. Preserve higher vocabulary cost and failed browser attempts. A subsequent tested correction leaves base-URL resources explicitly unchecked; it is separate from frozen model results. No installed release or license change.
 
 - Adopt a tested core criterion for useful follow-through in open-ended tasks. Six before/after runs across equipment loans, weekly quotations and a copy-edit control show concrete supporting capabilities with higher substantive-task costs; preserve independent logic evidence, partial UI checks and scope limits.

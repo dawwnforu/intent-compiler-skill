@@ -1,6 +1,6 @@
 # Validation and comparison protocol
 
-[R48 print counts](tests/v2-print-counts.md) freezes a print-module-only repair for the exposed zero-copy failure, reusing the verified R46 baseline rather than repeating it. Same materials/settings, no new result or adoption yet; not an unseen-transfer or stable-cost claim.
+[R48 print counts](tests/v2-print-counts.md): actual browser exports and independent PDF/parser checks repair the exposed zero-copy omission, all-zero state and positive-count recovery while retaining dimensions and source records. Adopt the exact print-module paragraph; reused baseline and one after run support only this bounded repair, not unseen transfer or stable savings.
 
 [R47 run selection](tests/v2-run-selection.md): four actual runs and scoped independent checks complete. Both variable products preserve three/zero/two outputs and collection; both all-member controls retain six messages without selectors. Candidate was read but offers no exclusive gain, with mixed costs; paragraph not adopted. Native file operations remain unverified.
 
