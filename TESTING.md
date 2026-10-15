@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R47 run selection](tests/v2-run-selection.md) freezes a new recurring-message workflow and explicit all-member control. Only the interactive-products candidate module differs; exact snapshot/wiring checks pass. No model result or adoption claim yet.
+
 [R46 print transfer](tests/v2-print-alternatives.md): all four generations and independent PDF/render/browser checks complete. Both flexible products fit one page and both fixed products preserve two upright pages; all four reject the held-out zero-copy update. Fixed-after's optional Python CLI also fails on a corrupted filename. No exclusive layout gain or stable savings claim; paragraph not adopted.
 
 [R45 alternatives](tests/v2-decision-alternatives.md): four actual runs complete. After exposes the115 alternative missed by before; both exact40 controls retain122 and exclude oversupply. Independent program checks cover all four, browser checks both after products. Lower single-run cost is not stable savings; source conflict retained and candidate unadopted pending transfer.
