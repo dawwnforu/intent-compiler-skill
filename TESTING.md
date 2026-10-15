@@ -1,6 +1,8 @@
 # Validation and comparison protocol
 
-[R53 outcome feedback](tests/v2-outcome-feedback.md): frozen before/after repairs of the same exposed game. The conditional candidate uses deciding-event evidence, contrasting attempts and retained feedback while preserving fast retry. Not yet tested; no runtime change.
+[R54 support analysis](tests/v2-support-analysis.md): frozen fresh raw/generic/current-Skill comparison on synthetic tickets and repeated events; generation in progress. Independent fixture arithmetic is available, but generated reports have not yet been accepted. No runtime change.
+
+[R53 outcome feedback](tests/v2-outcome-feedback.md): both exposed-game repairs correct shortfall advice, retain feedback and pass observed changed-input success, near misses and reopened record checks. No exclusive correctness gain; candidate paragraph not adopted. Requested narrow viewport did not take effect, so narrow layout and held-input interruption remain independently unchecked.
 
 [R52 throw game](tests/v2-throw-game.md): all three generations and bounded actual-browser playthroughs complete. All retain core play, continuation and best scores. V2's23% underthrow wrongly advises reducing force; G keeps result feedback but has a Space-retry defect. No runtime change or overall winner; physical touch, input interruption and frame-rate invariance remain unverified. This is not PEAK or multiplayer validation.
 
