@@ -8,6 +8,10 @@ A screenshot is not a working flow. Identify start, interaction, result and reac
 
 If a result must be saved/shared, deliver an actual downloadable artifact or supported share path with fallback. A decorative button is incomplete. Visual choices do not authorize accounts, analytics or cloud storage.
 
+## Learning practice
+
+When independent recall is part of the learning goal, collect an initial explanation before showing reference answers or answer-bearing choices. Later hints, recognition questions and transfer exercises can remain useful; distinguish assisted attempts from unaided recall. Exclude entertainment quizzes and reference lookup.
+
 ## Motion and simple games
 
 Identify moving object, trigger, duration, terminal state and restart. Use elapsed time rather than frame count; prevent duplicate loops/listeners on reset. Test start → play → fail/finish → restart, repeated input, background/resume and relevant touch/keyboard controls. Inspect actual frames, not just an animation flag.

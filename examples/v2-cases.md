@@ -1,5 +1,7 @@
 # V2 case catalog / 自然语言案例
 
+[R67 实际案例](../tests/v2-recall-sequence.md)：网站课件复习与社团器材借还练习，检查独立回答、提示后自评、草稿恢复和历史续练；周末搭子趣味测验则保持偏好选择、改选和重玩。补充基线中断，不算完成对照；这些操作不证明真实学习效果。
+
 Actual repair extension: “会议工具把还没确认的事当作决定，请修好并保留原文和重试能力。” Check uncertain statements, confirmed prohibitions and quoted status words, plus old-cache updates. [R20/R21 evidence](../tests/v2-status-evidence.md) shows partial repairs and remaining semantic errors; it is not a passed general-understanding case.
 
 Requests below are reconstructions inspired by public project descriptions, not recovered original chat messages. Full implementations and evaluation criteria stay out of generation prompts. These are planned coverage, not passed tests.

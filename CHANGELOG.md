@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Adopt only R67's conditional recall-order paragraph in the interactive module. Preserve later hints, meaningful judgments and changed-scenario practice; separate assisted attempts. Five main generations and one completed supplemental quiz support a bounded interaction correction, not general learning effectiveness. Keep the usage-interrupted supplemental baseline, useful baseline grading/case-bank differences and unverified native/device/host paths explicit. No new generations during closeout, dependency, license, manifest, release or installed-version change.
+
 - Complete R66 raw/generic/current-Skill study-tool generations and actual attempt/feedback/reload/continuation checks. All preserve source-based self-assessment and progress; Skill additionally cues its initial free explanation with visible answer choices, while raw provides a useful confidence/omission reminder. Preserve this method limitation, setup recovery and higher Skill output; no new rule, learning-effectiveness or exclusive-gain claim.
 
 - Complete six R65 generations and principal desktop-browser checks for legacy saved-state repair, fresh activity planning and explicit non-retention. Both arms retain useful recovery and correct observed completion state; shared success and mixed costs do not justify adopting the prepared replacement. Preserve exact source, discovery evidence, failures and unverified host/native paths; maintained runtime and MIT stay unchanged.
