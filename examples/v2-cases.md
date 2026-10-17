@@ -24,6 +24,8 @@ Requests below are reconstructions inspired by public project descriptions, not 
 
 Inputs for statistical cases are synthetic and clearly labeled. Do not retrieve private respondent records. Maintain positive and exclusion cases when adding a module; deeper technical expectations remain evaluator material.
 
+[R66](../tests/v2-study-companion.md) rechecks the public ScreenPal README and derives a separate ordinary-language request: “前端、后端、网址总混在一起，看时觉得懂，隔天不会解释；用课件做个本机复习小网页，知道哪里没弄懂，第二天接着练。” Three real outputs share useful progress/self-check behavior; the Skill output cues its initial explanation with answer choices. Synthetic lessons only; no recovered original dialogue, live capture/voice/AI validation or human learning-effectiveness claim.
+
 [R63](../tests/v2-roster-updates.md) extends the overlapping-export issue in the public research README into a fresh synthetic task: “每周收到活动报名导出，想双击更新，看清确认人数、各场次准备和待处理事项。” It is not an original recovered prompt or private research data. All three actual products pass source-state and update checks; no Skill-exclusive gain or human preference is established.
 
 [R64](../tests/v2-recovery-repeat.md) uses a fresh synthetic request: “做一个三步记录设备故障、尝试和后续安排的本机网页，以后能查设备历史。” Three pairs share working recovery; one after product confuses saved work with a draft. A separate temporary-use pair honors the no-retention exclusion. Neither is a recovered original GitHub prompt or a human preference result.

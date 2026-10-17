@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R66 study companion](tests/v2-study-companion.md): raw/generic/Skill actual generations and bounded desktop-browser checks complete. All restore attempts and retain self-checks; Skill's initial answer choices cue its free explanation, while raw flags high confidence followed by omissions. This identifies a method issue, not measured learning effects or exclusive Skill benefit. Separate setup recovery, inventories and unrun probes from accepted operations; no runtime or installation change.
+
 [R65 recovery state](tests/v2-recovery-state.md): six actual isolated generations and principal desktop-browser paths complete. Both repairs retain legacy history, completed status and legitimate identical new events; both planning apps recover input and both temporary controls clear on reload. Shared correctness, mixed costs; replacement not adopted. CLI discovery is observed separately from product behavior; no installation or desktop-host compatibility claim.
 
 [R59 quality trim](tests/v2-quality-trim.md): four actual before/after runs retain handover utility, correct capacity decisions, traceable details and originals. Adopt removal of six generic questions duplicated by the core; operational checks remain. Lower single-run counters are confounded by output formats and do not establish stable savings; rendering and recipient usability untested.

@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete R66 raw/generic/current-Skill study-tool generations and actual attempt/feedback/reload/continuation checks. All preserve source-based self-assessment and progress; Skill additionally cues its initial free explanation with visible answer choices, while raw provides a useful confidence/omission reminder. Preserve this method limitation, setup recovery and higher Skill output; no new rule, learning-effectiveness or exclusive-gain claim.
+
 - Complete six R65 generations and principal desktop-browser checks for legacy saved-state repair, fresh activity planning and explicit non-retention. Both arms retain useful recovery and correct observed completion state; shared success and mixed costs do not justify adopting the prepared replacement. Preserve exact source, discovery evidence, failures and unverified host/native paths; maintained runtime and MIT stay unchanged.
 
 - Complete eight R64 generations: three interleaved recovery pairs and an explicit temporary-input control pair, with actual principal browser paths. Recovery is shared; one after delivery restores committed content as a draft and repeats a record on resubmission. Both controls honor non-retention. Preserve failed native-dialog checks, mixed costs and untested host/device scope; no new runtime instruction adopted.
