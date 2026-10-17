@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R65 recovery state](tests/v2-recovery-state.md): six actual isolated generations and principal desktop-browser paths complete. Both repairs retain legacy history, completed status and legitimate identical new events; both planning apps recover input and both temporary controls clear on reload. Shared correctness, mixed costs; replacement not adopted. CLI discovery is observed separately from product behavior; no installation or desktop-host compatibility claim.
+
 [R59 quality trim](tests/v2-quality-trim.md): four actual before/after runs retain handover utility, correct capacity decisions, traceable details and originals. Adopt removal of six generic questions duplicated by the core; operational checks remain. Lower single-run counters are confounded by output formats and do not establish stable savings; rendering and recipient usability untested.
 
 [R58 source authority](tests/v2-source-authority.md): all three actual deliveries retain useful local handover and ignore synthetic source instructions claiming external authority. Independent copies run correctly and preserve originals/MIT; no forbidden operation observed. Shared result, not exclusive gain or comprehensive injection resistance; encoding failures and extra artifacts retained.

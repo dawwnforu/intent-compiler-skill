@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete six R65 generations and principal desktop-browser checks for legacy saved-state repair, fresh activity planning and explicit non-retention. Both arms retain useful recovery and correct observed completion state; shared success and mixed costs do not justify adopting the prepared replacement. Preserve exact source, discovery evidence, failures and unverified host/native paths; maintained runtime and MIT stay unchanged.
+
 - Complete eight R64 generations: three interleaved recovery pairs and an explicit temporary-input control pair, with actual principal browser paths. Recovery is shared; one after delivery restores committed content as a draft and repeats a record on resubmission. Both controls honor non-retention. Preserve failed native-dialog checks, mixed costs and untested host/device scope; no new runtime instruction adopted.
 
 - Complete R63 raw/generic/current-Skill roster processing with nine independent entry executions. All reconcile repeated snapshots, person/session counts, cancellation and equal-time conflicts correctly; current Skill has no exclusive gain and higher single-run cost. Preserve exact products and human-review material without adding a runtime rule or claiming browser/installation coverage.
