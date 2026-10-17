@@ -1,6 +1,100 @@
 # Validation and comparison protocol
 
-## Actual status — 2026-09-29
+[R66 study companion](tests/v2-study-companion.md): raw/generic/Skill actual generations and bounded desktop-browser checks complete. All restore attempts and retain self-checks; Skill's initial answer choices cue its free explanation, while raw flags high confidence followed by omissions. This identifies a method issue, not measured learning effects or exclusive Skill benefit. Separate setup recovery, inventories and unrun probes from accepted operations; no runtime or installation change.
+
+[R65 recovery state](tests/v2-recovery-state.md): six actual isolated generations and principal desktop-browser paths complete. Both repairs retain legacy history, completed status and legitimate identical new events; both planning apps recover input and both temporary controls clear on reload. Shared correctness, mixed costs; replacement not adopted. CLI discovery is observed separately from product behavior; no installation or desktop-host compatibility claim.
+
+[R59 quality trim](tests/v2-quality-trim.md): four actual before/after runs retain handover utility, correct capacity decisions, traceable details and originals. Adopt removal of six generic questions duplicated by the core; operational checks remain. Lower single-run counters are confounded by output formats and do not establish stable savings; rendering and recipient usability untested.
+
+[R58 source authority](tests/v2-source-authority.md): all three actual deliveries retain useful local handover and ignore synthetic source instructions claiming external authority. Independent copies run correctly and preserve originals/MIT; no forbidden operation observed. Shared result, not exclusive gain or comprehensive injection resistance; encoding failures and extra artifacts retained.
+
+[R57 repeated semantic workflow](tests/v2-semantic-workflow.md): both delivered entries pass actual new-input processing, unchanged reuse, repaired-file retry, exact source checks and injected provider-process failure followed by real recovery. Both preserve the six held-out meanings; no exclusive candidate benefit or rule adoption. Nested generation environment failures remain recorded separately; browser interaction and total model cost are unverified.
+
+[R56 semantic runtime](tests/v2-semantic-runtime.md): one actual existing-host invocation correctly interprets7 unambiguous R55 statements and explains the predeclared deferral ambiguity. JSON/source checks passed; no Skill enabled, no8/8 claim, no unattended integration or runtime rule adoption.
+
+[R55 wording transfer](tests/v2-status-transfer.md): unchanged historical R22 processor matches5/8 frozen new phrasings; three clear decisions become unresolved. Source/archive bytes are preserved. This identifies a method limitation, not a current full-Skill comparison or general accuracy score; no keyword patch or new dependency added.
+
+[R54 support analysis](tests/v2-support-analysis.md): all three complete reports pass essential unit, duration, follow-up and evidence-boundary checks. V2 adds verified in-report evidence navigation but has higher output; no unique core analysis or stable efficiency gain. Input-newline verifier correction preserved; user prefers the summarized verified navigation/follow-up differences, not a blind whole-product comparison. No runtime change.
+
+[R60 input interruption](tests/v2-input-interruption.md): twelve independent stub event-handler checks pass on unchanged R53 deliveries. Ordinary browser long hold works; actual interruption during hold remains unverified. No new generation, runtime change or compatibility conclusion.
+
+[R53 outcome feedback](tests/v2-outcome-feedback.md): both exposed-game repairs correct shortfall advice, retain feedback and pass observed changed-input success, near misses and reopened record checks. No exclusive correctness gain; candidate paragraph not adopted. Requested narrow viewport did not take effect, so narrow layout and held-input interruption remain independently unchecked.
+
+[R52 throw game](tests/v2-throw-game.md): all three generations and bounded actual-browser playthroughs complete. All retain core play, continuation and best scores. V2's23% underthrow wrongly advises reducing force; G keeps result feedback but has a Space-retry defect. No runtime change or overall winner; physical touch, input interruption and frame-rate invariance remain unverified. This is not PEAK or multiplayer validation.
+
+[R51 connection truth](tests/v2-connection-truth.md): both repairs pass independent HTTP and actual browser checks for temporary service failure/recovery while retaining synchronization, refresh, late join and isolation. Both fix the stale sidebar; candidate additionally labels last-confirmed time/count, with no established material advantage. Less output but longer generation is not stable efficiency. Candidate paragraph not adopted; exposed-failure repair only.
+
+[R50 co-watching](tests/v2-cowatch.md): all three generations and independent HTTP/browser checks complete. Core synchronization, late join, rejoin, room isolation and disconnect indication work across arms. V2 adds automatic refresh rejoin but retains stale sidebar status on disconnect; single-run lower output/time is not stable savings. No new rule adopted; native launcher and internet delivery untested.
+
+[R49 scoped knowledge](tests/v2-scoped-knowledge.md): all three initial deliveries and three AI-assisted updates answer the scoped/date-dependent questions correctly, retain originals and preserve unaffected rules. No exclusive quality gain or new rule; single-run cost differences are not stable savings. Raw's extra backup copies have broken relative source links, while current documents resolve. Environment recovery and corrected evaluator newline comparison remain separate from model results.
+
+[R48 print counts](tests/v2-print-counts.md): actual browser exports and independent PDF/parser checks repair the exposed zero-copy omission, all-zero state and positive-count recovery while retaining dimensions and source records. Adopt the exact print-module paragraph; reused baseline and one after run support only this bounded repair, not unseen transfer or stable savings.
+
+[R47 run selection](tests/v2-run-selection.md): four actual runs and scoped independent checks complete. Both variable products preserve three/zero/two outputs and collection; both all-member controls retain six messages without selectors. Candidate was read but offers no exclusive gain, with mixed costs; paragraph not adopted. Native file operations remain unverified.
+
+[R46 print transfer](tests/v2-print-alternatives.md): all four generations and independent PDF/render/browser checks complete. Both flexible products fit one page and both fixed products preserve two upright pages; all four reject the held-out zero-copy update. Fixed-after's optional Python CLI also fails on a corrupted filename. No exclusive layout gain or stable savings claim; paragraph not adopted.
+
+[R45 alternatives](tests/v2-decision-alternatives.md): four actual runs complete. After exposes the115 alternative missed by before; both exact40 controls retain122 and exclude oversupply. Independent program checks cover all four, browser checks both after products. Lower single-run cost is not stable savings; source conflict retained and candidate unadopted pending transfer.
+
+[R44 purchasing](tests/v2-purchase-comparison.md): all three actual tools pass initial costs and clarified shipping updates. Preserve an evaluator waiver-threshold ambiguity and V2's opening cost omission. A post-hoc case finds G alone offers cheaper extra packs (115 versus122); this is a concrete V2 gap, not a frozen-score or general comparison win. Actual browser coverage and native-file limits are recorded; no Skill change adopted.
+
+[R43 volunteer scheduling](tests/v2-volunteer-schedule.md): all three actual generations satisfy independent scheduling/export checks. V2 adds verified manual correction and saved-project reopen at higher cost; G's sample button fails. V2 browser checks pass for initial/withdrawal/overlap and rejected conflicts, with native file operations unverified. No new Skill rule or general superiority claim.
+
+[R42 HTML helper](tests/v2-html-helper.md): four repairs complete. Actual browser checks show before vocabulary remains blank while after works; explanation works in both arms. Adopt the optional helper with a separately tested base-URL correction, retaining frozen snapshots and higher vocabulary cost. Run `python tests/test_html_scripts_candidate.py` for its bounded checks; these are not browser or model-behavior tests.
+
+[R41 final entry](tests/v2-final-entry.md): four repairs complete. Both arms repair explanation practice and retain tested behavior, but both miss the vocabulary tool's unclosed script tag and fail startup despite reading the module. No quality gain; the experimental sentence is not adopted. Actual browser checks and original-entry diagnostics remain separate from helper tests.
+
+[R40 learning route](tests/v2-learning-route.md): four conditions completed after one preserved auth failure/retry. Candidate loads learning guidance for explanation practice but not entertainment; actual practice and revision checks pass while baseline startup fails. Both already choose recall/self-assessment; mixed cost and one implementation failure do not isolate module benefit, so no adoption.
+
+[R39 daily learning](tests/v2-daily-review.md): all three generations and independent reuse/update handlers pass. Real browser practice exposes A's answer table; V2 hides answers and retains unfinished history, with a parsed actual backup. G's missing script closing tag causes an empty body; a separate one-tag repair restores browser practice. Limited useful transfer evidence, no general superiority or new core rule.
+
+[R38 user entry](tests/v2-user-entry.md): four real repairs pass independent default-launcher data/error/reuse checks. After runs cost less, but after-XLSX leaves damaged logs; a separately labelled evaluator repair fixes them. No stable gain or core-rule adoption. The interrupted, confounded initial protocol is retained and excluded.
+
+[R37 text transfer](tests/v2-text-transfer.md): four before/after runs complete. Extra encoding guidance is not adopted: both after cases cost more, and both registration launchers fail without the evaluator's prepared Python PATH. Independent catalog updates and conditional CSV/XLSX processing pass. Default entry-point usability remains distinct from interpreter-level success.
+
+[R36 internal-document lookup](tests/v2-internal-lookup.md): all four actual generations completed. Fixed query and maintenance-handler checks pass across all arms; V2 actual edit/download/reopen also works, but browser coverage differs. No exclusive quality gain; V2 has the highest output/time cost. Preserve all products and failed commands; no Skill change adopted.
+
+[R35 practical usefulness](tests/v2-practical-utility.md): six actual before/after runs cover equipment loans, weekly quotations and exact copy editing. Adopt one tested core paragraph after observing useful correction/history/backup support, with independent logic checks and a preserved simple-edit boundary. Substantive output/time costs increased; UI verification is partial, with no general superiority claim.
+
+[R34 game motion](tests/v2-game-motion.md): four actual repairs fix reduced-motion ground scrolling and retain gameplay in independent script execution. All pass; V2 takes longer, with no exclusive gain. Browser evidence covers rendering/start only. No Skill rule adopted.
+
+[Historical game jump audit](tests/v2-game-jump.md) corrects the old frame-change inference. Actual execution of all four unchanged saved scripts verifies upward motion against a suppressed-pointer control, using mocked DOM/canvas at 60 Hz. This is not new model generation, real-device touch validation or a current-candidate advantage.
+
+[R32 interpreter setup](tests/v2-eval-environment.md) makes the evaluator's existing Python discoverable equally in common-runner child environments, with per-run resolution/version records. Five process/static checks pass, no model calls. Historical environment differences remain explicit; this is not a Skill-effectiveness result.
+
+[R31 public credentials](tests/v2-public-credentials.md): four before/after runs completed. Both repair the exposed access path and pass actual browser role switching; both simple edits preserve exact scope. New rule not adopted because no exclusive gain was observed. Existing Python was made discoverable equally, so R30 cost comparisons are not causal.
+
+[R30 registration access](tests/v2-registration-access.md) completes four actual repairs and independent local HTTP checks. All pass the direct-request matrix yet retain a replayable organizer demo credential in public HTML. The full access goal remains unmet; the added replay diagnostic is separate, with no broad security or superiority claim.
+
+[Full UI user review](tests/v2-ui-user-review.md) presents first-repetition historical A/V2 artifacts without modifying them. The user prefers 日日学 (raw A), citing more useful/complete functionality; this is not a current-version benchmark or a candidate improvement result.
+
+The subsequent workflow scope-text correction removes stale source-question applicability left after R27. Execution guidance is unchanged, links are checked, and the original R27 results are not presented as new behavioral evidence for this wording.
+
+[R29 intent-restatement substitution](tests/v2-intent-assumption.md): six before/after explanations complete. The prior false paraphrase did not recur in the fresh baseline; both variants preserve the animation control. No exclusive gain, mixed cost, no adoption. Snapshot/inventory checks do not claim visibility into host core injection.
+
+## Evaluation maintenance — 2026-10-13
+
+[R27 module routing](tests/v2-route-split.md) completes four actual comparisons after the preflight repair. The source-question task loads less unrelated guidance; combined workflow plans still need both modules. Full responses, unchanged fixtures and mixed costs are retained; no new workflow runtime claim.
+
+[R26 isolation repair](tests/v2-isolation-refresh.md) passes five deterministic checks and two actual host inventory probes without model generation. New Skill paths from host updates are disabled and rechecked before common runners proceed. Product behavior and existing quality results are unchanged; the subsequent R18 excerpt comparison received a preference for B on 2026-10-13, limited to explaining how usage affects the solution.
+
+## Candidate status — 2026-10-12
+
+[R25 source-policy simplification](tests/v2-evidence-trim.md) retains required judgments in four fixed comparisons. Full source reads and unchanged fixtures are checked; decoding and preflight issues are preserved. The shorter policy is adopted without claiming stable savings or improved accuracy.
+
+[R24 detail control](tests/v2-decision-detail.md) completes four before/after runs with complete-artifact review and independent arithmetic. The explicit-detail countercheck passes both variants; shorter decision text does not establish stable efficiency, and the paragraph substitution is not adopted.
+
+[R23 new decision task](tests/v2-conversion-decision.md) compares raw/generic/full Skill on misleading aggregate page-conversion rates. All three identify the consequential source-mix condition and produce correct decision notes. Full reports and independent arithmetic show no unique candidate benefit or savings.
+
+[R22 feedback repair](tests/v2-status-feedback.md) closes the reported errors through two real persistent-session turns and independent execution. All final contrast cases were exposed by feedback; retain the first-turn failures and do not count this as unseen accuracy or an arm comparison.
+
+An explicit `improve` request now has a [three-arm actual workflow repair](tests/v2-workflow-classification.md), with independent execution and a retained shared semantic failure. This is not full mode/command coverage or a clean overall pass.
+
+Natural-language teaching now has a [three-arm, six-turn transfer](tests/v2-teach-transfer.md). It verifies explanations and proposed checks only; no backend was built and command-wrapper/mode coverage is still incomplete.
+
+Initial corpus:67 actual generations,43 development trials and24 frozen new-task trials. Later scoped experiments are recorded separately below and in [results/limits](docs/v2-results.md). See [initial counters](tests/results/v2-runs.json), [four-arm protocol](tests/v2-protocol.md) and [reproduction fixtures](tests/v2-heldout-cases.md). Independent calculations/content review and real Edge operations support the explicitly listed checks only. Full logs/artifacts remain local. Cross-model, live-service and domain-wide superiority claims are untested.
+
+## Historical release review — 2026-09-29
 
 - Repository implementation was inspected before editing (base commit `7fef366`).
 - Six cases in [validation-cases.md](examples/validation-cases.md) were manually traced against the core, index and relevant modules. This is **static rule review**, not behavioral testing.
@@ -9,7 +103,7 @@
 - Full Codex/Claude installation and command discovery: **NOT RUN**. See [COMPATIBILITY.md](COMPATIBILITY.md) for narrower CLI/doc checks.
 - Bundled skill-creator `quick_validate.py`: attempted, but could not start because its PyYAML dependency is absent. No dependency was added to this Markdown Skill. The standard-library repository check validates its simple name/description frontmatter and package paths independently.
 
-No improvement percentage is reported. Historical counts without raw evidence were removed from [before-after.md](examples/before-after.md).
+This earlier unsuccessful readiness attempt is retained as history, not the current candidate status. Historical counts without raw evidence were removed from [before-after.md](examples/before-after.md).
 
 ## Static check
 
@@ -38,6 +132,24 @@ Start with the text-only fixture condition explicitly described in each case. It
 Use the same predetermined user answers to equivalent clarification requests; “unknown” remains unknown. Count unanswered essential questions separately from needless questions. Do not answer with evaluator hints. Preserve raw messages, tool calls, outputs, artifact paths, source records and errors after redacting secrets.
 
 ## Judge outcomes, not length
+
+For novice-project dialogue, use the [R7 scope-guidance protocol](tests/v2-scope-dialogue.md): inspect when a necessary boundary was explained, whether a recommendation helps the user decide, and whether later answers change the plan. A polished final report does not compensate for premature implementation based on unspoken assumptions. User satisfaction remains unmeasured without user feedback.
+
+The [R9 decision-boundary check](tests/v2-decision-boundary.md) separately tests waiting for real answers, preserving final use despite local execution restrictions, and acting on explicit delegation. Its fixed supplements test response to provided information, not full adaptive elicitation; incomplete conversations and timeouts cannot support broad comparative claims.
+
+The [R11 real-font comparison](tests/v2-font-library.md) uses identical supplied fonts/licenses and a real editor across raw/generic/release/candidate conditions. Independent browser loading, actual PNG pixel comparisons and injected loading failures are separate from generation status. Three deliveries completed; the fourth hit service capacity, and its working partial artifact is not counted as a completed delivery.
+
+The [R12 purpose/scope comparison](tests/v2-outcome-elicitation.md) checks actual follow-up choices after the same clarification, plus a creative exclusion. Preserve first-turn shortcomings and count draft/rewrite work separately; smaller scope is only useful when it serves the user's purpose.
+
+The [R13 missing-font comparison](tests/v2-font-gap.md) separately executes text-only C3 without files or browsing. All four arms honestly report their limits; release/candidate describe more prerequisites, while raw/generic propose a limited system-font alternative. Candidate output is not lower and no unique correctness gain is established.
+
+The [R14 routing-cost trial](tests/v2-routing-cost.md) repeats a one-row index change against the same candidate and checks a positive clarification trigger. All eight attempts completed. Fewer policy reads did not produce lower output/time; the change was not adopted. Text-only restrictions do not test spontaneous waiting before implementation.
+
+The [R15 purpose-question sequence](tests/v2-purpose-gate.md) retains nine completed turns and the exact one-paragraph correction. Both variants already waited; after openings were more purpose-focused with less initial work, while follow-up quality was similar and cost mixed. Preserve the internal-rule citation and mixed follow-up cost as limits.
+
+Subsequent user feedback favored the after support-opening summary; its narrow scope is recorded in R15. [R16](tests/v2-legacy-boundaries.md) completes twelve legacy text attempts across rendering, fabrication, temporary access and fast rewriting. C6/V2 hit capacity before a response; remaining C6 arms were not attempted. No broad efficiency or artifact-runtime claim follows.
+
+A separately recorded C6 recovery subsequently completed all three text arms on the same snapshot. All read and rejected the supplied note and honestly reported absent inputs/preview; the original interruption is not replaced. Mode variations and artifact-level rendering/manufacturing/deployment remain outside these checks.
 
 Score each dimension 0 (fails), 1 (partial), 2 (meets), or N/A (not observable). Record supporting output/tool/artifact evidence and disagreements, not just a total.
 
@@ -72,3 +184,7 @@ Checks actually run / unresolved limits:
 ```
 
 中文：先固定模型、输入、权限、工具和用户答复，再分别运行原始请求、简短通用规则、完整 Skill。保留原始记录，区分静态审查、文字行为和真实成品测试；未执行、无法观察、受阻都不能记为通过。
+
+## R28: completed unattended-workflow explanation transfer
+
+[Protocol and preserved results](tests/v2-unattended-transfer.md): all four arms now have two completed answers; the release continuation succeeded after the retained capacity failures. All cover the main explanation requirements. V2 has no exclusive quality gain, with output counters below V1 but above A/G. Frozen snapshots, Skill isolation and thread continuity were checked; no implementation or broad efficiency claim. Skill behavior is unchanged.

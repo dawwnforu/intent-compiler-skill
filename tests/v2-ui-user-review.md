@@ -1,0 +1,17 @@
+# Full UI preference review — awaiting user response
+
+2026-10-13. Present the first frozen habit-page repetition (`h1`) from raw A and frozen V2, selected by repetition number before inspecting the comparison display. This is not the current candidate: V2 was frozen at `25c5d9669db1a9f3f1e050d70e937c3a767ecb98`. No regeneration or artifact repair was performed. The task and generation conditions are in [frozen cases](v2-heldout-cases.md).
+
+Copy only the deployable files, with byte equality checked: A `index.html`, `styles.css`, `app.js`, `store.js`; V2 `index.html`. A localhost-only wrapper shows both at a 390px width and provides separate-page links. Preserve original demo projects versus empty state, styling and independent storage keys. Do not clear the user's browser state. Mapping is 甲=A and 乙=V2; this is not randomized or a strictly blinded study. Original artifacts and mapping remain available.
+
+The user-facing task is to add a learning project, mark/undo completion, reopen, and try export. Ask which is easier to use and preferable for daily use (甲/乙/差不多/都不够), with the main reason. This evaluates a complete artifact experience rather than an isolated explanation sentence. Do not infer comprehension, general satisfaction, current Skill superiority or cost improvements from the response.
+
+The original successful browser checks were re-read: literal names, persistence, no horizontal overflow, actual export containing projects and no runtime errors pass for both. This turn verifies the wrapper visibly loads both pages in the in-app browser; it does not relabel those historical interaction checks as newly performed. The first sandbox server was unreachable and stopped; the approved replacement binds only to `127.0.0.1`. No public hosting, uploads or paid services.
+
+Local review artifact: `outputs/intent-compiler-v2/habit-human-review/index.html`, with selection and byte-copy scope in `protocol.json`. The preview is temporary and depends on its local server; the copied files remain available independently. The browser tab was marked as a deliverable.
+
+**Feedback received, 2026-10-13:** “日日学更好一些”, followed by the reason “功能更实用、完整”. The page title and preserved mapping confirm 日日学 = 甲 = raw A; the frozen V2 page is 一点进步. This is a preference for A, not a candidate win. The user did not report completing every suggested interaction, so do not turn this feedback into additional runtime passes.
+
+Source comparison identifies concrete differences: A displays the recent seven days' completion counts and supports an optional project note and color; the frozen V2 has no equivalent week view or project-note/color controls. Both support the originally requested adding, checking/unchecking, today's progress, persistence and export. The original prompt did not explicitly request the extra week view, notes or colors. These are possible contributors to perceived usefulness, not user-confirmed explanations or universal requirements. Preserve the original artifacts and user data.
+
+Next hypothesis: a concise implementation may satisfy the literal checklist while omitting useful support for ongoing use. Evaluate the utility of specific additions against the actual task before changing rules; do not add every feature, retrofit the historical sample, infer that all shorter outputs are worse, or advertise this result as evidence about the current candidate. This one nonblind full-artifact preference is separate from the earlier favorable explanation excerpts.

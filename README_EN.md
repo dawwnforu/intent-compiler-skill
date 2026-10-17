@@ -6,6 +6,26 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+The quality module now omits six generic questions already covered by the core, retaining actual verification and failure handling. [Four comparisons](tests/v2-quality-trim.md) retain handover utility, backup/recovery guidance and correct registration-capacity decisions. Lower single-run output with differing formats does not establish stable token savings.
+
+Original project: [Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill). Existing attribution: **Intent Compiler contributors**, Copyright (c) 2026 Intent Compiler contributors. Host manifests remain at **0.2.0**; this branch is an **unreleased 2.0 candidate**, not a published 2.0 release. Specific contributions are recorded in Git history; no additional author identity is asserted.
+
+Source labels provide attribution and traceability, not copy prevention or proof of ownership. The standard MIT license remains unchanged, permitting copying, modification, redistribution and commercial use subject to its conditions. Redistribution alone is not evidence of infringement. The standalone Skill folder includes [bilingual source information](skills/intent-compiler/README.md) and the same license; retain both in any future package. No upload package has been created or published in this change.
+
+Print guidance now distinguishes copy counts from physical dimensions: zero copies omit a record from this batch while retaining it; physical label dimensions must stay positive. [Actual repair checks](tests/v2-print-counts.md) cover browser exports, an all-zero batch and restored printing. This is a bounded known-failure repair, not a general effectiveness claim.
+
+2.0 now checks usefulness beyond the first successful action: add supporting capabilities when the actual workflow warrants them, rather than cutting utility to shorten output. [Loan and quotation comparisons](tests/v2-practical-utility.md) record concrete additions, higher costs and incomplete UI verification.
+
+[Current candidate decision and optional starter prompt (Chinese)](docs/v2-decision.md) separates observed improvements from unresolved effectiveness claims. The broad goal remains open; the next behavior change should target an observed decision or user-experience failure, with fixed baselines and unseen transfer checks rather than more synonymous instructions.
+
+Source guidance is shorter while retaining evidence, scope and verification dates. Four project-record/font-evidence comparisons preserve required judgments; this is not established general token savings. See [tests and limits](tests/v2-evidence-trim.md).
+
+Source questions and repeated workflows now route separately, combining only when needed. [Four actual comparisons](tests/v2-route-split.md) show narrower loading for source questions, without establishing overall time or token savings.
+
+Candidate workflow guidance now distinguishes proposals, conditions, confirmed decisions and quoted terms, and checks updates to derived records. The [latest actual comparison](tests/v2-status-evidence.md) shows only partial improvement, with remaining errors and higher cost; general semantic understanding is not established.
+
+This branch develops a **2.0 candidate**; the released version remains 0.2.0. It adds task-specific rules for surveys/data, interactive motion, workflows, web runtime, print layouts and game mods while reducing redundant narration and unsolicited documents. Effectiveness requires the [four-arm evaluation](tests/v2-protocol.md); [research hypotheses](docs/v2-research.md) and [reconstructed cases](examples/v2-cases.md) are not improvement claims.
+
 An intent-driven, knowledge-enhanced workflow for non-technical users. Users need no prompt-engineering, coding, design, deployment or asset-licensing vocabulary. A longer prompt is not the default deliverable.
 
 ```text
@@ -22,6 +42,10 @@ Simple edits go straight to the result. For substantive work, inspect context an
 3. Irrelevant to delivery: leave unloaded and out of scope.
 
 Stop retrieval when prerequisites and acceptance are clear with no new critical gap. If necessary evidence is inaccessible, stop that branch, finish independent work and name the blocker. Never invent business facts, budgets, permissions, sources or completion.
+
+For an unfamiliar project with unsettled scope, clarify the goal and consequential choices before substantial implementation. A feature list is not its purpose: if the job, experience or decision this version enables is unclear, ask a concrete purpose question with enough explanation to answer before drafting detailed scope. Then explain what stays and what can wait. Preserve reaffirmed creative requirements and real-use conditions. Explain concrete effects at the user's stated experience level instead of delegating architecture questions to them; execute once enough is known without reopening settled choices. This guidance belongs in the conversation; delivery reports actual completion and remaining gaps. It is not a claim that every latent need can be inferred correctly.
+
+Distinguish final use, current execution limits and confirmed choices: “do not publish now” does not mean “only a demo.” Recommendations and silence are not user answers. Wait on work affected by a necessary missing answer, while executing explicitly delegated low-impact choices. Reliability still requires evidence; see the [decision-boundary check](tests/v2-decision-boundary.md).
 
 ## Three core scenarios
 
@@ -68,13 +92,26 @@ $intent-compiler improve -- Inspect and repair this existing proposal.
 
 This project supplies Markdown behavior, routing, domain judgments, evidence boundaries, acceptance rules and cases. Routing is followed by the host model, not an independent program; model compliance is not guaranteed.
 
-Retrieval, file editing, image generation, modeling and deployment depend on the host model, specialist skills/tools, source access, accounts and authorization. Installing this Skill does not supply those tools or credentials. There is no database, backend service or paid API dependency. Optional repository checks use Python's standard library; the Skill requires no Python runtime.
+Retrieval, file editing, image generation, modeling and deployment depend on the host model, specialist skills/tools, source access, accounts and authorization. Installing this Skill does not supply those tools or credentials. There is no database, backend service or paid API dependency. Python is not required to use the Skill.
+
+The 2.0 candidate includes an optional read-only script check for standalone HTML, used only when Python is already available. It checks script tags and some local resources, not actual initialization or interaction. In [four repair comparisons](tests/v2-html-helper.md), after repaired a blank page that before still missed, at higher cost. This does not establish general cross-domain superiority.
 
 ## Validation and maintenance
 
+The 2.0 candidate adds a bounded check for interrupted entry and edited results. In [four before/after runs](tests/v2-draft-recovery.md), both after products retain unfinished questionnaire/inventory input on refresh; committed-record persistence remains shared. Failed download observation, unverified reset and single-run costs remain recorded, without general-superiority or stable-savings claims.
+
+In [three subsequent pairs and a temporary-input control pair](tests/v2-recovery-repeat.md), all six normal products recover drafts and both controls honor non-retention. One after delivery restores saved content as a draft and creates a duplicate on repeated completion. Preserve that failure and shared capabilities; no further runtime rule is adopted this round.
+
 [Six regression cases](examples/validation-cases.md) cover render-only scope, fabrication prerequisites, font resources/rights, deployment exposure/cost, fast text edits and unavailable data/tools/permissions.
 
-Rules and cases have been statically reviewed; model behavior comparisons are **not run**. No improvement percentages are claimed. Old percentages without reproducible raw records have been removed. [TESTING.md](TESTING.md) defines the raw request / short generic rules / full Skill comparison and evidence log.
+The frozen candidate snapshot has 67 actual generations, including 24 new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. It had lower median output than V1 on both repeated tasks; general superiority over generic instructions was not established. Later dialogues exposed an aggregate/per-item rule error; the repair has a separate three-turn regression and two positive/negative transfer checks. Earlier cost figures do not validate the new repair's efficiency. Read [results and limits](docs/v2-results.md) and [testing methods](TESTING.md), including failures and worse outcomes.
+
+A separate [real-font four-arm trial](tests/v2-font-library.md) had three completed deliveries and one service-capacity interruption. All saved pages passed independent offline loading and PNG pixel checks; the interrupted run remains a partial artifact. Candidate output was lower in this sample, without a unique core capability or stable superiority claim.
+
+Six additional efficiency regressions on the repaired version preserved core statistics and basic UI functionality, but UI output/time medians exceeded the historical V1 results. Universal token savings are not established; the specific correctness repair and efficiency tradeoff are reported separately.
+
+A later browser-capability-probe paragraph was tested and removed: two complete pairs disagreed, and the last attempt hit an account usage limit. All attempts remain recorded; interruption is not counted as a saving or a completed comparison.
+A separate recovery after usage became available completed and passed independent page checks, without establishing a reliable cost benefit from that paragraph.
 
 To add knowledge, fill the [Markdown template](skills/intent-compiler/references/knowledge-module-template.md), add an index row and cases. No routing code changes are needed. See [MAINTAINING.md](MAINTAINING.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 

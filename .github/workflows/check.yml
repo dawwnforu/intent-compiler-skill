@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tests/check_repository.py
+      - run: python tests/test_html_scripts_candidate.py
