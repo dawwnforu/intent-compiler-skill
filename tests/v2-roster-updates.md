@@ -24,6 +24,8 @@ No exclusive Skill benefit or cost advantage is demonstrated. Keep existing rule
 
 The parent did not accept browser rendering, mobile, physical launch or whole-file failure/retry here. Generated self-tests are retained separately. A local reviewer contains exact copies of the actual updated reports; it has been queued in Codex, without confirmed visual opening or a human rating. Names map to G/V2/A and do not establish a blind study. Installation, normal host discovery and compatibility were not tested. Single runs and developer-designed synthetic conditions cannot establish general superiority or stable savings.
 
+Subsequent R64 preflight loaded the reviewer in Edge and observed all three report frames, expected counts and conflict rows in the rendered DOM. This narrows the earlier page-opening uncertainty; it does not establish full visual/mobile acceptance or a human preference.
+
 ## Replay the delivered tools
 
 Extract an arm's `runs[arm].sourceFiles` from the JSON into a separate directory, writing each string with its recorded `sourceTextEncodings` value. In particular, preserve the PowerShell scripts' UTF-8 BOM; writing every file with a default encoding can change execution. Keep the original `inputs` files. On Windows with the recorded existing runtimes, run the arm's supported no-open entry from that directory:

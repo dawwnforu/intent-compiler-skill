@@ -100,6 +100,8 @@ The 2.0 candidate includes an optional read-only script check for standalone HTM
 
 The 2.0 candidate adds a bounded check for interrupted entry and edited results. In [four before/after runs](tests/v2-draft-recovery.md), both after products retain unfinished questionnaire/inventory input on refresh; committed-record persistence remains shared. Failed download observation, unverified reset and single-run costs remain recorded, without general-superiority or stable-savings claims.
 
+In [three subsequent pairs and a temporary-input control pair](tests/v2-recovery-repeat.md), all six normal products recover drafts and both controls honor non-retention. One after delivery restores saved content as a draft and creates a duplicate on repeated completion. Preserve that failure and shared capabilities; no further runtime rule is adopted this round.
+
 [Six regression cases](examples/validation-cases.md) cover render-only scope, fabrication prerequisites, font resources/rights, deployment exposure/cost, fast text edits and unavailable data/tools/permissions.
 
 The frozen candidate snapshot has 67 actual generations, including 24 new-task runs across two tasks, four arms and three repetitions, with independent content/runtime checks. It had lower median output than V1 on both repeated tasks; general superiority over generic instructions was not established. Later dialogues exposed an aggregate/per-item rule error; the repair has a separate three-turn regression and two positive/negative transfer checks. Earlier cost figures do not validate the new repair's efficiency. Read [results and limits](docs/v2-results.md) and [testing methods](TESTING.md), including failures and worse outcomes.

@@ -26,6 +26,8 @@ Inputs for statistical cases are synthetic and clearly labeled. Do not retrieve 
 
 [R63](../tests/v2-roster-updates.md) extends the overlapping-export issue in the public research README into a fresh synthetic task: “每周收到活动报名导出，想双击更新，看清确认人数、各场次准备和待处理事项。” It is not an original recovered prompt or private research data. All three actual products pass source-state and update checks; no Skill-exclusive gain or human preference is established.
 
+[R64](../tests/v2-recovery-repeat.md) uses a fresh synthetic request: “做一个三步记录设备故障、尝试和后续安排的本机网页，以后能查设备历史。” Three pairs share working recovery; one after product confuses saved work with a draft. A separate temporary-use pair honors the no-retention exclusion. Neither is a recovered original GitHub prompt or a human preference result.
+
 [R52](../tests/v2-throw-game.md) adds a separately scoped browser-game scenario: “按住蓄力，把小人投到安全平台，手机电脑都能玩，失败快重试，也能反复玩下去。” Inspiration was rechecked at [Throwteammate](https://github.com/dawwnforu/Throwteammate), README commit02508d213c32e3f95fda36af6b9db55cd7a2fa49. All three actual-browser playthroughs now cover core play and390px pointer use; misleading candidate feedback and a generic-arm keyboard defect remain. This does not replace P07's mod/network acceptance, physical-phone testing or broad quality evidence.
 
 ## Conversational scope guidance

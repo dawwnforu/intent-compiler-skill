@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete eight R64 generations: three interleaved recovery pairs and an explicit temporary-input control pair, with actual principal browser paths. Recovery is shared; one after delivery restores committed content as a draft and repeats a record on resubmission. Both controls honor non-retention. Preserve failed native-dialog checks, mixed costs and untested host/device scope; no new runtime instruction adopted.
+
 - Complete R63 raw/generic/current-Skill roster processing with nine independent entry executions. All reconcile repeated snapshots, person/session counts, cancellation and equal-time conflicts correctly; current Skill has no exclusive gain and higher single-run cost. Preserve exact products and human-review material without adding a runtime rule or claiming browser/installation coverage.
 
 - Add a bounded interactive-entry recovery and edited-output criterion after four R62 before/after generations. Actual refresh checks retain unfinished questionnaire and inventory input in both after deliveries; shared saved-record behavior and status cleanup are not exclusive gains. Preserve encoding repairs, failed download observation and unverified moving reset. No stable savings, mobile, installation or compatibility claim.
