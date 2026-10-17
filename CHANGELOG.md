@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add a bounded interactive-entry recovery and edited-output criterion after four R62 before/after generations. Actual refresh checks retain unfinished questionnaire and inventory input in both after deliveries; shared saved-record behavior and status cleanup are not exclusive gains. Preserve encoding repairs, failed download observation and unverified moving reset. No stable savings, mobile, installation or compatibility claim.
+
 - Complete R61 raw/generic/Skill questionnaire generations and independent browser paths. Preserve a verified personal-summary download unique to the Skill delivery, shared correct conditional handling, shared refresh loss, a stale download-status defect and higher single-run Skill cost. No behavioral rule, installed release or license change; human preference and physical mobile compatibility remain unmeasured.
 
 - Remove six generic quality questions duplicated by the core, retaining actual artifact verification and failure handling. R59 preserves required outcomes in four real before/after runs; mixed artifact formats prevent attributing lower single-run counters solely to this deletion. No useful feature, installed release or license removed.

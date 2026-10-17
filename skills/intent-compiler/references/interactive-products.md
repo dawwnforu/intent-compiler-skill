@@ -4,7 +4,7 @@ Load for a working UI, animation or small game; exclude static copy edits, backe
 
 ## UI and forms
 
-A screenshot is not a working flow. Identify start, interaction, result and reachable empty/error states. Test the primary path at a narrow viewport and with keyboard focus. Preserve answers on back navigation; a changed answer must update dependent results. Prevent repeated clicks from double counting or premature submission.
+A screenshot is not a working flow. Identify start, interaction, result and reachable empty/error states. Test the primary path at a narrow viewport and with keyboard focus. Preserve answers on back navigation; a changed answer must update dependent results. For multi-step entry, check whether interruption loses meaningful work; provide appropriate draft recovery or explain the limitation. After edits, recheck dependent results and saved-output status. Prevent repeated clicks from double counting or premature submission.
 
 If a result must be saved/shared, deliver an actual downloadable artifact or supported share path with fallback. A decorative button is incomplete. Visual choices do not authorize accounts, analytics or cloud storage.
 
