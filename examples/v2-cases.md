@@ -24,6 +24,8 @@ Requests below are reconstructions inspired by public project descriptions, not 
 
 Inputs for statistical cases are synthetic and clearly labeled. Do not retrieve private respondent records. Maintain positive and exclusion cases when adding a module; deeper technical expectations remain evaluator material.
 
+[R63](../tests/v2-roster-updates.md) extends the overlapping-export issue in the public research README into a fresh synthetic task: “每周收到活动报名导出，想双击更新，看清确认人数、各场次准备和待处理事项。” It is not an original recovered prompt or private research data. All three actual products pass source-state and update checks; no Skill-exclusive gain or human preference is established.
+
 [R52](../tests/v2-throw-game.md) adds a separately scoped browser-game scenario: “按住蓄力，把小人投到安全平台，手机电脑都能玩，失败快重试，也能反复玩下去。” Inspiration was rechecked at [Throwteammate](https://github.com/dawwnforu/Throwteammate), README commit02508d213c32e3f95fda36af6b9db55cd7a2fa49. All three actual-browser playthroughs now cover core play and390px pointer use; misleading candidate feedback and a generic-arm keyboard defect remain. This does not replace P07's mod/network acceptance, physical-phone testing or broad quality evidence.
 
 ## Conversational scope guidance

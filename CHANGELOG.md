@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete R63 raw/generic/current-Skill roster processing with nine independent entry executions. All reconcile repeated snapshots, person/session counts, cancellation and equal-time conflicts correctly; current Skill has no exclusive gain and higher single-run cost. Preserve exact products and human-review material without adding a runtime rule or claiming browser/installation coverage.
+
 - Add a bounded interactive-entry recovery and edited-output criterion after four R62 before/after generations. Actual refresh checks retain unfinished questionnaire and inventory input in both after deliveries; shared saved-record behavior and status cleanup are not exclusive gains. Preserve encoding repairs, failed download observation and unverified moving reset. No stable savings, mobile, installation or compatibility claim.
 
 - Complete R61 raw/generic/Skill questionnaire generations and independent browser paths. Preserve a verified personal-summary download unique to the Skill delivery, shared correct conditional handling, shared refresh loss, a stale download-status defect and higher single-run Skill cost. No behavioral rule, installed release or license change; human preference and physical mobile compatibility remain unmeasured.
