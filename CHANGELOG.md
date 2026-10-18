@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Repair local common evaluation failure records and direct app-server EOF cleanup; archive exact helper/dependency sources and a replay launcher. Eleven local driver checks pass from reconstruction, without model calls. Preserve real state-runtime access failure as blocked discovery; no Skill behavior, permission, installation, MIT or historical-result change.
+
 - Adopt only R67's conditional recall-order paragraph in the interactive module. Preserve later hints, meaningful judgments and changed-scenario practice; separate assisted attempts. Five main generations and one completed supplemental quiz support a bounded interaction correction, not general learning effectiveness. Keep the usage-interrupted supplemental baseline, useful baseline grading/case-bank differences and unverified native/device/host paths explicit. No new generations during closeout, dependency, license, manifest, release or installed-version change.
 
 - Complete R66 raw/generic/current-Skill study-tool generations and actual attempt/feedback/reload/continuation checks. All preserve source-based self-assessment and progress; Skill additionally cues its initial free explanation with visible answer choices, while raw provides a useful confidence/omission reminder. Preserve this method limitation, setup recovery and higher Skill output; no new rule, learning-effectiveness or exclusive-gain claim.
