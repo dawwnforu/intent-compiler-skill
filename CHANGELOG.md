@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Diagnose R68 host-state startup failure with same-argument restricted/approved discovery; record actual model/Skill listing, refreshed isolation and one successful model tool smoke. Adopt approval-mediated launcher guidance while retaining child sandbox/network settings. Preserve the failed command and repair; no Skill rule, common-runner change, installation, global config, MIT, quality or savings claim.
+
 - Repair local common evaluation failure records and direct app-server EOF cleanup; archive exact helper/dependency sources and a replay launcher. Eleven local driver checks pass from reconstruction, without model calls. Preserve real state-runtime access failure as blocked discovery; no Skill behavior, permission, installation, MIT or historical-result change.
 
 - Adopt only R67's conditional recall-order paragraph in the interactive module. Preserve later hints, meaningful judgments and changed-scenario practice; separate assisted attempts. Five main generations and one completed supplemental quiz support a bounded interaction correction, not general learning effectiveness. Keep the usage-interrupted supplemental baseline, useful baseline grading/case-bank differences and unverified native/device/host paths explicit. No new generations during closeout, dependency, license, manifest, release or installed-version change.
