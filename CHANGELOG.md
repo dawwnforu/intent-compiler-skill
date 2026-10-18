@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Prepare a local client-handoff trial with synthetic inputs, actual sample output, consented feedback templates, explicit host matrix and conditional 30/90-day economics. Three matched Codex runs share business/privacy correctness; preserve higher candidate cost, failed commands, blocked Claude auth and missing browser/human evidence. Verify ZIP project installation without replacing the formal Skill. Keep core/MIT unchanged; Agensi delivery/licence questions remain unresolved and no listing is published.
+
 - Diagnose R68 host-state startup failure with same-argument restricted/approved discovery; record actual model/Skill listing, refreshed isolation and one successful model tool smoke. Adopt approval-mediated launcher guidance while retaining child sandbox/network settings. Preserve the failed command and repair; no Skill rule, common-runner change, installation, global config, MIT, quality or savings claim.
 
 - Repair local common evaluation failure records and direct app-server EOF cleanup; archive exact helper/dependency sources and a replay launcher. Eleven local driver checks pass from reconstruction, without model calls. Preserve real state-runtime access failure as blocked discovery; no Skill behavior, permission, installation, MIT or historical-result change.

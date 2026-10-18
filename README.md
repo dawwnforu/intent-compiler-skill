@@ -6,11 +6,13 @@
 
 [English](README_EN.md) · [MIT License](LICENSE)
 
+**先试一个客户交付任务：** [本地试用与安装](pilot/README.md) → 用合成资料做客户确认包和内部执行表 → 修改后再用一次。[三组真实生成](tests/v2-business-pilot.md)均完成本例业务与文件信息边界，候选另有回复表但输出与耗时更高，尚无真实用户复用或付款。[兼容矩阵](pilot/compatibility.md)区分Codex已验路径与Claude认证阻塞；[反馈材料](pilot/feedback.md)和[收入条件模型](commercial/README.md)用于下一轮小规模验证，不承诺全面优越或销量。
+
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 
 原始项目：[Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill)。现有署名：**Intent Compiler contributors**；版权：Copyright (c) 2026 Intent Compiler contributors。宿主清单版本 **0.2.0**；本分支为**未发布的 2.0 候选版**，不是已发布的 2.0。提交历史记录具体贡献，不能据此编造作者身份。
 
-来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；未来打包时须保留这些文件，当前未制作或发布上传包。
+来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；本地试用包已保留这些文件，尚未制作或发布平台上传包。
 
 打印知识已补充分清份数与尺寸：本次不打印可以设为 0，同时保留名单；实体标签尺寸不能为 0。[实际修复验证](tests/v2-print-counts.md)覆盖网页导出、全零处理和恢复打印，仅证明这一已知缺口的局部修复。
 

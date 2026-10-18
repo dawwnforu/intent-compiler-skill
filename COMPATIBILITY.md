@@ -1,6 +1,6 @@
 # Installation and compatibility / 安装与兼容性
 
-Checked on 2026-09-29. This is an evidence record, not a permanent compatibility guarantee. Recheck the linked official instructions when host behavior changes. GitHub publication does not mean admission to a public plugin directory.
+Latest trial evidence: 2026-10-19, [detailed host matrix](pilot/compatibility.md) and [R70 actual business checks](tests/v2-business-pilot.md). Codex project-local installation from the built ZIP, discovery and actual generation are verified; Claude project discovery succeeds but remote authentication fails. Cursor/Copilot and Agensi delivery remain unverified. No desktop/global installation or resumed-task compatibility claim. The installation instructions below retain their original 2026-09-29 verification date; current evidence supersedes their older status notes. GitHub publication does not mean admission to a public plugin directory.
 
 ## Codex
 
@@ -19,7 +19,7 @@ Alternatively, copy the **whole** `skills/intent-compiler` folder to `.agents/sk
 
 In a fresh session, confirm discovery and invoke `$intent-compiler brief -- Describe launch prerequisites without deploying`. Explicit name display can vary with plugin namespacing; use the host's skill selector if needed. Automatic selection remains model-dependent.
 
-**Evidence:** CLI version and subcommand help inspected; manifest/path checks run locally. **Not tested:** complete plugin installation/discovery in a fresh host session or model behavior.
+**Historical evidence:** CLI help and static checks. **Current evidence:** Codex CLI 0.163.0-alpha.10.2, actual project-local ZIP installation/discovery and bounded business generation; marketplace plugin installation and GUI compatibility still untested. See the matrix above.
 
 ## Claude Code
 
@@ -38,11 +38,11 @@ In a fresh session, check the installed plugin and use its namespaced skill:
 
 The core Skill supplies that entrypoint; no duplicate same-name command is packaged. Markdown wrappers provide `/intent-compiler:intent-brief`, `/intent-compiler:intent-teach` and `/intent-compiler:intent-improve`. Discovery must be smoke-tested on the target host; natural-language modes in the core remain sufficient if a wrapper is not exposed.
 
-**Evidence:** official docs inspected, JSON/path checks run. **Not tested:** Claude installation, command dispatch or behavioral compatibility. Before claiming support for a release, run `claude plugin validate .`, install a local checkout, and verify all four modes.
+**Current evidence:** Claude Code 2.1.201 project-local copy and initialized Skill/slash entry observed; business request failed with 401. The requested sonnet alias resolved to a different locally configured model, so no Anthropic-model success is claimed. Marketplace plugin dispatch, four modes and business compatibility remain unverified. See the matrix above.
 
 ## Other hosts and limitations
 
-### Current candidate evidence / 当前候选证据（2026-10-15）
+### Historical candidate evidence / 历史候选证据（2026-10-15）
 
 | Evidence layer / 层级 | What is established / 已知范围 | Remaining limit / 限制 |
 |---|---|---|
@@ -61,6 +61,6 @@ The package supplies instructions and an optional read-only HTML script check, w
 
 - 核验日期：2026-09-29；官方说明、静态清单检查、完整安装和模型行为是不同层级的证据。
 - Codex 的命令语法已在本地帮助中核对；Claude 的 marketplace 与 Markdown 命令格式已核对官方资料。
-- 两个宿主的完整安装、发现和模式调用均未实测。请在新会话按上面的命令验证，不能因为 JSON 合法就宣布兼容。
+- 最新逐项结果见上方试用矩阵：Codex项目内安装、发现与业务生成有实测；Claude发现后远端认证失败。完整插件安装、四模式和会话恢复仍未验证，不能因为 JSON 合法就宣布兼容。
 - 主分支安装不会自动得到尚未合并的 PR；测试修改时使用本地副本或明确的测试分支。
 - 安装整个 Skill 文件夹；安装不会提供建模、部署等工具、账号或授权。其他宿主未验证。

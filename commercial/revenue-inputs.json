@@ -1,0 +1,28 @@
+{
+  "currency": "USD",
+  "purpose": "Unapproved pricing hypotheses; conditional unit economics, not a sales prediction or spending authorization.",
+  "parameters": {
+    "price": {"value": 19, "basis": "hypothesis", "source": "One-time scenario maintenance pack price to interview after use; not listed or sold"},
+    "platform_share": {"value": 0.30, "basis": "platform statement verified 2026-10-19", "source": "https://www.agensi.io/terms sections 6.4 and 7.1; recheck before launch; use only if MIT/delivery issue resolved"},
+    "creator_tool_per_order": {"value": 0.20, "basis": "hypothesis", "source": "Allocated creator support-model cost, not actual invoice"},
+    "creator_tool_per_active": {"value": 0.05, "basis": "hypothesis", "source": "Allocated creator trial assistance cost; buyer's own Agent cost is excluded"},
+    "minutes_per_active": {"value": 10, "basis": "hypothesis", "source": "Includes non-buying activated trial users; replace from consented pilot logs"},
+    "minutes_per_order": {"value": 20, "basis": "hypothesis", "source": "Post-purchase support per order; not measured"},
+    "minutes_per_refund": {"value": 15, "basis": "hypothesis", "source": "Refund handling/support, including reversed creator share; not measured"},
+    "hourly_value": {"value": 20, "basis": "hypothesis", "source": "Creator time valuation, not wage, budget approval or cash payment"},
+    "monthly_cash": {"value": 10, "basis": "hypothesis", "source": "Allocated recurring tools; no service purchased"},
+    "initial_hours": {"value": 6, "basis": "hypothesis", "source": "One-time packaging/onboarding investment, included once at each horizon"},
+    "maintenance_hours_month": {"value": 2, "basis": "hypothesis", "source": "Ongoing scenario upkeep"},
+    "recruitment_hours_month": {"value": 2, "basis": "hypothesis", "source": "Time to recruit/observe, not assumed free traffic"}
+  },
+  "scenarios": {
+    "zero_30": {"basis": "hypothesis: all funnel values, not platform traffic", "values": {"days": 30, "views": 100, "trial_rate": 0.1, "activation_rate": 0.5, "paid_given_active": 0, "refund_rate": 0}},
+    "base_30": {"basis": "hypothesis: all funnel values, not platform traffic", "values": {"days": 30, "views": 300, "trial_rate": 0.12, "activation_rate": 0.6, "paid_given_active": 0.15, "refund_rate": 0.1}},
+    "upside_30": {"basis": "hypothesis: all funnel values, not platform traffic", "values": {"days": 30, "views": 600, "trial_rate": 0.2, "activation_rate": 0.75, "paid_given_active": 0.3, "refund_rate": 0.05}},
+    "zero_90": {"basis": "hypothesis: cumulative unique qualified views; not added to 30-day scenario", "values": {"days": 90, "views": 300, "trial_rate": 0.1, "activation_rate": 0.5, "paid_given_active": 0, "refund_rate": 0}},
+    "base_90": {"basis": "hypothesis: cumulative unique qualified views; not added to 30-day scenario", "values": {"days": 90, "views": 900, "trial_rate": 0.12, "activation_rate": 0.6, "paid_given_active": 0.15, "refund_rate": 0.1}},
+    "upside_90": {"basis": "hypothesis: cumulative unique qualified views; not added to 30-day scenario", "values": {"days": 90, "views": 1800, "trial_rate": 0.2, "activation_rate": 0.75, "paid_given_active": 0.3, "refund_rate": 0.05}}
+  },
+  "not_measured": ["real product-page visits", "consented external participants", "orders", "refunds", "support time", "buyer model cost", "creator marginal inference billing", "payout holds", "regional eligibility and taxes"],
+  "billing_note": "CLI token counters are not per-request subscription invoices. No verified monetary inference charge is available; do not convert them to fabricated spend. Payout/currency/network fees and seller taxes require account-specific verification before cashflow decisions."
+}

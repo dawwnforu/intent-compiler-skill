@@ -2,6 +2,8 @@
 
 # Intent Compiler
 
+**Start with one client handoff:** [local trial and installation](pilot/README.md) → generate a client confirmation ZIP plus an internal action table from synthetic inputs → revise and reuse. [Three real generations](tests/v2-business-pilot.md) share correct bounded delivery/privacy in this case; the candidate adds a reply sheet at higher output/time, without human reuse or payment evidence. See [host status](pilot/compatibility.md), [consented feedback materials](pilot/feedback.md), and [conditional economics](commercial/README.md). This is a small trial, not a universal advantage or sales promise.
+
 **Describe the outcome. The agent discovers, retrieves and applies the knowledge needed to get it done.**
 
 [中文](README.md) · [MIT License](LICENSE)
@@ -10,7 +12,7 @@ The quality module now omits six generic questions already covered by the core, 
 
 Original project: [Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill). Existing attribution: **Intent Compiler contributors**, Copyright (c) 2026 Intent Compiler contributors. Host manifests remain at **0.2.0**; this branch is an **unreleased 2.0 candidate**, not a published 2.0 release. Specific contributions are recorded in Git history; no additional author identity is asserted.
 
-Source labels provide attribution and traceability, not copy prevention or proof of ownership. The standard MIT license remains unchanged, permitting copying, modification, redistribution and commercial use subject to its conditions. Redistribution alone is not evidence of infringement. The standalone Skill folder includes [bilingual source information](skills/intent-compiler/README.md) and the same license; retain both in any future package. No upload package has been created or published in this change.
+Source labels provide attribution and traceability, not copy prevention or proof of ownership. The standard MIT license remains unchanged, permitting copying, modification, redistribution and commercial use subject to its conditions. Redistribution alone is not evidence of infringement. The standalone Skill folder includes [bilingual source information](skills/intent-compiler/README.md) and the same license; the local trial preserves both. No marketplace upload package has been submitted or published.
 
 Print guidance now distinguishes copy counts from physical dimensions: zero copies omit a record from this batch while retaining it; physical label dimensions must stay positive. [Actual repair checks](tests/v2-print-counts.md) cover browser exports, an all-zero batch and restored printing. This is a bounded known-failure repair, not a general effectiveness claim.
 
