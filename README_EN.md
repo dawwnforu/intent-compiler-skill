@@ -2,7 +2,7 @@
 
 # Intent Compiler
 
-**Start with one client handoff:** [local trial and installation](pilot/README.md) → generate a client confirmation ZIP plus an internal action table from synthetic inputs → revise and reuse. [Three real generations](tests/v2-business-pilot.md) share correct bounded delivery/privacy in this case; the candidate adds a reply sheet at higher output/time, without human reuse or payment evidence. See [host status](pilot/compatibility.md), [consented feedback materials](pilot/feedback.md), and [conditional economics](commercial/README.md). This is a small trial, not a universal advantage or sales promise.
+**Start with one client handoff:** [free candidate trial ZIP](pilot/intent-compiler-local-pilot.zip) (Download raw file on GitHub) → [install in a new project](pilot/README.md) → generate, revise and reuse a client confirmation ZIP plus internal action table. [R71's three real six-turn sessions](tests/v2-continuous-pilot.md) share correct bounded delivery, without an exclusive V2 gain. The sample TXT preview encoding is repaired and explicit project-file selection is verified alongside a same-name user installation; runtime core is unchanged. External reuse/orders remain zero. See [host status](pilot/compatibility.md), [consented feedback materials](pilot/feedback.md), and [conditional economics](commercial/README.md). This PR-branch free trial is neither a formal Release nor an Agensi product, universal advantage or sales promise.
 
 **Describe the outcome. The agent discovers, retrieves and applies the knowledge needed to get it done.**
 

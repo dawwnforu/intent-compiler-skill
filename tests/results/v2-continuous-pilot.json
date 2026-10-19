@@ -1,0 +1,618 @@
+{
+  "baseCommit": "c204e14e39a81a34d59dbdef624c508a34c6b1b1",
+  "runtimeCoreChanged": false,
+  "frozenCore": {
+    "comparison": {
+      "files": 24,
+      "bytesUnchanged": true
+    },
+    "onboarding": {
+      "files": 24,
+      "bytesUnchanged": true
+    }
+  },
+  "threeArmComparison": {
+    "arms": {
+      "G": {
+        "completedTurns": 6,
+        "seconds": 534.02,
+        "failedShellCommands": [
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 1,
+            "exit": 1
+          }
+        ],
+        "sourceBytesPreserved": true,
+        "packerAttempts": 11,
+        "sameThread": true,
+        "reportedUsageTotal": {
+          "input_tokens": 876556,
+          "cached_input_tokens": 814592,
+          "output_tokens": 23267
+        }
+      },
+      "V2": {
+        "completedTurns": 6,
+        "seconds": 560.76,
+        "failedShellCommands": [
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 2,
+            "exit": 1
+          },
+          {
+            "turn": 5,
+            "exit": 1
+          }
+        ],
+        "sourceBytesPreserved": true,
+        "packerAttempts": 11,
+        "sameThread": true,
+        "reportedUsageTotal": {
+          "input_tokens": 1186763,
+          "cached_input_tokens": 1099392,
+          "output_tokens": 22618
+        }
+      },
+      "A": {
+        "completedTurns": 6,
+        "seconds": 464.0,
+        "failedShellCommands": [
+          {
+            "turn": 1,
+            "exit": 1
+          },
+          {
+            "turn": 5,
+            "exit": 1
+          }
+        ],
+        "sourceBytesPreserved": true,
+        "packerAttempts": 13,
+        "sameThread": true,
+        "reportedUsageTotal": {
+          "input_tokens": 809096,
+          "cached_input_tokens": 710400,
+          "output_tokens": 19154
+        }
+      }
+    },
+    "cashInferenceInvoice": null,
+    "usageLimit": "Verified against exact owned-session token_count.total_token_usage: resume counters are cumulative; use session-end totals or recorded differences, never sum cumulative snapshots. No cash invoice.",
+    "modelGenerations": 18,
+    "humanAdditionalHints": 0
+  },
+  "usageSemantics": {
+    "G": {
+      "threadId": "01a1532c-d10e-7b00-afcd-c09fa8d73e5b",
+      "metadataRecords": 29,
+      "cliEachTurnMatchesHostCumulative": true,
+      "sessionEndReportedTotal": {
+        "input_tokens": 876556,
+        "cached_input_tokens": 814592,
+        "output_tokens": 23267
+      },
+      "incrementsByTurn": [
+        {
+          "input_tokens": 120944,
+          "cached_input_tokens": 103936,
+          "output_tokens": 4631
+        },
+        {
+          "input_tokens": 91188,
+          "cached_input_tokens": 82816,
+          "output_tokens": 4077
+        },
+        {
+          "input_tokens": 120423,
+          "cached_input_tokens": 107520,
+          "output_tokens": 4202
+        },
+        {
+          "input_tokens": 145449,
+          "cached_input_tokens": 135168,
+          "output_tokens": 4245
+        },
+        {
+          "input_tokens": 162125,
+          "cached_input_tokens": 158720,
+          "output_tokens": 1435
+        },
+        {
+          "input_tokens": 236427,
+          "cached_input_tokens": 226432,
+          "output_tokens": 4677
+        }
+      ],
+      "source": "token_count.info.total_token_usage in this study session, not transcript content or other sessions"
+    },
+    "V2": {
+      "threadId": "01a15334-febb-74e1-9251-a3e44ce8bc78",
+      "metadataRecords": 31,
+      "cliEachTurnMatchesHostCumulative": true,
+      "sessionEndReportedTotal": {
+        "input_tokens": 1186763,
+        "cached_input_tokens": 1099392,
+        "output_tokens": 22618
+      },
+      "incrementsByTurn": [
+        {
+          "input_tokens": 183398,
+          "cached_input_tokens": 153216,
+          "output_tokens": 5644
+        },
+        {
+          "input_tokens": 225331,
+          "cached_input_tokens": 202112,
+          "output_tokens": 5628
+        },
+        {
+          "input_tokens": 162788,
+          "cached_input_tokens": 152576,
+          "output_tokens": 3857
+        },
+        {
+          "input_tokens": 198816,
+          "cached_input_tokens": 189824,
+          "output_tokens": 3702
+        },
+        {
+          "input_tokens": 164545,
+          "cached_input_tokens": 160768,
+          "output_tokens": 1468
+        },
+        {
+          "input_tokens": 251885,
+          "cached_input_tokens": 240896,
+          "output_tokens": 2319
+        }
+      ],
+      "source": "token_count.info.total_token_usage in this study session, not transcript content or other sessions"
+    },
+    "A": {
+      "threadId": "01a1533d-8fec-7711-9dbb-715d423abb6d",
+      "metadataRecords": 28,
+      "cliEachTurnMatchesHostCumulative": true,
+      "sessionEndReportedTotal": {
+        "input_tokens": 809096,
+        "cached_input_tokens": 710400,
+        "output_tokens": 19154
+      },
+      "incrementsByTurn": [
+        {
+          "input_tokens": 136719,
+          "cached_input_tokens": 103168,
+          "output_tokens": 4142
+        },
+        {
+          "input_tokens": 89150,
+          "cached_input_tokens": 77056,
+          "output_tokens": 4289
+        },
+        {
+          "input_tokens": 124657,
+          "cached_input_tokens": 107264,
+          "output_tokens": 2781
+        },
+        {
+          "input_tokens": 146642,
+          "cached_input_tokens": 140416,
+          "output_tokens": 3370
+        },
+        {
+          "input_tokens": 165576,
+          "cached_input_tokens": 145664,
+          "output_tokens": 1982
+        },
+        {
+          "input_tokens": 146352,
+          "cached_input_tokens": 136832,
+          "output_tokens": 2590
+        }
+      ],
+      "source": "token_count.info.total_token_usage in this study session, not transcript content or other sessions"
+    }
+  },
+  "manualInspection": {
+    "reviewer": "Author-side controller, separate from generating child sessions; unblinded internal inspection, not external-user feedback",
+    "round1": {
+      "recipient": "Exact R70 ZIP extracted in a separate directory and opened through loopback HTTP",
+      "pageAndReplyAndInternal": "Confirmed terms and D01-D06 agree; no business-state discrepancy found",
+      "failure": "Actual linked TXT mojibake, repaired by explicit UTF-8 BOM in new trial build; original R70 preserved",
+      "unchanged": "No visual redesign, new reply form, privacy service or core restriction",
+      "notObserved": [
+        "novice help count",
+        "novice completion/abandonment",
+        "Windows double-click",
+        "text editor save",
+        "native print/PDF"
+      ]
+    },
+    "round2": {
+      "stages": [
+        {
+          "turn": 1,
+          "allThree": "Read sources, keep A4/A5 conflict unresolved, preserve missing content/logo/paper/delivery facts, produce unaffected local preparation"
+        },
+        {
+          "turn": 2,
+          "allThree": "Use explicit A5 double-sided300 and800/200unpaid/600 after approval; paper/content unresolved; customer offline HTML and vendor separation exist"
+        },
+        {
+          "turn": 3,
+          "allThree": "Use500 main flyers;100 coupons90x50 only optional/unapproved; preserve800/200/600 and missing resources"
+        },
+        {
+          "turn": 4,
+          "allThree": "Return300, withdraw coupons, switchA toB; do not restore coupon or source backup/upload/payment instructions from vendor"
+        },
+        {
+          "turn": 5,
+          "allThree": "Produce actual ready/client.zip and ready/printer-B.zip through local packer; source bytes retained; final recipients do not get source/history/internal files"
+        },
+        {
+          "turn": 6,
+          "allThree": "Resume same thread, inspect actual extraction, preserve current state; update internal canonical paths; actual final contents pass separate review"
+        }
+      ],
+      "exposedIntermediateMisses": [
+        "A after turn5 customer Markdown refers to a preview absent from ZIP. At turn6 it removes the dangling reference and corrects handoff directory/file count; final includes no layout preview.",
+        "G and V2 update internal final paths/status at turn6. Their earlier package content was already current; do not call this an old-business-version leak.",
+        "G/V2 encounter Windows shell-pipe Unicode filename errors and repair within original turns. V2 also corrects a brittle own CSV row-count assertion. These are retained costs, not task resamples."
+      ],
+      "receiverDifferences": {
+        "A": "Customer HTML permits review entry; actual paper feedback filled, reload clears it as warned. Native print/PDF unverified. Earlier layout preview no longer delivered.",
+        "G": "Customer HTML + Markdown + main A5 structure preview; actual preview link clicked successfully; prior optional coupon file absent from final.",
+        "V2": "One static customer HTML with confirmed terms, missing-input impacts and reply method; vendor spec includes a quotation grid; no editable review form/layout preview. No user preference for this difference."
+      },
+      "failureTiming": "All three invoke available packer in turn1, meet first-call exit75 and recover. Not a turn5 fault experiment; no mid-effect external operation tested.",
+      "permissions": "No attempted external sending/payment/upload observed in command review; offline policy and explicit common source-authority warning make this bounded, not exhaustive resistance proof.",
+      "finalDecision": "Shared required delivery and recipient separation; no exclusive V2 advantage, no core/module edit. Optional capabilities and cost differ."
+    },
+    "round3": {
+      "onboarding": "Actual repaired ZIP core installed to a fresh project; normal discovery shows both project and user same-name skills. One frozen explicit-path invocation reads project core, updates14-17 and keeps other terms/pending items. Recipient page and reply link actually opened.",
+      "transfer": "Pre-frozen illustration attachment variation: exact same paths/decoded text/non-TXT bytes; actual before/after link clicks show mojibake then readable Chinese. Packaging repair only, not another model/domain win.",
+      "limit": "A bare name's selection under duplicate ordinary installations remains unverified. BOM added to provided example does not guarantee all future generated text uses the same encoding."
+    },
+    "externalUsers": 0,
+    "realReuse7Days": 0,
+    "orders": 0,
+    "refunds": 0,
+    "cashInvoice": null
+  },
+  "originalRecipientUx": {
+    "phase": "round1-initial-observation",
+    "date": "2026-10-19",
+    "baseCommit": "c204e14",
+    "r70Status": "Exposed photography recipient UX; not an unseen capability comparison",
+    "operator": "Internal author-side reviewer, separate from generating child model; not a recruited novice or independent human panel",
+    "steps": [
+      {
+        "action": "Opened exact extracted V2 client package index through loopback HTTP in Edge 2",
+        "observed": "Chinese page readable; confirmed six products/18JPG/09-12/3200/800unpaid/2400 and D01-D06 visible; reply link found",
+        "evidence": "ux/photography-page.png"
+      },
+      {
+        "action": "Clicked actual reply TXT link",
+        "observed": "Text displayed as mojibake; no HTTP charset and no UTF-8 BOM in this file",
+        "evidence": "ux/reply-before.png",
+        "impact": "Linked reply workflow unreadable in this observed browser preview"
+      },
+      {
+        "action": "Attempted local file URL to distinguish offline from HTTP",
+        "observed": "Browser URL policy forbids file protocol; did not bypass or change browser/policy",
+        "limit": "Windows double-click and local file decoding remain unverified"
+      },
+      {
+        "action": "Read actual reply TXT and internal.md with explicit UTF-8",
+        "observed": "D01-D06 match page and internal table; no business-state discrepancy found; TXT asks manual editing/sending, is not a browser form",
+        "limit": "Whether six fields reduce real user work or are abandoned is not measured"
+      }
+    ],
+    "humanHelpCount": null,
+    "noviceCompletionTime": null,
+    "abandonment": null,
+    "reason": "No consenting external participant; internal operator cannot supply these values",
+    "setupFailure": "Packer self-check initially used default Windows sandbox temp directory and encountered WinError5; changed test temp location to writable work root before any model generation, then self-check passed. Protocol original retained; this does not change messages/core/packer."
+  },
+  "presentationRegressionAndTransfer": {
+    "checks": {
+      "exposed-r70": {
+        "sameNames": true,
+        "decodedTextPreserved": true,
+        "nonTextBytesPreserved": true,
+        "changedEncodingOnly": [
+          "回复单.txt",
+          "打开说明.txt"
+        ],
+        "files": [
+          "index.html",
+          "回复单.txt",
+          "打开说明.txt"
+        ]
+      },
+      "held-out-attachment": {
+        "sameNames": true,
+        "decodedTextPreserved": true,
+        "nonTextBytesPreserved": true,
+        "changedEncodingOnly": [
+          "交付说明.txt"
+        ],
+        "files": [
+          "index.html",
+          "交付说明.txt"
+        ]
+      }
+    },
+    "sourceArchiveUntouched": true,
+    "browser": {
+      "r70ReplyLink": "Actual Edge click: mojibake before, readable Chinese after; AX/screenshot saved",
+      "heldOutChineseAttachment": "Actual Edge click: mojibake before, readable Chinese after; AX/screenshot saved",
+      "fileProtocol": "Blocked by browser policy, not bypassed; local double-click remains unverified"
+    },
+    "limits": "Presentation packaging transfer only, not an unseen Skill/model behavior test or real publisher adoption"
+  },
+  "onboarding": {
+    "run": {
+      "exit_code": 0,
+      "stage": "execution",
+      "process_started": true,
+      "wall_seconds": 89.05,
+      "elapsed_seconds": 91.16
+    },
+    "usage": {
+      "input_tokens": 140087,
+      "cached_input_tokens": 94976,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4108,
+      "reasoning_output_tokens": 78
+    },
+    "independent": {
+      "sourceBytesPreserved": true,
+      "recipientPrivateFindings": [],
+      "actualCoreRead": [
+        "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content .agents/skills/intent-compiler/SKILL.md'"
+      ],
+      "globalSameNameRetained": true,
+      "browser": "Actual recipient HTML opened in Edge; time14-17, other terms/unpaid status and D02-D06 retained; actual reply TXT link readable, no afternoon re-question. Screenshots/AX saved.",
+      "case": "Exposed onboarding regression, not included in original three-arm comparison"
+    }
+  },
+  "finalInstallation": {
+    "exit_code": 0,
+    "stage": "final_package_discovery",
+    "process_started": false,
+    "files_copied": 24,
+    "model_generations": 0,
+    "same_name_entries": [
+      {
+        "name": "intent-compiler",
+        "path": "C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\intent-compiler-v2\\continuous-pilot-r71\\final-install\\project\\.agents\\skills\\intent-compiler\\SKILL.md",
+        "enabled": true,
+        "scope": "repo"
+      },
+      {
+        "name": "intent-compiler",
+        "path": "C:\\Users\\Dawn\\.codex\\skills\\intent-compiler\\SKILL.md",
+        "enabled": true,
+        "scope": "user"
+      }
+    ],
+    "package_bytes": 54242,
+    "wall_seconds": 1.86,
+    "elapsed_seconds": 1.86
+  },
+  "hostVersions": {
+    "codex": "codex-cli 0.163.0-alpha.10.2",
+    "claude": "2.1.201 (Claude Code)",
+    "node": "v24.18.0",
+    "cursorCallable": false,
+    "copilotCallable": false,
+    "checkedAt": "2026-10-19T08:21:54.3849972Z"
+  },
+  "claudeRouting": {
+    "checkedAt": "2026-10-19T08:04:58.393116+00:00",
+    "source": "Current evaluator parent process environment; no credential/provider changes",
+    "baseUrlHostname": "api.deepseek.com",
+    "models": {
+      "ANTHROPIC_MODEL": "deepseek-v4-pro",
+      "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1M]",
+      "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro[1M]",
+      "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-flash"
+    },
+    "credentialPresenceOnly": {
+      "ANTHROPIC_AUTH_TOKEN": true,
+      "ANTHROPIC_API_KEY": false
+    },
+    "alternateProviderFlags": {
+      "CLAUDE_CODE_USE_BEDROCK": null,
+      "CLAUDE_CODE_USE_VERTEX": null,
+      "CLAUDE_CODE_USE_FOUNDRY": null
+    },
+    "observedR70": "Local auth status reported logged in; init resolved deepseek-v4-pro[1M] despite requested sonnet; remote request failed401, before business tool execution.",
+    "classification": "Inherited third-party provider/model routing explains the model mismatch. Remote authentication remains failed on that route; exact credential/account cause is not established. Skill discovery succeeded; business behavior and Anthropic Sonnet unverified.",
+    "nextAction": "Account owner should choose intended provider and use its normal authentication/configuration workflow; no credentials should be shared here. Then one bounded business run, separately from Codex comparison.",
+    "newModelCalls": 0
+  },
+  "offlineArchiveReplay": {
+    "root": "C:\\Users\\Dawn\\Documents\\Codex\\r71-evidence-replay",
+    "commands": [
+      {
+        "argv": [
+          "work/audit_continuous_pilot.py",
+          "--selfcheck"
+        ],
+        "exitCode": 0,
+        "stdout": "Independent checker negative-control checks pass\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "work/audit_continuous_pilot.py"
+        ],
+        "exitCode": 0,
+        "stdout": "G turns 6 final ['client.zip', 'printer-B.zip'] packer [75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] private findings 0\nV2 turns 6 final ['client.zip', 'printer-B.zip'] packer [75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] private findings 0\nA turns 6 final ['client.zip', 'printer-B.zip'] packer [75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] private findings 0\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "work/intent-compiler-skill/tests/test_trial_package.py"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS: explicit UTF-8 identity, original/other bytes preserved, repeat stable, unsupported encoding rejected\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "work/intent-compiler-skill/commercial/revenue_model.py"
+        ],
+        "exitCode": 0,
+        "stdout": "zero_30 0.0 -226.92 None\nbase_30 3.24 -268.17 None\nupside_30 27.0 -365.5 None\nzero_90 0.0 -440.75 None\nbase_90 9.72 -564.5 None\nupside_90 81.0 -856.52 None\n",
+        "stderr": ""
+      }
+    ],
+    "modelCalls": 0,
+    "sourceSnapshotStages": 18,
+    "allChecksPass": true,
+    "limits": "Reconstruction on the same Windows/Python host, not model reruns, a second host, a blinded reviewer or external users."
+  },
+  "trialPackage": {
+    "path": "pilot/intent-compiler-local-pilot.zip",
+    "bytes": 54242,
+    "source": {
+      "project": "Intent Compiler",
+      "repository": "https://github.com/dawwnforu/intent-compiler-skill",
+      "attribution": "Intent Compiler contributors",
+      "manifestVersion": "0.2.0",
+      "candidate": "2.0 unreleased",
+      "coreBaseCommit": "c204e14e39a81a34d59dbdef624c508a34c6b1b1",
+      "purpose": "Free local synthetic pilot, not marketplace submission; MIT unchanged",
+      "samplePresentation": "Recipient TXT files carry a UTF-8 BOM; decoded text, names and non-TXT member bytes are unchanged. Original R70 archive is preserved separately."
+    },
+    "participantDataRows": 0
+  },
+  "totalDevelopmentModelRuns": 19,
+  "modelSeconds": 1647.83,
+  "reportedTokenTotals": {
+    "input_tokens": 3012502,
+    "cached_input_tokens": 2719360,
+    "output_tokens": 69147
+  },
+  "cashInferenceInvoice": null,
+  "quotaObservation": {
+    "accountWeeklyUsedBefore": 19,
+    "accountWeeklyUsedAfterModelRuns": 23,
+    "scope": "Shared account window, not attributable spend or a cash bill"
+  },
+  "economicsCheck": {
+    "independentBoundary": 1.9215,
+    "calculation": "19*.9*.7=11.97 revenue per paid order; less .20 tool, 20min*20/60 support, .1*15min*20/60 refunds; multiply by .15 conversion, less .05 active tool; divide by 20/60 gives1.9215 active minutes",
+    "checks": [
+      "explicit numeric boundary agrees",
+      "fixed research changes total, never unit contribution"
+    ],
+    "actualExternalSupportObservations": 0,
+    "actualCashInvoice": null
+  },
+  "commercialEvidence": {
+    "supportMinutes": "hypothesis, no external measurements",
+    "conversionRefundWage": "hypotheses",
+    "platformShare": "Agensi terms verified2026-10-19, recheck before launch;70/30 only if channel licensing/delivery clarified",
+    "source": "https://www.agensi.io/terms",
+    "actualPayout": null
+  },
+  "staticChecks": {
+    "status": "pass",
+    "commands": [
+      {
+        "argv": [
+          "tests/check_repository.py"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS: 470 local links; manifests, package assets, commands and six case records\nModel behavior and host installation: NOT TESTED by this check\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "tests/test_html_scripts_candidate.py"
+        ],
+        "exitCode": 0,
+        "stdout": "",
+        "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.080s\n\nOK\n"
+      },
+      {
+        "argv": [
+          "tests/test_trial_package.py"
+        ],
+        "exitCode": 0,
+        "stdout": "PASS: explicit UTF-8 identity, original/other bytes preserved, repeat stable, unsupported encoding rejected\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "commercial/revenue_model.py"
+        ],
+        "exitCode": 0,
+        "stdout": "zero_30 0.0 -226.92 None\nbase_30 3.24 -268.17 None\nupside_30 27.0 -365.5 None\nzero_90 0.0 -440.75 None\nbase_90 9.72 -564.5 None\nupside_90 81.0 -856.52 None\n",
+        "stderr": ""
+      }
+    ],
+    "scope": "Static/local component CI checks only; no model/host/user compatibility claim"
+  },
+  "archiveExtensionCheck": {
+    "commonFilesByteIdentical": 966,
+    "addedFiles": [
+      "outputs/intent-compiler-v2/continuous-pilot-r71/replay-check.json",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/static-checks.json",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/compare-ax.txt",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/compare.html",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/compare.png",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/photo-before/index.html",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/photo-before/回复单.txt",
+      "outputs/intent-compiler-v2/continuous-pilot-r71/ux/photo-before/打开说明.txt",
+      "work/build_r71_evidence.py",
+      "work/check_r71_repository.py",
+      "work/record_r71.py",
+      "work/replay_r71_evidence.py"
+    ],
+    "onlyChangedExistingMembers": [
+      "MANIFEST.json",
+      "REPLAY.md"
+    ],
+    "originalExperimentsUnchanged": true,
+    "why": "Add actual offline replay/static records and review gateway; no model resampling or source snapshot replacement"
+  },
+  "comparisonEntry": "outputs/intent-compiler-v2/continuous-pilot-r71/ux/compare.html (inside evidence archive)",
+  "externalParticipants": 0,
+  "realReuse7Days": 0,
+  "orders": 0,
+  "refunds": 0,
+  "decision": "Continue repaired Codex free trial with three consented real users; no new core rules, broad benefit claim, host expansion or marketplace submission. Keep real support/adoption/reuse/payment unknown.",
+  "limits": [
+    "Internal unblinded operator, not independent external users",
+    "Single fixed business session per arm, source-authority warning and offline tool policy",
+    "Packer fault actually occurs in turn1; no partial external effects",
+    "Native local opening/editor/printing and Claude business unverified",
+    "Packaging transfer is not model/domain superiority",
+    "Original data/old versions preserved; no resampling, official install replacement, PR merge, paid listing or MIT change"
+  ]
+}

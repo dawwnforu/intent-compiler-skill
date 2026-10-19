@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Complete R71's recipient UX check, three matched six-turn business sessions and minimal trial repair/transfer. Preserve shared final correctness, intermediate repairs, optional-feature differences and extra candidate time/input; verify resume token counters are cumulative. Supply a directly obtainable free candidate ZIP, explicit project-path selection alongside the existing user Skill, and UTF-8 TXT presentation repair with actual browser regression/held-out attachment checks. Runtime remains unchanged; external adoption/reuse/orders still absent. Clarify inherited Claude provider routing, add support-minute economics and focused package/financial CI checks. No PR merge, formal install replacement, Release, marketplace listing, credentials or MIT change.
+
 - Prepare a local client-handoff trial with synthetic inputs, actual sample output, consented feedback templates, explicit host matrix and conditional 30/90-day economics. Three matched Codex runs share business/privacy correctness; preserve higher candidate cost, failed commands, blocked Claude auth and missing browser/human evidence. Verify ZIP project installation without replacing the formal Skill. Keep core/MIT unchanged; Agensi delivery/licence questions remain unresolved and no listing is published.
 
 - Diagnose R68 host-state startup failure with same-argument restricted/approved discovery; record actual model/Skill listing, refreshed isolation and one successful model tool smoke. Adopt approval-mediated launcher guidance while retaining child sandbox/network settings. Preserve the failed command and repair; no Skill rule, common-runner change, installation, global config, MIT, quality or savings claim.

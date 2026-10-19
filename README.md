@@ -6,7 +6,7 @@
 
 [English](README_EN.md) · [MIT License](LICENSE)
 
-**先试一个客户交付任务：** [本地试用与安装](pilot/README.md) → 用合成资料做客户确认包和内部执行表 → 修改后再用一次。[三组真实生成](tests/v2-business-pilot.md)均完成本例业务与文件信息边界，候选另有回复表但输出与耗时更高，尚无真实用户复用或付款。[兼容矩阵](pilot/compatibility.md)区分Codex已验路径与Claude认证阻塞；[反馈材料](pilot/feedback.md)和[收入条件模型](commercial/README.md)用于下一轮小规模验证，不承诺全面优越或销量。
+**先试一个客户交付任务：** [免费候选试用ZIP](pilot/intent-compiler-local-pilot.zip)（GitHub 文件页点 Download raw file）→ 按[项目内安装说明](pilot/README.md)生成客户确认包和内部执行表 → 修改后再用一次。[R71三组六轮实测](tests/v2-continuous-pilot.md)均完成本例连续改动和信息边界，未证明候选独有优势；修复了样例TXT预览乱码，并验证同名版本下明确选用项目文件的路径。核心未改，真实用户复用和付款仍为零。[兼容矩阵](pilot/compatibility.md)、[反馈材料](pilot/feedback.md)和[收入条件模型](commercial/README.md)列明已验路径及未知项，不承诺全面优越或销量。本ZIP是PR分支的免费候选材料，不是正式Release或Agensi商品。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 
