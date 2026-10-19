@@ -1,6 +1,6 @@
 # Installation and compatibility / 安装与兼容性
 
-Latest trial evidence: 2026-10-19, [detailed host matrix](pilot/compatibility.md) and [R70 actual business checks](tests/v2-business-pilot.md). Codex project-local installation from the built ZIP, discovery and actual generation are verified; Claude project discovery succeeds but remote authentication fails. Cursor/Copilot and Agensi delivery remain unverified. No desktop/global installation or resumed-task compatibility claim. The installation instructions below retain their original 2026-09-29 verification date; current evidence supersedes their older status notes. GitHub publication does not mean admission to a public plugin directory.
+Latest trial evidence: 2026-10-19, [detailed host matrix](pilot/compatibility.md) and [R71 actual continuous business checks](tests/v2-continuous-pilot.md). Codex project-local ZIP installation/discovery, explicit project-file selection alongside a same-name user copy, actual generation and one bounded six-turn resumed task are verified. Claude discovery succeeds but inherited third-party routing/remote authentication blocks business verification. Cursor/Copilot and Agensi delivery remain unverified. No desktop/global plugin installation, all-mode or general resumed-task compatibility claim. The instructions below retain their original2026-09-29 date; current evidence supersedes older status notes. A PR-branch trial ZIP is not a Release or public plugin-directory admission.
 
 ## Codex
 
@@ -61,6 +61,6 @@ The package supplies instructions and an optional read-only HTML script check, w
 
 - 核验日期：2026-09-29；官方说明、静态清单检查、完整安装和模型行为是不同层级的证据。
 - Codex 的命令语法已在本地帮助中核对；Claude 的 marketplace 与 Markdown 命令格式已核对官方资料。
-- 最新逐项结果见上方试用矩阵：Codex项目内安装、发现与业务生成有实测；Claude发现后远端认证失败。完整插件安装、四模式和会话恢复仍未验证，不能因为 JSON 合法就宣布兼容。
+- 最新逐项结果见上方试用矩阵：Codex项目内安装、发现、明确项目文件选用和六轮恢复业务有实测；Claude发现后受继承的第三方路由/远端认证阻塞。完整插件安装、四模式和一般任务恢复仍未验证，不能因为 JSON 合法就宣布兼容。
 - 主分支安装不会自动得到尚未合并的 PR；测试修改时使用本地副本或明确的测试分支。
 - 安装整个 Skill 文件夹；安装不会提供建模、部署等工具、账号或授权。其他宿主未验证。
