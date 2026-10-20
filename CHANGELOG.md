@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Preserve declared visual references in new evaluations with ordered image arguments and required-input failure checks. Six focused tests and one bounded three-arm professional notice task support the evaluator repair, with shared initial PDF correctness and separate editing/receipt limits. Keep runtime, frozen history/trial, formal install and MIT unchanged; no general superiority, savings or reduced user-intervention claim.
+
 - Resolve actual visual references and approved interaction placement in the scoped visual guide; separate functional checks, observed rendering and owner preference in the existing pilot. Preserve R74's negative feedback, one exposed repair and a later requested density/native-schema follow-up with actual checks. Owner slightly prefers the first repair; no general superiority, adoption or current-guide causal gain is established. Keep core, formal install, frozen ZIP and MIT unchanged.
 
 - Shift the existing pilot toward professional delivery acceptance, actual expert rescue prompts and rework, preserving normal business clarification and adoption separately. Retain a user-authored project replay's initial safety/text failures, then perform one shared evaluator-boundary correction and two actual same-model generations with independent static/HTTP and simulated-DOM evidence. Candidate adds specific use logic at higher cost; browser acceptance, fewer interventions and external adoption remain unmeasured. Keep private materials local, and keep core rules, frozen trial ZIP, MIT, formal installation, compatibility and numerical revenue assumptions unchanged.

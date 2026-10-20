@@ -1,0 +1,138 @@
+{
+  "round": "R76",
+  "date": "2026-10-20",
+  "base_commit": "1b4c63e",
+  "decision": "adopt required-reference evaluator transport and focused checks; leave Skill runtime unchanged",
+  "classification": "new synthetic professional task with identical references, not actual user feedback or a runtime before/after comparison",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "CLI": "0.163.0-alpha.10.2",
+  "calls": 3,
+  "retries": 0,
+  "input_transport_tests": {
+    "passed": 6,
+    "historical_missing_reference_blocks_before_model": true,
+    "legacy_invocation_image_flag": false
+  },
+  "arms": {
+    "A": {
+      "initial_pdf": "pass within digital scope",
+      "input_unchanged": true,
+      "image_flag": true,
+      "only_enabled_skills": [],
+      "used_text_fonts_embedded": true,
+      "wall_seconds": 90.31,
+      "usage": {
+        "input_tokens": 182067,
+        "cached_input_tokens": 169344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3036,
+        "reasoning_output_tokens": 177
+      },
+      "command_exit_failure_count": 0,
+      "pdf": "outputs/旧书修补工作坊_最新_2026-10-25.pdf",
+      "source_formats": [
+        "JSON",
+        "Python"
+      ],
+      "provided_human_rescue_prompts": 0,
+      "needed_human_rescue_prompts": "unobserved",
+      "actual_user_quality_rework": "unobserved"
+    },
+    "G": {
+      "initial_pdf": "pass within digital scope",
+      "input_unchanged": true,
+      "image_flag": true,
+      "only_enabled_skills": [],
+      "used_text_fonts_embedded": true,
+      "wall_seconds": 102.7,
+      "usage": {
+        "input_tokens": 135886,
+        "cached_input_tokens": 109952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3961,
+        "reasoning_output_tokens": 414
+      },
+      "command_exit_failure_count": 1,
+      "pdf": "outputs/拾页社区_旧书修补工作坊_2026-10-25_最新版.pdf",
+      "source_formats": [
+        "Word",
+        "JSON",
+        "Python"
+      ],
+      "provided_human_rescue_prompts": 0,
+      "needed_human_rescue_prompts": "unobserved",
+      "actual_user_quality_rework": "unobserved"
+    },
+    "V2": {
+      "initial_pdf": "pass within digital scope",
+      "input_unchanged": true,
+      "image_flag": true,
+      "only_enabled_skills": [
+        "intent-compiler"
+      ],
+      "used_text_fonts_embedded": true,
+      "wall_seconds": 73.75,
+      "usage": {
+        "input_tokens": 132115,
+        "cached_input_tokens": 113920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2532,
+        "reasoning_output_tokens": 214
+      },
+      "command_exit_failure_count": 0,
+      "pdf": "outputs/拾页社区_旧书修补工作坊_2026-10-25_最新.pdf",
+      "source_formats": [
+        "PowerPoint",
+        "Python"
+      ],
+      "provided_human_rescue_prompts": 0,
+      "needed_human_rescue_prompts": "unobserved",
+      "actual_user_quality_rework": "unobserved"
+    }
+  },
+  "operator_update": {
+    "A": {
+      "status": "artifact_passed_receipt_partial",
+      "exit_code": null,
+      "changed_config_fields": [
+        "date"
+      ],
+      "latest_pdf": [
+        "outputs\\旧书修补工作坊_最新_2026-10-26.pdf"
+      ],
+      "scope": "evaluator follows supplied JSON/script route in separate copy; not nontechnical-user completion or GUI source verification"
+    },
+    "G": {
+      "status": "passed",
+      "exit_code": 0,
+      "changed_config_fields": [
+        "date",
+        "weekday"
+      ],
+      "latest_pdf": [
+        "outputs\\拾页社区_旧书修补工作坊_2026-10-26_最新版.pdf"
+      ],
+      "scope": "evaluator follows supplied JSON/script route in separate copy; not nontechnical-user completion or GUI source verification"
+    },
+    "V2": {
+      "status": "unverified_native_edit_export",
+      "reason": "Primary supplied editing route is PowerPoint; no PowerPoint GUI edit/export executed. Do not replace that route with an unrequested script repair.",
+      "scope": "Initial PDF and file existence inspected independently; not a failed native application test."
+    }
+  },
+  "cash_cost": null,
+  "external_users": 0,
+  "user_adoption": "unobserved",
+  "runtime_changed": false,
+  "frozen_trial_changed": false,
+  "formal_install_changed": false,
+  "MIT_changed": false,
+  "limitations": [
+    "Helper checks declared files and CLI forwarding, not image decoding, model attention or automatically reconstructing omitted conversation references.",
+    "Only one run per arm; varying output/source formats and caching prevent stable savings or causal Skill gain claims.",
+    "No real nontechnical-user/date-editing or printing study; native Word/PowerPoint editing and export unverified.",
+    "No new professional prompts or user rework measurements; provided zero is not needed zero.",
+    "Retained setup filename error, restricted-temp test errors, G optional-tool probe exit1 and operator stdout-decoding failure; no model reruns."
+  ]
+}
