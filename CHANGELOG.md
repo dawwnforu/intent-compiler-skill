@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Resolve actual visual references and approved interaction placement in the scoped visual guide; separate functional checks, observed rendering and owner preference in the existing pilot. Preserve R74's negative feedback, one exposed repair and a later requested density/native-schema follow-up with actual checks. Owner slightly prefers the first repair; no general superiority, adoption or current-guide causal gain is established. Keep core, formal install, frozen ZIP and MIT unchanged.
+
 - Shift the existing pilot toward professional delivery acceptance, actual expert rescue prompts and rework, preserving normal business clarification and adoption separately. Retain a user-authored project replay's initial safety/text failures, then perform one shared evaluator-boundary correction and two actual same-model generations with independent static/HTTP and simulated-DOM evidence. Candidate adds specific use logic at higher cost; browser acceptance, fewer interventions and external adoption remain unmeasured. Keep private materials local, and keep core rules, frozen trial ZIP, MIT, formal installation, compatibility and numerical revenue assumptions unchanged.
 
 - Pin the first free pilot to239553d and verify actual connector-retrieved bytes, extraction and project copying after bounded HTTP failures. Preserve unverified browser/participant receipt and the checker-only CRLF diagnosis. Reuse the existing start/recruitment materials and empty local log, separating adoption, observed/reported reuse, support categories, model waits and interviews. No new model comparison, external feedback, numeric economic assumption, runtime, frozen ZIP, MIT or formal installation change.
