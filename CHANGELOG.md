@@ -2,6 +2,9 @@
 
 ## Unreleased — 2.0 candidate
 
+- Distinguish the candidate with the existing host display-name field and bilingual explicit-project startup instructions. Inherited discovery exposes two enabled same-name versions; one bounded model activation reads the intended project files. Preserve its extra Git-HEAD failure and old packages; no core/routing change or business-quality gain is claimed.
+
+
 - Prepare a deterministic standalone MIT submission candidate from committed Git blobs, with six final packaging-boundary tests, checksums and actual fresh-project Codex discovery. Separate source bytes, CRLF/LF-qualified behavior evidence, marketplace licence/connection gates and conditional15USD convenience pricing from the old19USD model. Keep private mail local and the frozen trial ZIP intact; no live listing, payout onboarding, formal install replacement or new model generation.
 
 - Add one conditional UI method for direct inline selection and overflow, preserving creation, clearing, catalog management and in-progress state. Four same-model before/after generations plus real browser checks support a local duplication correction; retain the candidate's separator defect, baseline extras, mixed costs and unknown owner intervention/adoption. Keep core, routing, MIT, formal install and frozen trial ZIP unchanged.

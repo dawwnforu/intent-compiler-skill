@@ -16,7 +16,7 @@
 
 1. 领取本页“已发布候选入口”指向的固定版本ZIP，解压时保留全部文件。
 2. 在自己的现有Codex项目中使用项目级候选：让Agent把解压内容放到`.agents/skills/intent-compiler/`，使该目录直接包含`SKILL.md`。遇到已有同名目录先检查，不覆盖；不要求替换全局安装版。
-3. 新开会话，先说：“请报告这次实际采用的intent-compiler/SKILL.md完整路径和SOURCE.json来源提交；使用这个项目候选处理我的任务。”若路径指向旧版，先修正选用路径，不重复安装。
+3. 在该项目新开会话，选择显示为“Intent Compiler 2.0 候选 / Candidate”的候选，并先说：“请读取本项目的`.agents/skills/intent-compiler/SKILL.md`和`SOURCE.json`，报告实际完整路径和sourceCommit，之后用这个项目候选处理任务。任一文件缺失先告诉我，不替换用户级安装，也不改用其他同名Skill。”宿主显示可能不同；同名Skill不会合并，仍核对路径，不仅凭名称判断。旧abef76f包的显示名尚未区分，保留其原快照。
 4. 用自己的语言说明用途并提供有权处理的资料。例如：“帮我把这些客户消息整理成客户能确认的交付文件和内部执行清单，还没确定的标出来，先不要发给客户。”不要求先写专业提示词。
 5. 检查并修改实际成果，按[既有反馈方式](../pilot/feedback.md)记录是否采用、专业救场、质量返工及帮助时间。模型等待和业务补充分别记录。
 
@@ -86,10 +86,10 @@ For nontechnical users who already use Codex: turn ordinary-language goals and e
 
 ## 已发布候选入口
 
-[领取独立候选ZIP：abef76f（固定提交文件页）](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip) · [直接下载](https://github.com/dawwnforu/intent-compiler-skill/raw/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip) · [固定SHA-256文件](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip.sha256)
+[领取当前候选ZIP：2881c73（固定文件页）](https://github.com/dawwnforu/intent-compiler-skill/blob/7801146aec0353051dcb14060ea64fb724fe50d6/commercial/artifacts/intent-compiler-2.0-candidate-2881c73.zip) · [SHA-256文件](https://github.com/dawwnforu/intent-compiler-skill/blob/7801146aec0353051dcb14060ea64fb724fe50d6/commercial/artifacts/intent-compiler-2.0-candidate-2881c73.zip.sha256)
 
-来源提交`abef76fae0056073a09e2a95b866050049b2c613`，运行方法来源`f51b2ccb7d1ca7b3a5e6e58dcb202b672d1399ed`；36,403字节、25个成员。SHA-256：`24bfdec81a303ec4d9e852d436363eb11129f9ad7887c54004da0ed5b714a490`。这些是构建产物身份，不是已发布版本号或平台审核结论。
+来源提交`2881c7331e0e9de156317ac98d03a5b9afa4a4ff`，承载提交`7801146aec0353051dcb14060ea64fb724fe50d6`；运行方法来源仍为`f51b2ccb7d1ca7b3a5e6e58dcb202b672d1399ed`。37,426字节、25成员，SHA-256：`53615833bbee2ab5f1ad6d123e6c9972a46a67e3bea94b93b0118f98e40df634`。新包只改双语包内启动说明和宿主已有显示名字段，核心及方法不变。以上是候选身份，不是新的正式版本号或平台审核结论。
 
-承载提交为`cdb385d87c189cfe162ba23df9ebc2a9e66f97af`，与包内来源提交不同。已从该固定提交程序化取得实际文件；浏览器点击Download raw file也获得下载事件与实际保存文件，二者字节和SHA-256均与本地构建一致。该提交远端Repository integrity工作流通过。外部用户是否收到、安装或采用仍未验证，不能由作者侧下载代替。
+新包实际解压字节、继承用户配置的同名发现及一次明确路径启动通过；前后两个同名条目均启用，候选新标签可区分。模型额外尝试业务项目Git HEAD失败的记录保留，不影响来源字段读取，但不能称启动毫无摩擦。已从固定承载提交程序化取得新包，37,426字节、Git blob、SHA-256及25成员与本地构建一致。尚无本包浏览器下载或外部收件证据，不沿用旧包的下载结论。
 
-实际解压、安装字节、宿主发现已分项检查；运行文本与R78按CRLF/LF归一后相同，不能写成历史工作树快照逐字节相同。[候选交付记录](../tests/v2-submission-candidate.md)保留检查范围和失败。旧239553d摄影试用ZIP保持原样。
+[旧abef76f候选](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip)保持冻结；R79曾实际程序化获取和浏览器下载36,403字节并核对哈希，其承载提交CI通过。旧239553d摄影包也不重打。各自安装、发现、下载与外部用户状态见[分项记录](../tests/v2-submission-candidate.md)。

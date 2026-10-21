@@ -51,7 +51,7 @@ The core Skill supplies that entrypoint; no duplicate same-name command is packa
 | Skill discovery / Skill 发现 | No fresh-session discovery test performed in this change | Existing session catalog or legal YAML cannot prove candidate discovery / 不能由现有目录或格式推断 |
 | Behavior / 行为测试 | Frozen snapshots and actual generated-product checks are recorded separately in TESTING.md, including R57 and the current-core R58 local handover | R58 is one bounded explicit-user-boundary case, not causal benefit or general protection; Claude compatibility unverified / R58 是单一明确边界案例，不证明因果收益或普遍防护；Claude 兼容性未验证 |
 
-Keep the standalone folder's README and LICENSE when copying it. This preserves source information without adding configuration fields or changing discovery metadata. / 复制时保留文件夹内 README 和 LICENSE；不新增配置字段或改变发现元数据。
+Keep the standalone folder's README and LICENSE when copying it. Source and copyright information live there. The candidate label uses the existing supported `interface.display_name`; Skill name, description and discovery paths are unchanged. / 复制时保留README和LICENSE，用于来源与署名；候选名称使用已有宿主字段，不新增配置字段或改变Skill名称、描述与发现路径。同名版本须核对实际路径，不能假定自动替代。
 
 Other Agent Skills hosts: copy only using that host's documented installation route, verify discovery, then run the fast-path and blocked-input cases. Compatibility is untested; `commands/*.md` are not universal commands. A chat that cannot read local references needs those files made accessible; pasting the entrypoint alone loses the knowledge modules.
 

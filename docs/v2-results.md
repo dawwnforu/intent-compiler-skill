@@ -1,5 +1,8 @@
 # V2 candidate evaluation / 候选版实测
 
+[R80候选启动](../tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release)：继承配置的前后发现揭示并修正同名显示歧义；新ZIP只改README/已有显示名字段，24源文件安装字节通过。一例明确路径启动30.56秒、58,740输入/37,248缓存输入/736输出tokens，回执路径/来源正确；保留额外Git HEAD失败。不是现金账单、业务优越性或用户少干预证据。
+
+
 最新决策与证据缺口见[当前判断](v2-decision.md)，不把下列不同版本、不同任务的结果合成统一提升率。
 
 [R79上架候选交付](../tests/v2-submission-candidate.md)：新增可复现的Skill独立ZIP，六项最终打包边界测试，新项目实际安装字节及Codex发现/唯一路径选用；固定GitHub提交的程序化获取、浏览器实际下载和远端CI通过，外部收件仍未知。原MIT和旧试用包不变。保留历史快照换行差异及首次比较失败，无新行为生成或“更有效”百分比。公开规则、实看$5/$15挂牌和条件成本模型支持下一步试价判断，不证明购买意愿、收益或Agensi交付兼容。
