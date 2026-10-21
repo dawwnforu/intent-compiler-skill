@@ -8,6 +8,8 @@
 
 [中文](README.md) · [MIT License](LICENSE)
 
+[Current submission preparation and pricing hypothesis](commercial/SUBMISSION.md): a standalone MIT Skill candidate runs in an existing Agent without a new seller-operated server/database. Platform licence, connected delivery and review remain separate, uncompleted gates; a GitHub candidate is not a live marketplace product.
+
 The quality module now omits six generic questions already covered by the core, retaining actual verification and failure handling. [Four comparisons](tests/v2-quality-trim.md) retain handover utility, backup/recovery guidance and correct registration-capacity decisions. Lower single-run output with differing formats does not establish stable token savings.
 
 Original project: [Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill). Existing attribution: **Intent Compiler contributors**, Copyright (c) 2026 Intent Compiler contributors. Host manifests remain at **0.2.0**; this branch is an **unreleased 2.0 candidate**, not a published 2.0 release. Specific contributions are recorded in Git history; no additional author identity is asserted.

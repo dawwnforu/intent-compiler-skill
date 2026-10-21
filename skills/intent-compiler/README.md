@@ -12,7 +12,7 @@ These labels provide attribution and traceability, not copy protection or proof 
 
 Copy this whole folder, including this README, LICENSE, SKILL.md, references, agents, assets and scripts. Do not install a second copy alongside an existing installation. Host installation and discovery must be checked separately from file-format validation; no universal compatibility is claimed.
 
-独立安装时保留整个文件夹及以上材料，不重复安装。静态格式通过不等于安装、发现或行为验证通过；其他宿主兼容性仍需实际验证。当前变更没有生成或上传商品包。
+独立安装时保留整个文件夹及以上材料，不重复安装。静态格式通过不等于安装、发现或行为验证通过；其他宿主兼容性仍需实际验证。打包、平台扫描、连接交付及公开上架是不同状态，请按对应版本的发布记录核对。
 
 The Skill itself needs no account, paywall or license-validation service. Do not add obfuscation, self-destruction, hidden network access, device binding, remote disabling, tracking or unconsented uploads for copy prevention. Do not package credentials, payment details or buyer identities. Existing host/model services may have their own requirements; this folder provides no credentials or authorization.
 

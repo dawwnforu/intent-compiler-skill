@@ -14,4 +14,5 @@ jobs:
       - run: python tests/test_eval_reference_inputs.py
       - run: python tests/test_html_scripts_candidate.py
       - run: python tests/test_trial_package.py
+      - run: python tests/test_submission_package.py
       - run: python commercial/revenue_model.py

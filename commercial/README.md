@@ -1,6 +1,8 @@
 # 小规模产品验证与收入条件
 
-核验日期：2026-10-19。本目录是内部决策材料，不是已发布商品、收入承诺或支出批准。
+最新上架候选与试价决策见[交付准备](SUBMISSION.md)（2026-10-21）：提供独立Skill包构建器，保留旧试用快照；不需要新增自有服务器或数据库，平台许可和连接验收仍是独立门槛。本页19美元模型保持原假设，不冒充新价格已被市场验证。
+
+本页原模型核验日期：2026-10-19。本目录是决策材料，不是已发布商品、收入承诺或支出批准。
 
 用户转述的平台负责人建议“小规模开始、收集反馈、边做边学”作为本轮策略输入；尚未取得可核验的书面上架批准、流量或销量承诺，不将它用作收入参数。
 
@@ -35,7 +37,7 @@
 
 取得答复及单独授权后才做连接验证：使用无私人信息的合成任务，分别保留核心/引用实际加载、工具操作、产物可用性、拒绝未授权外发和恢复记录；检查接收方实际内容。未跑通前商品页不声称 Agensi 可交付本项目。本地免费试用不依赖此渠道。不要为符合平台条款自行改 MIT。
 
-对同类产品的公开检索发现 [Client Proposal and Scope Optimization](https://www.agensi.io/skills/client-proposal-scope-optimization-master) 和 [Agency Proposal and Scope Builder](https://www.agensi.io/skills/agency-proposal-scope-builder)。正文抓取失败，名称/描述只来自检索索引；**价格、销量、完整内容与质量均未核验**，不能拿它们给本品定价或推算销量。平台规模数字也不进入收入模型。
+2026-10-19对同类商品的正文抓取失败，该历史失败保留。2026-10-21改用实际浏览器打开 [Client Proposal and Scope Optimization](https://www.agensi.io/skills/client-proposal-scope-optimization-master)（挂牌$5）和 [Agency Proposal and Scope Builder](https://www.agensi.io/skills/agency-proposal-scope-builder)（挂牌$15），两页均显示尚无评价。**仅核实挂牌价，不代表成交、销量或质量**；不将平台规模和别人的价格直接转换成自己的销量或盈利预测。
 
 ## 30/90天模型怎么更新
 
