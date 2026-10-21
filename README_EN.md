@@ -18,6 +18,8 @@ Print guidance now distinguishes copy counts from physical dimensions: zero copi
 
 2.0 now checks usefulness beyond the first successful action: add supporting capabilities when the actual workflow warrants them, rather than cutting utility to shorten output. [Loan and quotation comparisons](tests/v2-practical-utility.md) record concrete additions, higher costs and incomplete UI verification.
 
+The candidate UI method distinguishes duplicate selection routes from creation and catalog management, revealing overflow while preserving input. [Four R78 before/after runs](tests/v2-ui-controls.md) support a local interaction correction, retaining a presentation defect and mixed costs. Reduced owner rescue/rework is unproven; the trial ZIP stays frozen.
+
 [Current candidate decision and optional starter prompt (Chinese)](docs/v2-decision.md) separates observed improvements from unresolved effectiveness claims. The broad goal remains open; the next behavior change should target an observed decision or user-experience failure, with fixed baselines and unseen transfer checks rather than more synonymous instructions.
 
 Source guidance is shorter while retaining evidence, scope and verification dates. Four project-record/font-evidence comparisons preserve required judgments; this is not established general token savings. See [tests and limits](tests/v2-evidence-trim.md).
