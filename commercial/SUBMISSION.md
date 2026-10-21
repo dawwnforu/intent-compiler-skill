@@ -75,7 +75,7 @@ For nontechnical users who already use Codex: turn ordinary-language goals and e
 
 | 门槛 | 当前状态 | 下一步与证据 |
 | --- | --- | --- |
-| 来源与包 | 构建器/受限清单已准备；以实际产物回执为准 | 新目录构建、核对字节/哈希、解压、单独安装/发现；固定GitHub入口 |
+| 来源与包 | ZIP已推送；程序化获取、实际浏览器下载及新项目安装/发现通过 | 使用下方固定提交入口；外部用户收件与业务采用另记，不能由本机检查代替 |
 | MIT与渠道许可 | 标准MIT保留；公开条款仍有复制/保存限制 | 明确平台条款如何保留原MIT材料的权利、商业/客户用途及通知；未明确不提交，免费也不视为自动解决 |
 | 连接交付 | 未上传/未连接 | 在获准审核或草稿环境检查核心→索引→引用→工具→成果→恢复；不能要求Agent违反平台条款导出Skill文件 |
 | 商品扫描与审核 | 未执行 | 经用户批准上传确切ZIP，保留平台实际扫描及人工结果；本地检查不能替代 |
@@ -86,8 +86,10 @@ For nontechnical users who already use Codex: turn ordinary-language goals and e
 
 ## 已发布候选入口
 
-[独立候选ZIP：abef76f](artifacts/intent-compiler-2.0-candidate-abef76f.zip) · [SHA-256](artifacts/intent-compiler-2.0-candidate-abef76f.zip.sha256)
+[领取独立候选ZIP：abef76f（固定提交文件页）](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip) · [直接下载](https://github.com/dawwnforu/intent-compiler-skill/raw/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip) · [固定SHA-256文件](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip.sha256)
 
 来源提交`abef76fae0056073a09e2a95b866050049b2c613`，运行方法来源`f51b2ccb7d1ca7b3a5e6e58dcb202b672d1399ed`；36,403字节、25个成员。SHA-256：`24bfdec81a303ec4d9e852d436363eb11129f9ad7887c54004da0ed5b714a490`。这些是构建产物身份，不是已发布版本号或平台审核结论。
 
-实际解压、安装字节、宿主发现已分项检查；运行文本与R78按CRLF/LF归一后相同，不能写成历史工作树快照逐字节相同。GitHub远端收件、浏览器下载和外部用户收到是不同证据，以[候选交付记录](../tests/v2-submission-candidate.md)及后续执行回执为准。包在GitHub文件页可点击Download raw file；交付回执提供固定到承载提交的入口。旧239553d摄影试用ZIP保持原样。
+承载提交为`cdb385d87c189cfe162ba23df9ebc2a9e66f97af`，与包内来源提交不同。已从该固定提交程序化取得实际文件；浏览器点击Download raw file也获得下载事件与实际保存文件，二者字节和SHA-256均与本地构建一致。该提交远端Repository integrity工作流通过。外部用户是否收到、安装或采用仍未验证，不能由作者侧下载代替。
+
+实际解压、安装字节、宿主发现已分项检查；运行文本与R78按CRLF/LF归一后相同，不能写成历史工作树快照逐字节相同。[候选交付记录](../tests/v2-submission-candidate.md)保留检查范围和失败。旧239553d摄影试用ZIP保持原样。

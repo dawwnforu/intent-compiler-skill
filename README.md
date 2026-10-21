@@ -8,13 +8,13 @@
 
 [最新上架候选准备与部署/试价判断](commercial/SUBMISSION.md)：独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；平台许可、连接交付和商品审核仍待完成，不能把GitHub候选当作已上架商品。
 
-**用一个有验收标准的专业任务试用：** [固定239553d免费试用ZIP](https://github.com/dawwnforu/intent-compiler-skill/blob/239553dfd2629a14fb0cdef6ec8fc044d3a7a080/pilot/intent-compiler-local-pilot.zip) → [一页开始说明](pilot/README.md)。摄影案例用于熟悉入口，随后用自己的真实任务，记录交付是否合格、补了几次专业提示、返工几次，以及是否采用；正常业务补充与专业救场分开。[R72领取核验](tests/v2-pilot-readiness.md)已程序化取得并核对实际包；浏览器收件与外部试用者收件仍待确认。[R71内部三组六轮](tests/v2-continuous-pilot.md)共同完成本例交付，没有证明候选独有优势。真实参与、采用、复用和订单记录仍为0。[现成招募与观察交接](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)和[条件收入模型](commercial/README.md)分别说明下一步及限制；本包不是正式Release或Agensi商品。
+**用一个有验收标准的专业任务试用：** [领取当前独立候选ZIP（abef76f，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/cdb385d87c189cfe162ba23df9ebc2a9e66f97af/commercial/artifacts/intent-compiler-2.0-candidate-abef76f.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。用自己的真实任务，记录交付是否合格、补了几次专业提示、返工几次，以及是否采用；正常业务补充与专业救场分开。[R79领取核验](tests/v2-submission-candidate.md)已核对程序化获取、浏览器实际下载、新项目安装与宿主发现；外部试用者收件仍未验证。需要合成素材时使用[旧摄影上手案例](pilot/README.md)，其239553d包保持冻结，不覆盖当前候选。[R71内部三组六轮](tests/v2-continuous-pilot.md)共同完成本例交付，没有证明候选独有优势。真实参与、采用、复用和订单记录仍为0。[现成招募与观察交接](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)和[条件收入模型](commercial/README.md)分别说明下一步及限制；候选不是正式Release或Agensi商品。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 
 原始项目：[Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill)。现有署名：**Intent Compiler contributors**；版权：Copyright (c) 2026 Intent Compiler contributors。宿主清单版本 **0.2.0**；本分支为**未发布的 2.0 候选版**，不是已发布的 2.0。提交历史记录具体贡献，不能据此编造作者身份。
 
-来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；本地试用包已保留这些文件，尚未制作或发布平台上传包。
+来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；独立候选ZIP已在GitHub提供，尚未上传平台或通过平台审核。
 
 打印知识已补充分清份数与尺寸：本次不打印可以设为 0，同时保留名单；实体标签尺寸不能为 0。[实际修复验证](tests/v2-print-counts.md)覆盖网页导出、全零处理和恢复打印，仅证明这一已知缺口的局部修复。
 
