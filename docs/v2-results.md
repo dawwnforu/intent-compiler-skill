@@ -1,5 +1,7 @@
 # V2 candidate evaluation / 候选版实测
 
+[R81文本传输](../tests/v2-text-transport.md)：真实管道诊断确认损失机制，两次客户HTML/CSV交付最终通过来源、金额、日期、未知项、输入不变与HTTP检查；仅现版完成实际浏览器/下载。新增方法未观察到加载，比较效应未验证，不采纳运行规则。112.05/101.19秒及3237/2759输出tokens不是该方法收益。新增7项暴露判定检查；保留内部失败、3小时29分工具超时及归档换行/BOM修正，实际用户返工仍未知。
+
 [R80候选启动](../tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release)：继承配置的前后发现揭示并修正同名显示歧义；新ZIP只改README/已有显示名字段，24源文件安装字节通过。一例明确路径启动30.56秒、58,740输入/37,248缓存输入/736输出tokens，回执路径/来源正确；保留额外Git HEAD失败。不是现金账单、业务优越性或用户少干预证据。
 
 

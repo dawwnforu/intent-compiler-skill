@@ -12,6 +12,7 @@ jobs:
           python-version: '3.12'
       - run: python tests/check_repository.py
       - run: python tests/test_eval_reference_inputs.py
+      - run: python tests/test_module_exposure.py
       - run: python tests/test_html_scripts_candidate.py
       - run: python tests/test_trial_package.py
       - run: python tests/test_submission_package.py

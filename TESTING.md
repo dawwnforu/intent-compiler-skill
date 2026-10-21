@@ -1,5 +1,7 @@
 # Validation and comparison protocol
 
+[R81 text transport and method exposure](tests/v2-text-transport.md): an actual legacy-pipe diagnostic and two matched same-model client deliverables retain source/CSV/HTTP results, failed commands and cost. The proposed module is not observed in tool output, so no method-effect conclusion or runtime adoption. Add a conservative completed-output exposure gate and seven tests. Preserve a12,519.5381-second browser timeout overrun, unequal browser coverage and corrected archival newline/BOM handling; these are evaluator issues, not model gains or user feedback. No resampling or new original-app work.
+
 [R80 candidate startup](tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release): inherited user configuration exposes two enabled same-name Skills with identical labels before, distinct labels after the supported metadata fix. Verify exact new ZIP installation and one actual explicit-path activation, retaining its unrelated business-project Git-HEAD failure. Six packaging tests pass; no global Skill replacement, UI-selector click, new business comparison or external-user evidence. R79 acquisition stays attributed to its own archive.
 
 
