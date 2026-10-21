@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Prepare a deterministic standalone MIT submission candidate from committed Git blobs, with six final packaging-boundary tests, checksums and actual fresh-project Codex discovery. Separate source bytes, CRLF/LF-qualified behavior evidence, marketplace licence/connection gates and conditional15USD convenience pricing from the old19USD model. Keep private mail local and the frozen trial ZIP intact; no live listing, payout onboarding, formal install replacement or new model generation.
+
 - Add one conditional UI method for direct inline selection and overflow, preserving creation, clearing, catalog management and in-progress state. Four same-model before/after generations plus real browser checks support a local duplication correction; retain the candidate's separator defect, baseline extras, mixed costs and unknown owner intervention/adoption. Keep core, routing, MIT, formal install and frozen trial ZIP unchanged.
 
 - Preserve declared visual references in new evaluations with ordered image arguments and required-input failure checks. Six focused tests and one bounded three-arm professional notice task support the evaluator repair, with shared initial PDF correctness and separate editing/receipt limits. Keep runtime, frozen history/trial, formal install and MIT unchanged; no general superiority, savings or reduced user-intervention claim.

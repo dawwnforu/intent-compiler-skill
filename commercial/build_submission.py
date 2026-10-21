@@ -112,7 +112,8 @@ def committed_source(ref):
     manifest = json.loads(git('show', commit + ':.codex-plugin/plugin.json'))
     if entries.get('LICENSE') != git('show', commit + ':LICENSE'):
         raise ValueError('Root and standalone MIT notices differ')
-    runtime = git('log', '-1', '--format=%H', commit, '--', PREFIX + 'SKILL.md', PREFIX + 'references', PREFIX + 'scripts').decode().strip()
+    shallow = git('rev-parse', '--is-shallow-repository').strip() == b'true'
+    runtime = None if shallow else git('log', '-1', '--format=%H', commit, '--', PREFIX + 'SKILL.md', PREFIX + 'references', PREFIX + 'scripts').decode().strip()
     source = {'project': 'Intent Compiler', 'repository': manifest['repository'],
               'attribution': manifest['author']['name'], 'manifestVersion': manifest['version'],
               'candidate': '2.0 unreleased candidate', 'sourceCommit': commit,

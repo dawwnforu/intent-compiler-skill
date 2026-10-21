@@ -1,0 +1,213 @@
+{
+  "currency": "USD",
+  "price": 15,
+  "priceBasis": "Untested one-time convenience price hypothesis; comparable listing observations are not willingness-to-pay evidence",
+  "parameterSource": "revenue-inputs.json; all original non-price assumptions retained",
+  "actualPayout": null,
+  "scenarios": {
+    "zero_30": {
+      "inputs": {
+        "days": 30,
+        "views": 100,
+        "trial_rate": 0.1,
+        "activation_rate": 0.5,
+        "paid_given_active": 0,
+        "refund_rate": 0
+      },
+      "results": {
+        "days": 30,
+        "views": 100,
+        "activated_expected": 5.0,
+        "orders_expected": 0.0,
+        "refunds_expected": 0.0,
+        "gross_usd": 0.0,
+        "platform_usd": 0.0,
+        "creator_revenue_usd": 0.0,
+        "creator_tools_usd": 0.25,
+        "fixed_cash_usd": 10.0,
+        "support_hours": 0.8333333333333334,
+        "fixed_hours": 10.0,
+        "support_time_value_usd": 16.666666666666668,
+        "fixed_time_value_usd": 200.0,
+        "cash_contribution_before_payout_usd": -10.25,
+        "economic_result_usd": -226.91666666666669,
+        "unit_contribution_after_trial_support_usd": null,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    },
+    "base_30": {
+      "inputs": {
+        "days": 30,
+        "views": 300,
+        "trial_rate": 0.12,
+        "activation_rate": 0.6,
+        "paid_given_active": 0.15,
+        "refund_rate": 0.1
+      },
+      "results": {
+        "days": 30,
+        "views": 300,
+        "activated_expected": 21.599999999999998,
+        "orders_expected": 3.2399999999999998,
+        "refunds_expected": 0.324,
+        "gross_usd": 48.599999999999994,
+        "platform_usd": 13.121999999999998,
+        "creator_revenue_usd": 30.617999999999995,
+        "creator_tools_usd": 1.7279999999999998,
+        "fixed_cash_usd": 10.0,
+        "support_hours": 4.761,
+        "fixed_hours": 10.0,
+        "support_time_value_usd": 95.22,
+        "fixed_time_value_usd": 200.0,
+        "cash_contribution_before_payout_usd": 18.889999999999993,
+        "economic_result_usd": -276.33,
+        "unit_contribution_after_trial_support_usd": -20.47222222222222,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    },
+    "upside_30": {
+      "inputs": {
+        "days": 30,
+        "views": 600,
+        "trial_rate": 0.2,
+        "activation_rate": 0.75,
+        "paid_given_active": 0.3,
+        "refund_rate": 0.05
+      },
+      "results": {
+        "days": 30,
+        "views": 600,
+        "activated_expected": 90.0,
+        "orders_expected": 27.0,
+        "refunds_expected": 1.35,
+        "gross_usd": 405.0,
+        "platform_usd": 115.425,
+        "creator_revenue_usd": 269.325,
+        "creator_tools_usd": 9.9,
+        "fixed_cash_usd": 10.0,
+        "support_hours": 24.3375,
+        "fixed_hours": 10.0,
+        "support_time_value_usd": 486.75,
+        "fixed_time_value_usd": 200.0,
+        "cash_contribution_before_payout_usd": 249.425,
+        "economic_result_usd": -437.325,
+        "unit_contribution_after_trial_support_usd": -8.419444444444443,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    },
+    "zero_90": {
+      "inputs": {
+        "days": 90,
+        "views": 300,
+        "trial_rate": 0.1,
+        "activation_rate": 0.5,
+        "paid_given_active": 0,
+        "refund_rate": 0
+      },
+      "results": {
+        "days": 90,
+        "views": 300,
+        "activated_expected": 15.0,
+        "orders_expected": 0.0,
+        "refunds_expected": 0.0,
+        "gross_usd": 0.0,
+        "platform_usd": 0.0,
+        "creator_revenue_usd": 0.0,
+        "creator_tools_usd": 0.75,
+        "fixed_cash_usd": 30.0,
+        "support_hours": 2.5,
+        "fixed_hours": 18.0,
+        "support_time_value_usd": 50.0,
+        "fixed_time_value_usd": 360.0,
+        "cash_contribution_before_payout_usd": -30.75,
+        "economic_result_usd": -440.75,
+        "unit_contribution_after_trial_support_usd": null,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    },
+    "base_90": {
+      "inputs": {
+        "days": 90,
+        "views": 900,
+        "trial_rate": 0.12,
+        "activation_rate": 0.6,
+        "paid_given_active": 0.15,
+        "refund_rate": 0.1
+      },
+      "results": {
+        "days": 90,
+        "views": 900,
+        "activated_expected": 64.8,
+        "orders_expected": 9.719999999999999,
+        "refunds_expected": 0.972,
+        "gross_usd": 145.79999999999998,
+        "platform_usd": 39.366,
+        "creator_revenue_usd": 91.854,
+        "creator_tools_usd": 5.184,
+        "fixed_cash_usd": 30.0,
+        "support_hours": 14.283000000000001,
+        "fixed_hours": 18.0,
+        "support_time_value_usd": 285.66,
+        "fixed_time_value_usd": 360.0,
+        "cash_contribution_before_payout_usd": 56.67,
+        "economic_result_usd": -588.9900000000001,
+        "unit_contribution_after_trial_support_usd": -20.47222222222222,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    },
+    "upside_90": {
+      "inputs": {
+        "days": 90,
+        "views": 1800,
+        "trial_rate": 0.2,
+        "activation_rate": 0.75,
+        "paid_given_active": 0.3,
+        "refund_rate": 0.05
+      },
+      "results": {
+        "days": 90,
+        "views": 1800,
+        "activated_expected": 270.0,
+        "orders_expected": 81.0,
+        "refunds_expected": 4.05,
+        "gross_usd": 1215.0,
+        "platform_usd": 346.275,
+        "creator_revenue_usd": 807.9749999999999,
+        "creator_tools_usd": 29.7,
+        "fixed_cash_usd": 30.0,
+        "support_hours": 73.0125,
+        "fixed_hours": 18.0,
+        "support_time_value_usd": 1460.25,
+        "fixed_time_value_usd": 360.0,
+        "cash_contribution_before_payout_usd": 748.2749999999999,
+        "economic_result_usd": -1071.9750000000001,
+        "unit_contribution_after_trial_support_usd": -8.419444444444443,
+        "break_even_orders": null,
+        "break_even_views": null
+      }
+    }
+  },
+  "supportCeilings": {
+    "5": {
+      "activation_support_zero_contribution_minutes": 3.0375,
+      "post_order_support_zero_contribution_minutes": -41.416666666666664,
+      "conversion_zero_contribution": 0.4776470588235293,
+      "positive_possible_with_conversion_at_most_one": true,
+      "note": "Positive only below time ceilings / above conversion threshold; negative ceilings or conversion >=1 mean infeasible under these assumptions. Fixed research, upkeep and cash still need coverage."
+    },
+    "20": {
+      "activation_support_zero_contribution_minutes": 0.7875000000000002,
+      "post_order_support_zero_contribution_minutes": -41.416666666666664,
+      "conversion_zero_contribution": 1.6239999999999992,
+      "positive_possible_with_conversion_at_most_one": false,
+      "note": "Positive only below time ceilings / above conversion threshold; negative ceilings or conversion >=1 mean infeasible under these assumptions. Fixed research, upkeep and cash still need coverage."
+    }
+  },
+  "limits": "Expected conditional scenarios, not forecasts; support, conversion, traffic and costs are not measured. Original19USD artifacts unchanged.",
+  "observedOrders": 0
+}

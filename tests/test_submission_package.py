@@ -3,10 +3,11 @@ import io
 from pathlib import Path
 import sys
 import unittest
+from unittest.mock import patch
 import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'commercial'))
-from build_submission import committed_source, encode_archive, verify_archive
+from build_submission import committed_source, encode_archive, verify_archive, git
 
 
 class SubmissionPackage(unittest.TestCase):
@@ -46,6 +47,15 @@ class SubmissionPackage(unittest.TestCase):
                 target.writestr(name, source.read(name) + (b'\nchanged' if name == 'SKILL.md' else b''))
         with self.assertRaises(ValueError):
             verify_archive(output.getvalue())
+
+    def test_shallow_history_does_not_invent_runtime_commit(self):
+        def observed_git(*args):
+            return b'true\n' if args == ('rev-parse', '--is-shallow-repository') else git(*args)
+        with patch('build_submission.git', side_effect=observed_git):
+            entries, source, _ = committed_source('HEAD')
+        self.assertEqual(entries, self.entries)
+        self.assertEqual(source['sourceCommit'], self.source['sourceCommit'])
+        self.assertIsNone(source['runtimeCommit'])
 
 
 if __name__ == '__main__':
