@@ -1,0 +1,248 @@
+{
+  "protocolCommit": "810b9eb",
+  "protocol": "# R55: unseen wording against the existing meeting processor\n\nProtocol frozen before executing the R22 second-turn processor on these statements. No new model generation or Skill change. R22 fixed its exposed regression set; this check asks whether those fixes transfer to different wording, without editing the processor or sending the new answers back for repair.\n\nAll inputs retain the existing `决定：` format. Expected labels are either confirmed decision or unresolved; original text must remain available. These eight hand-authored cases are a small diagnostic set, not a general accuracy benchmark.\n\n| File | Exact statement | Expected |\n|---|---|---|\n| defer.txt | 决定：增加预算这件事先搁一搁，等下周再议。 | unresolved |\n| unchanged.txt | 决定：原定周五的演示照常进行。 | decision |\n| refused.txt | 决定：经理已明确表示不同意延期。 | decision |\n| personal.txt | 决定：关于加人，目前只是小李的个人想法。 | unresolved |\n| price.txt | 决定：会议未采纳涨价建议，售价保持不变。 | decision |\n| not-approved.txt | 决定：听起来可以，不代表已经获批。 | unresolved |\n| finance.txt | 决定：负责人还需要征求财务意见，预算暂不能敲定。 | unresolved |\n| label.txt | 决定：会议一致同意把按钮上的“尚未通过”改成“待审核”。 | decision |\n\nThe defer statement records a postponement of the budget decision; its coarse unresolved label concerns approval of the budget increase. A system explicitly extracting the agreed deferral separately would require a richer review than this single-label test. Preserve that annotation limitation rather than claiming every disagreement is an unambiguous error.\n\nRun a fresh isolated copy of the existing `organize.ps1` through its normal PowerShell `-File` entry. Preserve command output, generated notes, source text and labels. Do not add sentence-specific patterns after seeing results. If failures recur, diagnose the method's capability boundary before proposing a new rule. This is not a current full-Skill versus raw-request comparison.\n",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\intent-compiler-v2\\status-transfer-r55\\workspace\\organize.ps1",
+    "-Root",
+    "C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\intent-compiler-v2\\status-transfer-r55\\workspace"
+  ],
+  "exitCode": 0,
+  "stdout": "Created: 8; skipped: 0; failed: 0\nNotes: C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\intent-compiler-v2\\status-transfer-r55\\workspace\\notes\\index.html\n",
+  "stderr": "",
+  "cases": [
+    {
+      "file": "defer.txt",
+      "text": "决定：增加预算这件事先搁一搁，等下周再议。",
+      "expected": "unresolved",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": true,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "unchanged.txt",
+      "text": "决定：原定周五的演示照常进行。",
+      "expected": "decision",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": false,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "refused.txt",
+      "text": "决定：经理已明确表示不同意延期。",
+      "expected": "decision",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": false,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "personal.txt",
+      "text": "决定：关于加人，目前只是小李的个人想法。",
+      "expected": "unresolved",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": true,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "price.txt",
+      "text": "决定：会议未采纳涨价建议，售价保持不变。",
+      "expected": "decision",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": false,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "not-approved.txt",
+      "text": "决定：听起来可以，不代表已经获批。",
+      "expected": "unresolved",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": true,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "finance.txt",
+      "text": "决定：负责人还需要征求财务意见，预算暂不能敲定。",
+      "expected": "unresolved",
+      "actual": [
+        "需确认（保留原文，未视为决定）"
+      ],
+      "matches": true,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    },
+    {
+      "file": "label.txt",
+      "text": "决定：会议一致同意把按钮上的“尚未通过”改成“待审核”。",
+      "expected": "decision",
+      "actual": [
+        "决定（原文明确）"
+      ],
+      "matches": true,
+      "sourcePreserved": true,
+      "archivePreserved": true
+    }
+  ],
+  "records": [
+    {
+      "version": 5,
+      "id": "278decd28fd02f1148b1647ca52558e3b375f54a7fbb3d496ec02c168e7710ef-a88f6cf6edb91ff787956012dd57e9bde66c9a46db3608313d08d9313efc3760",
+      "path": "refused.txt",
+      "sha256": "a88f6cf6edb91ff787956012dd57e9bde66c9a46db3608313d08d9313efc3760",
+      "processed": "2026-10-15T13:09:49.3465485+02:00",
+      "lines": [
+        "决定：经理已明确表示不同意延期。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：经理已明确表示不同意延期。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "27e7e477f72cd2cdc22ea45da5c8fa06723fc6daf5b64cd24e16012cf32775f7-d4c278eca94681c64df4c0b0e6848f1263a0047c58edb5eae76824f1ca0eb47f",
+      "path": "not-approved.txt",
+      "sha256": "d4c278eca94681c64df4c0b0e6848f1263a0047c58edb5eae76824f1ca0eb47f",
+      "processed": "2026-10-15T13:09:49.3315478+02:00",
+      "lines": [
+        "决定：听起来可以，不代表已经获批。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：听起来可以，不代表已经获批。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "5e42f915c7f6b00bd7b0381e6d3bb44687ce594c4d1154944dc0438a2943a4af-4447b5b64a64e5acedd2e6d4aa867214b9f3b5a95bcfc3de8899effefafaef01",
+      "path": "label.txt",
+      "sha256": "4447b5b64a64e5acedd2e6d4aa867214b9f3b5a95bcfc3de8899effefafaef01",
+      "processed": "2026-10-15T13:09:49.3265391+02:00",
+      "lines": [
+        "决定：会议一致同意把按钮上的“尚未通过”改成“待审核”。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "决定（原文明确）",
+          "text": "决定：会议一致同意把按钮上的“尚未通过”改成“待审核”。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "909966a9144d468fb673111900a67ce209aba85f3cb7c07d60162b99bb535da7-bc77e2db46d64fc3e9bc3eebd04dcdfc56e26d532545ccac991b0436702651e0",
+      "path": "personal.txt",
+      "sha256": "bc77e2db46d64fc3e9bc3eebd04dcdfc56e26d532545ccac991b0436702651e0",
+      "processed": "2026-10-15T13:09:49.3365481+02:00",
+      "lines": [
+        "决定：关于加人，目前只是小李的个人想法。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：关于加人，目前只是小李的个人想法。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "985a9bb8cbec54c6592ecbf76c38a1c2e6e79ed868c358203a27a8e09d3c7413-dbd47daf8b7954e4a053c25bea54aa5652fbba9c4d350b5a272d2596e27ddd4c",
+      "path": "price.txt",
+      "sha256": "dbd47daf8b7954e4a053c25bea54aa5652fbba9c4d350b5a272d2596e27ddd4c",
+      "processed": "2026-10-15T13:09:49.3415468+02:00",
+      "lines": [
+        "决定：会议未采纳涨价建议，售价保持不变。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：会议未采纳涨价建议，售价保持不变。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "ab6870bcb7a9f9c6665ee0297e37d3422162d4c05d13a850a3eddba4f4e0ba10-610a076b6e3975dee21e19bb446c5f0e5647786844c59183b02eaa3407e95769",
+      "path": "defer.txt",
+      "sha256": "610a076b6e3975dee21e19bb446c5f0e5647786844c59183b02eaa3407e95769",
+      "processed": "2026-10-15T13:09:49.2519653+02:00",
+      "lines": [
+        "决定：增加预算这件事先搁一搁，等下周再议。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：增加预算这件事先搁一搁，等下周再议。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "c9965b6a78d1eca5158f775a8583ee3aaf4512b9471e5f69992a2f897b8fb5a2-76c624ba5fd8d0585966b824f173976044b7402c5f80a198ef6cb7ea7fe9548d",
+      "path": "finance.txt",
+      "sha256": "76c624ba5fd8d0585966b824f173976044b7402c5f80a198ef6cb7ea7fe9548d",
+      "processed": "2026-10-15T13:09:49.3226405+02:00",
+      "lines": [
+        "决定：负责人还需要征求财务意见，预算暂不能敲定。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：负责人还需要征求财务意见，预算暂不能敲定。"
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "id": "fa95fa527153c2f558cce0c30e651d71af5ab36c83b3c7ac4c08f1ac1113d540-14939a59ebe843d07983ff4bb838a1303ec74e8a277e3a9284ceb90d8e5b5d29",
+      "path": "unchanged.txt",
+      "sha256": "14939a59ebe843d07983ff4bb838a1303ec74e8a277e3a9284ceb90d8e5b5d29",
+      "processed": "2026-10-15T13:09:49.3535454+02:00",
+      "lines": [
+        "决定：原定周五的演示照常进行。"
+      ],
+      "items": [
+        {
+          "line": 1,
+          "category": "需确认（保留原文，未视为决定）",
+          "text": "决定：原定周五的演示照常进行。"
+        }
+      ]
+    }
+  ],
+  "processor": "param([string]$Root = $PSScriptRoot)\n$ErrorActionPreference = 'Stop'\n$Root = [IO.Path]::GetFullPath($Root)\n$inputDir = Join-Path $Root 'inputs'\n$out = Join-Path $Root 'notes'\n$archive = Join-Path $out 'archive'\n[IO.Directory]::CreateDirectory($archive) | Out-Null\n$lock = $null\ntry { $lock = [IO.File]::Open((Join-Path $out '.run.lock'),[IO.FileMode]::OpenOrCreate,[IO.FileAccess]::ReadWrite,[IO.FileShare]::None) }\ncatch { throw 'Another run is active. Wait for it to finish and try again.' }\ntry {\n$utf8 = New-Object Text.UTF8Encoding($false, $true)\nfunction Hash([byte[]]$bytes) {\n    $sha = [Security.Cryptography.SHA256]::Create()\n    try { return ([BitConverter]::ToString($sha.ComputeHash($bytes))).Replace('-','').ToLowerInvariant() } finally { $sha.Dispose() }\n}\nfunction WriteAtomic($path, $text) {\n    $temp = \"$path.tmp\"\n    [IO.File]::WriteAllText($temp, $text, (New-Object Text.UTF8Encoding($true)))\n    if ([IO.File]::Exists($path)) { [IO.File]::Replace($temp, $path, \"$path.previous\") } else { [IO.File]::Move($temp, $path) }\n}\nfunction Esc($s) { return [Net.WebUtility]::HtmlEncode([string]$s) }\n$recordVersion = 5\nfunction Classify($line) {\n    $unknown = '需确认（保留原文，未视为决定）'\n    # Titles are removed, never used as approval evidence. Quotes are opaque\n    # objects: neither their uncertainty nor their approval words are evidence.\n    $body = ($line -replace '^(决定|决议|待办)\\s*[:：]\\s*', '').Trim()\n    $evidence = $body -replace '\\u201c[^\\u201d]*\\u201d|「[^」]*」|『[^』]*』|\"[^\"]*\"|\\u2018[^\\u2019]*\\u2019', '〈引文〉'\n    $pending = '(未定|待定|未确定|未确认|未批准|未决定|尚未|还没|还未|尚待|仍待|待[^，,。；;]*(确认|批准|审批|决定|评估)|没有[^，,。；;]*(定下|确认|批准|决定|形成|达成|结论|共识)|未能|未达成|无定论|无结论|未形成|有待|暂定|拟议|拟[^，,。；;]*(实施|采用|上线)|希望|考虑|可能|也许|是否|能否|要不要|如果|若|假如|除非|取决于|以[^，,。；;]*为准|[？?]|条件[^，,。；;]*(未满足|不满足)|并非[^，,。；;]*决定)'\n    $discussion = '((仅|只|暂)[^，,。；;]{0,6}(讨论|参考|交流|研究|备选|提案)|供[^，,。；;]{0,6}(讨论|参考)|讨论稿|草案|征求意见|不代表[^，,。；;]*(批准|通过|决定)|不构成[^，,。；;]*(批准|通过|决定)|没有[^，,。；;]*统一|尚无|未获|未经|不确定|不明确)'\n    $clauses = @($evidence -split '[，,。；;！!]|但(?:是)?|不过|然而' | Where-Object { $_.Trim() })\n    if (!$clauses.Count) { return $unknown }\n    $settled = 0\n    $historyAwaitingResolution = $false\n    $isTodo = $line -match '^待办\\s*[:：]'\n    foreach ($clause in $clauses) {\n        $c = $clause.Trim()\n        # Only an explicit completed resolution neutralizes an embedded question.\n        # It is scoped to this clause, never to another pending issue in the line.\n        if ($c -match '^(?:关于|有关)[^，,。；;？?]+(?:问题|事项)(?:现|目前)?(?:已|已经)(?:解决|明确|确定|达成一致)$') {\n            $settled++; $historyAwaitingResolution = $false; continue\n        }\n        # Historical attributive status is not the status of the new action.\n        $c = $c -replace '(?:原先|原本|此前|之前|曾经)(?:待定|未定|未确认|未确定|尚未确定)的', ''\n        if ($c -match $pending -or $c -match $discussion) {\n            # A historical clause alone is unresolved. A later explicit outcome\n            # must follow it; present uncertainty (still / to date) cannot be erased.\n            if ($c -match '^(此前|之前|原先|原本|过去)' -and $c -notmatch '(仍|至今|目前|现在|如果|若|假如|除非|[？?])') {\n                $historyAwaitingResolution = $true; continue\n            }\n            return $unknown\n        }\n        if ($isTodo) { continue }\n        if ($c -match '^(?:经|经过)(?:确认|批准|表决通过)$') { continue }\n        $c = $c -replace '^(?:现已|现在已|目前已)', '已'\n        $c = $c -replace '^现(?=决定|确认|确定|批准|否决)', ''\n        $resolved = '^(?:(?:会议|会上|委员会|团队|全体|负责人|大家)\\s*)?(?:(?:已|已经|正式|最终|明确|一致)\\s*)?(?:决定|决议|确定|确认|批准|同意|通过|否决|驳回|拒绝|不批准|不通过|不同意|禁止|严禁|不得|不允许)\\s*[^，,。；;]+$'\n        # Closed predicate families, not whole-sentence exceptions. Direct actions\n        # work with or without a heading; unrecognized predicates still abstain.\n        $verbs = '(?:公开|披露|提供|发布|发送|使用|执行|实施|上线|下线|开放|销售|收集|保留|删除|移除|延长|延期|保持|取消|支持|包含)'\n        $action = '^(?:(?:首版|本版|本期|本次|新版|第一版|一期|二期)\\s*)?(?:(?:按|按照)(?:原计划|原定计划|既定计划)\\s*)?(?:(?:已|已经|正式|最终|明确)\\s*)?(?:(?:不再|不|只|仅|继续)\\s*)?' + '(?:' + $verbs + '[^，,。；;]+|发布|上线|下线|延期)$'\n        $prohibition = '^不(?:向|对)[^，,。；;]*' + $verbs + '[^，,。；;]*$'\n        $changed = '^[^，,。；;]+(?:改为|改成|调整为|定为)[^，,。；;]+$'\n        # A proposal containing a supported action is still a proposal. Completed\n        # approval/rejection predicates may take a proposal as their object.\n        if ($c -notmatch $resolved -and ($c -match '^(建议|提议|拟|计划|打算)' -or $c -match '(建议|提议|拟|打算)(将|把|改为|改成|调整为|采用|保留|删除|发布|上线|延长)')) { return $unknown }\n        if ($c -notmatch $resolved -and $c -notmatch $action -and $c -notmatch $prohibition -and $c -notmatch $changed) { return $unknown }\n        if ($c -match '(不|没有|未)(决定|确认|确定)|(?:决定|确认|确定|同意)\\s*(讨论|研究|评估|建议|提议)|(?:批准|通过|同意|决定|确认|确定)\\s*(情况|状态|结果|与否)|^通过(?:讨论|研究|评估)|(?:禁止|严禁|不得|不允许)\\s*$') { return $unknown }\n        $settled++\n        $historyAwaitingResolution = $false\n    }\n    if ($historyAwaitingResolution) { return $unknown }\n    if ($isTodo) { return '待办（按原文保留）' }\n    if (!$settled) { return $unknown }\n    return '决定（原文明确）'\n}\n$results = @()\n$created = 0; $skipped = 0; $failed = 0\nif (!(Test-Path -LiteralPath $inputDir)) { throw 'inputs folder does not exist.' }\nforeach ($file in @(Get-ChildItem -LiteralPath $inputDir -File -Recurse | Sort-Object FullName)) {\n    $relative = $file.FullName.Substring($inputDir.Length + 1)\n    try {\n        if ($file.Extension.ToLowerInvariant() -notin @('.txt','.md')) { throw 'Only .txt and .md text files are supported.' }\n        $bytes = [IO.File]::ReadAllBytes($file.FullName)\n        $hash = Hash $bytes\n        $pathHash = Hash ($utf8.GetBytes($relative))\n        $id = \"$pathHash-$hash\"\n        $recordPath = Join-Path $archive \"$id.json\"\n        $reuse = $false\n        if (Test-Path -LiteralPath $recordPath) {\n            $record = Get-Content -LiteralPath $recordPath -Raw -Encoding UTF8 | ConvertFrom-Json\n            if (!(Test-Path -LiteralPath (Join-Path $archive \"$id.txt\"))) { throw 'Archived original is missing; restore it before retrying.' }\n            $reuse = $record.version -eq $recordVersion\n        }\n        if ($reuse) {\n            $skipped++\n        } else {\n            $offset = 0\n            if ($bytes.Length -ge 3 -and $bytes[0] -eq 239 -and $bytes[1] -eq 187 -and $bytes[2] -eq 191) { $offset = 3 }\n            if ($bytes.Length -ge 2 -and $bytes[0] -eq 255 -and $bytes[1] -eq 254) {\n                $decoder = New-Object Text.UnicodeEncoding($false,$true,$true); $offset = 2\n            } elseif ($bytes.Length -ge 2 -and $bytes[0] -eq 254 -and $bytes[1] -eq 255) {\n                $decoder = New-Object Text.UnicodeEncoding($true,$true,$true); $offset = 2\n            } else { $decoder = $utf8 }\n            $source = $decoder.GetString($bytes,$offset,$bytes.Length-$offset)\n            if ([string]::IsNullOrWhiteSpace($source)) { throw 'Empty text file.' }\n            if ($source -match '[\\x00-\\x08\\x0B\\x0C\\x0E-\\x1F]') { throw 'Binary/control characters found in text.' }\n            $lines = @($source -split '\\r\\n|\\n|\\r')\n            $items = @()\n            for ($i=0; $i -lt $lines.Count; $i++) {\n                $line = $lines[$i].Trim()\n                if (!$line -or $line -match '^(会议|日期)[:：]') { continue }\n                $category = Classify $line\n                $items += [pscustomobject]@{line=$i+1; category=$category; text=$line}\n            }\n            $record = [pscustomobject]@{version=$recordVersion; id=$id; path=$relative; sha256=$hash; processed=(Get-Date).ToString('o'); lines=$lines; items=$items}\n            # Commit the preserved source before the record. A retry reuses the same identifiers.\n            if (!(Test-Path -LiteralPath (Join-Path $archive \"$id.txt\"))) { [IO.File]::WriteAllBytes((Join-Path $archive \"$id.txt\"),$bytes) }\n            WriteAtomic $recordPath ($record | ConvertTo-Json -Depth 8)\n            $created++\n        }\n        $results += [pscustomobject]@{path=$relative; ok=$true; record=$record; error=''}\n    } catch {\n        $failed++\n        $results += [pscustomobject]@{path=$relative; ok=$false; record=$null; error=$_.Exception.Message}\n    }\n}\n$html = New-Object Text.StringBuilder\n[void]$html.Append(@'\n<!doctype html><html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>会议笔记</title>\n<style>body{font:16px/1.7 system-ui,sans-serif;max-width:1000px;margin:35px auto;padding:0 20px;color:#233044;background:#f5f7fa}article{background:white;padding:22px;margin:20px 0;border-radius:12px;border:1px solid #dce2ea}input{padding:12px;width:85%;font:inherit}a{color:#135baa}pre{white-space:pre-wrap;word-break:break-word}small{color:#576779}.error{color:#a22222}li{margin:10px 0}:target{background:#fff2a6}summary{cursor:pointer}</style>\n<h1>会议笔记</h1><p>本地规则摘录；没有调用 AI 或外部服务。保留原句，不推断负责人、日期或批准状态。各会议按来源独立呈现，冲突不会自动合并。分类依据正文措辞，仅作阅读辅助；“决定／决议”标题不作为批准依据。明确禁止、否决和已确定安排可标为决定；当前仍在讨论、未定、待表决或附有未满足条件的表述，以及无法可靠判定的表述，保留原文并标“需确认”。规则仅覆盖有限句式，不能保证任意语句的语义判断。</p>\n<input id=\"search\" aria-label=\"搜索笔记和原文\" placeholder=\"搜索笔记和原文…\"><p id=\"count\"></p>\n'@)\n[void]$html.Append(\"<p>本次：新增 $created，跳过 $skipped，失败 $failed。更新时间：$(Esc ((Get-Date).ToString('yyyy-MM-dd HH:mm:ss')))</p>\")\nforeach ($result in $results) {\n    [void]$html.Append(\"<article><h2>$(Esc $result.path)</h2>\")\n    if (!$result.ok) {\n        [void]$html.Append(\"<p class='error'>未处理：$(Esc $result.error)</p><p>修复文件后再次运行即可；其他文件已独立处理。历史成果仍保存在 archive 文件夹。</p></article>\")\n        continue\n    }\n    $r = $result.record; $id = $r.id\n    [void]$html.Append(\"<p><a href='archive/$id.txt'>下载原始文件（原始字节）</a></p><small>SHA-256：$(Esc $r.sha256)<br>整理时间：$(Esc $r.processed)</small><ul>\")\n    foreach ($item in $r.items) {\n        [void]$html.Append(\"<li><strong>$(Esc $item.category)</strong>：$(Esc $item.text) <a class='source' href='#s-$id-$($item.line)'>原文第 $($item.line) 行</a></li>\")\n    }\n    [void]$html.Append(\"</ul><details><summary>查看带行号原文</summary><pre>\")\n    for ($i=0; $i -lt $r.lines.Count; $i++) { [void]$html.Append(\"<span id='s-$id-$($i+1)'>$($i+1) | $(Esc $r.lines[$i])</span>`n\") }\n    [void]$html.Append('</pre></details></article>')\n}\n[void]$html.Append(@'\n<script>const cards=[...document.querySelectorAll('article')];function filter(){let q=document.querySelector('#search').value.toLocaleLowerCase();let n=0;cards.forEach(c=>{c.hidden=!c.textContent.toLocaleLowerCase().includes(q);if(!c.hidden)n++});document.querySelector('#count').textContent=`显示 ${n} / ${cards.length} 个文件`}document.querySelector('#search').addEventListener('input',filter);document.querySelectorAll('.source').forEach(a=>a.addEventListener('click',()=>a.closest('article').querySelector('details').open=true));filter();</script></html>\n'@)\nWriteAtomic (Join-Path $out 'index.html') $html.ToString()\nWriteAtomic (Join-Path $out 'status.json') (ConvertTo-Json -InputObject @($results | ForEach-Object { [pscustomobject]@{path=$_.path; success=$_.ok; error=$_.error} }) -Depth 4)\nWrite-Host \"Created: $created; skipped: $skipped; failed: $failed\"\nWrite-Host \"Notes: $(Join-Path $out 'index.html')\"\n} finally { if ($lock) { $lock.Dispose() } }\n",
+  "runner": "\"\"\"Replay the frozen R55 statements against unchanged R22 output.\"\"\"\nimport json\nimport shutil\nimport subprocess\nfrom pathlib import Path\n\nROOT=Path(__file__).resolve().parent.parent\nREPO=ROOT/'work/intent-compiler-skill'\nOUT=ROOT/'outputs/intent-compiler-v2/status-transfer-r55'\nSOURCE=ROOT/'outputs/intent-compiler-v2/status-feedback-r22-recovery/after-turn2/organize.ps1'\nprotocol=(REPO/'tests/v2-status-transfer.md').read_text(encoding='utf-8')\ncases=[]\nfor line in protocol.splitlines():\n    if line.startswith('| ') and '.txt |' in line:\n        filename,statement,expected=[s.strip() for s in line.strip('|').split('|')]\n        cases.append({'file':filename,'text':statement,'expected':expected})\nassert len(cases)==8 and sum(c['expected']=='decision' for c in cases)==4\nOUT.mkdir(exist_ok=False)\nworkspace=OUT/'workspace';(workspace/'inputs').mkdir(parents=True)\nshutil.copy2(SOURCE,workspace/'organize.ps1')\nfor case in cases:(workspace/'inputs'/case['file']).write_bytes(case['text'].encode('utf-8'))\ncommand=['powershell','-NoProfile','-ExecutionPolicy','Bypass','-File',str(workspace/'organize.ps1'),'-Root',str(workspace)]\nrun=subprocess.run(command,capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=60)\nrecords=[json.loads(p.read_text(encoding='utf-8-sig')) for p in (workspace/'notes/archive').glob('*.json')]\nby_path={r['path']:r for r in records}\nfor case in cases:\n    r=by_path.get(case['file'])\n    case['actual']=[item['category'] for item in r['items']] if r else []\n    expected='决定（原文明确）' if case['expected']=='decision' else '需确认（保留原文，未视为决定）'\n    case['matches']=case['actual']==[expected]\n    case['sourcePreserved']=(workspace/'inputs'/case['file']).read_bytes()==case['text'].encode('utf-8')\n    case['archivePreserved']=bool(r) and (workspace/'notes/archive'/f\"{r['id']}.txt\").read_bytes()==case['text'].encode('utf-8')\nrecord={'protocolCommit':'810b9eb','protocol':protocol,'command':command,'exitCode':run.returncode,'stdout':run.stdout,'stderr':run.stderr,\n        'cases':cases,'records':records,'processor':SOURCE.read_text(encoding='utf-8-sig'),\n        'runner':Path(__file__).read_text(encoding='utf-8'),\n        'limits':'Unchanged historical R22 processor, eight selected new phrasings, no current Skill invocation or raw/generic comparison. Defer label has the stated annotation limitation. Not a general semantic accuracy score.'}\n(OUT/'result.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')\n(REPO/'tests/results/v2-status-transfer.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')\nprint(json.dumps({'exit':run.returncode,'cases':cases},ensure_ascii=True,indent=2))\nassert run.returncode==0 and all(c['sourcePreserved'] and c['archivePreserved'] for c in cases)\n",
+  "limits": "Unchanged historical R22 processor, eight selected new phrasings, no current Skill invocation or raw/generic comparison. Defer label has the stated annotation limitation. Not a general semantic accuracy score."
+}

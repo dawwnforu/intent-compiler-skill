@@ -1,0 +1,196 @@
+{
+  "protocol": {
+    "scope": "Six fixed, sequential exposed habit-task trials. V1 here means pre-probe repaired V2, NOT release 0.2.0. V2 means the same snapshot plus browser capability-probe guidance. Do not pool with historical arms.",
+    "base_repository": "79d82b3b9d6fef7d0b1cd960e749f19c6c2aa8ce",
+    "changed_files": [
+      "references/interactive-products.md"
+    ],
+    "order": [
+      [
+        "p1",
+        "V1"
+      ],
+      [
+        "p1",
+        "V2"
+      ],
+      [
+        "p2",
+        "V2"
+      ],
+      [
+        "p2",
+        "V1"
+      ],
+      [
+        "p3",
+        "V1"
+      ],
+      [
+        "p3",
+        "V2"
+      ]
+    ],
+    "prompt": "做个手机上用的学习打卡小页面。我能添加自己的学习项目，每天勾选完成，点错也能取消，看今天完成了多少。关掉再打开记录还在，能导出自己的数据。界面清爽，有一点反馈动效，先在本机用，不需要账号。",
+    "boundary": "\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。\nBrowser verification must use a profile in this workspace and an automatically assigned available port. Do not stop unrelated processes.",
+    "hypothesis": "Proving a minimal browser observation before writing a full custom harness may reduce failed verification work without losing behavioral checks.",
+    "acceptance": "Independent real browser checks for add/check/undo/count/reload/export/literal names/mobile layout/date reopen. Retain all generation failures and uncertainty. Inspect command logs for actual adoption and tool failures; lower counters alone are not proof.",
+    "limitations": "One task, one model, three repetitions per variant; exposed task, not new holdout. Sequential alternating order reduces simultaneous local interference, not all temporal or sampling confounds."
+  },
+  "scope": "Counters only; these before/after variants are both repaired V2, not historical release V1. Independent quality and adoption review is separate.",
+  "runs": [
+    {
+      "variant": "before",
+      "repetition": "p1",
+      "exit_code": 0,
+      "wall_seconds": 214.33,
+      "usage": {
+        "input_tokens": 365442,
+        "cached_input_tokens": 345472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7079,
+        "reasoning_output_tokens": 399
+      },
+      "errors": [],
+      "agent_prose_characters": 426
+    },
+    {
+      "variant": "after",
+      "repetition": "p1",
+      "exit_code": 0,
+      "wall_seconds": 308.87,
+      "usage": {
+        "input_tokens": 588327,
+        "cached_input_tokens": 547712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8279,
+        "reasoning_output_tokens": 763
+      },
+      "errors": [],
+      "agent_prose_characters": 487
+    },
+    {
+      "variant": "after",
+      "repetition": "p2",
+      "exit_code": 0,
+      "wall_seconds": 218.66,
+      "usage": {
+        "input_tokens": 392309,
+        "cached_input_tokens": 355968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7447,
+        "reasoning_output_tokens": 415
+      },
+      "errors": [],
+      "agent_prose_characters": 479
+    },
+    {
+      "variant": "before",
+      "repetition": "p2",
+      "exit_code": 0,
+      "wall_seconds": 376.2,
+      "usage": {
+        "input_tokens": 655994,
+        "cached_input_tokens": 625792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10026,
+        "reasoning_output_tokens": 1232
+      },
+      "errors": [],
+      "agent_prose_characters": 530
+    },
+    {
+      "variant": "before",
+      "repetition": "p3",
+      "exit_code": 0,
+      "wall_seconds": 177.01,
+      "usage": {
+        "input_tokens": 288322,
+        "cached_input_tokens": 267904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6448,
+        "reasoning_output_tokens": 178
+      },
+      "errors": [],
+      "agent_prose_characters": 531
+    },
+    {
+      "variant": "after",
+      "repetition": "p3",
+      "exit_code": 1,
+      "wall_seconds": 100.42,
+      "usage": null,
+      "errors": [
+        "You’ve hit your usage limit. Visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 18th, 2026 6:48 AM.",
+        {
+          "message": "You’ve hit your usage limit. Visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 18th, 2026 6:48 AM."
+        }
+      ],
+      "agent_prose_characters": 137
+    }
+  ],
+  "summary": {
+    "before": {
+      "attempted_n": 3,
+      "completed_n": 3,
+      "usage_available_n": 3,
+      "aggregation_scope": "Available counters only; incomplete attempts retained in runs, not evidence of equal-sized complete comparisons.",
+      "input_tokens": {
+        "median": 365442,
+        "min": 288322,
+        "max": 655994
+      },
+      "cached_input_tokens": {
+        "median": 345472,
+        "min": 267904,
+        "max": 625792
+      },
+      "output_tokens": {
+        "median": 7079,
+        "min": 6448,
+        "max": 10026
+      },
+      "wall_seconds": {
+        "median": 214.33,
+        "min": 177.01,
+        "max": 376.2
+      },
+      "agent_prose_characters": {
+        "median": 530,
+        "min": 426,
+        "max": 531
+      }
+    },
+    "after": {
+      "attempted_n": 3,
+      "completed_n": 2,
+      "usage_available_n": 2,
+      "aggregation_scope": "Available counters only; incomplete attempts retained in runs, not evidence of equal-sized complete comparisons.",
+      "input_tokens": {
+        "median": 490318.0,
+        "min": 392309,
+        "max": 588327
+      },
+      "cached_input_tokens": {
+        "median": 451840.0,
+        "min": 355968,
+        "max": 547712
+      },
+      "output_tokens": {
+        "median": 7863.0,
+        "min": 7447,
+        "max": 8279
+      },
+      "wall_seconds": {
+        "median": 263.765,
+        "min": 218.66,
+        "max": 308.87
+      },
+      "agent_prose_characters": {
+        "median": 483.0,
+        "min": 479,
+        "max": 487
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "study": "R72: first-cohort delivery readiness",
+  "base_commit": "239553dfd2629a14fb0cdef6ec8fc044d3a7a080",
+  "checked_on": "2026-10-19",
+  "scope": "Author-side acquisition, extraction, project copy and existing observation-material repairs. Not an external-user study or model comparison.",
+  "pr_before": {
+    "number": 2,
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "head_sha": "239553dfd2629a14fb0cdef6ec8fc044d3a7a080",
+    "source": "GitHub connector get_pr_info; public repository metadata confirmed"
+  },
+  "acquisition": {
+    "url": "https://github.com/dawwnforu/intent-compiler-skill/blob/239553dfd2629a14fb0cdef6ec8fc044d3a7a080/pilot/intent-compiler-local-pilot.zip",
+    "received_bytes": 54242,
+    "sha256": "f151d04da35ee21e824ccb2b160b6682610c794b19c4bf4eef7af9eae70973df",
+    "git_blob_sha": "b1bcf02d5c7978abc88e5e055185f3eb581680e3",
+    "matches_local_zip": true,
+    "programmatic": "Verified: GitHub fetch_file encoding=base64, locally decoded and hash checked",
+    "browser_click_receipt": "Unverified. R71 timed-out browser tool attempt retained; no current retry",
+    "external_user_receipt": "Not observed",
+    "failures": [
+      {
+        "method": "restricted curl raw URL",
+        "connect_timeout_seconds": 5,
+        "max_seconds": 25,
+        "exit": 28,
+        "observed_seconds": 5.003767,
+        "received_bytes": 0,
+        "reason": "DNS resolution timeout"
+      },
+      {
+        "method": "restricted curl public PR API",
+        "connect_timeout_seconds": 5,
+        "max_seconds": 20,
+        "exit": 28,
+        "observed_seconds": 5.014104,
+        "received_bytes": 0,
+        "reason": "DNS resolution timeout"
+      },
+      {
+        "method": "approved host curl raw URL",
+        "connect_timeout_seconds": 5,
+        "max_seconds": 25,
+        "exit": 28,
+        "observed_seconds": 11.426753,
+        "received_bytes": 0,
+        "reason": "Operation timed out; no conclusion about general GitHub availability"
+      },
+      {
+        "method": "GitHub fetch_file default UTF-8",
+        "reason": "Binary ZIP rejected as UTF-8; corrected to supported base64. Not a product defect."
+      }
+    ],
+    "credentials_changed": false,
+    "network_policy_changed": false
+  },
+  "package_checks": {
+    "members": 37,
+    "skill_files": 24,
+    "outer_and_nested_crc": "passed",
+    "install": "Complete folder copied into new project .agents/skills/intent-compiler; formal installation untouched",
+    "independent_implementation": "PowerShell Get-FileHash and Expand-Archive agree with Python hashlib/zipfile; same author, not independent human review",
+    "git_blob_bytes": {
+      "identical_files": 6,
+      "line_ending_only_differences": 18,
+      "all_match_worktree_bytes": true,
+      "content_equal_after_crlf_to_lf": true
+    },
+    "checker_failure_retained": "Initial raw Git-byte equality assertion failed at LICENSE; before-checker and full diagnosis retained, then narrow checker fix passed in a separate destination",
+    "source_core_commit": "c204e14e39a81a34d59dbdef624c508a34c6b1b1",
+    "manifest_version": "0.2.0",
+    "candidate": "2.0 unreleased",
+    "new_discovery_run": false,
+    "existing_discovery_reference": "R70/R71; not reclassified as a new host test",
+    "native_explorer_open": "unverified"
+  },
+  "changes": [
+    "Pinned acquisition entry and concise start guide using existing pilot README",
+    "Existing feedback handoff reused; first real task remains participant-authored",
+    "Existing CSV gains event time/version, adoption, relevant-task/reuse trigger and separated time categories; 35 fields, zero participant rows",
+    "Private empty log copy prepared under ignored pilot/local-feedback; not counted as feedback",
+    "Scenario materials, maintenance and human services receive separate value questions; numerical economic assumptions unchanged"
+  ],
+  "real_user_records": {
+    "consented_participants": 0,
+    "completed_real_tasks": 0,
+    "adopted_real_outputs": 0,
+    "next_day_reuse": 0,
+    "day7_reuse": 0,
+    "day1_observation": "not yet occurred",
+    "day7_observation": "not yet occurred",
+    "verbal_purchase_intent": "no new records",
+    "orders": 0,
+    "refund_records": 0,
+    "participant_support_minutes": null
+  },
+  "cost": {
+    "new_behavior_model_runs": 0,
+    "new_services_purchased": 0,
+    "tool_cash_invoice_usd": null,
+    "developer_work": "Internal development, acquisition checks and preparation; not per-user support",
+    "support_ceiling_1_9215_minutes": "Conditional model threshold under existing assumptions, not measured product cost"
+  },
+  "compatibility": {
+    "Codex": "Existing R70/R71 business evidence retained; newly received ZIP extraction and file copying verified separately",
+    "Claude": "Discovery only; inherited third-party route and remote authentication unresolved; no new credential/configuration or model attempt",
+    "Cursor_Copilot": "unverified; no participant-demand evidence yet",
+    "Agensi": "Existing licensing/connector questions retained unsent; does not block local pilot"
+  },
+  "frozen_runtime_zip_license_unchanged": true,
+  "local_validation": {
+    "repository_integrity": "passed:485 local links, manifests, assets, commands and existing case records; no model or host conclusion",
+    "feedback_csv": "35 unique columns, zero participant rows; private empty copy matches and git check-ignore passes",
+    "unchanged_paths": "git diff --exit-code passes for runtime, MIT, manifests, frozen trial ZIP and R71 result/archive",
+    "diff_whitespace": "git diff --check passes"
+  },
+  "feedback_collection_state": "Waiting for actual consented participants, not replaced by simulated users",
+  "next_action": "Owner sends existing reviewed draft to up to three already-usable Codex users, obtains observation consent and provides only aliases/version/available times. No contact or data sharing performed.",
+  "local_artifacts": "workspace outputs/intent-compiler-v2/pilot-acquisition-r72: received ZIP/base64, before/after checker, receipt JSON, per-file CRLF diagnosis, PowerShell extraction receipt, public PR metadata.",
+  "historical_boundary": "R71 packer failure occurred in turn1, not turn5. All frozen experiments and no-difference results remain unchanged."
+}

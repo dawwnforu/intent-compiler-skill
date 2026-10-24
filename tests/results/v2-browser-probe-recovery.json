@@ -1,0 +1,24 @@
+{
+  "scope": "One additional recovery attempt after ordinary usage was available again. Does not replace failed p3 or complete the original fixed batch. Different time/phase; not causal or universal efficiency evidence.",
+  "protocol": {
+    "scope": "Additional fresh-workspace attempt using the same frozen after snapshot and exact input/settings. Original p3 remains interrupted; not part of the predeclared six and not a replacement record.",
+    "reason": "Original process terminal with usage-limit error. A later desktop usage query reports ordinaryUsageAllowed=true; this does not guarantee this CLI/model quota, so retain any repeated failure.",
+    "timing_limit": "Different phase after interruption; do not claim an uninterrupted randomized or balanced original batch."
+  },
+  "input_matches_interrupted_attempt": true,
+  "skill_matches_frozen_after_snapshot": true,
+  "generation": {
+    "exit_code": 0,
+    "wall_seconds": 318.92,
+    "usage": {
+      "input_tokens": 238598,
+      "cached_input_tokens": 219904,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7731,
+      "reasoning_output_tokens": 552
+    }
+  },
+  "response": "已完成：[打开本机页面](http://127.0.0.1:63318)。\n\n支持添加学习项目、每日勾选与取消、今日进度、本机保存和 JSON 导出，带轻量反馈动效，无需账号。\n\n已通过 320/390px 手机宽度、浏览器重启保存、跨日记录和导出验证；未在实体手机上测试。\n\n重新启动方式见 [README.md](README.md)。清除浏览器数据前，请先导出备份。",
+  "independent_review": "Same saved-artifact Edge checks passed: add/check/undo/count/reload/export/literal names/390px layout/date reopen; screenshot read. Core checks only, not full accessibility or real-device validation.",
+  "decision": "Keep the added browser-probe paragraph withdrawn; this recovery does not establish a reliable efficiency benefit."
+}

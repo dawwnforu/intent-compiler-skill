@@ -1,0 +1,140 @@
+{
+  "scope": "Four two-turn conversations on frozen V2/V1, raw and generic arms. Evaluator corrected its original expected830: missing nightly split means total cannot be uniquely determined. Full artifacts remain local. No new inference in this exporter.",
+  "records": [
+    {
+      "arm": "A",
+      "turn": 1,
+      "exit_code": 0,
+      "wall_seconds": 58.98,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 102020,
+        "cached_input_tokens": 90752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1884,
+        "reasoning_output_tokens": 52
+      },
+      "request": "帮我按公司的标准算这些差旅费用能报销多少，做一份给财务核对的表。我不太懂应该怎么算，材料在inputs里。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "已制作并核对，4 笔费用合计 **970 元**：餐费 70 元、住宿 720 元、火车票 180 元。\n\n材料明确说明**未提供公司报销政策**，因此可报销金额已标为“待核定”，970 元不能直接认定为可报销总额。\n\n- [财务核对表（Excel 可打开）](差旅费用财务核对表.csv)\n- [计算说明与待确认事项](差旅费用财务核对说明.md)\n\n成果均保存在当前工作目录。补充公司标准后，即可进一步计算报销额度。"
+    },
+    {
+      "arm": "A",
+      "turn": 2,
+      "exit_code": 0,
+      "wall_seconds": 45.41,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 208253,
+        "cached_input_tokens": 190848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3574,
+        "reasoning_output_tokens": 90
+      },
+      "request": "补充公司的标准：餐费按同一天所有餐费合计最多50元；需要逐条分摊时按输入顺序，先发生的先计入，超过当日剩余额度的部分不报。住宿每晚最多300元，表里这笔住宿是两晚。火车票按实际金额报销。这些票据都有效，也确认都是本次出差的费用，金额全是人民币。请继续完成核对表，列每笔原额、可报额、差额和理由，再给总计；只做核对，不提交财务、不付款。",
+      "response": "已更新[财务核对表](差旅费用财务核对表.csv)，逐笔金额及合计已核对：\n\n| 项目 | 原额（元） | 可报额（元） | 差额（元） | 理由 |\n| --- | ---: | ---: | ---: | --- |\n| 早餐 | 40 | 40 | 0 | 先计入当日额度 |\n| 晚餐 | 30 | 10 | 20 | 当日仅剩10元额度 |\n| 住宿两晚 | 720 | 600 | 120 | 每晚限额300元 |\n| 火车票 | 180 | 180 | 0 | 按实际金额报销 |\n| **合计** | **970** | **830** | **140** | |\n\n住宿按两晚均分计算；若实际逐晚房费不相等，需按逐晚金额复核，可报额可能低于600元。此假设已写入[核对说明](差旅费用财务核对说明.md)。\n\n仅在当前目录制作核对材料，未提交财务、未付款。"
+    },
+    {
+      "arm": "G",
+      "turn": 1,
+      "exit_code": 0,
+      "wall_seconds": 42.12,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 75429,
+        "cached_input_tokens": 70912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1467,
+        "reasoning_output_tokens": 30
+      },
+      "request": "理解目标，必要时补充条件，使用可用工具完成任务并验证；不要编造事实或授权，简洁交付。\n帮我按公司的标准算这些差旅费用能报销多少，做一份给财务核对的表。我不太懂应该怎么算，材料在inputs里。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "已制作并核对，4 笔费用申报合计 **970 元**。\n\n- [财务核对表](财务核对表.csv)\n- [核对说明](核对说明.md)\n\n材料明确未提供公司报销政策，因此**可报销金额暂无法确定**，表中留空并标注待确认，不代表 0 元。补充餐费、住宿和火车票报销标准后，即可计算核准金额。"
+    },
+    {
+      "arm": "G",
+      "turn": 2,
+      "exit_code": 0,
+      "wall_seconds": 36.03,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 130964,
+        "cached_input_tokens": 117632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2997,
+        "reasoning_output_tokens": 46
+      },
+      "request": "补充公司的标准：餐费按同一天所有餐费合计最多50元；需要逐条分摊时按输入顺序，先发生的先计入，超过当日剩余额度的部分不报。住宿每晚最多300元，表里这笔住宿是两晚。火车票按实际金额报销。这些票据都有效，也确认都是本次出差的费用，金额全是人民币。请继续完成核对表，列每笔原额、可报额、差额和理由，再给总计；只做核对，不提交财务、不付款。",
+      "response": "已完成核对并验证，金额均为人民币：\n\n| 费用 | 原额 | 可报额 | 差额 | 理由 |\n|---|---:|---:|---:|---|\n| 早餐 | 40 | 40 | 0 | 先计入当日50元额度 |\n| 晚餐 | 30 | 10 | 20 | 当日剩余额度10元 |\n| 住宿两晚 | 720 | 600 | 120 | 每晚限额300元，共两晚 |\n| 火车票 | 180 | 180 | 0 | 按实际金额报销 |\n| **总计** | **970** | **830** | **140** | |\n\n已更新 [财务核对表](财务核对表.csv) 和 [核对说明](核对说明.md)。仅完成核对，未提交财务、未付款。"
+    },
+    {
+      "arm": "V1",
+      "turn": 1,
+      "exit_code": 0,
+      "wall_seconds": 53.42,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 97644,
+        "cached_input_tokens": 79232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1891,
+        "reasoning_output_tokens": 46
+      },
+      "request": "$intent-compiler\n帮我按公司的标准算这些差旅费用能报销多少，做一份给财务核对的表。我不太懂应该怎么算，材料在inputs里。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "已制作[财务核对表](outputs/差旅费用财务核对表.csv)和[计算说明](outputs/差旅费用核对说明.md)，并核对了全部4笔记录。\n\n支出合计 **970元**：餐费70元、住宿720元、交通180元。\n\n**目前无法确定可报销金额**：inputs 明确说明未提供公司政策。表中已保留金额空白、标注待确认，并列出财务需核对的事项。补充公司标准后，才能算出最终可报销金额。"
+    },
+    {
+      "arm": "V1",
+      "turn": 2,
+      "exit_code": 0,
+      "wall_seconds": 48.53,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 173564,
+        "cached_input_tokens": 145536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4078,
+        "reasoning_output_tokens": 46
+      },
+      "request": "补充公司的标准：餐费按同一天所有餐费合计最多50元；需要逐条分摊时按输入顺序，先发生的先计入，超过当日剩余额度的部分不报。住宿每晚最多300元，表里这笔住宿是两晚。火车票按实际金额报销。这些票据都有效，也确认都是本次出差的费用，金额全是人民币。请继续完成核对表，列每笔原额、可报额、差额和理由，再给总计；只做核对，不提交财务、不付款。",
+      "response": "已完成核对：**原额970元，可报830元，差额140元**，均为人民币。\n\n| 费用 | 原额 | 可报额 | 差额 | 理由 |\n|---|---:|---:|---:|---|\n| 早餐 | 40 | 40 | 0 | 先计入当天50元额度 |\n| 晚餐 | 30 | 10 | 20 | 当天剩余额度10元 |\n| 两晚住宿 | 720 | 600 | 120 | 上限300×2＝600元 |\n| 火车票 | 180 | 180 | 0 | 按实际金额报销 |\n| **总计** | **970** | **830** | **140** | |\n\n已更新[财务核对表](outputs/差旅费用财务核对表.csv)和[计算说明](outputs/差旅费用核对说明.md)，逐笔及总计验证一致。仅完成核对，未提交财务、未付款。"
+    },
+    {
+      "arm": "V2",
+      "turn": 1,
+      "exit_code": 0,
+      "wall_seconds": 71.58,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 112976,
+        "cached_input_tokens": 103040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2330,
+        "reasoning_output_tokens": 157
+      },
+      "request": "$intent-compiler\n帮我按公司的标准算这些差旅费用能报销多少，做一份给财务核对的表。我不太懂应该怎么算，材料在inputs里。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "已制作[差旅费用财务核对表](差旅费用财务核对表.md)，逐项列出费用、计算结果及财务待核依据，并已复算：\n\n- 餐费：70 元\n- 住宿：720 元，两晚平均每晚 360 元\n- 火车票：180 元\n- **费用合计：970 元**\n\n材料明确注明未提供公司报销政策，因此 **970 元是费用总额，可报销金额尚不能确定**。补充公司标准后，才能完成核定。"
+    },
+    {
+      "arm": "V2",
+      "turn": 2,
+      "exit_code": 0,
+      "wall_seconds": 38.98,
+      "same_conversation_verified": true,
+      "usage": {
+        "input_tokens": 187341,
+        "cached_input_tokens": 170368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3974,
+        "reasoning_output_tokens": 157
+      },
+      "request": "补充公司的标准：餐费按同一天所有餐费合计最多50元；需要逐条分摊时按输入顺序，先发生的先计入，超过当日剩余额度的部分不报。住宿每晚最多300元，表里这笔住宿是两晚。火车票按实际金额报销。这些票据都有效，也确认都是本次出差的费用，金额全是人民币。请继续完成核对表，列每笔原额、可报额、差额和理由，再给总计；只做核对，不提交财务、不付款。",
+      "response": "已更新[差旅费用财务核对表](差旅费用财务核对表.md)，包含每笔金额、差额及计算理由，已复算。\n\n| 费用 | 原额（元） | 可报额（元） | 差额（元） |\n|---|---:|---:|---:|\n| 早餐 | 40 | 40 | 0 |\n| 晚餐 | 30 | 10 | 20 |\n| 住宿两晚 | 720 | 600 | 120 |\n| 火车票 | 180 | 180 | 0 |\n| **总计** | **970** | **830** | **140** |\n\n本次仅完成核对，未提交财务、未付款。"
+    }
+  ],
+  "counterexample": {
+    "same_lodging_total": 720,
+    "nightly_cap": 300,
+    "split_360_360_allowed": 600,
+    "split_200_520_allowed": 500,
+    "known_meals_and_rail": 230
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "unit_checks_passed": 5,
+  "live_preflight": [
+    {
+      "arm": "A",
+      "enabled": [],
+      "inventory_refreshed": true,
+      "config": [
+        "-c",
+        "skills.config=[{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-bundled/computer-use/26.1007.21434/skills/computer-use/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/documents/26.1009.11318/skills/documents/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/hatch-pet/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/intent-compiler/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/kwai/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/pdf/26.1009.11318/skills/pdf/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-audit/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-debt/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-gain/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-help/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-review/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/presentations/26.1009.11318/skills/presentations/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1009.11318/skills/spreadsheets/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1009.11318/skills/excel-live-control/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/stop-that-shit/stop-that-shit/0.2.1/skills/stop-that-shit/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/stop-that-shit/stop-that-shit/0.2.1/skills/stss/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/template-creator/26.1009.11318/skills/template-creator/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-bundled/visualize/1.0.49/skills/visualize/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/imagegen/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/openai-docs/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/review-agent/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/skill-creator/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/skill-installer/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/documents/26.1011.11113/skills/documents/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/pdf/26.1011.11113/skills/pdf/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/presentations/26.1011.11113/skills/presentations/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1011.11113/skills/spreadsheets/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1011.11113/skills/excel-live-control/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/template-creator/26.1011.11113/skills/template-creator/SKILL.md\",enabled=false}]",
+        "-c",
+        "model_reasoning_effort=\"low\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"live\"",
+        "-c",
+        "windows.sandbox=\"elevated\"",
+        "-c",
+        "sandbox_workspace_write.network_access=true",
+        "-c",
+        "plugins.\"computer-use@openai-bundled\".enabled=false",
+        "-c",
+        "plugins.\"documents@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"pdf@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"ponytail@ponytail\".enabled=false",
+        "-c",
+        "plugins.\"presentations@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"spreadsheets@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"stop-that-shit@stop-that-shit\".enabled=false",
+        "-c",
+        "plugins.\"template-creator@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"visualize@openai-bundled\".enabled=false"
+      ]
+    },
+    {
+      "arm": "V2",
+      "enabled": [
+        "C:\\Users\\Dawn\\Documents\\Codex\\2026-09-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\intent-compiler-v2\\isolation-refresh-r26\\V2\\.agents\\skills\\intent-compiler\\SKILL.md"
+      ],
+      "inventory_refreshed": false,
+      "config": [
+        "-c",
+        "skills.config=[{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-bundled/computer-use/26.1007.21434/skills/computer-use/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/documents/26.1009.11318/skills/documents/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/hatch-pet/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/intent-compiler/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/kwai/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/pdf/26.1009.11318/skills/pdf/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-audit/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-debt/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-gain/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-help/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/ponytail/ponytail/5.1.0/skills/ponytail-review/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/presentations/26.1009.11318/skills/presentations/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1009.11318/skills/spreadsheets/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1009.11318/skills/excel-live-control/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/stop-that-shit/stop-that-shit/0.2.1/skills/stop-that-shit/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/stop-that-shit/stop-that-shit/0.2.1/skills/stss/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/template-creator/26.1009.11318/skills/template-creator/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-bundled/visualize/1.0.49/skills/visualize/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/imagegen/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/openai-docs/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/review-agent/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/skill-creator/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/skills/.system/skill-installer/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/documents/26.1011.11113/skills/documents/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/pdf/26.1011.11113/skills/pdf/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/presentations/26.1011.11113/skills/presentations/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1011.11113/skills/spreadsheets/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.1011.11113/skills/excel-live-control/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/.codex/plugins/cache/openai-primary-runtime/template-creator/26.1011.11113/skills/template-creator/SKILL.md\",enabled=false},{path=\"C:/Users/Dawn/Documents/Codex/2026-09-29/referenced-chatgpt-conversation-this-is-an/outputs/intent-compiler-v2/isolation-refresh-r26/V2/.agents/skills/intent-compiler/SKILL.md\",enabled=true}]",
+        "-c",
+        "model_reasoning_effort=\"low\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"live\"",
+        "-c",
+        "windows.sandbox=\"elevated\"",
+        "-c",
+        "sandbox_workspace_write.network_access=true",
+        "-c",
+        "plugins.\"computer-use@openai-bundled\".enabled=false",
+        "-c",
+        "plugins.\"documents@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"pdf@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"ponytail@ponytail\".enabled=false",
+        "-c",
+        "plugins.\"presentations@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"spreadsheets@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"stop-that-shit@stop-that-shit\".enabled=false",
+        "-c",
+        "plugins.\"template-creator@openai-primary-runtime\".enabled=false",
+        "-c",
+        "plugins.\"visualize@openai-bundled\".enabled=false"
+      ]
+    }
+  ],
+  "model_turns": 0,
+  "limits": "Checks declared enabled Skill inventory, not all host prompts/tools or model behavior.",
+  "helper_source": "def isolated_config(workspace,skill_path,log):\n args=config(skill_path)\n enabled=probe(workspace,args,log)\n def matches():\n  return len(enabled)==1 and pathlib.Path(enabled[0]['path']).resolve()==skill_path.resolve() if skill_path else not enabled\n if not matches():\n  # Host updates can add skill paths after the historical inventory was captured.\n  observed=json.loads(log.read_text(encoding='utf-8'))['result']['data'][0]['skills']\n  known={s['path'] for s in inventory}\n  additions=[s for s in observed if s['path'] not in known]\n  if additions:\n   shutil.copy2(log,log.with_name(log.stem+'-before-refresh.json'))\n   inventory.extend(additions)\n   args=config(skill_path)\n   enabled=probe(workspace,args,log)\n assert matches(),enabled\n return args\n",
+  "check_source": "\"\"\"Check preflight repair without launching a model turn.\"\"\"\nimport json\nimport shutil\nimport tempfile\nfrom pathlib import Path\nfrom unittest.mock import patch\nimport v2_benchmark as base\n\ndef unit_checks():\n    original=list(base.inventory)\n    with tempfile.TemporaryDirectory() as temporary:\n        root=Path(temporary)\n        target=root/'target/SKILL.md'\n        expected={'name':'intent-compiler','path':str(target),'enabled':True}\n        extra={'name':'new-skill','path':str(root/'extra/SKILL.md'),'enabled':True,'pluginId':'new-plugin'}\n        def check(name, states, skill, should_pass, expected_calls):\n            folder=root/name\n            folder.mkdir()\n            base.inventory[:]=[expected]\n            calls=[]\n            def probe(workspace,args,log):\n                state=states[len(calls)]\n                calls.append(args)\n                log.write_text(json.dumps({'result':{'data':[{'skills':state}]}},ensure_ascii=False),encoding='utf-8')\n                return [s for s in state if s.get('enabled')]\n            with patch.object(base,'probe',probe):\n                try:\n                    result=base.isolated_config(folder,skill,folder/'skills.json')\n                except AssertionError:\n                    assert not should_pass,name\n                else:\n                    assert should_pass,name\n                    assert result==calls[-1]\n            assert len(calls)==expected_calls,(name,len(calls))\n            if expected_calls==2:\n                assert (folder/'skills-before-refresh.json').exists()\n                assert 'new-plugin' in ' '.join(calls[-1])\n        try:\n            check('clean-raw',[[]],None,True,1)\n            check('clean-target',[[expected]],target,True,1)\n            check('disable-new-path',[[expected,extra],[expected,{**extra,'enabled':False}]],target,True,2)\n            check('still-leaked',[[expected,extra],[expected,extra]],target,False,2)\n            check('missing-target',[[]],target,False,1)\n        finally:\n            base.inventory[:]=original\n    return 5\n\ndef main():\n    root=base.OUT/'isolation-refresh-r26'\n    root.mkdir(exist_ok=False)\n    count=unit_checks()\n    records=[]\n    for arm in ['A','V2']:\n        folder=root/arm\n        folder.mkdir()\n        skill=None\n        if arm=='V2':\n            shutil.copytree(base.SOURCES['V2'],folder/'.agents/skills/intent-compiler')\n            skill=folder/'.agents/skills/intent-compiler/SKILL.md'\n        args=base.isolated_config(folder,skill,folder/'skills.json')\n        records.append({'arm':arm,'enabled':[s['path'] for s in json.loads((folder/'skills.json').read_text(encoding='utf-8'))['result']['data'][0]['skills'] if s['enabled']], 'inventory_refreshed':(folder/'skills-before-refresh.json').exists(), 'config':args})\n    (root/'results.json').write_text(json.dumps({'unit_checks_passed':count,'live_preflight':records,'model_turns':0,'limits':'Checks declared enabled Skill inventory, not all host prompts/tools or model behavior.'},ensure_ascii=False,indent=2),encoding='utf-8')\n    print(count,'unit checks; live A/V2 preflights passed; no model turns')\n\nif __name__=='__main__':\n    main()\n",
+  "integration": {
+    "single_turn": "v2_benchmark.run calls isolated_config before constructing any codex exec invocation.",
+    "multi_turn": "v2_scope_dialogue.run calls the same helper before starting its first turn.",
+    "historical_runs": "Stored invocations and results are not rewritten; legacy specialized scripts require their own preflight."
+  },
+  "requested_user_feedback": {
+    "status": "answered",
+    "date": "2026-10-13",
+    "scope": "Preference between two short identity-design excerpts from real R18 turn-two answers; not full-answer or blinded general satisfaction.",
+    "A_source": "teach-transfer-r18/A/turn2/response.md",
+    "B_source": "teach-transfer-r18/after/turn2/response.md",
+    "new_answer": "乙：先说明使用需求如何影响方案",
+    "interpretation": "One user prefers explaining the usage consequence before selecting an identity mechanism. No evidence of overall response superiority, comprehension gain, implementation quality or token savings."
+  }
+}

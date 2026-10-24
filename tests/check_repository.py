@@ -36,6 +36,11 @@ def check():
         for host in (".codex-plugin", ".claude-plugin")
     ]
     assert len({item["version"] for item in manifests}) == 1, "Manifest versions differ"
+    assert (SKILL / "LICENSE").read_bytes() == (ROOT / "LICENSE").read_bytes(), "Standalone license differs"
+    for path in (ROOT / "README.md", ROOT / "README_EN.md", SKILL / "README.md"):
+        notice = path.read_text(encoding="utf-8")
+        for value in (manifests[0]["version"], manifests[0]["author"]["name"], manifests[0]["repository"]):
+            assert value in notice, f"Missing source/version attribution in {path}"
     for item in manifests:
         assert item["name"] == "intent-compiler"
         skill_dir = local_target(ROOT, item["skills"])

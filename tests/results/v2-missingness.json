@@ -1,0 +1,162 @@
+{
+  "protocol": {
+    "before_repository": "47da2706b2a147090cd1d16f1ab7a09d861edd12",
+    "scope": "V1/V2 here mean before/after the missingness clarification, both otherwise the same repaired candidate; not release0.2.0. Three short synthetic cases, one run per variant, sequential. No superiority or universal efficiency inference.",
+    "changed_files": [
+      "references/data-surveys.md"
+    ],
+    "prompt": "这些是活动反馈。帮我看大家平均花了多久，哪些空白还需要回去核对。先用现有资料说明主要结果和缺什么，不用另写文件。资料在 inputs。",
+    "cases": {
+      "unknown_path": [
+        "id,attended,minutes\nu1,yes,20\nu2,yes,0\nu3,yes,\nu4,no,\nu5,,\n",
+        "合成测试资料，不是真实参与者数据。每人一行，minutes单位为分钟，0是实际回答。attended的yes/no表示参加/未参加。只有参加者需要回答分钟题。\n空白可能未填写，也可能在导出迁移时丢失；没有保留题目是否显示的日志。\n"
+      ],
+      "known_skip": [
+        "id,attended,minutes\nu1,yes,20\nu2,yes,0\nu3,yes,\nu4,no,\nu5,,\n",
+        "合成测试资料，不是真实参与者数据。每人一行，minutes单位为分钟，0是实际回答。attended的yes/no表示参加/未参加。只有参加者需要回答分钟题。\n页面条件已核验：只有attended=yes才显示分钟题，no或空白均不显示。导出完整，不丢字段；attended空白表示未回答前置题。\n"
+      ],
+      "all_applicable": [
+        "id,minutes\nu1,20\nu2,0\nu3,\nu4,\n",
+        "合成测试资料。四人均参加活动，每人一行，均已看到同一必答分钟题，没有跳题。导出完整，无字段丢失；空白表示未作答，0是实际回答。\n"
+      ]
+    },
+    "order": [
+      [
+        "unknown_path",
+        "V1"
+      ],
+      [
+        "unknown_path",
+        "V2"
+      ],
+      [
+        "known_skip",
+        "V2"
+      ],
+      [
+        "known_skip",
+        "V1"
+      ],
+      [
+        "all_applicable",
+        "V1"
+      ],
+      [
+        "all_applicable",
+        "V2"
+      ]
+    ],
+    "acceptance": "All cases mean10 from20 and valid0, n=2. Unknown-path: u3 eligible unanswered, u4 not applicable by participation, u5 applicability/path unresolved; do not assert all blanks are confirmed skips. Known-skip: u4/u5 documented unshown, u3 eligible unanswered; u5 actual participation still unknown but its skip path is known. All-applicable: two unanswered, no skip, do not request eligibility already supplied. Keep original inputs unchanged, no unrelated files or invented facts."
+  },
+  "runs": [
+    {
+      "case": "unknown_path",
+      "arm": "V1",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 50.77
+      },
+      "usage": {
+        "input_tokens": 72549,
+        "cached_input_tokens": 64896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 731,
+        "reasoning_output_tokens": 12
+      },
+      "response": "现有资料支持的平均用时是 **10 分钟**：已确认参加且有用时记录的 2 人，分别回答 20 和 0 分钟，计算为 `(20＋0)÷2`。**0 是有效回答，必须计入。** 这个均值仅代表这 2 人，全部参加者的平均用时目前无法确定。\n\n需要回查的空白如下：\n\n| 记录 | 当前情况 | 需要核对什么 |\n|---|---|---|\n| u3 | 已参加，用时空白 | 核对原始用时；目前无法区分未填写和导出迁移丢失 |\n| u4 | 未参加，用时空白 | 按题目规则无需回答，用时空白不需补填 |\n| u5 | 参加状态、用时均空白 | 先核对是否参加；若参加，再核对用时；若未参加，用时无需补填 |\n\n已确认参加的 3 人中，2 人有有效用时记录，完整率为 **66.7%**。不要把空白当作 0，也不能仅凭空白判定题目未显示：资料没有保留显示日志。\n\n依据：[guide.md](inputs/guide.md) 和 [feedback.csv](inputs/feedback.csv)。资料注明为合成测试数据；未另写文件。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    },
+    {
+      "case": "unknown_path",
+      "arm": "V2",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 53.0
+      },
+      "usage": {
+        "input_tokens": 71752,
+        "cached_input_tokens": 64512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 690,
+        "reasoning_output_tokens": 0
+      },
+      "response": "现有资料中，**已知参加且填了用时的2人，平均花了10分钟**：u1为20分钟，u2为0分钟，计算为 `(20＋0)÷2＝10`。说明明确0是实际回答，因此应计入。\n\n共有5条反馈，3人明确参加，但其中u3缺少用时。因此，**10分钟只是有效回答者的平均值，所有参加者的平均用时目前还不能确定**；不能把空白当成0。\n\n| 记录 | 空白情况 | 是否需要核对 |\n|---|---|---|\n| u3 | 已参加，用时空白 | **需要**：确认是未填还是导出丢失，并补查用时 |\n| u4 | 未参加，用时空白 | 按题目规则不适用，无需补用时 |\n| u5 | 参加状态、用时均空白 | **需要**：先确认是否参加；若参加，再核对用时 |\n\n资料没有保留题目显示日志，不能仅凭u5的空白认定其跳过了分钟题。优先回查原始反馈或迁移前记录中的 **u3用时、u5参加状态及适用时的用时**。\n\n以上依据 inputs 中的说明和CSV逐行核算；资料注明为合成测试数据。未另写文件。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    },
+    {
+      "case": "known_skip",
+      "arm": "V2",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 112.48
+      },
+      "usage": {
+        "input_tokens": 71864,
+        "cached_input_tokens": 67456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 711,
+        "reasoning_output_tokens": 0
+      },
+      "response": "现有有效回答的**平均用时是 10 分钟**：u1 为 20 分钟，u2 为 0 分钟，计算为 `(20 + 0) ÷ 2`。0 是真实回答，必须计入。\n\n共 5 条反馈，3 人明确参加，其中 2 人填写用时，因此这个平均值仅代表已填写用时的参加者；**全部参加者的平均用时还不能确定**。\n\n| 记录 | 空白情况 | 是否需要回查 |\n|---|---|---|\n| u3 | 已回答参加，分钟为空 | **需要**：补核用时 |\n| u4 | 未参加，分钟为空 | 无需：分钟题未显示，属于正常跳题 |\n| u5 | 是否参加为空，分钟为空 | **先核对是否参加**；若参加，再补核用时 |\n\n依据 [填写说明](inputs/guide.md)，前置题为空时分钟题也不会显示，所以 u5 的分钟空白是已确认的跳题，不能直接当作漏答或填成 0；需要核对的是其参加状态。以上已按 [原始反馈](inputs/feedback.csv) 逐行核算，未另写文件。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    },
+    {
+      "case": "known_skip",
+      "arm": "V1",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 41.27
+      },
+      "usage": {
+        "input_tokens": 71664,
+        "cached_input_tokens": 61568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 700,
+        "reasoning_output_tokens": 0
+      },
+      "response": "现有有效回答的**平均耗时是 10 分钟**：u1 填了 20 分钟，u2 填了 0 分钟，计算为 `(20 + 0) ÷ 2`。0 是实际回答，必须计入。\n\n共 5 条反馈，3 人明确参加，其中只有 2 人回答了耗时。因此，**全部参加者的平均耗时目前还不能确定**。\n\n空白需要这样处理：\n\n| 记录 | 空白含义 | 需要回查什么 |\n|---|---|---|\n| u3 | 已参加，但耗时未填 | 核对实际耗时 |\n| u4 | 未参加，分钟题未显示 | 正常跳过，无需补耗时 |\n| u5 | 是否参加未回答，分钟题未显示 | 先核对是否参加；若参加，再补耗时 |\n\n依据 inputs 中的 guide.md，页面显示条件已核验，导出完整。**u5 的耗时空白是已知未显示造成的跳过，但是否参加仍未知**，不能直接认定为未参加，也不能把任何空白计为 0。\n\n以上基于合成测试资料，未另写文件。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    },
+    {
+      "case": "all_applicable",
+      "arm": "V1",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 55.28
+      },
+      "usage": {
+        "input_tokens": 71569,
+        "cached_input_tokens": 64384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 697,
+        "reasoning_output_tokens": 38
+      },
+      "response": "现有反馈中，**已回答的 2 人平均耗时为 10 分钟**：`(20＋0)÷2`。共 4 人，回答率为 50%；**全体 4 人的平均耗时尚无法确定**，不能把空白当作 0。\n\n| 人员 | 分钟数 | 是否需要核对 |\n|---|---:|---|\n| u1 | 20 | 无需因缺失核对 |\n| u2 | 0 | 无需因缺失核对，说明明确 0 是实际回答 |\n| u3 | 空白 | 需补问耗时 |\n| u4 | 空白 | 需补问耗时 |\n\n依据 [资料说明](inputs/guide.md)，四人均参加活动、均看到同一必答题，没有跳题，且导出完整。因此这两处空白都是**未作答**，不是不适用或导出丢失。\n\n还缺 u3、u4 的实际分钟数；补齐后，全体平均为 **`(20＋u3分钟数＋u4分钟数)÷4`**。以上已按 [反馈原表](inputs/feedback.csv) 核算，未另写文件。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    },
+    {
+      "case": "all_applicable",
+      "arm": "V2",
+      "status": {
+        "exit_code": 0,
+        "wall_seconds": 56.31
+      },
+      "usage": {
+        "input_tokens": 72637,
+        "cached_input_tokens": 65024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 668,
+        "reasoning_output_tokens": 0
+      },
+      "response": "现有资料中，**已回答的 2 人平均耗时为 10 分钟**：u1 为 20 分钟，u2 为 0 分钟，计算为 `(20 + 0) ÷ 2`。**全部 4 人的平均耗时目前无法确定**，因为另外 2 人未作答，缺失率为 50%。\n\n| 人员 | 记录 | 是否需要回查 |\n|---|---|---|\n| u1 | 20 分钟 | 无已知缺项 |\n| u2 | 0 分钟 | 是有效回答，计入平均值 |\n| u3 | 空白 | 需要补核实际耗时 |\n| u4 | 空白 | 需要补核实际耗时 |\n\n依据 inputs/guide.md，四人都参加了活动、看到同一必答题，没有跳题，导出也完整。因此，**u3、u4 的空白是应答缺失，不能当作 0 或“不适用”**。补齐这两人的分钟数后，才能计算全员平均值。",
+      "input_check": "unchanged",
+      "review": "Manual response review: correct valid-zero mean, appropriate unknown/known-skip/all-applicable interpretation; no comparative gain."
+    }
+  ],
+  "limitations": "Three exposed synthetic cases; one sample per arm/case; reviewer not blinded; response review plus file checks, not user research."
+}

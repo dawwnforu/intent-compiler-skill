@@ -1,0 +1,1434 @@
+{
+  "scope": "43 development generations + 24 frozen new-task generations. Counters are not quality scores. Raw logs and full generated artifacts remain in the local evaluation workspace.",
+  "model": "gpt-6.1-sol",
+  "reasoning": "low",
+  "candidate_skill_commit": "25c5d9669db1a9f3f1e050d70e937c3a767ecb98",
+  "baseline_release_commit": "6bcc84a5647360d6a1e0482edb5e86e755d86a2c",
+  "runs": [
+    {
+      "run": "runs/h1/course_analysis/A",
+      "exit_code": 0,
+      "wall_seconds": 109.72,
+      "usage": {
+        "input_tokens": 118897,
+        "cached_input_tokens": 107648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4497,
+        "reasoning_output_tokens": 292
+      },
+      "agent_prose_characters": 485,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 6,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h1/course_analysis/G",
+      "exit_code": 0,
+      "wall_seconds": 82.78,
+      "usage": {
+        "input_tokens": 98017,
+        "cached_input_tokens": 90368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3048,
+        "reasoning_output_tokens": 90
+      },
+      "agent_prose_characters": 440,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h1/course_analysis/V1",
+      "exit_code": 0,
+      "wall_seconds": 123.55,
+      "usage": {
+        "input_tokens": 181663,
+        "cached_input_tokens": 164352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4852,
+        "reasoning_output_tokens": 113
+      },
+      "agent_prose_characters": 614,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 7,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h1/course_analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 101.88,
+      "usage": {
+        "input_tokens": 140749,
+        "cached_input_tokens": 128000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3705,
+        "reasoning_output_tokens": 78
+      },
+      "agent_prose_characters": 415,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 6,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h1/habit_ui/A",
+      "exit_code": 0,
+      "wall_seconds": 178.26,
+      "usage": {
+        "input_tokens": 112024,
+        "cached_input_tokens": 97280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9077,
+        "reasoning_output_tokens": 97
+      },
+      "agent_prose_characters": 373,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 4,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h1/habit_ui/G",
+      "exit_code": 0,
+      "wall_seconds": 349.54,
+      "usage": {
+        "input_tokens": 370711,
+        "cached_input_tokens": 333824,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12595,
+        "reasoning_output_tokens": 436
+      },
+      "agent_prose_characters": 386,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 10,
+        "file_change": 4
+      }
+    },
+    {
+      "run": "runs/h1/habit_ui/V1",
+      "exit_code": 0,
+      "wall_seconds": 270.56,
+      "usage": {
+        "input_tokens": 367796,
+        "cached_input_tokens": 328192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11389,
+        "reasoning_output_tokens": 680
+      },
+      "agent_prose_characters": 568,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 11,
+        "file_change": 4
+      }
+    },
+    {
+      "run": "runs/h1/habit_ui/V2",
+      "exit_code": 0,
+      "wall_seconds": 163.65,
+      "usage": {
+        "input_tokens": 259321,
+        "cached_input_tokens": 238976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6783,
+        "reasoning_output_tokens": 227
+      },
+      "agent_prose_characters": 415,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 10,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h2/course_analysis/A",
+      "exit_code": 0,
+      "wall_seconds": 78.82,
+      "usage": {
+        "input_tokens": 78333,
+        "cached_input_tokens": 72320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2896,
+        "reasoning_output_tokens": 190
+      },
+      "agent_prose_characters": 416,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h2/course_analysis/G",
+      "exit_code": 0,
+      "wall_seconds": 90.38,
+      "usage": {
+        "input_tokens": 96822,
+        "cached_input_tokens": 84736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3325,
+        "reasoning_output_tokens": 104
+      },
+      "agent_prose_characters": 479,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h2/course_analysis/V1",
+      "exit_code": 0,
+      "wall_seconds": 150.39,
+      "usage": {
+        "input_tokens": 243108,
+        "cached_input_tokens": 209024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5655,
+        "reasoning_output_tokens": 171
+      },
+      "agent_prose_characters": 586,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 9,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h2/course_analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 138.75,
+      "usage": {
+        "input_tokens": 263664,
+        "cached_input_tokens": 244224,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5053,
+        "reasoning_output_tokens": 327
+      },
+      "agent_prose_characters": 531,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 10,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h2/habit_ui/A",
+      "exit_code": 0,
+      "wall_seconds": 223.7,
+      "usage": {
+        "input_tokens": 125758,
+        "cached_input_tokens": 106880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11599,
+        "reasoning_output_tokens": 223
+      },
+      "agent_prose_characters": 378,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 4,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/h2/habit_ui/G",
+      "exit_code": 0,
+      "wall_seconds": 175.9,
+      "usage": {
+        "input_tokens": 91205,
+        "cached_input_tokens": 75904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8437,
+        "reasoning_output_tokens": 39
+      },
+      "agent_prose_characters": 330,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h2/habit_ui/V1",
+      "exit_code": 0,
+      "wall_seconds": 212.62,
+      "usage": {
+        "input_tokens": 340780,
+        "cached_input_tokens": 320256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8778,
+        "reasoning_output_tokens": 207
+      },
+      "agent_prose_characters": 587,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 10,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/h2/habit_ui/V2",
+      "exit_code": 0,
+      "wall_seconds": 223.15,
+      "usage": {
+        "input_tokens": 330022,
+        "cached_input_tokens": 310400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8424,
+        "reasoning_output_tokens": 518
+      },
+      "agent_prose_characters": 462,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 10,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h3/course_analysis/A",
+      "exit_code": 0,
+      "wall_seconds": 117.86,
+      "usage": {
+        "input_tokens": 161826,
+        "cached_input_tokens": 151424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4897,
+        "reasoning_output_tokens": 442
+      },
+      "agent_prose_characters": 596,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 7,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h3/course_analysis/G",
+      "exit_code": 0,
+      "wall_seconds": 109.79,
+      "usage": {
+        "input_tokens": 120141,
+        "cached_input_tokens": 108416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4359,
+        "reasoning_output_tokens": 234
+      },
+      "agent_prose_characters": 544,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 6,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h3/course_analysis/V1",
+      "exit_code": 0,
+      "wall_seconds": 96.19,
+      "usage": {
+        "input_tokens": 148088,
+        "cached_input_tokens": 133888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3346,
+        "reasoning_output_tokens": 45
+      },
+      "agent_prose_characters": 429,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 6,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h3/course_analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 92.13,
+      "usage": {
+        "input_tokens": 122312,
+        "cached_input_tokens": 110208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3679,
+        "reasoning_output_tokens": 194
+      },
+      "agent_prose_characters": 414,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/h3/habit_ui/A",
+      "exit_code": 0,
+      "wall_seconds": 236.79,
+      "usage": {
+        "input_tokens": 145741,
+        "cached_input_tokens": 130432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11624,
+        "reasoning_output_tokens": 207
+      },
+      "agent_prose_characters": 390,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 5,
+        "file_change": 4
+      }
+    },
+    {
+      "run": "runs/h3/habit_ui/G",
+      "exit_code": 0,
+      "wall_seconds": 136.44,
+      "usage": {
+        "input_tokens": 87553,
+        "cached_input_tokens": 67328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7202,
+        "reasoning_output_tokens": 32
+      },
+      "agent_prose_characters": 316,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/h3/habit_ui/V1",
+      "exit_code": 0,
+      "wall_seconds": 156.24,
+      "usage": {
+        "input_tokens": 218040,
+        "cached_input_tokens": 200064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6285,
+        "reasoning_output_tokens": 212
+      },
+      "agent_prose_characters": 419,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 7
+      }
+    },
+    {
+      "run": "runs/h3/habit_ui/V2",
+      "exit_code": 0,
+      "wall_seconds": 185.64,
+      "usage": {
+        "input_tokens": 232661,
+        "cached_input_tokens": 211072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7211,
+        "reasoning_output_tokens": 273
+      },
+      "agent_prose_characters": 437,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 9,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r1/analysis/A",
+      "exit_code": 0,
+      "wall_seconds": 78.55,
+      "usage": {
+        "input_tokens": 78642,
+        "cached_input_tokens": 70016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3399,
+        "reasoning_output_tokens": 103
+      },
+      "agent_prose_characters": 406,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4
+      }
+    },
+    {
+      "run": "runs/r1/analysis/G",
+      "exit_code": 0,
+      "wall_seconds": 76.46,
+      "usage": {
+        "input_tokens": 78599,
+        "cached_input_tokens": 71680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3234,
+        "reasoning_output_tokens": 63
+      },
+      "agent_prose_characters": 417,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/analysis/V1",
+      "exit_code": 0,
+      "wall_seconds": 80.4,
+      "usage": {
+        "input_tokens": 123130,
+        "cached_input_tokens": 101376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2996,
+        "reasoning_output_tokens": 127
+      },
+      "agent_prose_characters": 480,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 112.51,
+      "usage": {
+        "input_tokens": 123311,
+        "cached_input_tokens": 111104,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4426,
+        "reasoning_output_tokens": 154
+      },
+      "agent_prose_characters": 406,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/form/A",
+      "exit_code": 0,
+      "wall_seconds": 40.34,
+      "usage": {
+        "input_tokens": 69307,
+        "cached_input_tokens": 61952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1199,
+        "reasoning_output_tokens": 29
+      },
+      "agent_prose_characters": 362,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/form/G",
+      "exit_code": 0,
+      "wall_seconds": 32.92,
+      "usage": {
+        "input_tokens": 60426,
+        "cached_input_tokens": 54528,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 937,
+        "reasoning_output_tokens": 32
+      },
+      "agent_prose_characters": 345,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/form/V1",
+      "exit_code": 0,
+      "wall_seconds": 41.09,
+      "usage": {
+        "input_tokens": 76207,
+        "cached_input_tokens": 66432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1289,
+        "reasoning_output_tokens": 32
+      },
+      "agent_prose_characters": 330,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/form/V2",
+      "exit_code": 0,
+      "wall_seconds": 32.35,
+      "usage": {
+        "input_tokens": 73432,
+        "cached_input_tokens": 65152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 890,
+        "reasoning_output_tokens": 37
+      },
+      "agent_prose_characters": 343,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/quiz/A",
+      "exit_code": 0,
+      "wall_seconds": 163.71,
+      "usage": {
+        "input_tokens": 92800,
+        "cached_input_tokens": 81024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7363,
+        "reasoning_output_tokens": 30
+      },
+      "agent_prose_characters": 336,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/quiz/G",
+      "exit_code": 0,
+      "wall_seconds": 182.38,
+      "usage": {
+        "input_tokens": 98711,
+        "cached_input_tokens": 84480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8391,
+        "reasoning_output_tokens": 63
+      },
+      "agent_prose_characters": 310,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r1/quiz/V1",
+      "exit_code": 0,
+      "wall_seconds": 277.87,
+      "usage": {
+        "input_tokens": 362746,
+        "cached_input_tokens": 336000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10886,
+        "reasoning_output_tokens": 291
+      },
+      "agent_prose_characters": 544,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 9,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r1/quiz/V2",
+      "exit_code": 0,
+      "wall_seconds": 257.69,
+      "usage": {
+        "input_tokens": 522872,
+        "cached_input_tokens": 497664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9923,
+        "reasoning_output_tokens": 679
+      },
+      "agent_prose_characters": 484,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 13,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 55.88,
+      "usage": {
+        "input_tokens": 95469,
+        "cached_input_tokens": 85248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1900,
+        "reasoning_output_tokens": 119
+      },
+      "agent_prose_characters": 386,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4
+      }
+    },
+    {
+      "run": "runs/r2/fast/A",
+      "exit_code": 0,
+      "wall_seconds": 4.59,
+      "usage": {
+        "input_tokens": 14450,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 53,
+        "reasoning_output_tokens": 39
+      },
+      "agent_prose_characters": 11,
+      "completed_item_types": {
+        "agent_message": 1
+      }
+    },
+    {
+      "run": "runs/r2/fast/G",
+      "exit_code": 0,
+      "wall_seconds": 3.97,
+      "usage": {
+        "input_tokens": 14480,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23,
+        "reasoning_output_tokens": 9
+      },
+      "agent_prose_characters": 11,
+      "completed_item_types": {
+        "agent_message": 1
+      }
+    },
+    {
+      "run": "runs/r2/fast/V1",
+      "exit_code": 0,
+      "wall_seconds": 4.43,
+      "usage": {
+        "input_tokens": 15944,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 42,
+        "reasoning_output_tokens": 0
+      },
+      "agent_prose_characters": 55,
+      "completed_item_types": {
+        "agent_message": 2
+      }
+    },
+    {
+      "run": "runs/r2/fast/V2",
+      "exit_code": 0,
+      "wall_seconds": 5.09,
+      "usage": {
+        "input_tokens": 15711,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37,
+        "reasoning_output_tokens": 0
+      },
+      "agent_prose_characters": 47,
+      "completed_item_types": {
+        "agent_message": 2
+      }
+    },
+    {
+      "run": "runs/r2/game/A",
+      "exit_code": 0,
+      "wall_seconds": 92.14,
+      "usage": {
+        "input_tokens": 102072,
+        "cached_input_tokens": 94592,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4164,
+        "reasoning_output_tokens": 58
+      },
+      "agent_prose_characters": 215,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/game/G",
+      "exit_code": 0,
+      "wall_seconds": 78.27,
+      "usage": {
+        "input_tokens": 80884,
+        "cached_input_tokens": 74112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3675,
+        "reasoning_output_tokens": 22
+      },
+      "agent_prose_characters": 245,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/game/V1",
+      "exit_code": 0,
+      "wall_seconds": 140.76,
+      "usage": {
+        "input_tokens": 238923,
+        "cached_input_tokens": 214912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5779,
+        "reasoning_output_tokens": 450
+      },
+      "agent_prose_characters": 362,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 6,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/game/V2",
+      "exit_code": 0,
+      "wall_seconds": 184.33,
+      "usage": {
+        "input_tokens": 283116,
+        "cached_input_tokens": 250112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6360,
+        "reasoning_output_tokens": 689
+      },
+      "agent_prose_characters": 421,
+      "completed_item_types": {
+        "agent_message": 5,
+        "command_execution": 9,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/knowledge/A",
+      "exit_code": 0,
+      "wall_seconds": 84.48,
+      "usage": {
+        "input_tokens": 99049,
+        "cached_input_tokens": 91392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3562,
+        "reasoning_output_tokens": 67
+      },
+      "agent_prose_characters": 472,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/knowledge/G",
+      "exit_code": 0,
+      "wall_seconds": 82.47,
+      "usage": {
+        "input_tokens": 81338,
+        "cached_input_tokens": 72704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3187,
+        "reasoning_output_tokens": 99
+      },
+      "agent_prose_characters": 460,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/knowledge/V1",
+      "exit_code": 0,
+      "wall_seconds": 101.15,
+      "usage": {
+        "input_tokens": 105115,
+        "cached_input_tokens": 91520,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3779,
+        "reasoning_output_tokens": 35
+      },
+      "agent_prose_characters": 609,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/knowledge/V2",
+      "exit_code": 0,
+      "wall_seconds": 51.92,
+      "usage": {
+        "input_tokens": 99576,
+        "cached_input_tokens": 88448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3203,
+        "reasoning_output_tokens": 71
+      },
+      "agent_prose_characters": 378,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r2/urls/A",
+      "exit_code": 0,
+      "wall_seconds": 143.72,
+      "usage": {
+        "input_tokens": 201104,
+        "cached_input_tokens": 169344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6116,
+        "reasoning_output_tokens": 184
+      },
+      "agent_prose_characters": 911,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 4,
+        "web_search": 3,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/urls/G",
+      "exit_code": 0,
+      "wall_seconds": 134.57,
+      "usage": {
+        "input_tokens": 193312,
+        "cached_input_tokens": 165504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5874,
+        "reasoning_output_tokens": 122
+      },
+      "agent_prose_characters": 1020,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 4,
+        "web_search": 2,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/urls/V1",
+      "exit_code": 0,
+      "wall_seconds": 142.35,
+      "usage": {
+        "input_tokens": 217423,
+        "cached_input_tokens": 191872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5609,
+        "reasoning_output_tokens": 51
+      },
+      "agent_prose_characters": 765,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 5,
+        "web_search": 2,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/urls/V2",
+      "exit_code": 0,
+      "wall_seconds": 169.57,
+      "usage": {
+        "input_tokens": 203685,
+        "cached_input_tokens": 181376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7551,
+        "reasoning_output_tokens": 182
+      },
+      "agent_prose_characters": 806,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 6,
+        "web_search": 1,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/r2/workflow/A",
+      "exit_code": 0,
+      "wall_seconds": 120.83,
+      "usage": {
+        "input_tokens": 103024,
+        "cached_input_tokens": 92672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5685,
+        "reasoning_output_tokens": 439
+      },
+      "agent_prose_characters": 435,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/r2/workflow/G",
+      "exit_code": 0,
+      "wall_seconds": 115.08,
+      "usage": {
+        "input_tokens": 120800,
+        "cached_input_tokens": 108032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4579,
+        "reasoning_output_tokens": 228
+      },
+      "agent_prose_characters": 515,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 6,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/workflow/V1",
+      "exit_code": 0,
+      "wall_seconds": 102.57,
+      "usage": {
+        "input_tokens": 145379,
+        "cached_input_tokens": 125312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4406,
+        "reasoning_output_tokens": 100
+      },
+      "agent_prose_characters": 746,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 5,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r2/workflow/V2",
+      "exit_code": 0,
+      "wall_seconds": 114.52,
+      "usage": {
+        "input_tokens": 126953,
+        "cached_input_tokens": 109952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5234,
+        "reasoning_output_tokens": 267
+      },
+      "agent_prose_characters": 504,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 5,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r3/agent_gap/A",
+      "exit_code": 0,
+      "wall_seconds": 108.47,
+      "usage": {
+        "input_tokens": 97941,
+        "cached_input_tokens": 90240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4138,
+        "reasoning_output_tokens": 105
+      },
+      "agent_prose_characters": 482,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/r3/agent_gap/G",
+      "exit_code": 0,
+      "wall_seconds": 111.37,
+      "usage": {
+        "input_tokens": 100445,
+        "cached_input_tokens": 88832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4467,
+        "reasoning_output_tokens": 194
+      },
+      "agent_prose_characters": 439,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r3/agent_gap/V1",
+      "exit_code": 0,
+      "wall_seconds": 97.83,
+      "usage": {
+        "input_tokens": 81738,
+        "cached_input_tokens": 68736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4006,
+        "reasoning_output_tokens": 139
+      },
+      "agent_prose_characters": 558,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r3/agent_gap/V2",
+      "exit_code": 0,
+      "wall_seconds": 83.9,
+      "usage": {
+        "input_tokens": 96805,
+        "cached_input_tokens": 86016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3598,
+        "reasoning_output_tokens": 73
+      },
+      "agent_prose_characters": 479,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/r3/analysis/V2",
+      "exit_code": 0,
+      "wall_seconds": 83.72,
+      "usage": {
+        "input_tokens": 117058,
+        "cached_input_tokens": 105856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3202,
+        "reasoning_output_tokens": 130
+      },
+      "agent_prose_characters": 351,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 5,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r3/knowledge_update/A",
+      "exit_code": 0,
+      "wall_seconds": 69.66,
+      "usage": {
+        "input_tokens": 92011,
+        "cached_input_tokens": 80512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3157,
+        "reasoning_output_tokens": 17
+      },
+      "agent_prose_characters": 436,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 3,
+        "file_change": 1
+      }
+    },
+    {
+      "run": "runs/r3/knowledge_update/G",
+      "exit_code": 0,
+      "wall_seconds": 90.23,
+      "usage": {
+        "input_tokens": 174512,
+        "cached_input_tokens": 150144,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3993,
+        "reasoning_output_tokens": 36
+      },
+      "agent_prose_characters": 438,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 8,
+        "file_change": 3
+      }
+    },
+    {
+      "run": "runs/r3/knowledge_update/V1",
+      "exit_code": 0,
+      "wall_seconds": 88.86,
+      "usage": {
+        "input_tokens": 116860,
+        "cached_input_tokens": 86272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4471,
+        "reasoning_output_tokens": 20
+      },
+      "agent_prose_characters": 585,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 4,
+        "file_change": 2
+      }
+    },
+    {
+      "run": "runs/r3/knowledge_update/V2",
+      "exit_code": 0,
+      "wall_seconds": 71.57,
+      "usage": {
+        "input_tokens": 127215,
+        "cached_input_tokens": 113408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2956,
+        "reasoning_output_tokens": 19
+      },
+      "agent_prose_characters": 354,
+      "completed_item_types": {
+        "agent_message": 3,
+        "command_execution": 7
+      }
+    },
+    {
+      "run": "runs/r3/urls/V2",
+      "exit_code": 0,
+      "wall_seconds": 136.78,
+      "usage": {
+        "input_tokens": 169762,
+        "cached_input_tokens": 130432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5655,
+        "reasoning_output_tokens": 79
+      },
+      "agent_prose_characters": 762,
+      "completed_item_types": {
+        "agent_message": 4,
+        "command_execution": 3,
+        "web_search": 2,
+        "file_change": 3
+      }
+    }
+  ],
+  "holdout_summary": {
+    "course_analysis/A": {
+      "n": 3,
+      "output_tokens": {
+        "median": 4497,
+        "min": 2896,
+        "max": 4897
+      },
+      "input_tokens": {
+        "median": 118897,
+        "min": 78333,
+        "max": 161826
+      },
+      "cached_input_tokens": {
+        "median": 107648,
+        "min": 72320,
+        "max": 151424
+      },
+      "wall_seconds": {
+        "median": 109.72,
+        "min": 78.82,
+        "max": 117.86
+      },
+      "agent_prose_characters": {
+        "median": 485,
+        "min": 416,
+        "max": 596
+      }
+    },
+    "course_analysis/G": {
+      "n": 3,
+      "output_tokens": {
+        "median": 3325,
+        "min": 3048,
+        "max": 4359
+      },
+      "input_tokens": {
+        "median": 98017,
+        "min": 96822,
+        "max": 120141
+      },
+      "cached_input_tokens": {
+        "median": 90368,
+        "min": 84736,
+        "max": 108416
+      },
+      "wall_seconds": {
+        "median": 90.38,
+        "min": 82.78,
+        "max": 109.79
+      },
+      "agent_prose_characters": {
+        "median": 479,
+        "min": 440,
+        "max": 544
+      }
+    },
+    "course_analysis/V1": {
+      "n": 3,
+      "output_tokens": {
+        "median": 4852,
+        "min": 3346,
+        "max": 5655
+      },
+      "input_tokens": {
+        "median": 181663,
+        "min": 148088,
+        "max": 243108
+      },
+      "cached_input_tokens": {
+        "median": 164352,
+        "min": 133888,
+        "max": 209024
+      },
+      "wall_seconds": {
+        "median": 123.55,
+        "min": 96.19,
+        "max": 150.39
+      },
+      "agent_prose_characters": {
+        "median": 586,
+        "min": 429,
+        "max": 614
+      }
+    },
+    "course_analysis/V2": {
+      "n": 3,
+      "output_tokens": {
+        "median": 3705,
+        "min": 3679,
+        "max": 5053
+      },
+      "input_tokens": {
+        "median": 140749,
+        "min": 122312,
+        "max": 263664
+      },
+      "cached_input_tokens": {
+        "median": 128000,
+        "min": 110208,
+        "max": 244224
+      },
+      "wall_seconds": {
+        "median": 101.88,
+        "min": 92.13,
+        "max": 138.75
+      },
+      "agent_prose_characters": {
+        "median": 415,
+        "min": 414,
+        "max": 531
+      }
+    },
+    "habit_ui/A": {
+      "n": 3,
+      "output_tokens": {
+        "median": 11599,
+        "min": 9077,
+        "max": 11624
+      },
+      "input_tokens": {
+        "median": 125758,
+        "min": 112024,
+        "max": 145741
+      },
+      "cached_input_tokens": {
+        "median": 106880,
+        "min": 97280,
+        "max": 130432
+      },
+      "wall_seconds": {
+        "median": 223.7,
+        "min": 178.26,
+        "max": 236.79
+      },
+      "agent_prose_characters": {
+        "median": 378,
+        "min": 373,
+        "max": 390
+      }
+    },
+    "habit_ui/G": {
+      "n": 3,
+      "output_tokens": {
+        "median": 8437,
+        "min": 7202,
+        "max": 12595
+      },
+      "input_tokens": {
+        "median": 91205,
+        "min": 87553,
+        "max": 370711
+      },
+      "cached_input_tokens": {
+        "median": 75904,
+        "min": 67328,
+        "max": 333824
+      },
+      "wall_seconds": {
+        "median": 175.9,
+        "min": 136.44,
+        "max": 349.54
+      },
+      "agent_prose_characters": {
+        "median": 330,
+        "min": 316,
+        "max": 386
+      }
+    },
+    "habit_ui/V1": {
+      "n": 3,
+      "output_tokens": {
+        "median": 8778,
+        "min": 6285,
+        "max": 11389
+      },
+      "input_tokens": {
+        "median": 340780,
+        "min": 218040,
+        "max": 367796
+      },
+      "cached_input_tokens": {
+        "median": 320256,
+        "min": 200064,
+        "max": 328192
+      },
+      "wall_seconds": {
+        "median": 212.62,
+        "min": 156.24,
+        "max": 270.56
+      },
+      "agent_prose_characters": {
+        "median": 568,
+        "min": 419,
+        "max": 587
+      }
+    },
+    "habit_ui/V2": {
+      "n": 3,
+      "output_tokens": {
+        "median": 7211,
+        "min": 6783,
+        "max": 8424
+      },
+      "input_tokens": {
+        "median": 259321,
+        "min": 232661,
+        "max": 330022
+      },
+      "cached_input_tokens": {
+        "median": 238976,
+        "min": 211072,
+        "max": 310400
+      },
+      "wall_seconds": {
+        "median": 185.64,
+        "min": 163.65,
+        "max": 223.15
+      },
+      "agent_prose_characters": {
+        "median": 437,
+        "min": 415,
+        "max": 462
+      }
+    }
+  }
+}

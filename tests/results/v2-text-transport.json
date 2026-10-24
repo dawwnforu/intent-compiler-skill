@@ -1,0 +1,278 @@
+{
+  "classification": "Author-side synthetic artifact validation; scoped-method exposure unverified, no valid method-effect estimate or user-feedback claim.",
+  "protocol": {
+    "baseCommit": "034d31a68436a38f4f04479f0ef0c4ddbcb6f78f",
+    "question": "Does a concrete Windows text-transport method prevent source-text damage and a quality-rework need during an ordinary client-handoff edit?",
+    "exposedFailure": "R78 literal question-mark separators, with commands piping non-ASCII source and no OutputEncoding setting; local default-pipe probe loses characters despite Python UTF-8 mode.",
+    "newTask": "Synthetic customer-confirmation edit, not owner data or an external-user test; frozen before either invocation.",
+    "request": "这份客户确认页要改一下：每条项目旁边补上负责人和预计交付日，最后汇总还没确认的事项；再给我一份可编辑的CSV，和网页放在一起方便交接。我不懂网页代码，按inputs里的资料直接改好，保留客户已经确认的文字、报价和页面风格。先不要发给客户，也别改原资料。",
+    "boundary": "\n只修改当前工作区project/这一份隔离材料，inputs原文件只读。使用已有Python/Node与启用的Skill；不要读取其他项目、会话或评测目录，不联网、安装、外发、上传、公开发布、更改全局设置或启动常驻服务。保留安全限制，不调用浏览器或声称已验浏览器；宿主会另作实际页面检查。不要制作多个方案、写评分报告或额外教程；交付可直接查看的文件。",
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "order": [
+      "before",
+      "after"
+    ],
+    "budget": {
+      "modelCalls": 2,
+      "timeoutSecondsPerCall": 240,
+      "retryOrRescueCalls": 0
+    },
+    "conditions": "Same current Skill except one host text-I/O method and two conditional links; sole enabled Skill per workspace; same installed interpreters, child workspace-write and disabled network/web; no global encoding change.",
+    "fixtureHashes": {
+      "inputs/confirmed.json": "8407ead27fba9dddcf7e9d5eb9fc544983acf7476e9831f68bba5cd4c1482e5e",
+      "inputs/readme.txt": "8dbe1b4dd5a4c030447fe27bcb6f98c249c829e954caa649e3d9ae6be48162e4",
+      "project/index.html": "6931f1d8fa600cf26777d4c45fe9e6fff7fc072dfef4a25ef5d7e0a467274d60"
+    },
+    "snapshotHashes": {
+      "before": {
+        "agents/openai.yaml": "f3d73e49928997f4e13e5c9691db02bece3d45e35f34181ac3e895421eaf5d9c",
+        "assets/intent-compiler.svg": "84b22341273728ff0972c3ff1bb2fd97bbe519a0d5000be81605200388e76024",
+        "LICENSE": "a7364802fcd57bd7f0f75b76715e06b64356efd7c890771407fe981277879f05",
+        "README.md": "c37bfb134d32f0e4548a685aa193f4645db51c2c1474e16818f6e42c0f66d29d",
+        "references/clarification-policy.md": "8ac81e31eb80e2b67cc8b6439be86c1718d22e4c8c19efc879865e675b553fce",
+        "references/data-surveys.md": "6eae3194a0136ad3d28a4ec2cc405d921a2f9537f958a87107bd214d136e0c13",
+        "references/domain-lenses.md": "e164d20917b5646ab77bc67ab3f0193b52f049bc4d4670947e4f30e7ccb9e174",
+        "references/font-library.md": "51e5b3a1b594ca889e3639954a9f8c6bd3ae999ab31993a61588e6e4b982becb",
+        "references/game-mod.md": "92f81a688db45ef8e7a2c95952fad6b8e4ea7edc44485188fec8d0cb95c76439",
+        "references/interactive-products.md": "2eeaf30fa91186d462b736f3f8b464de00c822c60d45573e498fcf5d9ec82fda",
+        "references/knowledge-index.md": "2753501702f78e95b2c1c5470e5c242407c2f2a6c969e46392fefc20ed9ec47f",
+        "references/knowledge-module-template.md": "53f66dc98fb241b8123d837ee55a0064e0894624bd2dae362817c527fb07140c",
+        "references/knowledge-organization.md": "e5bced348a55f49e8927743244b09b24033cad94c9658ecb5295a6c3ea6c440b",
+        "references/physical-fabrication.md": "daee81b678d2de2b2b28b95cc007668f1d176bc0227b3a7e7f25ba143da729a8",
+        "references/print-layout.md": "ac0b4f0cef506597a973dcfcbed4f26437b581f344a0cddb1d40e24019cae769",
+        "references/quality-check.md": "2ff07ab843ec83673fddca00ab6dbfaf898533777ed8968a54f55396b93e0d42",
+        "references/render-model.md": "bc425898f5a25cf7a3478923bea0facb8446f928c1abdd7ea669103381310384",
+        "references/source-policy.md": "665b4b019e4474e3e72df7898efa62bfa303b64c4b48c0d5d5e9da2345caf7bd",
+        "references/visual-quality.md": "1d74b31f09441eebd4ebcebbbb8b3fffde36fc232df433db1adfe6b62a8608c3",
+        "references/web-runtime.md": "046bac6dd6e19218eb4c4ec97a0b6b7875595198eec3ce6edbeccda1b8bf4a4f",
+        "references/website-delivery.md": "2070d5aeca69e523d5943594963601f06f7a34e4aa1659b3e3ade1aac985b877",
+        "references/workflow-knowledge.md": "9129d3eaa7d79dfec00df4047a4e3a39b0ba23e56e83cda14cb0b68f7d034520",
+        "scripts/__pycache__/check_html_scripts.cpython-312.pyc": "197a2e1c62765e484e72b68aa7ee0f380c4bffe503733e35d539f4d74e11fe51",
+        "scripts/check_html_scripts.py": "bca496718a942021e025f41c7e74fad8e5c0b2b575b0ccc5d01f544f5b69fcc3",
+        "SKILL.md": "a989b80f8f88b8aab2169b5783b9e2d65f62cc78f58f663290b462c34c135f26"
+      },
+      "after": {
+        "agents/openai.yaml": "f3d73e49928997f4e13e5c9691db02bece3d45e35f34181ac3e895421eaf5d9c",
+        "assets/intent-compiler.svg": "84b22341273728ff0972c3ff1bb2fd97bbe519a0d5000be81605200388e76024",
+        "LICENSE": "a7364802fcd57bd7f0f75b76715e06b64356efd7c890771407fe981277879f05",
+        "README.md": "c37bfb134d32f0e4548a685aa193f4645db51c2c1474e16818f6e42c0f66d29d",
+        "references/clarification-policy.md": "8ac81e31eb80e2b67cc8b6439be86c1718d22e4c8c19efc879865e675b553fce",
+        "references/data-surveys.md": "6eae3194a0136ad3d28a4ec2cc405d921a2f9537f958a87107bd214d136e0c13",
+        "references/domain-lenses.md": "8844591bf27ec01e12c95b7fe285aa736645fe3263b61db326eb1379dd685128",
+        "references/font-library.md": "51e5b3a1b594ca889e3639954a9f8c6bd3ae999ab31993a61588e6e4b982becb",
+        "references/game-mod.md": "92f81a688db45ef8e7a2c95952fad6b8e4ea7edc44485188fec8d0cb95c76439",
+        "references/interactive-products.md": "acd6809104bafa310bf0d0fae27d9a2679c3de7276d218e342b495acbcf91c0f",
+        "references/knowledge-index.md": "2753501702f78e95b2c1c5470e5c242407c2f2a6c969e46392fefc20ed9ec47f",
+        "references/knowledge-module-template.md": "53f66dc98fb241b8123d837ee55a0064e0894624bd2dae362817c527fb07140c",
+        "references/knowledge-organization.md": "e5bced348a55f49e8927743244b09b24033cad94c9658ecb5295a6c3ea6c440b",
+        "references/physical-fabrication.md": "daee81b678d2de2b2b28b95cc007668f1d176bc0227b3a7e7f25ba143da729a8",
+        "references/print-layout.md": "ac0b4f0cef506597a973dcfcbed4f26437b581f344a0cddb1d40e24019cae769",
+        "references/quality-check.md": "2ff07ab843ec83673fddca00ab6dbfaf898533777ed8968a54f55396b93e0d42",
+        "references/render-model.md": "bc425898f5a25cf7a3478923bea0facb8446f928c1abdd7ea669103381310384",
+        "references/source-policy.md": "665b4b019e4474e3e72df7898efa62bfa303b64c4b48c0d5d5e9da2345caf7bd",
+        "references/visual-quality.md": "1d74b31f09441eebd4ebcebbbb8b3fffde36fc232df433db1adfe6b62a8608c3",
+        "references/web-runtime.md": "046bac6dd6e19218eb4c4ec97a0b6b7875595198eec3ce6edbeccda1b8bf4a4f",
+        "references/website-delivery.md": "2070d5aeca69e523d5943594963601f06f7a34e4aa1659b3e3ade1aac985b877",
+        "references/workflow-knowledge.md": "299ae3520357b09f49d83f7f5d5534bbb49d4ed39fca34722eee8020b4c9a4a7",
+        "scripts/__pycache__/check_html_scripts.cpython-312.pyc": "197a2e1c62765e484e72b68aa7ee0f380c4bffe503733e35d539f4d74e11fe51",
+        "scripts/check_html_scripts.py": "bca496718a942021e025f41c7e74fad8e5c0b2b575b0ccc5d01f544f5b69fcc3",
+        "SKILL.md": "a989b80f8f88b8aab2169b5783b9e2d65f62cc78f58f663290b462c34c135f26"
+      }
+    },
+    "criteria": [
+      "Actual HTML preserves supplied brand/project/terms and legitimate question mark; no damaged replacement text.",
+      "C01/C02 owner and dates correct; C03 stays unresolved; client question is not an accepted Friday deadline.",
+      "Original IDs, quantities, unit prices and1800 total preserved; inputs unchanged.",
+      "A usable local HTML and editable well-formed CSV agree; inspect actual files and rendered page rather than model claims.",
+      "Retain lawful delivery, style and source facts; do not reward output length or extra features."
+    ],
+    "adoption": "Adopt only on evidence of changed text-transport/check behavior and preserved delivery; shared success/no difference or regression is valid. Do not infer fewer actual user prompts or adoption from author checks.",
+    "metrics": {
+      "professionalPromptsIssuedByOwner": null,
+      "ownerReworkRounds": null,
+      "ownerAdoption": null,
+      "evaluatorFollowups": 0
+    },
+    "stop": "Two calls only, no resampling to obtain a win; retain all failures and cost. No original app, formal install, old ZIP, MIT, merge or marketplace change."
+  },
+  "proposedButNotAdopted": {
+    "codingMethod": "When Windows tools handle non-ASCII text, distinguish script decoding, native-pipe encoding and output-file encoding. Prefer file-based edits with explicit encodings; an unverified native pipe can replace characters before UTF-8 Python or file output sees them. Preserve a BOM where the existing reader needs it, such as a non-ASCII .ps1 in Windows PowerShell. Read back the actual saved artifact and compare important literals with the original or an independently encoded expectation, not an expected value sent through the same pipe. Restore lost text from its source; preserve legitimate question marks. Do not change global profiles to fix a local artifact. See [Microsoft's encoding reference](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-5.1).\n\n",
+    "conditionalLink": "For Windows script/file edits containing non-ASCII text, apply the text-transport method in the [coding lens](domain-lenses.md#coding) before writing or checking the artifact.\n\n"
+  },
+  "fixtureFiles": {
+    "inputs/confirmed.json": "{\r\n  \"client\": \"Café·晴岚\",\r\n  \"project\": \"Été—品牌手册\",\r\n  \"currency\": \"CNY\",\r\n  \"total\": 1800,\r\n  \"confirmedTerms\": \"仅含设计与文件交付，不含印刷、加急或公开发布。\",\r\n  \"clientNote\": \"Can we review on Friday?\",\r\n  \"items\": [\r\n    {\r\n      \"id\": \"C01\",\r\n      \"name\": \"视觉初稿\",\r\n      \"quantity\": 1,\r\n      \"unitPrice\": 1200,\r\n      \"owner\": \"林芷\",\r\n      \"due\": \"2026-11-02\"\r\n    },\r\n    {\r\n      \"id\": \"C02\",\r\n      \"name\": \"印刷文件\",\r\n      \"quantity\": 2,\r\n      \"unitPrice\": 180,\r\n      \"owner\": \"Zoë\",\r\n      \"due\": \"2026-11-04\"\r\n    },\r\n    {\r\n      \"id\": \"C03\",\r\n      \"name\": \"校对\",\r\n      \"quantity\": 1,\r\n      \"unitPrice\": 240,\r\n      \"owner\": null,\r\n      \"due\": null\r\n    }\r\n  ]\r\n}\r\n",
+    "inputs/readme.txt": "合成客户材料，不是真实订单。confirmed.json是当前确认内容；C03负责人和日期没有确认，不要猜。客户英文问句仍待回答，不能改写成已同意周五评审。所有报价保持原值；本次只做本机交接，不实际联系客户。\r\n",
+    "project/index.html": "<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Café·晴岚 | 客户确认</title><style>body{font:17px/1.6 system-ui;color:#243e38;background:#f4f6f5;margin:0}main{max-width:850px;margin:24px auto;padding:28px;background:white;border-radius:18px}h1,h2{color:#267a63}table{border-collapse:collapse;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #dce5e0}.muted{color:#596b64}.terms{padding:16px;background:#edf5f0;border-radius:10px}a,button{color:#16685b}@media(max-width:700px){main{margin:10px;padding:16px}table{font-size:14px}}</style></head><body><main><p class=\"muted\">客户确认单 · 合成本机样例</p><h1>Café·晴岚</h1><h2>Été—品牌手册</h2><table><thead><tr><th>编号</th><th>项目</th><th>数量</th><th>单价（元）</th><th>小计（元）</th></tr></thead><tbody><tr><td>C01</td><td>视觉初稿</td><td>1</td><td>1200</td><td>1200</td></tr><tr><td>C02</td><td>印刷文件</td><td>2</td><td>180</td><td>360</td></tr><tr><td>C03</td><td>校对</td><td>1</td><td>240</td><td>240</td></tr></tbody></table><p>确认总额：¥1800</p><p class=\"terms\">仅含设计与文件交付，不含印刷、加急或公开发布。</p><p>客户留言：Can we review on Friday?</p></main></body></html>"
+  },
+  "results": {
+    "runs": [
+      {
+        "arm": "before",
+        "exitCode": 0,
+        "generationSeconds": 112.05,
+        "usage": {
+          "input_tokens": 132679,
+          "cached_input_tokens": 118784,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3237,
+          "reasoning_output_tokens": 142
+        },
+        "failedCommands": 1,
+        "commandCount": 6,
+        "readInteractiveModule": false,
+        "readCodingModule": false,
+        "explicitPipeEncodingCommands": 1,
+        "files": {
+          "handoff.csv": {
+            "bytes": 936,
+            "sha256": "1fa8110d2aa38cd41616a91ef7eadeae475051ee55ab0c02c422b41b4b3cee47"
+          },
+          "index.html": {
+            "bytes": 2029,
+            "sha256": "bfc0aee80c4aab4086be699b68006f4330e09abdf1ae5aecab69c57e0510efc0"
+          }
+        },
+        "candidateMethodExposure": {
+          "status": "unverified",
+          "module": "references/domain-lenses.md",
+          "matches": [],
+          "scope": "Matching file-read command plus distinctive method text in actual completed tool output; not model self-report or proof of attention."
+        },
+        "literalChecks": {
+          "client": true,
+          "project": true,
+          "confirmedTerms": true,
+          "clientNote": true
+        },
+        "expertPromptsIssued": 0,
+        "expertPromptsNeededByOwner": null,
+        "ownerRework": null,
+        "ownerAdoption": null
+      },
+      {
+        "arm": "after",
+        "exitCode": 0,
+        "generationSeconds": 101.19,
+        "usage": {
+          "input_tokens": 130096,
+          "cached_input_tokens": 117888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2759,
+          "reasoning_output_tokens": 94
+        },
+        "failedCommands": 1,
+        "commandCount": 5,
+        "readInteractiveModule": false,
+        "readCodingModule": false,
+        "explicitPipeEncodingCommands": 0,
+        "files": {
+          "handoff.csv": {
+            "bytes": 873,
+            "sha256": "b92679eefe1204386f9291b46184ebda1477b37a56a9ed7f9c269aa4591c549e"
+          },
+          "index.html": {
+            "bytes": 1793,
+            "sha256": "8d422b8fc0278c3b3bbda3262f9cece32d9e98835310278f4759d4449e6e3230"
+          }
+        },
+        "candidateMethodExposure": {
+          "status": "unverified",
+          "module": "references/domain-lenses.md",
+          "matches": [],
+          "scope": "Matching file-read command plus distinctive method text in actual completed tool output; not model self-report or proof of attention."
+        },
+        "literalChecks": {
+          "client": true,
+          "project": true,
+          "confirmedTerms": true,
+          "clientNote": true
+        },
+        "expertPromptsIssued": 0,
+        "expertPromptsNeededByOwner": null,
+        "ownerRework": null,
+        "ownerAdoption": null
+      }
+    ],
+    "httpReadback": {
+      "before": {
+        "index.html": {
+          "bytes": 2029,
+          "sameAsDelivered": true
+        },
+        "handoff.csv": {
+          "bytes": 936,
+          "sameAsDelivered": true
+        }
+      },
+      "after": {
+        "index.html": {
+          "bytes": 1793,
+          "sameAsDelivered": true
+        },
+        "handoff.csv": {
+          "bytes": 873,
+          "sameAsDelivered": true
+        }
+      }
+    },
+    "beforeActualBrowserDownload": {
+      "bytesMatchDelivered": true
+    },
+    "browserCall": {
+      "requestedOuterTimeoutMs": 30000,
+      "downloadEventAndPathTimeoutMs": 8000,
+      "reportedActualSeconds": 12519.5381,
+      "meaning": "Combined browser download/AX/screenshot call returned actual download and screenshot after severe timeout overrun; suboperation responsible is unknown. Not model or Skill generation time. No second download call."
+    },
+    "browserCoverage": {
+      "before": "Actual rendered content, download and screenshot",
+      "after": "Not run after preceding browser call overran timeout; source/CSV/HTTP only"
+    },
+    "decision": "Do not adopt the proposed paragraph. Current2.0 delivers intact text without evaluator rescue, but neither invocation exposes the proposed method: this is an unverified scoped-method comparison, not evidence that the method works or fails. Add an actual-output exposure gate; retain both business outputs and all costs. No further model sampling."
+  },
+  "artifactTextEncodings": {
+    "before": {
+      "handoff.csv": "utf-8-sig",
+      "index.html": "utf-8"
+    },
+    "after": {
+      "handoff.csv": "utf-8-sig",
+      "index.html": "utf-8"
+    }
+  },
+  "artifacts": {
+    "before": {
+      "handoff.csv": "客户,项目名称,币种,确认总额（元）,编号,项目,数量,单价（元）,小计（元）,负责人,预计交付日,项目待确认事项,已确认条款,客户留言原文,客户留言状态\r\nCafé·晴岚,Été—品牌手册,CNY,1800,C01,视觉初稿,1,1200,1200,林芷,2026-11-02,,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,待回复：周五评审安排尚未确认\r\nCafé·晴岚,Été—品牌手册,CNY,1800,C02,印刷文件,2,180,360,Zoë,2026-11-04,,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,待回复：周五评审安排尚未确认\r\nCafé·晴岚,Été—品牌手册,CNY,1800,C03,校对,1,240,240,待确认,待确认,负责人待确认；预计交付日待确认,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,待回复：周五评审安排尚未确认\r\n",
+      "index.html": "<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Café·晴岚 | 客户确认</title><style>body{font:17px/1.6 system-ui;color:#243e38;background:#f4f6f5;margin:0}main{max-width:850px;margin:24px auto;padding:28px;background:white;border-radius:18px}h1,h2{color:#267a63}table{border-collapse:collapse;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #dce5e0}.muted{color:#596b64}.terms{padding:16px;background:#edf5f0;border-radius:10px}a,button{color:#16685b}.table-wrap{overflow-x:auto}th{white-space:nowrap}caption{text-align:left;font-weight:600;padding-bottom:8px}@media(max-width:700px){main{margin:10px;padding:16px}table{font-size:14px}}</style></head><body><main><p class=\"muted\">客户确认单 · 合成本机样例</p><h1>Café·晴岚</h1><h2>Été—品牌手册</h2><div class=\"table-wrap\"><table><caption>项目明细</caption><thead><tr><th>编号</th><th>项目</th><th>负责人</th><th>预计交付日</th><th>数量</th><th>单价（元）</th><th>小计（元）</th></tr></thead><tbody><tr><td>C01</td><td>视觉初稿</td><td>林芷</td><td>2026-11-02</td><td>1</td><td>1200</td><td>1200</td></tr><tr><td>C02</td><td>印刷文件</td><td>Zoë</td><td>2026-11-04</td><td>2</td><td>180</td><td>360</td></tr><tr><td>C03</td><td>校对</td><td>待确认</td><td>待确认</td><td>1</td><td>240</td><td>240</td></tr></tbody></table></div><p>确认总额：¥1800</p><p class=\"terms\">仅含设计与文件交付，不含印刷、加急或公开发布。</p><p>客户留言：Can we review on Friday?</p><section aria-labelledby=\"pending-title\"><h2 id=\"pending-title\">待确认事项</h2><ul><li>C03 · 校对：负责人待确认。</li><li>C03 · 校对：预计交付日待确认。</li><li>周五评审安排待回复。客户原问：<span lang=\"en\">Can we review on Friday?</span></li></ul></section><p><a href=\"handoff.csv\" download=\"handoff.csv\">下载可编辑 CSV</a></p></main></body></html>\r\n"
+    },
+    "after": {
+      "handoff.csv": "客户,项目名称,币种,编号,项目,负责人,预计交付日,数量,单价（元）,小计（元）,待确认事项,确认总额（元）,已确认条款,客户留言,留言状态\r\nCafé·晴岚,Été—品牌手册,CNY,C01,视觉初稿,林芷,2026-11-02,1,1200,1200,,1800,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,周五评审安排待答复\r\nCafé·晴岚,Été—品牌手册,CNY,C02,印刷文件,Zoë,2026-11-04,2,180,360,,1800,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,周五评审安排待答复\r\nCafé·晴岚,Été—品牌手册,CNY,C03,校对,待确认,待确认,1,240,240,负责人待确认；预计交付日待确认,1800,仅含设计与文件交付，不含印刷、加急或公开发布。,Can we review on Friday?,周五评审安排待答复\r\n",
+      "index.html": "<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Café·晴岚 | 客户确认</title><style>body{font:17px/1.6 system-ui;color:#243e38;background:#f4f6f5;margin:0}main{max-width:850px;margin:24px auto;padding:28px;background:white;border-radius:18px}h1,h2{color:#267a63}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #dce5e0}.muted{color:#596b64}.terms{padding:16px;background:#edf5f0;border-radius:10px}a,button{color:#16685b}@media(max-width:700px){main{margin:10px;padding:16px}table{font-size:14px}}</style></head><body><main><p class=\"muted\">客户确认单 · 合成本机样例</p><h1>Café·晴岚</h1><h2>Été—品牌手册</h2><div class=\"table-wrap\"><table><thead><tr><th>编号</th><th>项目</th><th>负责人</th><th>预计交付日</th><th>数量</th><th>单价（元）</th><th>小计（元）</th></tr></thead><tbody><tr><td>C01</td><td>视觉初稿</td><td>林芷</td><td>2026-11-02</td><td>1</td><td>1200</td><td>1200</td></tr><tr><td>C02</td><td>印刷文件</td><td>Zoë</td><td>2026-11-04</td><td>2</td><td>180</td><td>360</td></tr><tr><td>C03</td><td>校对</td><td>待确认</td><td>待确认</td><td>1</td><td>240</td><td>240</td></tr></tbody></table></div><p>确认总额：¥1800</p><p class=\"terms\">仅含设计与文件交付，不含印刷、加急或公开发布。</p><p>客户留言：Can we review on Friday?</p><h2>待确认事项</h2><ul><li>C03 校对：负责人待确认。</li><li>C03 校对：预计交付日待确认。</li><li>周五评审安排待答复：Can we review on Friday?</li></ul><p><a href=\"handoff.csv\" download>下载可编辑交接 CSV</a></p></main></body></html>"
+    }
+  },
+  "failedToolCommands": {
+    "before": [
+      {
+        "command": "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"@'\nimport csv, json, hashlib\nfrom pathlib import Path\nfrom html.parser import HTMLParser\nroot = Path.cwd()\ninputs = root / 'inputs'\nbefore = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs.iterdir() if p.is_file()}\ndata = json.loads((inputs / 'confirmed.json').read_text(encoding='utf-8-sig'))\npage = root / 'project/index.html'\noriginal = page.read_text(encoding='utf-8')\nupdated = original.replace('a,button{color:#16685b}', 'a,button{color:#16685b}.table-wrap{overflow-x:auto}th{white-space:nowrap}caption{text-align:left;font-weight:600;padding-bottom:8px}')\nupdated = updated.replace('<table>', '<div class=\\\"table-wrap\\\"><table><caption>项目明细</caption>')\nupdated = updated.replace('<th>数量</th>', '<th>负责人</th><th>预计交付日</th><th>数量</th>')\nfor item in data['items']:\n    old = f\\\"<td>{item['name']}</td>\\\"\n    new = old + f\\\"<td>{item['owner'] or '待确认'}</td><td>{item['due'] or '待确认'}</td>\\\"\n    assert updated.count(old) == 1\n    updated = updated.replace(old, new)\nupdated = updated.replace('</table>', '</table></div>')\nupdated = updated.replace('</main>', '<section aria-labelledby=\\\"pending-title\\\"><h2 id=\\\"pending-title\\\">待确认事项</h2><ul><li>C03 · 校对：负责人待确认。</li><li>C03 · 校对：预计交付日待确认。</li><li>周五评审安排待回复。客户原问：<span lang=\\\"en\\\">Can we review on Friday?</span></li></ul></section><p><a href=\\\"handoff.csv\\\" download=\\\"handoff.csv\\\">下载可编辑 CSV</a></p></main>')\npage.write_text(updated, encoding='utf-8')\ncolumns = ['客户','项目名称','币种','确认总额（元）','编号','项目','数量','单价（元）','小计（元）','负责人','预计交付日','项目待确认事项','已确认条款','客户留言原文','客户留言状态']\nwith (root / 'project/handoff.csv').open('w', encoding='utf-8-sig', newline='') as f:\n    writer = csv.writer(f)\n    writer.writerow(columns)\n    for item in data['items']:\n        pending = []\n        if item['owner'] is None: pending.append('负责人待确认')\n        if item['due'] is None: pending.append('预计交付日待确认')\n        writer.writerow([data['client'],data['project'],data['currency'],data['total'],item['id'],item['name'],item['quantity'],item['unitPrice'],item['quantity']*item['unitPrice'],item['owner'] or '待确认',item['due'] or '待确认','；'.join(pending),data['confirmedTerms'],data['clientNote'],'待回复：周五评审安排尚未确认'])\n# Check the saved files against the read-only source, including accents and quotes.\nclass Document(HTMLParser):\n    def __init__(self):\n        super().__init__(); self.text=[]; self.rows=[]; self.row=None; self.cell=None; self.links=[]\n    def handle_starttag(self, tag, attrs):\n        if tag == 'tr': self.row=[]\n        if tag in ('td','th'): self.cell=''\n        if tag == 'a': self.links.append(dict(attrs).get('href'))\n    def handle_data(self, text):\n        self.text.append(text)\n        if self.cell is not None: self.cell += text\n    def handle_endtag(self, tag):\n        if tag in ('td','th'):\n            self.row.append(self.cell); self.cell=None\n        if tag == 'tr': self.rows.append(self.row); self.row=None\nparsed=Document(); parsed.feed(page.read_text(encoding='utf-8'))\nwith (root/'project/handoff.csv').open(encoding='utf-8-sig', newline='') as f: rows=list(csv.DictReader(f))\nassert len(rows)==len(data['items'])==3\nfor item, htmlrow, row in zip(data['items'], parsed.rows[1:], rows):\n    assert htmlrow == [item['id'],item['name'],item['owner'] or '待确认',item['due'] or '待确认',str(item['quantity']),str(item['unitPrice']),str(item['quantity']*item['unitPrice'])]\n    assert row['负责人']==htmlrow[2] and row['预计交付日']==htmlrow[3]\n    assert row['客户']==data['client'] and row['项目名称']==data['project']\n    assert row['已确认条款']==data['confirmedTerms'] and row['客户留言原文']==data['clientNote']\n    assert int(row['单价（元）'])==item['unitPrice'] and int(row['数量'])==item['quantity']\n    assert int(row['小计（元）'])==item['quantity']*item['unitPrice']\n    assert int(row['确认总额（元）'])==data['total']\nassert sum(int(row['小计（元）']) for row in rows)==data['total']\nfor value in [data['client'],data['project'],data['confirmedTerms'],data['clientNote'],'确认总额：¥1800']:\n    assert value in ''.join(parsed.text)\nassert 'handoff.csv' in parsed.links\nassert '<style>'+original.split('<style>')[1].split('a,button')[0] in updated\nassert before == {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs.iterdir() if p.is_file()}\nassert not any(token in updated.lower() for token in ['<script','http://','https://'])\nprint('PASS: HTML and CSV match all 3 source items; prices, total, confirmed wording and Unicode preserved; pending items explicit; local CSV link valid; inputs hashes unchanged. No browser check performed.')\n'@ | python -\"",
+        "output": "Traceback (most recent call last):\r\n  File \"<stdin>\", line 50, in <module>\r\nAssertionError\r\n",
+        "exitCode": 1
+      }
+    ],
+    "after": [
+      {
+        "command": "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"@'\nfrom pathlib import Path\nimport json,csv,io,hashlib\nfrom html import escape\nroot=Path.cwd()\nsources={p:hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'inputs').iterdir() if p.is_file()}\np=root/'project/index.html'\nold=p.read_text(encoding='utf-8')\ndata=json.loads((root/'inputs/confirmed.json').read_text(encoding='utf-8'))\nnew=old.replace('table{border-collapse', '.table-wrap{overflow-x:auto}table{border-collapse')\nnew=new.replace('<table>','<div class=\\\"table-wrap\\\"><table>').replace('</table>','</table></div>')\nnew=new.replace('<th>项目</th>','<th>项目</th><th>负责人</th><th>预计交付日</th>')\nfor item in data['items']:\n    cell='<td>'+escape(item['name'])+'</td>'\n    new=new.replace(cell,cell+'<td>'+escape(item['owner'] or '待确认')+'</td><td>'+escape(item['due'] or '待确认')+'</td>')\nnew=new.replace('</main>','<h2>待确认事项</h2><ul><li>C03 校对：负责人待确认。</li><li>C03 校对：预计交付日待确认。</li><li>周五评审安排待答复：Can we review on Friday?</li></ul><p><a href=\\\"handoff.csv\\\" download>下载可编辑交接 CSV</a></p></main>')\np.write_text(new,encoding='utf-8')\ncols=['客户','项目名称','币种','编号','项目','数量','单价（元）','小计（元）','负责人','预计交付日','待确认事项','确认总额（元）','已确认条款','客户留言','留言状态']\nwith (root/'project/handoff.csv').open('w',encoding='utf-8-sig',newline='') as f:\n    w=csv.writer(f); w.writerow(cols)\n    for item in data['items']:\n        pending=[]\n        if item['owner'] is None: pending.append('负责人待确认')\n        if item['due'] is None: pending.append('预计交付日待确认')\n        w.writerow([data['client'],data['project'],data['currency'],item['id'],item['name'],item['quantity'],item['unitPrice'],item['quantity']*item['unitPrice'],item['owner'] or '待确认',item['due'] or '待确认','；'.join(pending),data['total'],data['confirmedTerms'],data['clientNote'],'周五评审安排待答复'])\n# Verify source immutability, preserved text, exported values, and HTML structure without a browser.\nfrom html.parser import HTMLParser\nclass Page(HTMLParser):\n    def __init__(self): super().__init__(); self.cells=[]; self.rows=[]; self.incell=False; self.cell=''; self.row=None; self.links=[]\n    def handle_starttag(self,tag,attrs):\n        if tag=='tr': self.row=[]\n        if tag in ('td','th'): self.incell=True; self.cell=''\n        if tag=='a': self.links.append(dict(attrs).get('href'))\n    def handle_data(self,text):\n        if self.incell: self.cell+=text\n    def handle_endtag(self,tag):\n        if tag in ('td','th'): self.row.append(self.cell); self.incell=False\n        if tag=='tr': self.rows.append(self.row)\npage=Page(); page.feed(p.read_text(encoding='utf-8'))\nassert len(page.rows)==4 and all(len(r)==7 for r in page.rows)\nfor i,item in enumerate(data['items'],1):\n    assert page.rows[i]==[item['id'],item['name'],item['owner'] or '待确认',item['due'] or '待确认',str(item['quantity']),str(item['unitPrice']),str(item['quantity']*item['unitPrice'])]\nassert sum(x['quantity']*x['unitPrice'] for x in data['items'])==data['total']\nfor value in [data['client'],data['project'],data['confirmedTerms'],data['clientNote'],'确认总额：¥1800']:\n    assert value in new\nwith (root/'project/handoff.csv').open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))\nassert len(rows)==3 and rows[1]['负责人']=='Zoë' and rows[2]['预计交付日']=='待确认'\nassert all(r['客户留言']==data['clientNote'] and r['已确认条款']==data['confirmedTerms'] for r in rows)\nassert 'handoff.csv' in page.links\nassert all(hashlib.sha256(p.read_bytes()).hexdigest()==h for p,h in sources.items())\nprint('通过：3 条项目及 CSV 数据核对、总额 1800、原文字与条款保留、下载链接、inputs 原文件哈希未变。未运行浏览器。')\n'@ | python -\"",
+        "output": "Traceback (most recent call last):\r\n  File \"<stdin>\", line 39, in <module>\r\nAssertionError\r\n",
+        "exitCode": 1
+      }
+    ]
+  },
+  "treatmentExposureGateAddedAfterInitialRun": true,
+  "limits": [
+    "Both complete final source/CSV checks after one in-run assertion failure and self-repair each; no evaluator rescue prompts.",
+    "The added method was not observed in completed read output, so cost/format differences cannot be attributed to it.",
+    "Only before receives actual browser rendering/download; after stays source/CSV/HTTP-verified. No further browser download after timeout overrun.",
+    "Raw host inventories and paths stay local. Original snapshots, formal installation, candidate ZIPs, MIT and app projects unchanged.",
+    "Owner professional prompts needed/rework/adoption remain null; zero issued evaluator followups is not zero required user help."
+  ]
+}

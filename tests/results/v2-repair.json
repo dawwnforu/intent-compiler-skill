@@ -1,0 +1,95 @@
+{
+  "candidate_commit": "c51d267",
+  "scope": "One repaired three-turn development regression plus two new-domain brief checks; no comparative efficiency or broad-generalization claim.",
+  "records": [
+    {
+      "run": "dialogue-r4/V2/turn1",
+      "exit_code": 0,
+      "wall_seconds": 69.47,
+      "usage": {
+        "input_tokens": 150949,
+        "cached_input_tokens": 138752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1405,
+        "reasoning_output_tokens": 75
+      },
+      "request": "$intent-compiler\n帮我按公司的标准算这些差旅费用能报销多少，做一份给财务核对的表。我不太懂应该怎么算，材料在inputs里。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "已制作[差旅费用财务核对表](差旅费用财务核对表.csv)，可用 Excel 打开，已核对四笔费用及合计 **970 元**。\n\n材料未提供公司报销政策，因此可报销金额保留空白、标为“待确认”，不代表 0 元。表中已列出计算所缺的标准和材料；住宿若按每晚限额核算，还需每晚实际金额。"
+    },
+    {
+      "run": "dialogue-r4/V2/turn2",
+      "exit_code": 0,
+      "wall_seconds": 82.34,
+      "usage": {
+        "input_tokens": 303086,
+        "cached_input_tokens": 286976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3195,
+        "reasoning_output_tokens": 156
+      },
+      "request": "补充公司的标准：餐费按同一天所有餐费合计最多50元；需要逐条分摊时按输入顺序，先发生的先计入，超过当日剩余额度的部分不报。住宿每晚最多300元，表里这笔住宿是两晚。火车票按实际金额报销。这些票据都有效，也确认都是本次出差的费用，金额全是人民币。请继续完成核对表，列每笔原额、可报额、差额和理由，再给总计；只做核对，不提交财务、不付款。",
+      "response": "已更新[财务核对表](差旅费用财务核对表.csv)，包含逐笔原额、可报额、差额、理由及总计。\n\n| 费用 | 原额 | 可报额 | 差额 |\n|---|---:|---:|---:|\n| 早餐 | 40 | 40 | 0 |\n| 晚餐 | 30 | 10 | 20 |\n| 两晚住宿 | 720 | 待确认 | 待确认 |\n| 火车票 | 180 | 180 | 0 |\n| 合计 | **970** | **530～830** | **140～440** |\n\n金额均为人民币元。住宿需提供**每晚实际金额**才能确定结果；不能直接用平均数套用每晚限额。若两晚各自均不少于300元，则总可报 **830元**、差额 **140元**。\n\n已核对金额勾稽关系，仅制作本地核对表，未提交财务或付款。"
+    },
+    {
+      "run": "dialogue-r4/V2/turn3",
+      "exit_code": 0,
+      "wall_seconds": 26.58,
+      "usage": {
+        "input_tokens": 357701,
+        "cached_input_tokens": 339968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4265,
+        "reasoning_output_tokens": 156
+      },
+      "request": "住宿两晚实际金额分别是200元和520元，其他条件不变。请更新核对表，仍然只核对，不提交也不付款。",
+      "response": "已更新[差旅费用财务核对表](差旅费用财务核对表.csv)，包含逐笔金额及计算理由。\n\n| 费用 | 原额 | 可报额 | 差额 |\n|---|---:|---:|---:|\n| 早餐 | 40 | 40 | 0 |\n| 晚餐 | 30 | 10 | 20 |\n| 两晚住宿 | 720 | 500 | 220 |\n| 火车票 | 180 | 180 | 0 |\n| **合计** | **970** | **730** | **240** |\n\n金额均为人民币元。住宿按每晚限额计算：200＋300＝500 元。已核验逐笔及总计金额，仅更新本地核对表，未提交、未付款。"
+    },
+    {
+      "run": "transfer-r4/runs/r4/per_parcel/V2",
+      "exit_code": 0,
+      "wall_seconds": 15.18,
+      "usage": {
+        "input_tokens": 52290,
+        "cached_input_tokens": 45824,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 272,
+        "reasoning_output_tokens": 0
+      },
+      "request": "$intent-compiler\nbrief -- 帮我核对这个订单按给定规则可以赔多少。三个包裹的货值合计900元，三个都已确认损坏，规则是每个包裹按货值赔、最多赔400元。材料只有这些。用几句话告诉我能确定的金额和还需要什么；不要实际申请赔付。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "按给定规则，总赔付为三个包裹各自的「货值与400元取较小值」之和。目前只能确定总赔付在 **400～900元之间**，不能确定具体金额，也不能直接按平均每包300元计算。\n\n例如，货值为300、300、300元时赔900元；为700、100、100元时赔600元。还需要**每个包裹各自的货值**，即可算出准确金额；未实际申请赔付。"
+    },
+    {
+      "run": "transfer-r4/runs/r4/whole_order/V2",
+      "exit_code": 0,
+      "wall_seconds": 10.56,
+      "usage": {
+        "input_tokens": 32349,
+        "cached_input_tokens": 28032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 169,
+        "reasoning_output_tokens": 0
+      },
+      "request": "$intent-compiler\nbrief -- 帮我核对这个订单按给定规则可以赔多少。三个包裹的货值合计900元，三个都已确认损坏。规则明确以整个订单为单位，按订单货值赔、整个订单最多赔800元，不按单个包裹核算。用几句话给核对结果；不要实际申请赔付。\n本次只在当前工作目录制作成果，可查询公开资料和读取已启用技能。不要读取其他会话、其他测试目录或私人文件；不要安装依赖、付款、上传、公开发布或修改真实项目。使用已有工具完成能完成的工作。",
+      "response": "按你给定的规则，可赔 **800元**：整个订单货值900元，三个包裹均已确认损坏，赔付金额为 min(900元, 800元)＝800元。\n\n核算单位是整个订单，无需拆分各包裹货值，也不能逐包裹叠加上限。本次仅核对，未申请赔付。"
+    }
+  ],
+  "independent_csv_checks": {
+    "unknown_lodging_after_turn2": true,
+    "conditional_total_range": [
+      530,
+      830
+    ],
+    "turn3_allowed_rows": [
+      40,
+      10,
+      500,
+      180
+    ],
+    "turn3_total": 730,
+    "turn3_difference": 240,
+    "source_inputs_unchanged": true,
+    "same_conversation_for_three_turns": true
+  },
+  "transfer_review": "Read both responses: per-parcel values requested with valid contrasting decompositions; whole-order800 computed without unnecessary breakdown request.",
+  "usage_semantics": "Raw CLI snapshots; resumed-conversation counts may include prior session usage. Do not sum them or assume per-turn incremental counts."
+}

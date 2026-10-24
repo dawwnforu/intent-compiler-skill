@@ -1,0 +1,164 @@
+{
+  "study": "R74: professional-task pilot metrics and user-authored project replay",
+  "date": "2026-10-20",
+  "base_commit": "17dc2e91f49927a5a052cf450d4c7073f8f9d283",
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "replicates": 1,
+  "scope": "Private archive local demo; exposed evaluator correction, not historical causal reconstruction.",
+  "arms": {
+    "A": {
+      "exit_code": 0,
+      "seconds": 204.47,
+      "usage": {
+        "input_tokens": 107331,
+        "cached_input_tokens": 80768,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10275,
+        "reasoning_output_tokens": 74
+      },
+      "syntax_resources_http": "passed; actual browser not verified",
+      "logic": {
+        "arm": "A",
+        "passed": [
+          "three record types saved",
+          "original records retained",
+          "edit preserves other records",
+          "tag history deduplicated",
+          "tag+fuzzy lookup",
+          "dated event saved",
+          "ICS alarm data generated",
+          "state serialized to storage"
+        ],
+        "limits": [
+          "Simulated DOM and direct handler calls; no actual browser clicks, rendering, download or calendar import.",
+          "Matching and serialization checked; browser storage durability and storage failure recovery unverified."
+        ]
+      },
+      "text_question_mark_flags": [
+        {
+          "file": "README.md",
+          "questionMarkRuns": 0
+        }
+      ],
+      "nonzero_tool_commands": "One empty-directory rg no-match exit1; not a runtime delivery failure.",
+      "browser_or_safety_disabling_command_observed": false,
+      "runtime_files_sha256": {
+        "app.js": "8bb2fb76552a8a06023b854ad7c204d2ae3bdf9ba2ac88ec0df8a97b3a24c401",
+        "index.html": "c880b229ff0ad8b0b7e280249b36a5b227c888014ca76a61ad28a5ee4a0a6bba",
+        "style.css": "8ff2477e7f8e6a9d7d74a4e69cc111cfca4f981f0251203867a48a7df2e66938"
+      }
+    },
+    "V2": {
+      "exit_code": 0,
+      "seconds": 315.08,
+      "usage": {
+        "input_tokens": 196811,
+        "cached_input_tokens": 162048,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15543,
+        "reasoning_output_tokens": 712
+      },
+      "syntax_resources_http": "passed; actual browser not verified",
+      "logic": {
+        "arm": "V2",
+        "passed": [
+          "three record types saved",
+          "original records retained",
+          "edit preserves other records",
+          "tag history deduplicated",
+          "tag+fuzzy lookup",
+          "dated event saved",
+          "ICS alarm data generated",
+          "state serialized to storage"
+        ],
+        "additionalObserved": [
+          "registration status retained",
+          "draft serialized without adding a completed record",
+          "current archive JSON export contains all records",
+          "tag rename updates related records"
+        ],
+        "limits": [
+          "Simulated DOM/direct event handlers; no actual browser clicks, download, rendering, calendar import or browser reload recovery.",
+          "Archive import/restore not provided or verified; JSON export is not proof of recoverability.",
+          "Additional features are not a user preference or causal general superiority result."
+        ]
+      },
+      "text_question_mark_flags": [
+        {
+          "file": "README.md",
+          "questionMarkRuns": 0
+        }
+      ],
+      "nonzero_tool_commands": "One empty-directory rg no-match exit1; not a runtime delivery failure.",
+      "browser_or_safety_disabling_command_observed": false,
+      "runtime_files_sha256": {
+        "app.js": "fa28818472403f8b845d61bf15ea435f4bb82e575e8bd1cd8f9126909f0f0464",
+        "core.js": "0f896fdb2c4ceaf370d969f252d01390eda382e9d0ac072ad56d122d403bc5c4",
+        "index.html": "686a6f95ea67b8e2d4daee6ffa8ae189f31325958dfdb77bc52d291120655ff5",
+        "style.css": "024f1c3901348017f1abe2804f62877f93810f3896f1694bc78934cdde20f07a"
+      }
+    }
+  },
+  "professional_rescue_prompts_supplied_per_arm": 0,
+  "professional_rescue_needed": "unmeasured",
+  "user_rework_needed": "unmeasured",
+  "external_participants": 0,
+  "adopted": 0,
+  "reuse": 0,
+  "orders": 0,
+  "cash_cost": null,
+  "cash_cost_basis": "No invoice inspected; token counters are not cash.",
+  "original_reference": "User confirmed the local original demo. HTTP returned200; browser interaction unverified.",
+  "initial_replay": {
+    "model_calls": 2,
+    "variant": "no Skill, two resumed turns",
+    "status": "Artifacts and logs retained; browser self-test rejected because it used --no-sandbox; appended handoff text corrupted.",
+    "planned_initial_v2": "not run",
+    "last_reported_usage": "Retained locally; resumed counters not summed."
+  },
+  "controlled_replay": {
+    "model_calls": 2,
+    "user_inputs": "Two historical user-only requirement batches compacted into one identical request.",
+    "boundary": "No browser control, safety disabling, network, installations or persistent service; fresh sessions and directories.",
+    "amendment": "Frozen after initial boundary deviation; both original and amended protocols retained."
+  },
+  "limits": [
+    "Static, loopback HTTP and simulated DOM logic checks are separate from actual browser acceptance.",
+    "Historical assistant plans/code/screenshots were withheld; original exact model/Skill version and full tool parity unknown.",
+    "Later user-requested features are supplied requirements, not autonomous discoveries.",
+    "No rescue prompts supplied does not establish fewer prompts needed; failure is not silently repaired.",
+    "No overall quality score, stable savings, user preference or market conclusion."
+  ],
+  "observed_difference": {
+    "shared": "Both deliver record creation/editing, tags/search, overview and calendar/ICS logic.",
+    "candidate_additions_checked": [
+      "Separate registration-status field retains selected status.",
+      "Unsubmitted draft serialized separately.",
+      "Archive JSON export contains current records.",
+      "Rename updates associated record tags."
+    ],
+    "baseline": "No separate event-registration status, unfinished-draft persistence or archive-export entry in this generation.",
+    "candidate_limit": "Archive import/restore absent. Draft serialization is checked; real browser recovery is not.",
+    "cost": "Candidate315.08s/15543 output tokens vs raw204.47s/10275. One generation each, not stable cost or preference evidence."
+  },
+  "environment": {
+    "codex_cli": "0.163.0-alpha.10.2",
+    "enabled_skills": {
+      "A": 0,
+      "V2": 1
+    },
+    "discovered_skill_entries": 25,
+    "child_sandbox": "workspace-write",
+    "network": false,
+    "web_search": "disabled",
+    "formal_install_changed": false
+  },
+  "verification": {
+    "actual_browser": "unverified: unrelated private window rejected; fresh window URL confidence stop",
+    "preview_http_resources": 8,
+    "preview_http_exact_bytes": true,
+    "no_experiment_browser_processes_remaining": "Approved filtered command-line check returned none",
+    "static_and_logic": "independent author checks, not independent human acceptance"
+  }
+}

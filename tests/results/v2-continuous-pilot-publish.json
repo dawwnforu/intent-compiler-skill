@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-19T09:54:20Z",
+  "testedCommit": "e3aa1f90b965f7a70387ac06bb9b43dbbfcdd143",
+  "push": "Succeeded on existing feat/intent-compiler-v2 branch; PR2 remains open/draft and unmerged",
+  "githubActions": {
+    "runId": 39227333050,
+    "name": "Repository integrity",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/dawwnforu/intent-compiler-skill/actions/runs/39227333050"
+  },
+  "candidateAcquisition": {
+    "url": "https://github.com/dawwnforu/intent-compiler-skill/blob/e3aa1f90b965f7a70387ac06bb9b43dbbfcdd143/pilot/intent-compiler-local-pilot.zip",
+    "actualBrowserFilePageOpened": true,
+    "sizeShown": "53 KB",
+    "downloadRawButtonObserved": true,
+    "downloadAttempted": true,
+    "receivedBytesVerified": false,
+    "requestedDownloadEventTimeoutSeconds": 20,
+    "actualToolCallSeconds": 2747.9678,
+    "returnedError": "Timed out after 20000ms waiting for download.",
+    "classification": "Browser-tool operation failed/unresponsive. No conclusion about GitHub availability or successful receipt; no retry, model resampling or simulated success. Local final ZIP remains verified.",
+    "timeAccounting": "About46 minutes of abnormal blocking is excluded from effective development and per-user support; no padding to meet elapsed-time target."
+  },
+  "pullRequestDescription": {
+    "updated": false,
+    "error": "GitHub integration403 Resource not accessible by integration",
+    "preparedLocalFile": "work/pr2-body-r71.md",
+    "note": "Code push succeeded; connector cannot edit metadata. No credential extraction, account/provider change, permission expansion or browser workaround. Owner can review/paste the prepared description."
+  },
+  "scope": "Post-push observations, separate from immutable behavior archive; no new model calls, core, license, installed-version or product-publication changes."
+}
