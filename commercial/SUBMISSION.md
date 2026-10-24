@@ -159,7 +159,7 @@ For freelancers and small teams who already use Codex: turn scattered client not
 
 | 门槛 | 当前状态 | 下一步与证据 |
 | --- | --- | --- |
-| 来源与包 | 当前af3d2c8包已推送，程序化获取、字节/来源、解压和安装后工具检查通过；本包浏览器下载/发现/模型业务未重验 | 使用下方固定提交入口；旧包的浏览器和发现证据不转移，外部收件与采用另记 |
+| 来源与包 | 当前af3d2c8包已推送；R82程序化获取、解压与安装后工具检查，R96本机浏览器实际下载及同一字节/来源检查分别通过 | 使用下方固定提交入口；未新增宿主发现或模型业务，R92–R94渠道证据单列；外部试用者收件与采用另记 |
 | MIT与渠道许可 | 标准MIT保留；公开条款仍有复制/保存限制，批准不自动消除该问题 | 等平台澄清原MIT材料权利、客户用途与通知；不更换MIT、不自行增加限制或接受新协议 |
 | 连接交付 | 核心/引用及本地产物真实运行；首交失败、专业修复后通过；R94同会话中断/继续通过 | R92与R93/R94成本各自保留；下一步让真实用户做真实任务，不把已有回归算未见或继续堆合成题 |
 | 商品扫描与审核 | live/approved；公开页显示扫描通过、1条警告，明细未取得 | 保留批准和警告事实，不称零问题或完整安全审计，不重复提交 |
@@ -172,7 +172,7 @@ For freelancers and small teams who already use Codex: turn scattered client not
 
 [领取当前候选ZIP：af3d2c8（固定文件页）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) · [SHA-256文件](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip.sha256)
 
-来源/运行文件提交`af3d2c80e37e77b03d661fd803422f949d04ee89`，承载提交`d4648d8375456fe7a11c29d9f498a98573c03040`。37,504字节、25成员，SHA-256：`4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5`。新包修复可选HTML检查器的UNC/根路径/盘符误探测，并同步该工具限制说明；核心、路由、标准MIT与显示字段不变。独立重建字节、新项目全部解压成员及安装后检查器五项测试通过；初始验收器把LF/CRLF许可证比较成不同的失败已保留，修正的是验收器，未改许可证。[R82证据](../tests/v2-resource-paths.md)。本包尚无新的宿主发现、模型业务、浏览器下载或外部收件验证，不能沿用旧包的分项结论。
+来源/运行文件提交`af3d2c80e37e77b03d661fd803422f949d04ee89`，承载提交`d4648d8375456fe7a11c29d9f498a98573c03040`。37,504字节、25成员，SHA-256：`4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5`。新包修复可选HTML检查器的UNC/根路径/盘符误探测，并同步该工具限制说明；核心、路由、标准MIT与显示字段不变。独立重建字节、新项目全部解压成员及安装后检查器五项测试通过；初始验收器把LF/CRLF许可证比较成不同的失败已保留，修正的是验收器，未改许可证。[R82证据及R96领取补验](../tests/v2-resource-paths.md)：固定文件页点击Download raw file，在8秒事件/路径限时内实际下载；所得文件的字节、SHA-256、25成员及24项声明哈希一致。R96另一次过严许可证字段比较的核验器失败也保留，只修验收器、不改包、不重下。未新增宿主发现或模型业务；外部试用者收件及采用仍未知，不借用旧包或本机下载作结论。
 
 ### 旧2881c73候选保持冻结
 

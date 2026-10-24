@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Verify the current af3d2c8 GitHub fallback with one bounded actual browser download and independent same-file checks, reusing prior programmatic evidence. Preserve/correct a verifier-only license-string assumption; do not change the package or infer external-user receipt, compatibility or business gains. No new model call.
+
 - Verify cefba82's actual new-method loading and Chinese files in one exposed-case local regression, with independent ZIP/action/browser checks and full cost retained. No additional encoding cue or repair is administered; local/channel differences prevent a causal or reduced-prompt claim. Keep the approved upload preview unsubmitted and fix a stale commercial "unpublished" status; no core, ZIP, license, price or real-user record change.
 
 - Close one bounded Agensi live-session interruption/continuation gap after retaining and correcting a test-client disk-resume error. Keep original inputs, interrupted ZIP/table mismatch, final independent extraction/privacy/browser results, in-run errors and all three calls/costs. Verify exact MIT/SVG/script content access without script execution or Skill export. Refresh current platform terms/mail facts and existing pilot channel instructions. After separate approval, upload the exact cefba82 ZIP and prepare an update preview; clear the platform's invented demo, stop before review, and verify the published af3d2c8 package remains live/Free with no pending update. Preview refresh persistence is unverified. No further core/routing rule or generalized effectiveness claim.
