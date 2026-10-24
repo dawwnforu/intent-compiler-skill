@@ -6,6 +6,7 @@
 
 ## 给招募人的一份交接
 
+- 渠道可选[现有Agensi免费商品](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)或下方固定GitHub包。Agensi需本人正常登录并授权连接；若已有其他Agent连接，切换由本人决定。不要替试用者注册或接受协议。选定Skill后，让参与者自己说真实任务，不给“完美专业提示词”。在现有`observed_actions`注明渠道，安装/连接帮助单独计时；Agensi第一使用通知只说明使用发生，不等于同意参与研究、完成、采用或付费。
 - 发送下方现成文案，先找已有可正常使用的 Codex、确实有专业交付任务但不熟悉相应方法的人。优先沿用客户资料整理、印刷文件、字体接入或网站交付等已有领域；不要求摄影从业，也不故意改用弱模型制造差异。
 - 当前招募领取用[固定af3d2c8候选包](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，同时附[当前开始说明](../commercial/SUBMISSION.md#非技术用户怎样开始)。旧239553d包及其中说明保持冻结，只用于历史合成样例，不用其中的Skill覆盖本候选。主持人记录用本页和[当前记录表](pilot-log.csv)，不让参与者填 CSV。
 - 先收匿名代号、Codex版本/是否已能运行普通任务、可观察时间、是否同意记录操作/耗时。另行同意前不取得完整对话、客户资料或产物；联系及录屏授权不能相互推定。

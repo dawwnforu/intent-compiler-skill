@@ -8,7 +8,7 @@
 
 [Agensi 免费候选已上架](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)（2026-10-24）：官方页面、匿名HTTP访问和Agent搜索均已核实。独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；完整连接交付和渠道许可澄清仍待验证。当前状态与下一步见[交付记录](commercial/SUBMISSION.md)。
 
-**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（af3d2c8，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。自备可用Codex、模型与有权处理的资料，记录交付合格、专业救场、质量返工与采用，正常业务补充另记。[R92实际连接验收](tests/v2-agensi-delivery.md)已加载本商品核心与引用，但首交中文损坏，一次开发者编码修复后通过独立文件和浏览器检查；继续修改和无干预成功尚未验证。新编码核验方法已在本分支准备，未进入冻结的已上架ZIP。外部参与、采用、复用和订单仍为0。[招募与观察](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)与[条件收入模型](commercial/README.md)保留实际限制；稳定2.0尚未发布，不承诺减少提示或返工。
+**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（af3d2c8，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。自备可用Codex、模型与有权处理的资料，记录交付合格、专业救场、质量返工与采用，正常业务补充另记。[R92实际连接验收](tests/v2-agensi-delivery.md)已加载本商品核心与引用，但首交中文损坏，一次开发者编码修复后通过独立文件和浏览器检查；同一运行会话内的中断/继续已通过一次[限定检查](tests/v2-agensi-continuation.md)；进程重启和无干预首交仍未验证。新编码核验方法已在本分支准备，未进入冻结的已上架ZIP。外部参与、采用、复用和订单仍为0。[招募与观察](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)与[条件收入模型](commercial/README.md)保留实际限制；稳定2.0尚未发布，不承诺减少提示或返工。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 
