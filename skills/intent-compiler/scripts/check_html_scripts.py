@@ -5,7 +5,7 @@ Not a browser, JavaScript evaluator or complete HTML validator.
 import argparse
 import json
 from html.parser import HTMLParser
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from urllib.parse import unquote, urlsplit
 
 
@@ -46,9 +46,12 @@ def check(path):
         errors.append({"line": parser.open_script, "error": "Script element has no closing </script>; later page markup may be swallowed."})
     for line, source in parser.sources:
         url = urlsplit(source)
-        if parser.has_base or url.scheme or url.netloc or url.path.startswith("/"):
-            skipped.append({"line": line, "src": source, "reason": "Base URL, remote or server-root resource requires the actual serving environment."})
-        elif not url.path or not (path.parent / unquote(url.path)).is_file():
+        resource = unquote(url.path)
+        # Decoding can turn an apparent relative URL into a Windows drive or UNC path.
+        if (parser.has_base or url.scheme or url.netloc
+                or resource.startswith(("/", "\\")) or PureWindowsPath(resource).drive):
+            skipped.append({"line": line, "src": source, "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."})
+        elif not resource or not (path.parent / resource).is_file():
             errors.append({"line": line, "src": source, "error": "Local script file is missing or source is empty."})
     return {"file": str(path), "passed": not errors, "errors": errors,
             "skipped": skipped, "limits": "Script markup and relative file existence only. JavaScript startup, browser rendering and interactions are NOT tested."}

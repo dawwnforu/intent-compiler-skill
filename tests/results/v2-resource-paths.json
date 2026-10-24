@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-24",
+  "baseCommit": "8f3c454b2550905ee9b2afcd9776ae1637f02164",
+  "modelCalls": 0,
+  "classification": "Developer tool regression; intercepted filesystem operations, not an actual network test or independent human trial",
+  "criteria": [
+    "Root/drive/UNC resources are explicitly skipped before any filesystem probe",
+    "Existing encoded relative resources pass; missing ones still fail",
+    "Checker CLI returns zero for the known local file and one for a missing file",
+    "No fixture bytes are changed by the checker"
+  ],
+  "arms": {
+    "before": {
+      "checkerSnapshotSha256": "bca496718a942021e025f41c7e74fad8e5c0b2b575b0ccc5d01f544f5b69fcc3",
+      "cases": [
+        {
+          "source": "//example.invalid/app.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "//example.invalid/app.js",
+              "reason": "Base URL, remote or server-root resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "\\\\example.invalid\\app.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "\\\\example.invalid\\app.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "source": "\\app.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "\\app.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "source": "%2Fapp.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "%2Fapp.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "source": "%5C%5Cexample.invalid%5Capp.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "%5C%5Cexample.invalid%5Capp.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "source": "C%3A%5Capp.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "C%3A%5Capp.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "source": "C%3Aapp.js",
+          "interceptedProbeCount": 1,
+          "errors": [
+            {
+              "line": 1,
+              "src": "C%3Aapp.js",
+              "error": "Local script file is missing or source is empty."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "cli": [
+        {
+          "source": "%E5%BA%94%E7%94%A8.js?v=2#x",
+          "exitCode": 0,
+          "passed": true,
+          "inputUnchanged": true
+        },
+        {
+          "source": "missing.js",
+          "exitCode": 1,
+          "passed": false,
+          "inputUnchanged": true
+        }
+      ],
+      "suiteExitCode": 1
+    },
+    "after": {
+      "checkerSnapshotSha256": "7fba2cc6b28828be26198c233f2c1d3af907f9fd0b77de87d8dd73ecc43b652d",
+      "cases": [
+        {
+          "source": "//example.invalid/app.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "//example.invalid/app.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "\\\\example.invalid\\app.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "\\\\example.invalid\\app.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "\\app.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "\\app.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "%2Fapp.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "%2Fapp.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "%5C%5Cexample.invalid%5Capp.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "%5C%5Cexample.invalid%5Capp.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "C%3A%5Capp.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "C%3A%5Capp.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        },
+        {
+          "source": "C%3Aapp.js",
+          "interceptedProbeCount": 0,
+          "errors": [],
+          "skipped": [
+            {
+              "line": 1,
+              "src": "C%3Aapp.js",
+              "reason": "Base URL, remote or rooted/drive resource requires the actual serving environment."
+            }
+          ]
+        }
+      ],
+      "cli": [
+        {
+          "source": "%E5%BA%94%E7%94%A8.js?v=2#x",
+          "exitCode": 0,
+          "passed": true,
+          "inputUnchanged": true
+        },
+        {
+          "source": "missing.js",
+          "exitCode": 1,
+          "passed": false,
+          "inputUnchanged": true
+        }
+      ],
+      "suiteExitCode": 0
+    }
+  }
+}

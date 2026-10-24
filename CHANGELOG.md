@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Fix the optional HTML checker's decoded-resource boundary: skip UNC, rooted and drive-qualified paths before filesystem probes. Preserve a six-subcase failing regression, five passing test methods, valid/missing relative-file CLI checks and unchanged inputs. No model-effect claim or core-rule expansion. Refresh the submission plan against current public terms and actual mail status; retain the MIT/connected-delivery gates and frozen packages.
+
 - Add a conservative actual-tool-output method-exposure check and seven focused tests. Preserve two same-model client artifacts, unread proposed method, in-run failures, asymmetric browser verification and severe browser timeout; keep runtime and packages unchanged rather than attributing ordinary success/cost differences to an unobserved intervention.
 
 - Distinguish the candidate with the existing host display-name field and bilingual explicit-project startup instructions. Inherited discovery exposes two enabled same-name versions; one bounded model activation reads the intended project files. Preserve its extra Git-HEAD failure and old packages; no core/routing change or business-quality gain is claimed.

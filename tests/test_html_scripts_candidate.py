@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 SCRIPT = Path(sys.argv.pop(1)) if len(sys.argv) > 1 else Path(__file__).parents[1] / "skills/intent-compiler/scripts/check_html_scripts.py"
 spec = importlib.util.spec_from_file_location("html_scripts", SCRIPT)
@@ -55,6 +56,22 @@ class CheckScripts(unittest.TestCase):
             result = helper.check(page)
             self.assertTrue(result["passed"])
             self.assertEqual(len(result["skipped"]), 1)
+
+    def test_rooted_sources_never_probe_filesystem(self):
+        sources = [
+            '//example.invalid/app.js', r'\\example.invalid\app.js', r'\app.js',
+            '%2Fapp.js', '%5C%5Cexample.invalid%5Capp.js',
+            'C%3A%5Capp.js', 'C%3Aapp.js',
+        ]
+        with tempfile.TemporaryDirectory(dir=SCRIPT.parent) as directory:
+            page = Path(directory) / 'index.html'
+            for source in sources:
+                with self.subTest(source=source):
+                    page.write_text(f'<script src="{source}"></script>', encoding='utf-8')
+                    with patch.object(Path, 'is_file', side_effect=AssertionError('Unexpected filesystem probe')):
+                        result = helper.check(page)
+                    self.assertTrue(result['passed'])
+                    self.assertEqual(len(result['skipped']), 1)
 
 
 if __name__ == "__main__":
