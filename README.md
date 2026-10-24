@@ -6,11 +6,11 @@
 
 [English](README_EN.md) · [MIT License](LICENSE)
 
-[Agensi 免费候选已上架](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)（2026-10-24）：官方页面、匿名HTTP访问和Agent搜索均已核实。独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；完整连接交付和渠道许可澄清仍待验证。当前状态与下一步见[交付记录](commercial/SUBMISSION.md)。
+[Agensi 免费候选已上架](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)（2026-10-24）：官方页面、匿名HTTP访问和Agent搜索均已核实。独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；完整连接交付和渠道许可澄清仍待验证。当前状态与下一步见[交付记录](commercial/SUBMISSION.md)。
 
 **用公开素材试一个专业小任务：** 自备可用Codex和模型，用自己的话描述一个想做的小目标，不需要公司或客户保密资料。例如先将建模想法整理成可行动的专业说明，再按本人意愿与工具继续制作。见[安装后具体做什么](pilot/feedback.md#安装后具体做什么)，记录交付合格、专业补充、质量返工与采用，正常用途／偏好补充另记。
 
-[Agensi免费入口](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)当前为平台1.1／cefba82，包含编码核验方法；[固定GitHub备用ZIP（af3d2c8）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)保持原包，不含该方法。按[开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)记录实际来源。[R92旧包连接验收](tests/v2-agensi-delivery.md)首交中文损坏，开发者修复后独立检查通过；[同会话继续](tests/v2-agensi-continuation.md)通过有限检查，新包渠道业务尚未运行。外部参与、采用、复用和订单仍为0。[兼容矩阵](pilot/compatibility.md)与[条件收入模型](commercial/README.md)保留限制；稳定2.0尚未发布，不承诺减少提示或返工。
+[Agensi免费入口](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)当前为平台1.1／cefba82，包含编码核验方法；[固定GitHub备用ZIP（af3d2c8）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)保持原包，不含该方法。按[开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)记录实际来源。[R92旧包连接验收](tests/v2-agensi-delivery.md)首交中文损坏，开发者修复后独立检查通过；[同会话继续](tests/v2-agensi-continuation.md)通过有限检查，新包渠道业务尚未运行。外部参与、采用、复用和订单仍为0。[兼容矩阵](pilot/compatibility.md)与[条件收入模型](commercial/README.md)保留限制；稳定2.0尚未发布，不承诺减少提示或返工。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 

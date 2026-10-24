@@ -2,11 +2,11 @@
 
 当前外部参与、首次完成、实际采用、次日复用、第7天复用、订单和退款记录均为0；次日/第7天观察尚未发生。三位是探索性招募目标，不是已有名单，不估计市场转化。历史功能偏好、作者自用和模型测试分别保留，均不算这批外部使用证据。
 
-2026-10-24：[Agensi免费商品页](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)已更新为平台1.1／来源cefba82，标准MIT不变；新包渠道业务尚未运行。[旧包渠道实测](../tests/v2-agensi-delivery.md)首交乱码，一次开发者修复后才通过。首批仍是有限范围、允许正常帮助的观察，不承诺独立成功。生成后先打开确认中文与附件名正常；乱码就请邀请人协助并记录时间，不要求参与者研究编码。GitHub备用af3d2c8包保持冻结、不含新编码方法，不能与新版混记。市场上架、作者自测和空记录表都不是外部反馈。
+2026-10-24：[Agensi免费商品页](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)已更新为平台1.1／来源cefba82，标准MIT不变；新包渠道业务尚未运行。[旧包渠道实测](../tests/v2-agensi-delivery.md)首交乱码，一次开发者修复后才通过。首批仍是有限范围、允许正常帮助的观察，不承诺独立成功。生成后先打开确认中文与附件名正常；乱码就请邀请人协助并记录时间，不要求参与者研究编码。GitHub备用af3d2c8包保持冻结、不含新编码方法，不能与新版混记。市场上架、作者自测和空记录表都不是外部反馈。
 
 ## 给招募人的一份交接
 
-- 渠道可选[现有Agensi免费商品](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)或下方固定GitHub包。Agensi需本人正常登录并授权连接；若已有其他Agent连接，切换由本人决定。不要替试用者注册或接受协议。选定Skill后，让参与者自己说真实任务，不给“完美专业提示词”。在现有`observed_actions`注明渠道，安装/连接帮助单独计时；Agensi第一使用通知只说明使用发生，不等于同意参与研究、完成、采用或付费。
+- 渠道可选[现有Agensi免费商品](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)或下方固定GitHub包。Agensi需本人正常登录并授权连接；若已有其他Agent连接，切换由本人决定。不要替试用者注册或接受协议。选定Skill后，让参与者自己说真实任务，不给“完美专业提示词”。在现有`observed_actions`注明渠道，安装/连接帮助单独计时；Agensi第一使用通知只说明使用发生，不等于同意参与研究、完成、采用或付费。
 - 发送下方现成文案，先找已有可正常使用的Codex、有一个真实小目标但不熟悉相应专业方法的人。优先用已有建模／字体／网站领域的公开或自制素材；不要求职业身份、客户资料、公司文件或额外爬取权限，不故意改用弱模型制造差异。Skill为现有Agent提供工作方法，不是独立爬虫；输入仍按所选Agent／模型服务的规则处理，本地安装不等于本地模型或数据不离机。
 - GitHub备用入口用[固定af3d2c8候选包](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，同时附[当前开始说明](../commercial/SUBMISSION.md#非技术用户怎样开始)。旧239553d包及其中说明保持冻结，只用于历史合成样例，不用其中的Skill覆盖本候选。主持人记录用本页和[当前记录表](pilot-log.csv)，不让参与者填CSV。
 - 先收匿名代号、Codex版本/是否已能运行普通任务、可观察时间、是否同意记录操作/耗时。另行同意前不取得完整对话、客户资料或产物；联系及录屏授权不能相互推定。
@@ -15,9 +15,11 @@
 
 ## 可发出的招募文案（草稿，未发送）
 
-> 我在做Intent Compiler，帮助不熟悉某个领域的人把普通想法变成能用的专业需求或成果，想找3位已有可用Codex的人免费试一下。你可以带一个自己想做的小目标，例如小兔展示模型、网页手写字体或公开活动页面，用自己的话说就行，不用准备专业提示词，也不要发公司或客户保密资料。只用公开、自制或明确有权处理的素材。我们看结果是否可用、你补了几次专业提示、返工几次；没帮助、装不上或退出也照实记录。首次约20—30分钟，需要更久就另约。免费入口：https://www.agensi.io/skills/intent-compiler-client-brief-handoff 。开始说明：https://github.com/dawwnforu/intent-compiler-skill/blob/feat/intent-compiler-v2/pilot/feedback.md 。参与记录需先征得同意，不默认收完整对话、文件或录屏。愿意的话告诉我Codex版本和方便观察的时间即可，不用发业务资料。
+> 我在做Intent Compiler，帮助不熟悉某个领域的人把普通想法变成能用的专业需求或成果，想找3位已有可用Codex的人免费试一下。你可以带一个自己想做的小目标，例如小兔展示模型、网页手写字体或公开活动页面，用自己的话说就行，不用准备专业提示词，也不要发公司或客户保密资料。只用公开、自制或明确有权处理的素材。我们看结果是否可用、你补了几次专业提示、返工几次；没帮助、装不上或退出也照实记录。首次约20—30分钟，需要更久就另约。免费入口：https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work 。开始说明：https://github.com/dawwnforu/intent-compiler-skill/blob/feat/intent-compiler-v2/pilot/feedback.md 。参与记录需先征得同意，不默认收完整对话、文件或录屏。愿意的话告诉我Codex版本和方便观察的时间即可，不用发业务资料。
 
 ## 安装后具体做什么
+
+连续使用时可以自然地说“继续上次这件事”；观察是否找回目的、保留已定选择并正确处理修改，漏项照实记在原有`observed_actions`及专业提示／返工字段，不加一套记忆评分问卷。[R99](../tests/v2-intent-handoff.md)只证明明确要求交接时四组都能在新会话继续，不证明产品已有自动长期记忆。不要让这项内部比较阻塞首批免费试用，也不把该合成案例当外部反馈。
 
 1. 按现有[开始说明](../commercial/SUBMISSION.md#非技术用户怎样开始)选一个入口，确认实际候选来源。Agensi当前为平台1.1／cefba82；GitHub备用包是af3d2c8，记录实际版本，不偷偷换包或覆盖正式安装。
 2. 选一个自己确实想完成、材料可以公开的小任务，用自己的话开始。首选建模新手的**需求说明**：例如“我想做一只圆圆的小兔，放在个人主页展示。我不懂建模，先帮我整理成可以交给建模师的说明。”这只是起点示例，不要求照抄；本人有别的用途就说自己的用途，不预先替他补上专业检查清单。

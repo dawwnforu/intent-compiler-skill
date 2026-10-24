@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Run one fixed synthetic intent-handoff comparison through eight actual fresh-session Codex turns. Raw, generic, published and overlay arms all retain purpose/current choices; keep the overlay unadopted, failed commands, cost and developer-only acceptance. Existing free runtime stays unchanged; clarify public-material onboarding and distinguish it from unverified automatic long-term memory.
+
 - Submit the owner-approved cefba82 update on the existing free Agensi listing and verify official platform1.1/live/approved status plus public source metadata. Reuse pilot materials for public/self-created professional tasks, separating an accurate modeling brief from making a model; no confidential client files, new questionnaire, runtime rules, model tests or effectiveness claims. Keep old package evidence and economic assumptions separate.
 
 - Verify the current af3d2c8 GitHub fallback with one bounded actual browser download and independent same-file checks, reusing prior programmatic evidence. Preserve/correct a verifier-only license-string assumption; do not change the package or infer external-user receipt, compatibility or business gains. No new model call.

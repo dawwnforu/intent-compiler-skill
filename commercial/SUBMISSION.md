@@ -1,5 +1,7 @@
 # Intent Compiler：上架候选交付
 
+**R99上线定位更新（2026-10-24）：** 现有免费商品资料已保存并实际公开，名称改为 **Intent Compiler — Everyday Ideas to Usable Work**；平台自动产生[新领取入口](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)，旧网页链接实际重定向到该页，不是新建第二个商品。仍为平台1.1／cefba82／Free，未重传ZIP、提交新包审核或设置收款。说明现面向用公开／自制素材完成陌生专业任务的人，保留建模说明、字体、页面和客户交付等使用方向，并明示尚未证明独有理解优势、自动长期记忆或减少返工。首次用户资料不再是必要条件。[R99四组实测](../tests/v2-intent-handoff.md)没有显示意图交接候选的独有收益，因此不采纳该规则、不更新运行包。当前可直接开展小规模免费试用；平台许可澄清和真实用户反馈继续单列，不能用更多合成题替代。
+
 **最新回执（2026-10-24，R98）：** 用户明确允许保存已备字段、提交cefba82审核及批准后更新免费公开版。沿用同一商品和已上传的37,716字节ZIP，只保存已审字段并走一次最终提交。只读`my_skills(status:"live")`随后返回唯一商品`version: 1.1 / review_status: live / security_status: approved / pricing: Free / pending_update: null`；实际公开页已显示cefba82343fef6512a31f96013fc20793f878dd5来源与包名。标准MIT、清单0.2.0、价格及正式安装不变；新版渠道加载／业务没有运行，不能借用R92–R94旧包结果证明新包行为。扫描仍显示1条警告，详情未知；平台批准不等于MIT渠道问题已澄清。首次自动审批因差异快照缺少价格证据拒绝保存动作，补全免费选中及完整字段证据后，同一正常UI路径获准；未改权限或换通道绕过。操作、字段和官方回执保存在本机`outputs/intent-compiler-v2/submission-r98/`。
 
 首批试用按用户反馈改为**公开或自制素材的小型专业任务**，不要求客户或公司资料，也不要求Skill爬取保密信息。可先用`brief`把普通建模想法整理成准确、可行动的需求说明，按本人意愿再制作；不把术语多、篇幅长或说明完成等同于专业正确或模型已完成。[安装后具体做什么](../pilot/feedback.md#安装后具体做什么)复用现有招募、同意及计数记录；外部参与、采用、复用和订单仍为0，本轮没有模型调用。
@@ -50,13 +52,13 @@ R93已重新成功读取原邮件线程（4封）并定向检索负责人10月21
 
 ## 非技术用户怎样开始
 
-1. 领取本页“GitHub候选领取入口”指向的固定版本ZIP，解压时保留全部文件。
-2. 在自己的现有Codex项目中使用项目级候选：让Agent把解压内容放到`.agents/skills/intent-compiler/`，使该目录直接包含`SKILL.md`。遇到已有同名目录先检查，不覆盖；不要求替换全局安装版。
-3. 在该项目新开会话，选择显示为“Intent Compiler 2.0 候选 / Candidate”的候选，并先说：“请读取本项目的`.agents/skills/intent-compiler/SKILL.md`和`SOURCE.json`，报告实际完整路径和sourceCommit，之后用这个项目候选处理任务。任一文件缺失先告诉我，不替换用户级安装，也不改用其他同名Skill。”宿主显示可能不同；同名Skill不会合并，仍核对路径，不仅凭名称判断。旧abef76f包的显示名尚未区分，保留其原快照。
-4. 用自己的语言说明用途并提供有权处理的资料。例如：“帮我把这些客户消息整理成客户能确认的交付文件和内部执行清单，还没确定的标出来，先不要发给客户。”不要求先写专业提示词。
+1. 选一个入口即可。**Agensi：**打开[现有免费商品](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)，按页面指引连接自己的现有Codex并本人完成登录／授权，再让Agent加载这项Skill；已连接的不重复连接，不另装GitHub副本。当前平台1.1、来源cefba82，无需购买。平台会更新加载内容，不等于已经验证自动跨会话记忆。
+2. **GitHub备用：**领取下方固定af3d2c8 ZIP，保留全部文件，让Agent放到自己现有Codex项目的`.agents/skills/intent-compiler/`，目录直接含`SKILL.md`。已有同名目录先检查、不覆盖，不替换全局安装。备用包与Agensi包不同，记录实际来源。
+3. GitHub路径在项目新会话选择“Intent Compiler 2.0 候选 / Candidate”，先说：“请读取本项目的`.agents/skills/intent-compiler/SKILL.md`和`SOURCE.json`，报告实际完整路径和sourceCommit，之后用这个项目候选处理任务。任一文件缺失先告诉我，不替换用户级安装，也不改用其他同名Skill。”Agensi路径让Agent报告实际商品和SOURCE来源；名称、宿主通用标志或同名旧版不能代替来源核对。
+4. 用自己的话提出一个真实小目标，只用公开、自制或明确有权处理的素材。例如：“我想做只小兔放在社团主页，先帮我整理成建模同学能用的说明，我不懂建模。”这是起点示例，不要求照抄或先填专业表；公司和客户保密资料不是参加条件。想实际制作时再按现有工具与授权执行，说明完成不等于模型或网页完成。
 5. 检查并修改实际成果，按[既有反馈方式](../pilot/feedback.md)记录是否采用、专业救场、质量返工及帮助时间。模型等待和业务补充分别记录。
 
-Windows上生成后先打开实际文件，确认中文与附件名正常。R92曾出现正文变问号但自测报通过；遇到同类问题请邀请人协助，记录帮助和返工，不要求用户先学编码。当前已上架ZIP尚未包含本分支新核验方法。
+Windows上生成后先打开实际文件，确认中文与附件名正常。R92曾出现正文变问号但自测报通过；遇到同类问题请邀请人协助，记录帮助和返工，不要求用户先学编码。Agensi cefba82含新核验方法，GitHub备用af3d2c8不含；这不构成新包渠道行为或稳定预防乱码的结论。
 
 旧摄影样例可用于熟悉流程，不能代替真实使用价值；使用其素材时不要用旧样例包中的Skill覆盖本候选。[旧试用说明](../pilot/README.md)继续保留其原版本限制。
 
@@ -102,13 +104,13 @@ GitHub核心继续免费MIT。若许可和连接交付均解决，建议先把**
 
 ## 商品描述与当前字段
 
-**Intent Compiler — Client Brief & Handoff / 需求编译器：客户需求与交付**
+**Intent Compiler — Everyday Ideas to Usable Work / 需求编译器：从日常想法到可用成果**
 
-面向已有可用Codex、需要整理客户资料的自由职业者与小型团队。把零散客户消息和确认资料整理成客户可审阅的需求文件，以及分开的内部执行清单；区分已确认范围、变更请求和待定事项，在现有授权内制作、修改并核验实际文件。先聚焦这一业务路径，其他领域方法仍保留在共享核心中。
+面向已有可用Codex、想完成陌生专业任务的人。日常表达目标，按需补足专业方法和实施条件，解释关键选择，制作并核验说明或文件。用公开／自制素材即可开始；建模说明、字体、公开页面和客户交付是可选择的方向，不要求提交公司资料，也不把所有领域说成已通过完整业务验证。客户交付保留为已有案例。
 
 包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex及旧包Agensi限定验证保留，其他宿主与新包渠道业务未验。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。Agensi当前免费版为平台1.1／来源cefba82；完整连接验收与MIT渠道条款澄清仍待完成。
 
-For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex and old-package Agensi results remain separate; other hosts and updated-package channel business behavior are unverified. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Now listed free on Agensi (listing version1.1/source cefba82); complete connected delivery and MIT/channel clarification remain open.
+For people who already use Codex and want help with an unfamiliar professional task: describe the outcome in ordinary language, apply relevant methods and inspect a brief or actual files. Start with public/self-created materials; confidential client files are not required. Bring your own model and tools. The current free listing is Intent Compiler - Everyday Ideas to Usable Work, platform1.1/source cefba82, manifest0.2.0/unreleased2.0 candidate; standard MIT is unchanged. Bounded local and old-package channel evidence remains separate from unverified updated-channel behavior and other hosts. The new intent-handoff overlay was not adopted after a shared-success comparison; no automatic long-term memory, unique understanding or fewer-prompt/rework claim.
 
 ### 当前公开字段与文件
 
@@ -118,11 +120,11 @@ For freelancers and small teams who already use Codex: turn scattered client not
 
 | 字段 | 拟填内容 / 状态 |
 | --- | --- |
-| 标题 | Intent Compiler — Client Brief & Handoff |
-| 短介绍 | Turn scattered client notes into a reviewable brief and a separate internal action list, keeping confirmed facts and open decisions distinct. |
+| 标题 | Intent Compiler — Everyday Ideas to Usable Work |
+| 短介绍 | Describe your goal in everyday language. Your Agent applies relevant knowledge, explains consequential choices and checks the work. |
 | 分类/标签候选 | Productivity；Business & Operations；client handoff；requirements。以平台实际选项为准，不创建虚构字段 |
-| 目标用户/输入 | 已有可用Codex的自由职业者与小型团队；有权处理的客户消息、已确认资料及现有交付格式 |
-| 输出 | 客户可审阅的需求/确认文件＋分开的内部执行清单；格式取决于实际任务与宿主工具 |
+| 目标用户/输入 | 已有可用Codex、面对陌生专业任务的人；公开、自制或有权处理的素材，不要求客户保密资料 |
+| 输出 | 按所选模式交付可行动的专业说明或实际文件；制作依赖工具与授权，说明不冒充已完成模型或部署 |
 | 首发价格 | 用户亲自提交的Free条目已获平台批准并公开；15美元仍为后续便利包假设，不自动改价或设置收款 |
 | 人工服务/更新 | 不含一对一代做、模型额度或永久维护承诺；售后范围须另行确定 |
 | 兼容说明 | 本机Codex历史证据保留；af3d2c8渠道核心/引用、曝光修复及限定同会话继续已验，首交失败与评测器修正保留。cefba82渠道业务、进程重启、Claude业务、Cursor/Copilot未验证；不作无干预成功声明 |
