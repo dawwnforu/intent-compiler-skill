@@ -30,7 +30,9 @@ R93已重新成功读取原邮件线程（4封）并定向检索负责人10月21
 
 一个独立Skill ZIP：根目录直接包含`SKILL.md`，并保留`references/`、`scripts/`、`agents/`、`assets/`、README、MIT及来源清单。使用已提交Git原始对象构建，排除本机缓存、历史实验、私人对话、邮件、业务文件、凭据和反馈日志。它与旧239553d试用包是不同产物，旧包不重打、不覆盖。
 
-待审的本地更新包为`intent-compiler-2.0-candidate-cefba82.zip`：37,716字节、25成员，来源/runtime提交`cefba82343fef6512a31f96013fc20793f878dd5`，SHA-256 `7bc4ba9400c1b604aca9cd7c787a322df47641b0c4d3a64b93e51d4638d7cb61`。实际成员均匹配提交对象，只与现有上架包的SOURCE和质量核验段落不同；MIT/清单不变。文件留任务本机`outputs/intent-compiler-v2/continuation-r93/candidate/`，未上传、未改领取默认版，新段落的行为及迁移未验。现有上传授权指定af3d2c8，新包不能据此自动提交。
+更新预览包为`intent-compiler-2.0-candidate-cefba82.zip`：37,716字节、25成员，来源/runtime提交`cefba82343fef6512a31f96013fc20793f878dd5`，SHA-256 `7bc4ba9400c1b604aca9cd7c787a322df47641b0c4d3a64b93e51d4638d7cb61`。实际成员均匹配提交对象，只与现有上架包的SOURCE和质量核验段落不同；MIT/清单不变。文件留任务本机`outputs/intent-compiler-v2/continuation-r93/candidate/`。用户另行明确批准此包上传和更新预览；现有商品替换控件已显示新文件及SKILL.md识别成功，变更说明和预览已填写。平台自动生成的TypeScript示例及虚构测试通过描述已清除，没有上传业务样例。
+
+**停在审核前：**页面仅提供“Resubmit / Save & Resubmit for Review”，没有单独保存更新按钮，未点击；不能声称刷新后可恢复草稿。已保留打开的预览及本机`continuation-r94/update-preview.json`、文本和截图。公开页重新读取仍为af3d2c8；独立只读MCP返回live/approved/Free、版本1.0、`pending_update: null`、安装0。当前公开包、领取默认版、MIT和价格不变，新段落的行为及迁移仍未验。后续提交审核不在本次上传授权内。
 
 构建：`python commercial/build_submission.py <新的输出目录> --ref <已提交版本>`。输出的ZIP文件名包含来源提交短号，并附SHA-256校验文件；同一来源和环境再次构建应得到相同字节。脚本拒绝覆盖已有文件。来源哈希用于追溯与完整性核对，不是防复制或所有权证明。
 
