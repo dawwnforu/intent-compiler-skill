@@ -6,15 +6,15 @@
 
 [English](README_EN.md) · [MIT License](LICENSE)
 
-[最新上架候选准备与部署/试价判断](commercial/SUBMISSION.md)：独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；平台许可、连接交付和商品审核仍待完成，不能把GitHub候选当作已上架商品。
+[Agensi 免费候选已上架](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)（2026-10-24）：官方页面、匿名HTTP访问和Agent搜索均已核实。独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；完整连接交付和渠道许可澄清仍待验证。当前状态与下一步见[交付记录](commercial/SUBMISSION.md)。
 
-**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（af3d2c8，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。包内有双语启动说明和独立候选显示标签。[R82](tests/v2-resource-paths.md)修复可选检查器的路径误探测，新包实际解压与安装后工具检查通过；本包未重新验证宿主发现或业务行为，[R80](tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release)的启动证据仍属于旧包。用自己的真实任务记录交付合格、专业救场、质量返工与采用，正常业务补充另记。外部参与、采用、复用和订单仍为0。[旧摄影案例](pilot/README.md)及旧包保持冻结。[招募与观察](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)、[本周上架门槛](commercial/SUBMISSION.md#本周交付窗口2026-10-24至10-25)和[条件收入模型](commercial/README.md)说明下一步；候选不是Release或Agensi商品，历史共同通过不证明候选独有优势。
+**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（af3d2c8，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。自备可用Codex、模型与有权处理的资料，记录交付合格、专业救场、质量返工与采用，正常业务补充另记。[R92实际连接验收](tests/v2-agensi-delivery.md)已加载本商品核心与引用，但首交中文损坏，一次开发者编码修复后通过独立文件和浏览器检查；继续修改和无干预成功尚未验证。新编码核验方法已在本分支准备，未进入冻结的已上架ZIP。外部参与、采用、复用和订单仍为0。[招募与观察](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)与[条件收入模型](commercial/README.md)保留实际限制；稳定2.0尚未发布，不承诺减少提示或返工。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 
 原始项目：[Intent Compiler](https://github.com/dawwnforu/intent-compiler-skill)。现有署名：**Intent Compiler contributors**；版权：Copyright (c) 2026 Intent Compiler contributors。宿主清单版本 **0.2.0**；本分支为**未发布的 2.0 候选版**，不是已发布的 2.0。提交历史记录具体贡献，不能据此编造作者身份。
 
-来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；独立候选ZIP已在GitHub提供，尚未上传平台或通过平台审核。
+来源标识用于署名与追溯，不是防复制或所有权证明。保留标准 MIT：允许按许可证条件复制、修改、再分发和商业使用，不能仅因再分发就判断侵权。独立 Skill 文件夹附带[双语来源说明](skills/intent-compiler/README.md)及相同许可证；af3d2c8候选已上传并获Agensi批准、免费公开。平台条目版本1.0与包内清单0.2.0分开标注，不表示已发布稳定2.0。
 
 打印知识已补充分清份数与尺寸：本次不打印可以设为 0，同时保留名单；实体标签尺寸不能为 0。[实际修复验证](tests/v2-print-counts.md)覆盖网页导出、全零处理和恢复打印，仅证明这一已知缺口的局部修复。
 

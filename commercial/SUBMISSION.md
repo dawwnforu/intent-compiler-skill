@@ -1,21 +1,25 @@
 # Intent Compiler：上架候选交付
 
-核验日期：2026-10-24（Europe/Budapest）。这里准备可审阅的商品与发布路径；尚未提交Agensi、收款、通过平台扫描或公开上架。保留标准MIT及现有贡献者署名。原始仓库：[dawwnforu/intent-compiler-skill](https://github.com/dawwnforu/intent-compiler-skill)。清单仍为0.2.0，2.0是未发布候选，候选身份以包内`SOURCE.json`的提交标识为准。
+核验日期：2026-10-24（Europe/Budapest）。**用户亲自提交审核后，Agensi已将现有af3d2c8候选批准并免费公开**：[正式商品页](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)。Creator Studio为1 Live、0 Pending；只读接口为`review_status: live / security_status: approved`；无Cookie或Authorization的HTTP请求返回200；一次固定产品名搜索返回本商品。没有代点再次发布或重复提交。上架不等于完整业务交付已验证；当前安装、评价、外部试用和订单均为0，未收款。标准MIT及贡献者署名不变。原始仓库：[dawwnforu/intent-compiler-skill](https://github.com/dawwnforu/intent-compiler-skill)。平台条目版本1.0与包内清单0.2.0／未发布稳定2.0的候选身份分开标注，完整来源以`SOURCE.json`为准。
+
+本轮先修正公开介绍遗留的“仅草稿、未审核或公开”状态；随后用户明确批准免费启用与合成业务验收。页面显示“Security scan passed with 1 warning”；尚未取得警告详情，不宣称零警告或完整安全审计。没有替换ZIP、改价或提交新版本。本机R92保存实际接口、搜索、匿名访问、文案前后值和截图；web读取工具失败但浏览器/匿名HTTP成功，不能误报站点不可访问。
+
+**[R92真实交付结果](../tests/v2-agensi-delivery.md)：** 现有Codex/Agensi实际加载核心、SOURCE及任务引用，独立渠道文本核对一致。首次生成的中文正文和文件名被PowerShell文本管道损坏，模型自测仍报通过；保留失败，停止原定第二条时间变更。剩余一次调用明确用于开发者编码救场：修复包经独立读取、实际Python解压、隐私和浏览器检查通过。两次模型调用合计355.53秒、13,757输出tokens，不是现金账单或每单支持数据。开发者专业救场1次，用户实际提示/返工需求未知，外部试用仍为0。原线程恢复、继续修改、可选脚本渠道执行及原生应用操作未验。本分支只给现有质量引用补上具体UTF-8与独立原文核验方法，未上传；不能把修复结果冒充原包无干预成功。公开介绍、兼容说明、限制及FAQ据此更新，保留失败和人工帮助。
 
 ## 本周交付窗口：2026-10-24至10-25
 
 目标是准备好可审核、可开始试用的候选；Agensi公开上架以官方页面为准，不能由本表日期推定。本周日是10月25日。**推荐首发为有限范围的免费Codex试用；15美元一次性便利包继续作为待批准、待验证的后续假设。** 免费不需要开通收款，但不自动解决许可或连接交付问题；不为赶日期先开收费。
 
-截至10月24日，既有同线程最近收到的仍是10月12日负责人答复：可保留公开MIT仓库并挂牌；免费不要求收款；兼容范围由描述如实说明；平台副本按其更严格买方条款处理。10月21日经授权补问MIT权利、相对引用/脚本、业务产物和未发布验收，**已发送一次，尚无新答复**。这是平台说明，不是许可冲突已消除或我们已获上架批准的证据。邮件原文和发送回执留本机，不公开私人往来。
+最近一次成功读取同线程时，最新收到的是10月12日负责人答复：可保留公开MIT仓库并挂牌；免费不要求收款；兼容范围由描述如实说明；平台副本按其更严格买方条款处理。10月21日经授权补问MIT权利、相对引用/脚本、业务产物和未发布验收，已发送一次。本轮再次检索因邮件服务限流失败，**当前有无新回复未知**，不重试循环、不改凭据、不追发。平台上架批准已由实际页面/接口核实，不能据此认定许可问题已消除。邮件原文及回执留本机，不公开私人往来。
 
 10月24日重查[条款](https://www.agensi.io/terms)，页面仍标10月18日更新；§5.2/§8仍限制保存/复制Skill，§6要求ZIP与平台审核。[创作者指南](https://www.agensi.io/learn/how-to-sell-skills-on-agensi#step-4-security-review)写常见24—48小时，邮件说通常24小时：二者都是估计，不是审核SLA。不要把“可以售卖公开MIT项目”改写成所有交付权利均已解决。
 
 | 时间与责任 | 可执行动作 | 完成证据 / 停止条件 |
 | --- | --- | --- |
 | 10月24日，本分支 | 修复已复现的检查器路径缺陷；从已提交源构建新候选，核对来源、字节、完整目录和安装后工具调用；旧包冻结 | [R82](../tests/v2-resource-paths.md)的失败/修复与独立读取；不再生成已通过的客户业务题凑效果 |
-| 10月24—25日，用户与平台 | 平台答复现有四个问题后，审阅下方文案与确切ZIP；由用户确认免费首发或价格、上传/审核范围；账户或协议由用户正常处理 | 无答复或未授权时不上传、不接受协议、不设置收款；不擅自追发邮件 |
-| 获准的未发布审核环境 | 通过真实连接核对核心→一个相对引用→实际本地业务产物→中断恢复；可选脚本如不可执行，明确降级范围且不得声称已运行 | 保留实际加载、工具、可导出产物和失败；未能读取必要引用，不能以单个SKILL.md冒充完整产品 |
-| 最迟10月25日作判断 | 门槛都通过且用户批准公开发布才执行平台步骤；拿到官方公开链接并在独立访问中确认可见 | 审核排期或门槛未解决就记录“Agensi待上架”，不标完成；GitHub固定版本免费试用可以独立进行 |
+| 10月24日，用户与平台 | 用户亲自提交后平台已批准、免费公开；实际页面、只读状态和匿名访问已验 | Agent未重复提交、启用、接受协议或设置收款；用户自行提交不等于其他外部操作的许可，不擅自追发邮件 |
+| 已获准的本商品连接验收 | 核心/引用、实际本地产物已运行；首交失败后一次曝光修复通过，未继续原线程 | 两次模型调用预算已用完；保留失败与救场成本，不追加重跑制造优势，继续修改/恢复保持未验 |
+| 最迟10月25日作判断 | 公开可见门槛已通过；接下来按真实连接交付证据决定是否引导首批用户使用该渠道 | 完整交付未验就明确保留；GitHub固定版本免费试用可独立进行，不把挂牌算作用户采用 |
 | 首批实际使用后 | 沿用[现有招募/观察](../pilot/feedback.md)邀请3位已有可用Codex的目标用户，自带有权处理的专业任务 | 记录交付合格、专业救场、质量返工、采用与帮助分钟；次日/第7天仅按实际事件填写。未授权不代联系 |
 
 首发承诺聚焦“客户资料→可确认文件与内部执行清单”，使用共享核心；其他领域仍可探索，不写成已经验证的收费收益。免费页面可复用下方描述，价格标免费；收费描述及收入测算单独保留。本轮不合并PR、不替换正式安装、不修改MIT，且不会为日期绕过平台限制。
@@ -38,6 +42,8 @@
 4. 用自己的语言说明用途并提供有权处理的资料。例如：“帮我把这些客户消息整理成客户能确认的交付文件和内部执行清单，还没确定的标出来，先不要发给客户。”不要求先写专业提示词。
 5. 检查并修改实际成果，按[既有反馈方式](../pilot/feedback.md)记录是否采用、专业救场、质量返工及帮助时间。模型等待和业务补充分别记录。
 
+Windows上生成后先打开实际文件，确认中文与附件名正常。R92曾出现正文变问号但自测报通过；遇到同类问题请邀请人协助，记录帮助和返工，不要求用户先学编码。当前已上架ZIP尚未包含本分支新核验方法。
+
 旧摄影样例可用于熟悉流程，不能代替真实使用价值；使用其素材时不要用旧样例包中的Skill覆盖本候选。[旧试用说明](../pilot/README.md)继续保留其原版本限制。
 
 ## 要部署哪些服务
@@ -56,7 +62,8 @@ Agensi是另一条交付通道。[创作者指南](https://www.agensi.io/learn/h
 | 专业交付 | R70/R71客户材料，R76印刷通知，R78交互微调均有真实产物及限定检查 | 这些任务均优于原始请求；历史不同版本的统一提升率 |
 | 局部改善 | R78条件性选择入口方法，R62恢复及R67独立回忆等各有自己的证据范围 | 更少专业提示/返工已获用户验证、稳定省token或绝对安全 |
 | Claude Code | 既有项目安装可发现，业务受认证/第三方路由阻塞 | Anthropic模型业务验证通过 |
-| Cursor / Copilot / Agensi | 未完成本项目业务交付验证 | 仅凭共同格式就写“全面兼容” |
+| Agensi经Codex | R92核心/引用及来源匹配通过；一例合成交付首败，开发者修复后独立文件/浏览器检查通过 | 原包无干预成功、原线程恢复或用户提示减少 |
+| Cursor / Copilot | 未完成本项目业务交付验证 | 仅凭共同格式就写“全面兼容” |
 
 完整结果及失败见[决策](../docs/v2-decision.md)、[结果](../docs/v2-results.md)和[测试范围](../TESTING.md)。R78候选维修表单分隔符缺陷、混合成本及基线额外功能继续保留。没有外部采用、复用或付费证据。
 
@@ -79,19 +86,21 @@ GitHub核心继续免费MIT。若许可和连接交付均解决，建议先把**
 
 先观察实际任务采用，再问愿意为何付费。通过价格页/试用/激活/付款/退款分别记录，不能用口头意愿或其他创作者的销量替代自己的订单。沿用[收入模型](README.md)和既有三人试用记录，不增加另一套问卷。
 
-## 可粘贴商品描述（审批草案）
+## 商品描述与当前字段
 
 **Intent Compiler — Client Brief & Handoff / 需求编译器：客户需求与交付**
 
 面向已有可用Codex、需要整理客户资料的自由职业者与小型团队。把零散客户消息和确认资料整理成客户可审阅的需求文件，以及分开的内部执行清单；区分已确认范围、变更请求和待定事项，在现有授权内制作、修改并核验实际文件。先聚焦这一业务路径，其他领域方法仍保留在共享核心中。
 
-包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex已有限定测试，其他宿主及Agensi连接交付尚未完成本项目验证。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。许可关系与连接验收完成后才能提交这份描述。
+包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex已有限定测试，其他宿主及Agensi连接交付尚未完成本项目验证。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。Agensi现已将此包免费公开，平台条目版本1.0；完整连接验收与MIT渠道条款澄清仍待完成。
 
-For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex testing exists; other hosts and Agensi delivery are not yet verified for this product. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Submission awaits the licence and delivery gates below.
+For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex testing exists; other hosts and Agensi delivery are not yet verified for this product. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Now listed free on Agensi (listing version1.0); connected delivery and MIT/channel clarification remain open.
 
-### 当前待审字段与文件
+### 当前公开字段与文件
 
-以下内容供本人审阅和后续填写，不是已保存的平台草稿。实际字段名、字数、分类可选值尚待登录后核对。
+下述标题、摘要、用途、来源、兼容说明、工具条件、权限说明、分类、限制和三项FAQ已填写并保存；R92又将实际失败与修复范围同步到介绍/兼容/限制/FAQ。名称上限60字符，ZIP上传上限50MB，必须含SKILL.md；实际选用Business & Operations为主分类、Productivity为第二分类。页面通用兼容标志不是产品验证。早期草稿的“Not scanned yet”保留为历史；当前公开页的实际扫描状态与1条警告以本页开头为准。
+
+平台自动生成过未经实测的S3演示及“优于直接提示”的宣传，已整体清除，未用作证据。演示字段暂空，未上传客户样例、内部执行表或其他媒体。早期桌面预览在窄侧栏把标题挤成竖排，移动预览可读；本轮公开页标题可读。文件树显示平台`v1.0`，实际来源/清单为`0.2.0／2.0候选`，未发现网页可编辑的版本字段；公开介绍现已明确区分二者，没有重传包或编造新源版本。
 
 | 字段 | 拟填内容 / 状态 |
 | --- | --- |
@@ -100,12 +109,20 @@ For freelancers and small teams who already use Codex: turn scattered client not
 | 分类/标签候选 | Productivity；Business & Operations；client handoff；requirements。以平台实际选项为准，不创建虚构字段 |
 | 目标用户/输入 | 已有可用Codex的自由职业者与小型团队；有权处理的客户消息、已确认资料及现有交付格式 |
 | 输出 | 客户可审阅的需求/确认文件＋分开的内部执行清单；格式取决于实际任务与宿主工具 |
-| 首发价格 | 建议免费；**尚未批准**。15美元是后续便利包假设，不自动选用 |
+| 首发价格 | 用户亲自提交的Free条目已获平台批准并公开；15美元仍为后续便利包假设，不自动改价或设置收款 |
 | 人工服务/更新 | 不含一对一代做、模型额度或永久维护承诺；售后范围须另行确定 |
-| 兼容说明 | 本机Codex有历史限定任务证据；af3d2c8包已核对获取/解压/工具。此包发现和模型业务未重跑；Claude业务、Cursor/Copilot及Agensi连接未验证 |
+| 兼容说明 | 本机Codex历史证据保留；af3d2c8渠道核心/引用及一次曝光修复已验，首交失败、继续修改/恢复未验。Claude业务、Cursor/Copilot未验证；不作无干预成功声明 |
 | 来源/署名/版本 | 本页原始GitHub仓库、Intent Compiler contributors、0.2.0／2.0未发布候选；完整标准MIT随包 |
 | 主上传文件 | [intent-compiler-2.0-candidate-af3d2c8.zip](artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，37,504字节，SHA-256 `4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5`；来源af3d2c8，固定承载提交d4648d8 |
 | 示例 | 复用[239553d历史合成摄影包](../pilot/README.md)：客户ZIP与内部执行表分开。只展示交付形态，不冒充af3d2c8或Agensi生成结果；不把旧Skill给新试用者安装 |
+
+### 用户提交后的历史回执（R90，随后已上线）
+
+2026-10-24用户告知已点击Submit for review。实际Creator Studio显示本商品“Pending Review / In review / Free”，总计1、Live 0、Pending 1。现有OAuth只读`my_skills({status:"pending"})`独立返回同名唯一条目：`review_status: pending`、`security_status: pass`、`rejection_reason: null`、`pricing: Free`、`version: 1.0`、`installs: 0`、`pending_update: null`，创建时间为`2026-10-24T13:27:46.435994+00:00`。此pass为真实接口状态，与先前空白预览的假定扫描标签不同；没有取得逐项扫描明细，也不代表完整安全审计或人工批准。
+
+平台分配slug `intent-compiler-client-brief-handoff`及[商品地址](https://agensi.io/skills/intent-compiler-client-brief-handoff)，尚未验证未登录公开访问或实际Skill交付。待审条目仍为平台版本1.0；包内清单0.2.0和完整来源未变，不能合并成同一个版本结论。没有通过重新上传、重复提交或更新版本接口来处理差异。此前启用测试的确认仍未得到回答；本次只读核对不绕过R89的启用动作审批拒绝。
+
+上述为R90待审时点，保留其原始响应和截图；最新状态以本页开头R92实际上线核验为准。没有新建目标、商品、账户或安装版本，亦未代发邮件。
 
 本机已从公开旧包原样提取`client.zip`和`internal.md`供本人审阅，文件哈希、旧来源和角色边界记录在任务本机`outputs/intent-compiler-v2/launch-handoff-r83/receipt.json`；未上传或发给任何人。客户ZIP有页面、回复单和打开说明，内部表不在其中。示例的内部资料也是合成的，仍按用途分开，不默认将内部表作为商品附件公开。
 
@@ -113,27 +130,33 @@ For freelancers and small teams who already use Codex: turn scattered client not
 
 2026-10-24实际打开[Creator Dashboard](https://www.agensi.io/dashboard)：首次导航超时后检查原有标签，页面随后到达[登录页](https://www.agensi.io/auth)，显示“Sign in to your account”。只证明当前应用内浏览器会话需要登录；未推断其他浏览器账号状态，未注册、填写密码、连接新Agent或提交商品。
 
+**同日后续更新：**用户已完成登录，明确批准启用Creator Mode及添加Agensi连接，并亲自完成OAuth Allow。Creator Studio已出现；Codex命令返回“Successfully logged in”，平台显示“Codex Connected”；经现有本机Codex实际调用只读`my_library({})`成功，返回技能库为空。没有模型生成、购买、上传或提交。实际[提交页](https://www.agensi.io/dashboard/submit)已只读检查，未填写；页面“Draft”标签不代表已保存草稿。原生目标仍显示blocked，不代表登录或连接仍失败。
+
+**随后获准的预览操作：**用户明确批准上传af3d2c8现有ZIP并填写介绍，停在Submit for review之前。上传前再次核对37,504字节和本页SHA-256；页面识别25文件、18个references及原LICENSE/来源文件。出现独立草稿URL及“All changes saved”，刷新后同一草稿、ZIP名称、完整介绍、权限、分类和三项FAQ仍在。只有本候选ZIP及商品字段传给Agensi；没有点击审核/公开，也未新增媒体或替换正式安装。本机R88记录保留具体草稿URL、字段读取、截图和失败操作，不公开账号草稿标识。平台自动生成文案曾触发，不能把“本机Codex模型调用0次”说成平台未运行生成。
+
+已发现的Agensi MCP工具描述另提供`submit_skill`预览接口：不传`confirm`会接收文本文件并返回暂存7天的`draft_id`，`confirm:true`才提交审核。这只是已发现的接口说明，**尚未调用，也未验证未发布交付或持久化**；生成远端预览仍会传输文件，必须先获上传授权。不能因工具可用而自动执行。
+
 | 动作 | 目前能做什么 | 本人需要决定/完成什么 |
 | --- | --- | --- |
-| 账号入口 | 登录页已定位，现有会话断点保留 | 在网站完成现有账号登录，密码/验证码直接填网站，不发到对话 |
-| 只读核对卖家界面 | 登录后核对实际字段、草稿/审核/发布流程及已有商品，避免重复创建 | 如遇协议或本人验证，由本人处理；不以浏览能力推定许可 |
-| 上传 | 上传目标仅为Agensi、确切主ZIP如上；示例是否上传另行列清单 | 尚未获授权，当前不上传 |
-| 提交审核 | 当前指南说审核通过后会进入公开目录；实际账号是否有独立发布开关未知 | 在实际流程明确前，把可能自动公开的审核提交按发布审阅，不能当作“只存草稿” |
-| 连接验收 | 核心→引用→工具→文件保留/导出→恢复；只用合成资料 | 确认平台允许的测试路径；新连接会断开旧连接，不能擅自重配 |
-| 价格和公开 | 建议免费，所有商品信息与文件先给本人审阅 | 免费/付费选择、确切上传及公开范围均需本人明确；已有对应授权不重复问 |
+| 账号入口 | 已登录、Creator Mode已启用、Codex OAuth与只读技能库调用成功 | 此步骤无需再次授权或登录；不重新配置连接 |
+| 核对卖家界面 | 已有1个Live商品，profile、上传、批准三项完成；普通编辑器的元数据修正已保存并在公开页确认 | 不重复建立商品、上传或审核；如遇协议或本人验证，由本人处理 |
+| 上传 | 已获授权且已上传上述确切ZIP；同一草稿经刷新确认保存 | 无需重复授权或上传；示例/媒体仍未上传，不自动追加业务资料 |
+| 提交审核 | 用户亲自提交后已获平台批准，状态live/approved，公开页可见；Agent未重复操作 | 无需再次提交或公开；保留1条扫描警告详情未知的限制 |
+| 连接验收 | 用户已明确批准启用；核心/引用和本地产物已真实运行，首败、专业修复后通过 | 无需再次问启用；原定继续修改未运行、恢复及可选脚本仍未验，不追加抽样 |
+| 价格和公开 | 实际Free、已公开；平台显示0安装 | 不自动改收费、不设置收款、不用自己激活冒充外部试用 |
 
-平台问题分项：MIT保留及公开仓库可挂牌是既有答复；更严格条款如何适用MIT、引用/脚本提供、业务成果导出、未发布测试仍待10月21日补问答复。本轮邮件线程及域名检索均未发现新回复，未追发。审核后是否自动公开另由实际界面/平台说明确认，不把这一点说成已在旧补问里回答。公开指南与当前[条款](https://www.agensi.io/terms)是平台声明，不替代本产品的连接运行证据。
+平台问题分项：MIT保留及公开仓库可挂牌是既有答复；更严格条款如何适用MIT、引用/脚本提供、业务成果导出、未发布测试仍待10月21日补问答复。前次成功读取无新回复，本轮邮件检索因服务限流失败，最新回复状态未知；未追发。用户提交后的批准、公开已实际观察，不把它冒充平台对其他问题的答复。公开指南与当前[条款](https://www.agensi.io/terms)不替代本产品的连接运行证据。
 
-## 公开上架前剩余动作
+## 公开上架后的剩余验证
 
 | 门槛 | 当前状态 | 下一步与证据 |
 | --- | --- | --- |
 | 来源与包 | 当前af3d2c8包已推送，程序化获取、字节/来源、解压和安装后工具检查通过；本包浏览器下载/发现/模型业务未重验 | 使用下方固定提交入口；旧包的浏览器和发现证据不转移，外部收件与采用另记 |
-| MIT与渠道许可 | 标准MIT保留；公开条款仍有复制/保存限制 | 明确平台条款如何保留原MIT材料的权利、商业/客户用途及通知；未明确不提交，免费也不视为自动解决 |
-| 连接交付 | 未上传/未连接 | 在获准审核或草稿环境检查核心→索引→引用→工具→成果→恢复；不能要求Agent违反平台条款导出Skill文件 |
-| 商品扫描与审核 | 未执行 | 经用户批准上传确切ZIP，保留平台实际扫描及人工结果；本地检查不能替代 |
+| MIT与渠道许可 | 标准MIT保留；公开条款仍有复制/保存限制，批准不自动消除该问题 | 等平台澄清原MIT材料权利、客户用途与通知；不更换MIT、不自行增加限制或接受新协议 |
+| 连接交付 | 核心/引用及本地产物真实运行；首交失败、曝光修复后通过 | 保留专业救场1次及355.53秒成本；下次相关任务检查新方法与继续使用，不重算旧题为未见 |
+| 商品扫描与审核 | live/approved；公开页显示扫描通过、1条警告，明细未取得 | 保留批准和警告事实，不称零问题或完整安全审计，不重复提交 |
 | 收款资格 | 未核实账户实际资格 | 用户自行提供实际经营/收款地区状态，在官方流程完成适用验证；不用时区推断，不索取密码或私钥 |
-| 发布与试价 | 未获本轮发布授权，未成交 | 用户审阅描述、价格、权限及成本后批准实际提交；取官方公开链接后才标已上架 |
+| 发布与试价 | 已有1 Live、Free；匿名公开页HTTP200；本轮仅内部启用验收，外部使用仍为0 | 有限试用如实说明已知编码问题与帮助；不自动改收费，平台计数、内部启用、外部采用和订单分开 |
 
 平台需确认的最小技术问题：相对路径引用如何提供给Agent；可选脚本是否可执行且无需保存受限Skill文件；用户生成的业务文件能否正常保留/导出；未发布环境能否进行上述测试及更新/恢复。这些已在10月21日获准的同线程补问中发送，等回复，不重复发信。不要为“跑通”关闭安全限制或擅自重配现有连接。
 

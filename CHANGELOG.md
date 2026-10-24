@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Record the owner's actual free Agensi listing, anonymous visibility and product search; distinguish listing1.0 from source manifest0.2.0. After explicit activation approval, two bounded real Codex calls load core/references: first delivery corrupts Chinese despite passing self-tests; one developer-guided repair then passes independent bytes, extraction, privacy and browser checks. Add a conditional Windows/non-ASCII verification method to the existing quality reference, outside the frozen published ZIP. Correct live metadata to retain the failure/assistance. Continued-session changes, unseen transfer, external adoption and channel-licence clarification remain open; no package replacement, resubmission or MIT change.
+
 - Correct the live recruitment route from the frozen239553d bundle to the current af3d2c8 candidate and startup guide; distinguish hosting/source IDs without changing old archives or participant rows. Prepare concrete client-handoff listing fields and review-only historical synthetic outputs. Recheck actual mail and the creator entry: current in-app session reaches sign-in, with no upload, connection or publication. Correct an aggregate compatibility row so old browser/discovery observations are not assigned to the new archive.
 
 - Fix the optional HTML checker's decoded-resource boundary: skip UNC, rooted and drive-qualified paths before filesystem probes. Preserve a six-subcase failing regression, five passing test methods, valid/missing relative-file CLI checks and unchanged inputs. No model-effect claim or core-rule expansion. Refresh the submission plan against current public terms and actual mail status; retain the MIT/connected-delivery gates and frozen packages.
