@@ -8,7 +8,7 @@
 
 [最新上架候选准备与部署/试价判断](commercial/SUBMISSION.md)：独立Skill包保持MIT，在现有Agent中运行，无需新增自有服务器或数据库；平台许可、连接交付和商品审核仍待完成，不能把GitHub候选当作已上架商品。
 
-**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（2881c73，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/7801146aec0353051dcb14060ea64fb724fe50d6/commercial/artifacts/intent-compiler-2.0-candidate-2881c73.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。包内有双语启动说明，候选使用独立显示标签；新项目实际安装、继承用户配置的同名发现和一次明确路径启动见[R80核验](tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release)。随后用自己的真实任务，记录交付是否合格、专业救场提示、质量返工和实际采用，正常业务补充另记。外部参与、采用、复用和订单仍为0。[旧摄影上手案例](pilot/README.md)和239553d冻结包继续保留，勿用旧Skill覆盖候选。[招募与观察交接](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)和[条件收入模型](commercial/README.md)说明下一步；候选不是Release或Agensi商品，历史三组共同通过不证明候选独有优势。
+**用一个有验收标准的专业任务试用：** [领取当前候选ZIP（af3d2c8，固定版本）](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip) → [开始与安装说明](commercial/SUBMISSION.md#非技术用户怎样开始)。包内有双语启动说明和独立候选显示标签。[R82](tests/v2-resource-paths.md)修复可选检查器的路径误探测，新包实际解压与安装后工具检查通过；本包未重新验证宿主发现或业务行为，[R80](tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release)的启动证据仍属于旧包。用自己的真实任务记录交付合格、专业救场、质量返工与采用，正常业务补充另记。外部参与、采用、复用和订单仍为0。[旧摄影案例](pilot/README.md)及旧包保持冻结。[招募与观察](pilot/feedback.md)、[兼容矩阵](pilot/compatibility.md)、[本周上架门槛](commercial/SUBMISSION.md#本周交付窗口2026-10-24至10-25)和[条件收入模型](commercial/README.md)说明下一步；候选不是Release或Agensi商品，历史共同通过不证明候选独有优势。
 
 质量检查模块已删除与核心重复的六个通用问题，保留实际核验和失败处理。[四次对照](tests/v2-quality-trim.md)保留交接用途、备份恢复建议和正确的报名容量判断；单次输出更少，但格式不同，不据此承诺稳定省 token。
 

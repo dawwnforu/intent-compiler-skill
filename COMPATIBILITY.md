@@ -1,5 +1,7 @@
 # Installation and compatibility / 安装与兼容性
 
+2026-10-24 package update: [R82](tests/v2-resource-paths.md) verifies the new af3d2c8 archive's extraction and installed optional checker. No fresh host discovery or model business run was performed for that archive. [R80](tests/v2-submission-candidate.md#r80-distinguish-the-project-candidate-from-a-same-name-release) startup and the business evidence below retain their original versions; static/tool success is not a new compatibility pass. Agensi delivery and non-Codex business compatibility remain unverified.
+
 Latest trial evidence: 2026-10-19, [detailed host matrix](pilot/compatibility.md) and [R71 actual continuous business checks](tests/v2-continuous-pilot.md). Codex project-local ZIP installation/discovery, explicit project-file selection alongside a same-name user copy, actual generation and one bounded six-turn resumed task are verified. Claude discovery succeeds but inherited third-party routing/remote authentication blocks business verification. Cursor/Copilot and Agensi delivery remain unverified. No desktop/global plugin installation, all-mode or general resumed-task compatibility claim. The instructions below retain their original2026-09-29 date; current evidence supersedes older status notes. A PR-branch trial ZIP is not a Release or public plugin-directory admission.
 
 ## Codex
