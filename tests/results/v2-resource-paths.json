@@ -218,5 +218,26 @@
       ],
       "suiteExitCode": 0
     }
+  },
+  "packageCheck": {
+    "sourceCommit": "af3d2c80e37e77b03d661fd803422f949d04ee89",
+    "runtimeCommit": "af3d2c80e37e77b03d661fd803422f949d04ee89",
+    "bytes": 37504,
+    "sha256": "4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5",
+    "members": 25,
+    "committedSourceAndDeterministicRebuild": true,
+    "installedMemberBytesEqualArchive": true,
+    "mitUnchanged": "Exact original committed MIT bytes; initial raw worktree comparison failed on CRLF/LF and was corrected in the verifier only",
+    "installScope": "Fresh isolated task project only; formal installation untouched",
+    "helperSuite": {
+      "exitCode": 0,
+      "methods": 5
+    },
+    "modelCalls": 0,
+    "discoveryThisArchive": "not rerun",
+    "businessBehaviorThisArchive": "not rerun; prior host/task evidence remains separately scoped",
+    "browserDownloadThisArchive": "not run",
+    "externalReceipt": "unverified",
+    "platformUploadScanConnectionPublication": "not performed"
   }
 }
