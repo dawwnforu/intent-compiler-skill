@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Submit the owner-approved cefba82 update on the existing free Agensi listing and verify official platform1.1/live/approved status plus public source metadata. Reuse pilot materials for public/self-created professional tasks, separating an accurate modeling brief from making a model; no confidential client files, new questionnaire, runtime rules, model tests or effectiveness claims. Keep old package evidence and economic assumptions separate.
+
 - Verify the current af3d2c8 GitHub fallback with one bounded actual browser download and independent same-file checks, reusing prior programmatic evidence. Preserve/correct a verifier-only license-string assumption; do not change the package or infer external-user receipt, compatibility or business gains. No new model call.
 
 - Verify cefba82's actual new-method loading and Chinese files in one exposed-case local regression, with independent ZIP/action/browser checks and full cost retained. No additional encoding cue or repair is administered; local/channel differences prevent a causal or reduced-prompt claim. Keep the approved upload preview unsubmitted and fix a stale commercial "unpublished" status; no core, ZIP, license, price or real-user record change.

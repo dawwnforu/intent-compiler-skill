@@ -1,5 +1,11 @@
 # Intent Compiler：上架候选交付
 
+**最新回执（2026-10-24，R98）：** 用户明确允许保存已备字段、提交cefba82审核及批准后更新免费公开版。沿用同一商品和已上传的37,716字节ZIP，只保存已审字段并走一次最终提交。只读`my_skills(status:"live")`随后返回唯一商品`version: 1.1 / review_status: live / security_status: approved / pricing: Free / pending_update: null`；实际公开页已显示cefba82343fef6512a31f96013fc20793f878dd5来源与包名。标准MIT、清单0.2.0、价格及正式安装不变；新版渠道加载／业务没有运行，不能借用R92–R94旧包结果证明新包行为。扫描仍显示1条警告，详情未知；平台批准不等于MIT渠道问题已澄清。首次自动审批因差异快照缺少价格证据拒绝保存动作，补全免费选中及完整字段证据后，同一正常UI路径获准；未改权限或换通道绕过。操作、字段和官方回执保存在本机`outputs/intent-compiler-v2/submission-r98/`。
+
+首批试用按用户反馈改为**公开或自制素材的小型专业任务**，不要求客户或公司资料，也不要求Skill爬取保密信息。可先用`brief`把普通建模想法整理成准确、可行动的需求说明，按本人意愿再制作；不把术语多、篇幅长或说明完成等同于专业正确或模型已完成。[安装后具体做什么](../pilot/feedback.md#安装后具体做什么)复用现有招募、同意及计数记录；外部参与、采用、复用和订单仍为0，本轮没有模型调用。
+
+以下R92–R95段落保留各自发生时的包与状态；当前渠道为1.1／cefba82，备用固定GitHub下载仍为af3d2c8，不混用来源和验证范围。
+
 核验日期：2026-10-24（Europe/Budapest）。**用户亲自提交审核后，Agensi已将现有af3d2c8候选批准并免费公开**：[正式商品页](https://www.agensi.io/skills/intent-compiler-client-brief-handoff)。Creator Studio为1 Live、0 Pending；只读接口为`review_status: live / security_status: approved`；无Cookie或Authorization的HTTP请求返回200；一次固定产品名搜索返回本商品。没有代点再次发布或重复提交。上架不等于完整业务交付已验证；当前安装、评价、外部试用和订单均为0，未收款。标准MIT及贡献者署名不变。原始仓库：[dawwnforu/intent-compiler-skill](https://github.com/dawwnforu/intent-compiler-skill)。平台条目版本1.0与包内清单0.2.0／未发布稳定2.0的候选身份分开标注，完整来源以`SOURCE.json`为准。
 
 本轮先修正公开介绍遗留的“仅草稿、未审核或公开”状态；随后用户明确批准免费启用与合成业务验收。页面显示“Security scan passed with 1 warning”；尚未取得警告详情，不宣称零警告或完整安全审计。没有替换ZIP、改价或提交新版本。本机R92保存实际接口、搜索、匿名访问、文案前后值和截图；web读取工具失败但浏览器/匿名HTTP成功，不能误报站点不可访问。
@@ -100,15 +106,15 @@ GitHub核心继续免费MIT。若许可和连接交付均解决，建议先把**
 
 面向已有可用Codex、需要整理客户资料的自由职业者与小型团队。把零散客户消息和确认资料整理成客户可审阅的需求文件，以及分开的内部执行清单；区分已确认范围、变更请求和待定事项，在现有授权内制作、修改并核验实际文件。先聚焦这一业务路径，其他领域方法仍保留在共享核心中。
 
-包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex已有限定测试，其他宿主及Agensi连接交付尚未完成本项目验证。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。Agensi现已将此包免费公开，平台条目版本1.0；完整连接验收与MIT渠道条款澄清仍待完成。
+包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex及旧包Agensi限定验证保留，其他宿主与新包渠道业务未验。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。Agensi当前免费版为平台1.1／来源cefba82；完整连接验收与MIT渠道条款澄清仍待完成。
 
-For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex testing exists; other hosts and Agensi delivery are not yet verified for this product. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Now listed free on Agensi (listing version1.0); connected delivery and MIT/channel clarification remain open.
+For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex and old-package Agensi results remain separate; other hosts and updated-package channel business behavior are unverified. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Now listed free on Agensi (listing version1.1/source cefba82); complete connected delivery and MIT/channel clarification remain open.
 
 ### 当前公开字段与文件
 
 下述标题、摘要、用途、来源、兼容说明、工具条件、权限说明、分类、限制和三项FAQ已填写并保存；R92又将实际失败与修复范围同步到介绍/兼容/限制/FAQ。名称上限60字符，ZIP上传上限50MB，必须含SKILL.md；实际选用Business & Operations为主分类、Productivity为第二分类。页面通用兼容标志不是产品验证。早期草稿的“Not scanned yet”保留为历史；当前公开页的实际扫描状态与1条警告以本页开头为准。
 
-平台自动生成过未经实测的S3演示及“优于直接提示”的宣传，已整体清除，未用作证据。演示字段暂空，未上传客户样例、内部执行表或其他媒体。早期桌面预览在窄侧栏把标题挤成竖排，移动预览可读；本轮公开页标题可读。文件树显示平台`v1.0`，实际来源/清单为`0.2.0／2.0候选`，未发现网页可编辑的版本字段；公开介绍现已明确区分二者，没有重传包或编造新源版本。
+平台自动生成过未经实测的S3演示及“优于直接提示”的宣传，已整体清除，未用作证据。演示字段暂空，未上传客户样例、内部执行表或其他媒体。早期桌面预览在窄侧栏把标题挤成竖排，移动预览可读；公开页标题可读。初次文件树显示平台`v1.0`，R98更新后官方接口为`1.1`；两者均不等于源清单`0.2.0／2.0候选`，未自行填写或编造平台版本。
 
 | 字段 | 拟填内容 / 状态 |
 | --- | --- |
@@ -119,9 +125,9 @@ For freelancers and small teams who already use Codex: turn scattered client not
 | 输出 | 客户可审阅的需求/确认文件＋分开的内部执行清单；格式取决于实际任务与宿主工具 |
 | 首发价格 | 用户亲自提交的Free条目已获平台批准并公开；15美元仍为后续便利包假设，不自动改价或设置收款 |
 | 人工服务/更新 | 不含一对一代做、模型额度或永久维护承诺；售后范围须另行确定 |
-| 兼容说明 | 本机Codex历史证据保留；af3d2c8渠道核心/引用及一次曝光修复已验，首交失败、继续修改/恢复未验。Claude业务、Cursor/Copilot未验证；不作无干预成功声明 |
+| 兼容说明 | 本机Codex历史证据保留；af3d2c8渠道核心/引用、曝光修复及限定同会话继续已验，首交失败与评测器修正保留。cefba82渠道业务、进程重启、Claude业务、Cursor/Copilot未验证；不作无干预成功声明 |
 | 来源/署名/版本 | 本页原始GitHub仓库、Intent Compiler contributors、0.2.0／2.0未发布候选；完整标准MIT随包 |
-| 主上传文件 | [intent-compiler-2.0-candidate-af3d2c8.zip](artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，37,504字节，SHA-256 `4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5`；来源af3d2c8，固定承载提交d4648d8 |
+| 当前平台文件 | `intent-compiler-2.0-candidate-cefba82.zip`，37,716字节，25成员，SHA-256 `7bc4ba9400c1b604aca9cd7c787a322df47641b0c4d3a64b93e51d4638d7cb61`；来源cefba82343fef6512a31f96013fc20793f878dd5，平台1.1。固定GitHub备用af3d2c8入口另列于下方，不是同一包 |
 | 示例 | 复用[239553d历史合成摄影包](../pilot/README.md)：客户ZIP与内部执行表分开。只展示交付形态，不冒充af3d2c8或Agensi生成结果；不把旧Skill给新试用者安装 |
 
 ### 用户提交后的历史回执（R90，随后已上线）
