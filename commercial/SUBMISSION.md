@@ -81,19 +81,54 @@ GitHub核心继续免费MIT。若许可和连接交付均解决，建议先把**
 
 ## 可粘贴商品描述（审批草案）
 
-**Intent Compiler — Guided Professional Workflows / 需求编译器**
+**Intent Compiler — Client Brief & Handoff / 需求编译器：客户需求与交付**
 
-面向已有Codex的非技术用户，把日常语言和已有文件变成具体可检查的成果。按任务加载相关专业方法，区分已确认事实、必要条件和待决定事项，在当前权限内制作、修改并核验交付物。适用于客户资料整理、交互原型和可打印文件等有明确验收标准的任务。
+面向已有可用Codex、需要整理客户资料的自由职业者与小型团队。把零散客户消息和确认资料整理成客户可审阅的需求文件，以及分开的内部执行清单；区分已确认范围、变更请求和待定事项，在现有授权内制作、修改并核验实际文件。先聚焦这一业务路径，其他领域方法仍保留在共享核心中。
 
 包含MIT核心、按需引用和可选本地检查脚本。原始源码公开，现有署名Intent Compiler contributors，清单0.2.0／2.0未发布候选。买家需自备Agent与模型；本机Codex已有限定测试，其他宿主及Agensi连接交付尚未完成本项目验证。不保证优于直接提问，不代发、不收款、不提供账户或模型额度。许可关系与连接验收完成后才能提交这份描述。
 
-For nontechnical users who already use Codex: turn ordinary-language goals and existing files into concrete, checkable deliverables. The workflow loads relevant domain methods, keeps facts and pending decisions distinct, and executes within the user's actual authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex testing exists; other hosts and Agensi delivery are not yet verified for this product. No guaranteed advantage over direct prompting or included human service/model credits. Submission awaits the licence and delivery gates below.
+For freelancers and small teams who already use Codex: turn scattered client notes and confirmed materials into a reviewable client brief and a separate internal action list. Keep agreed scope, requested changes and open decisions distinct; create and check actual files within the user's authorization. Includes the public MIT core, scoped references and an optional local checker. Original source: https://github.com/dawwnforu/intent-compiler-skill — Intent Compiler contributors; manifest0.2.0, unreleased2.0 candidate. Bring your own Agent/model. Bounded local Codex testing exists; other hosts and Agensi delivery are not yet verified for this product. No guaranteed advantage over direct prompting or included one-to-one service, perpetual maintenance or model credits. Submission awaits the licence and delivery gates below.
+
+### 当前待审字段与文件
+
+以下内容供本人审阅和后续填写，不是已保存的平台草稿。实际字段名、字数、分类可选值尚待登录后核对。
+
+| 字段 | 拟填内容 / 状态 |
+| --- | --- |
+| 标题 | Intent Compiler — Client Brief & Handoff |
+| 短介绍 | Turn scattered client notes into a reviewable brief and a separate internal action list, keeping confirmed facts and open decisions distinct. |
+| 分类/标签候选 | Productivity；Business & Operations；client handoff；requirements。以平台实际选项为准，不创建虚构字段 |
+| 目标用户/输入 | 已有可用Codex的自由职业者与小型团队；有权处理的客户消息、已确认资料及现有交付格式 |
+| 输出 | 客户可审阅的需求/确认文件＋分开的内部执行清单；格式取决于实际任务与宿主工具 |
+| 首发价格 | 建议免费；**尚未批准**。15美元是后续便利包假设，不自动选用 |
+| 人工服务/更新 | 不含一对一代做、模型额度或永久维护承诺；售后范围须另行确定 |
+| 兼容说明 | 本机Codex有历史限定任务证据；af3d2c8包已核对获取/解压/工具。此包发现和模型业务未重跑；Claude业务、Cursor/Copilot及Agensi连接未验证 |
+| 来源/署名/版本 | 本页原始GitHub仓库、Intent Compiler contributors、0.2.0／2.0未发布候选；完整标准MIT随包 |
+| 主上传文件 | [intent-compiler-2.0-candidate-af3d2c8.zip](artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，37,504字节，SHA-256 `4aad2ccccaac4869f5b5b9b958b6a97e8764b0e54ed5f7ea076ba6a0961c4bc5`；来源af3d2c8，固定承载提交d4648d8 |
+| 示例 | 复用[239553d历史合成摄影包](../pilot/README.md)：客户ZIP与内部执行表分开。只展示交付形态，不冒充af3d2c8或Agensi生成结果；不把旧Skill给新试用者安装 |
+
+本机已从公开旧包原样提取`client.zip`和`internal.md`供本人审阅，文件哈希、旧来源和角色边界记录在任务本机`outputs/intent-compiler-v2/launch-handoff-r83/receipt.json`；未上传或发给任何人。客户ZIP有页面、回复单和打开说明，内部表不在其中。示例的内部资料也是合成的，仍按用途分开，不默认将内部表作为商品附件公开。
+
+### 本轮实际入口与待授权动作
+
+2026-10-24实际打开[Creator Dashboard](https://www.agensi.io/dashboard)：首次导航超时后检查原有标签，页面随后到达[登录页](https://www.agensi.io/auth)，显示“Sign in to your account”。只证明当前应用内浏览器会话需要登录；未推断其他浏览器账号状态，未注册、填写密码、连接新Agent或提交商品。
+
+| 动作 | 目前能做什么 | 本人需要决定/完成什么 |
+| --- | --- | --- |
+| 账号入口 | 登录页已定位，现有会话断点保留 | 在网站完成现有账号登录，密码/验证码直接填网站，不发到对话 |
+| 只读核对卖家界面 | 登录后核对实际字段、草稿/审核/发布流程及已有商品，避免重复创建 | 如遇协议或本人验证，由本人处理；不以浏览能力推定许可 |
+| 上传 | 上传目标仅为Agensi、确切主ZIP如上；示例是否上传另行列清单 | 尚未获授权，当前不上传 |
+| 提交审核 | 当前指南说审核通过后会进入公开目录；实际账号是否有独立发布开关未知 | 在实际流程明确前，把可能自动公开的审核提交按发布审阅，不能当作“只存草稿” |
+| 连接验收 | 核心→引用→工具→文件保留/导出→恢复；只用合成资料 | 确认平台允许的测试路径；新连接会断开旧连接，不能擅自重配 |
+| 价格和公开 | 建议免费，所有商品信息与文件先给本人审阅 | 免费/付费选择、确切上传及公开范围均需本人明确；已有对应授权不重复问 |
+
+平台问题分项：MIT保留及公开仓库可挂牌是既有答复；更严格条款如何适用MIT、引用/脚本提供、业务成果导出、未发布测试仍待10月21日补问答复。本轮邮件线程及域名检索均未发现新回复，未追发。审核后是否自动公开另由实际界面/平台说明确认，不把这一点说成已在旧补问里回答。公开指南与当前[条款](https://www.agensi.io/terms)是平台声明，不替代本产品的连接运行证据。
 
 ## 公开上架前剩余动作
 
 | 门槛 | 当前状态 | 下一步与证据 |
 | --- | --- | --- |
-| 来源与包 | ZIP已推送；程序化获取、实际浏览器下载及新项目安装/发现通过 | 使用下方固定提交入口；外部用户收件与业务采用另记，不能由本机检查代替 |
+| 来源与包 | 当前af3d2c8包已推送，程序化获取、字节/来源、解压和安装后工具检查通过；本包浏览器下载/发现/模型业务未重验 | 使用下方固定提交入口；旧包的浏览器和发现证据不转移，外部收件与采用另记 |
 | MIT与渠道许可 | 标准MIT保留；公开条款仍有复制/保存限制 | 明确平台条款如何保留原MIT材料的权利、商业/客户用途及通知；未明确不提交，免费也不视为自动解决 |
 | 连接交付 | 未上传/未连接 | 在获准审核或草稿环境检查核心→索引→引用→工具→成果→恢复；不能要求Agent违反平台条款导出Skill文件 |
 | 商品扫描与审核 | 未执行 | 经用户批准上传确切ZIP，保留平台实际扫描及人工结果；本地检查不能替代 |

@@ -5,14 +5,14 @@
 ## 给招募人的一份交接
 
 - 发送下方现成文案，先找已有可正常使用的 Codex、确实有专业交付任务但不熟悉相应方法的人。优先沿用客户资料整理、印刷文件、字体接入或网站交付等已有领域；不要求摄影从业，也不故意改用弱模型制造差异。
-- 领取用[固定239553d试用包](https://github.com/dawwnforu/intent-compiler-skill/blob/239553dfd2629a14fb0cdef6ec8fc044d3a7a080/pilot/intent-compiler-local-pilot.zip)，同时附[一页开始说明](README.md)。包内文件保持冻结；本轮主持人记录用本页和[当前记录表](pilot-log.csv)，不让参与者填 CSV。
+- 当前招募领取用[固定af3d2c8候选包](https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip)，同时附[当前开始说明](../commercial/SUBMISSION.md#非技术用户怎样开始)。旧239553d包及其中说明保持冻结，只用于历史合成样例，不用其中的Skill覆盖本候选。主持人记录用本页和[当前记录表](pilot-log.csv)，不让参与者填 CSV。
 - 先收匿名代号、Codex版本/是否已能运行普通任务、可观察时间、是否同意记录操作/耗时。另行同意前不取得完整对话、客户资料或产物；联系及录屏授权不能相互推定。
 - 取得参与者同意后再安排首次观察。若需要代理人代发，另给明确收件对象、渠道、具体文案和联系授权；本轮未发送，不需要公开参与者身份。
 - 将当前 `pilot-log.csv` 复制到本仓库已忽略的 `pilot/local-feedback/`，或仓库外不受版本控制的本地目录。只在该私有副本记录；不要把原始参与者数据提交 GitHub。忽略规则不等于脱敏或访问保护。
 
 ## 可发出的招募文案（草稿，未发送）
 
-> 我在做一个帮助非专业用户完成专业交付的 AI 工作流，想找3位已有可正常使用的 Codex、手头确实有相关待办的人免费试一下。不要求购买，没帮助、更麻烦、装不上或中途退出都希望如实知道。虚构摄影案例只用于熟悉入口，随后用一个你确实需要、且有权处理的任务，看看交付是否合格、需要补几次专业提示、返工几次，以及是否实际采用。首次约20—30分钟，需要更久就另约或停止。领取：https://github.com/dawwnforu/intent-compiler-skill/blob/239553dfd2629a14fb0cdef6ec8fc044d3a7a080/pilot/intent-compiler-local-pilot.zip 。我会附一页开始说明。不会后台读取你的会话；未经另行同意，不收完整对话或业务文件。愿意的话先告诉我 Codex 版本和方便观察的时间，不用发客户资料。
+> 我在做一个帮助非专业用户完成专业交付的 AI 工作流，想找3位已有可正常使用的 Codex、手头确实有相关待办的人免费试一下。不要求购买，没帮助、更麻烦、装不上或中途退出都希望如实知道。历史合成样例可以用于熟悉入口，随后用一个你确实需要、且有权处理的任务，看看交付是否合格、需要补几次专业提示、返工几次，以及是否实际采用。首次约20—30分钟，需要更久就另约或停止。领取：https://github.com/dawwnforu/intent-compiler-skill/blob/d4648d8375456fe7a11c29d9f498a98573c03040/commercial/artifacts/intent-compiler-2.0-candidate-af3d2c8.zip 。开始说明：https://github.com/dawwnforu/intent-compiler-skill/blob/3effcb950046579f410ef447a3bef606320aced8/commercial/SUBMISSION.md#非技术用户怎样开始 。请按说明核对项目候选路径与SOURCE.json。不会后台读取你的会话；未经另行同意，不收完整对话或业务文件。愿意的话先告诉我 Codex 版本和方便观察的时间，不用发客户资料。
 
 ## 首次观察：从领取到实际采用
 
@@ -46,7 +46,7 @@
 
 例如用户说“客户只能看到自己的记录”是在说明业务约束；专家后补“仅隐藏按钮不够，还要验证接口和导出内容”才属于专业干预。用户接受某种恢复方式是决策，不能算自己教会了模型加密方法。内部固定补充与真实用户帮助分别标注，不能用模型扮演的用户填真实反馈。
 
-每个实际观察事件一行，以 `session_id` 区分事件、`participant_alias` 关联同一人；`observed_at` 写真实带时区时间，`followup_stage` 用 `first / day1 / day7 / later`。本批 `candidate_package_commit` 记 `239553dfd2629a14fb0cdef6ec8fc044d3a7a080`；实际使用其他版本则如实另记。未发生不建行，失联/暂停只在真的发生后记原因。未知留空，不填0或预设日期。
+每个实际观察事件一行，以 `session_id` 区分事件、`participant_alias` 关联同一人；`observed_at` 写真实带时区时间，`followup_stage` 用 `first / day1 / day7 / later`。`candidate_package_commit` 记录实际领取包的承载提交：当前af3d2c8包记 `d4648d8375456fe7a11c29d9f498a98573c03040`，其包内sourceCommit为 `af3d2c80e37e77b03d661fd803422f949d04ee89`，二者不要混用。已有239553d记录或其他实际版本如实保留，不批量改成最新候选。未发生不建行，失联/暂停只在真的发生后记原因。未知留空，不填0或预设日期。
 
 人工时间分开记分钟：`installation_help_minutes`、`business_explanation_minutes`、`result_revision_minutes`。`human_help_minutes` 只作这三项合计，汇总时不能把总计与分项再相加；同一分钟只归一类。模型等待写 `model_wait_minutes`，研究访谈写 `research_interview_minutes`，不把它们当常规每单人工支持。整体经过时间仍可包含等待，不能与这些分项重复相加。现金工具支出仅填实际账单或明确分摊依据；未知留空，token不是现金账单。
 

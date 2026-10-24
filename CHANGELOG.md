@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Correct the live recruitment route from the frozen239553d bundle to the current af3d2c8 candidate and startup guide; distinguish hosting/source IDs without changing old archives or participant rows. Prepare concrete client-handoff listing fields and review-only historical synthetic outputs. Recheck actual mail and the creator entry: current in-app session reaches sign-in, with no upload, connection or publication. Correct an aggregate compatibility row so old browser/discovery observations are not assigned to the new archive.
+
 - Fix the optional HTML checker's decoded-resource boundary: skip UNC, rooted and drive-qualified paths before filesystem probes. Preserve a six-subcase failing regression, five passing test methods, valid/missing relative-file CLI checks and unchanged inputs. No model-effect claim or core-rule expansion. Refresh the submission plan against current public terms and actual mail status; retain the MIT/connected-delivery gates and frozen packages.
 
 - Add a conservative actual-tool-output method-exposure check and seven focused tests. Preserve two same-model client artifacts, unread proposed method, in-run failures, asymmetric browser verification and severe browser timeout; keep runtime and packages unchanged rather than attributing ordinary success/cost differences to an unobserved intervention.
