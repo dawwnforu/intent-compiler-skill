@@ -1,0 +1,128 @@
+{
+    "id":  "R100",
+    "date":  "2026-10-26",
+    "kind":  "onboarding_and_artifact_demo_not_a_model_comparison",
+    "baseCommit":  "beeacef6fe6f484c1aadfd22e48589cbcb6fe35f",
+    "runtimeSource":  "cefba82343fef6512a31f96013fc20793f878dd5",
+    "officialListing":  {
+                            "security":  "approved",
+                            "version":  "1.1",
+                            "nonCreatorUses":  0,
+                            "price":  "Free",
+                            "status":  "live",
+                            "reviews":  0,
+                            "anonymousHTTP":  200,
+                            "pending_update":  null
+                        },
+    "pr":  {
+               "checkedHead":  "beeacef6fe6f484c1aadfd22e48589cbcb6fe35f",
+               "number":  2,
+               "draft":  true,
+               "merged":  false,
+               "state":  "open"
+           },
+    "package":  {
+                    "archive":  "intent-compiler-demo-r100.zip",
+                    "bytes":  59750,
+                    "members":  21,
+                    "sha256":  "35bdc2cfb793528bc1d9558ac1735dacce36fe162d5902966bc22181936cb31f",
+                    "http":  [
+                                 {
+                                     "path":  "pilot/demo/change-request.txt",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/data.js",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/demo.js",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/final-brief.md",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/history.md",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/index.html",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/initial-handoff.md",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/recording.txt",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 },
+                                 {
+                                     "path":  "pilot/demo/style.css",
+                                     "status":  200,
+                                     "exactBytes":  true
+                                 }
+                             ],
+                    "frozenArtifactsExact":  true,
+                    "newModelCalls":  0,
+                    "installableSkill":  false,
+                    "browserDownload":  "not tested",
+                    "nativeFileOpen":  "not tested",
+                    "externalUserReceipt":  "not observed"
+                },
+    "browser":  {
+                    "observations":  {
+                                         "responsiveEnglish":  {
+                                                                   "clientWidth":  375,
+                                                                   "scrollWidth":  375,
+                                                                   "selection":  332,
+                                                                   "status":  "Copy requested; the text is also selected. Paste to check, or copy it manually. No permission change is needed.",
+                                                                   "textLength":  332
+                                                               },
+                                         "initialDownload":  "initial-handoff.md",
+                                         "finalDownload":  "final-brief.md",
+                                         "originalArtifactsPreserved":  true
+                                     },
+                    "clipboard":  {
+                                      "writeApiResolved":  true,
+                                      "bridgeReadLength":  0,
+                                      "actualCopyVerified":  false,
+                                      "manualSelectionVerified":  true
+                                  },
+                    "limits":  [
+                                   "Internal browser only, not physical mobile",
+                                   "No native file download or file-double-click validation",
+                                   "No participant feedback or new model runs"
+                               ]
+                },
+    "failures":  [
+                     "Initial PowerShell excerpt serialization included an extended object with local paths; static test failed before serving, plain extraction corrected it",
+                     "An overly exact warning-text assertion was corrected without changing the underlying warning",
+                     "Clipboard write API resolved but browser bridge read zero bytes; cause unknown, actual copy remains unverified; manual selection verified"
+                 ],
+    "newModelCalls":  0,
+    "externalParticipants":  0,
+    "completion":  0,
+    "adoption":  0,
+    "reuse":  0,
+    "orders":  0,
+    "actualUserProfessionalPrompts":  null,
+    "actualUserRework":  null,
+    "actualPayout":  null,
+    "limits":  [
+                   "Synthetic, developer-authored R99 case; all four original arms passed",
+                   "No new compatibility, professional accuracy, general effectiveness or user preference claim",
+                   "No public upload, price change, PR merge, license change or installed Skill replacement"
+               ],
+    "next":  "Owner review of local candidate; authorize public branch changes and invite consented real users when ready"
+}

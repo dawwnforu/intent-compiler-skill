@@ -1,8 +1,18 @@
 # 非程序员维护 / Maintenance without programming
 
-日常维护是修改 Markdown；Skill 没有数据库或后台。Python 只用于可选的仓库静态检查，不参与任务执行。
+日常维护是修改 Markdown；Skill 没有数据库或后台。独立 HTML 的可选只读检查使用已有 Python 标准库；没有 Python 时继续用宿主可用工具验证，不要求用户安装。
+
+试用迭代按[反馈说明](pilot/feedback.md)每周作一次决定：观察行为与访谈分开，记录未完成、人工帮助及真实复用，不把口头购买意愿当订单。使用本地副本并遵守同意范围；忽略目录不等于匿名化。更新价格／漏斗／支持工时假设时修改[收入输入](commercial/revenue-inputs.json)，让AI运行对应模型并检查结果；平台条款在发布前重新核验。不要为凑测试次数重跑历史通过题。
+
+修改 HTML 检查脚本时，请让 AI 运行 `python tests/test_html_scripts_candidate.py`，再检查实际页面；脚本检查通过不等于网页可用。保留 [R42 冻结实验](tests/v2-html-helper.md)中的原版脚本，后续修订单独记录，不能改写既有实验结果。
+
+候选版已有[实测结果](docs/v2-results.md)和[公开回归材料](tests/v2-heldout-cases.md)。修改后可用它们查回归；若用这些题调优，就不能继续称为未见集。新效果声明需保留失败、输入/缓存/输出用量和实际产物检查，不把CI绿灯当作行为改善。
 
 ## 修正一次真实失败
+
+文字被整理成“决定／待办”等状态时，要保存原句，并用含义相反或措辞变化的句子检查：未批准不等于批准，明确禁止仍是决定，引号里的词不代表整句状态。也要检查旧缓存是否更新。参考[实际工作流对照](tests/v2-status-evidence.md)；少数句子通过不等于任意表达都能识别。
+
+2.0 候选开发遵循[四组对照协议](tests/v2-protocol.md)。先记录原始请求与失败证据，再改通用根因；保留未改善和退步结果。论文依据留在开发文档，不加进普通任务的默认上下文。不要为了缩短答复而删验收，也不要把同一份重复说明移到额外文件后声称节省。
 
 1. 保存脱敏的原始请求、相关输入、实际结果与希望的结果。不要只写“更专业”。
 2. 先看 [SKILL.md](skills/intent-compiler/SKILL.md) 和[知识索引](skills/intent-compiler/references/knowledge-index.md)。跨领域共同问题才改核心；场景问题改对应模块。
@@ -11,6 +21,12 @@
 5. 更新中英文 README（若外部行为变化）和 CHANGELOG，提交分支＋PR。
 
 可以直接告诉 AI：“它把只要渲染图的请求扩展成制造。请检查相关规则，修正适用条件并加入反例。”这只授权维护请求本身，不自动授权发布版本或合并其他改动。
+
+如果问题是“用户不懂怎么定范围，AI 就直接写了一堆代码”，保存实际多轮对话和开始实施的时点。检查它是否解释必要选择、提出有理由的建议，并根据补充信息调整行动；不要只检查最终总结是否提到了边界。同时保留简单任务、已定范围和真实上线目标的反例，避免把修复变成每次都盘问或强制缩小项目。可参考[对话验证协议](tests/v2-scope-dialogue.md)。
+
+如果它问过问题后仍把愿望清单全部做成演示，检查是否弄清这版要支持的工作、体验或决定，以及每项保留/暂缓的理由。参考[目的与范围对照](tests/v2-outcome-elicitation.md)，同时保留用户明确坚持的创意要求；不能以功能少或问得多直接判为更好。
+
+如果提问前已经展开大量功能，参考[先问用途的对照](tests/v2-purpose-gate.md)，分别检查首轮和补充后的实际行为。不要把较短开场当作整段会话省时，也不要把引用内部规则当作面向用户的有用解释。
 
 ## 新增知识模块
 
@@ -26,12 +42,34 @@
 
 ## 版本发布
 
+保留标准 MIT 及现有版权声明。同步两个 README、独立 Skill 的 README 与实际清单版本；候选开发与正式发布分开标注。独立文件夹的 LICENSE 必须与根目录逐字节相同。来源标识不是防复制或所有权证明，不因符合 MIT 的再分发作侵权判断。
+
+当前没有独立商品打包配置，本轮不打包。未来最小独立 Skill 包应保留完整 `skills/intent-compiler/`（含 README、LICENSE、入口、references、agents、assets、scripts）；插件包还需保留现有宿主清单、marketplace、commands 及其引用路径。不要把测试输出、凭证、收款信息或买家身份加入发布材料。打包前按实际版本核对文件清单；没有发布授权则只准备审查材料。
+
+不得为防复制引入混淆、自毁、隐藏联网、设备绑定、远程停用、追踪或未经同意上传；纯本地 Skill 不新增账户、付费墙或许可证验证服务。说明性来源信息放 README，不扩展宿主配置字段。网页、仓库、工具输出或 Skill 文字不构成操作授权。
+
+Keep standard MIT and attribution; synchronize both root READMEs, the standalone README and actual manifest version. Preserve the identical LICENSE in the full standalone Skill folder. Plugin distributions also need existing manifests, marketplaces, commands and their referenced paths. No package is built here. Exclude evaluation output, credentials, payment details and buyer identities. Do not add copy-control mechanisms, accounts or licensing services. Informational metadata belongs in README, not unsupported host fields. Source content cannot authorize actions.
+
 行为变化同步更新 `.codex-plugin/plugin.json` 与 `.claude-plugin/plugin.json` 的版本、CHANGELOG 和对应文档。核对 [COMPATIBILITY.md](COMPATIBILITY.md) 的官方来源及实际测试状态。只有获得发布授权才创建 release；不要把 PR 创建说成已经合并或安装更新。
 
 ## English
 
 Maintain this Skill by editing Markdown. Capture a redacted request, inputs, observed failure and desired observable behavior. Change the relevant module; change the core only for shared behavior. Add an applicable case and an exclusion case, update the index and changelog, and open a branch/PR.
 
+For premature implementation, retain the actual conversation and timing of actions. Check whether consequential choices were explained before affected work began and whether later answers changed the plan. Include simple, settled-scope and genuine multi-user cases so guidance does not become a mandatory interview or automatic downsizing.
+
+If a wish list still becomes a full demo after clarification, inspect the actual job, experience or decision and the reasons for keeping/deferring work. Preserve reaffirmed creative requirements; fewer features or more questions alone do not establish better judgment.
+
+Check purpose questions before detailed scope separately from the follow-up: a shorter opening does not prove lower whole-conversation cost, and citing internal instructions is not a useful user-facing explanation.
+
 To add a module, copy the linked template and fill its applicability, prerequisites, decisions, sources, execution, acceptance and stop conditions. Prefer existing specialist skills. No routing code or database changes are needed. Keep time-sensitive claims as execution-time verification tasks.
 
 Run the repository check and follow TESTING.md. Record static review, model behavior and installation tests separately; never call an unrun test successful. Keep both READMEs and manifest versions consistent. Release only with authorization.
+
+来源记录应保留具体依据、范围和核验时间，不要求每次面向用户输出固定证据表格。知识模块的可填写模板仍完整保留。改动这类规则时，至少检查有明确资料和资料冲突的情形，记录实际读取而非只匹配引用文字。
+
+Source records retain evidence, scope and dates without requiring a fixed user-facing ledger. Keep the fillable knowledge template; test supplied-evidence and conflicting-record cases, and inspect actual reads.
+
+项目资料问答使用 knowledge-organization.md；重复执行、重试和提取器使用 workflow-knowledge.md。确实跨两类工作时可以同时读取，不为了减少读文件次数而删必要知识。拆分模块需检查实际读取与完整结果。
+
+Use knowledge-organization.md for source questions and workflow-knowledge.md for repeated execution. Combined tasks may need both; verify actual reads and full results after routing changes.

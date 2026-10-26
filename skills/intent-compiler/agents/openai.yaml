@@ -1,5 +1,5 @@
 interface:
-  display_name: "Intent Compiler（需求编译器）"
+  display_name: "Intent Compiler 2.0 候选 / Candidate"
   short_description: "把自然语言变成专业、可执行的结果"
   icon_small: "./assets/intent-compiler.svg"
   icon_large: "./assets/intent-compiler.svg"

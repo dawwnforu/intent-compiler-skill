@@ -1,0 +1,9 @@
+# R32: make the evaluation interpreter explicit
+
+R30's four arms could not discover a usable Python command, although an interpreter existed on the host. R31 supplied its directory equally to both variants. Future common single-turn and resumed-dialogue runners now prepare a copied child environment, prepend the evaluator interpreter directory, verify its resolution/version and save an `environment.json` record before generation. Host PATH and other user settings remain unchanged. The same prepared environment is passed to both dialogue turns.
+
+[Exact helper, caller code, checks and result](results/v2-eval-environment.json). Five checks pass: a real child resolves the existing interpreter even with an initially empty PATH; repeated preparation preserves the parent's environment and PATH suffix; failed resolution stops before a success record; static checks confirm explicit environment forwarding at both common model-command call sites. These are real process checks plus static wiring checks, **not new model trials**. A host tool can still sanitize its child environment, so actual future model-side commands remain the evidence of tool availability.
+
+The first check failed while writing/cleaning a sandbox temporary directory. The successful check keeps its records in the writable workspace instead. No permission weakening, installation or global configuration workaround was used. Earlier failed/interrupted evaluations remain recorded.
+
+This fixes evaluation setup, not Intent Compiler behavior. Do not reinterpret R30 as a Skill-only comparison against later prepared runs, or attribute R31's successful repairs solely to Python availability. Frozen earlier invocation records are unchanged. Specialized historical runners that bypass the two common entry points are outside this change. No claim of Skill quality, token savings or cross-host portability follows.
