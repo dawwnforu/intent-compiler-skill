@@ -1,5 +1,8 @@
 # Validation and comparison protocol
 
+[R100 pilot entry](tests/v2-pilot-entry.md): run "node tests/test_pilot_demo.cjs" for frozen-artifact fidelity and original UI handlers in a DOM adapter. Browser desktop/mobile observations and unverified clipboard readback remain separate; no new model calls or real-user feedback. The one-page guide and local demo do not expand host compatibility.
+
+
 [R99 bounded intent handoff](tests/v2-intent-handoff.md): eight actual same-model turns across raw/generic/published/overlay, two fresh app-server sessions each, copying only an at-most4KB generated handoff. All four retain purpose/updated choices and complete the brief; new-method reads are observed but the overlay is not adopted. Preserve nonzero commands, initial encoding reread, measured cost and developer-only inspection. Explicit handoff is not proactive capture, natural compaction, a real long conversation, domain-expert acceptance or user prompt/rework evidence. Existing free runtime stays unchanged.
 
 [R96 current ZIP acquisition](tests/v2-resource-paths.md#r96--actual-browser-acquisition-of-af3d2c8): one bounded browser click returns the actual af3d2c8 file in4.371seconds; byte/SHA-256/Git-blob/member checks match R82. Preserve a test-only overstrict license-field comparison before correcting the verifier on the same downloaded file. Zero new model calls, no redownload, host installation or external-user-receipt claim.

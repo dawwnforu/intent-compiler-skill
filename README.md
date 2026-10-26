@@ -2,6 +2,8 @@
 
 # Intent Compiler｜需求编译器
 
+**第一次使用：** [一页开始说明](pilot/START_HERE.md) · [实际建模说明](tests/results/intent-handoff-r99/C-brief.md) · [中英文可打开演示](pilot/demo/index.html)（本地候选页，GitHub 预览只显示源码）。当前免费入口与固定旧备用包分开标明，不必先阅读下方研究历史。
+
 **你表达想实现的结果，系统发现、检索并运用必要知识，帮助把事情做成。**
 
 [English](README_EN.md) · [MIT License](LICENSE)

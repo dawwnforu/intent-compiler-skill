@@ -1,0 +1,52 @@
+发布草稿，未发送。发布前由本人确认账号、群规和对应授权；不购买推广。
+免费入口：https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work
+本地可打开演示：pilot/demo/index.html。尚未公开部署，不在帖子里编造演示网址。
+
+中文场景帖
+标题：不懂建模术语，也能先把想法讲清楚吗？
+
+我做了一个叫Intent Compiler的Skill，想帮助已有Codex、但不熟悉某个专业领域的人，从自己的想法开始，把实现条件和待定选择整理清楚。
+
+这次展示的是一个内部合成案例：给社团迎新网页做小兔，先交给建模同学一份需求说明；后来名字和围巾颜色变了，报名入口、静态替代和此前有效的决定仍需要保留。展示的是实际生成的说明，不是已经做好的模型；原始输入有20条历史，不是神奇的一句话。
+
+这个案例里无Skill、简规则和候选等四组都通过了，所以我不宣称它已证明独有优势。更想知道它在你真实想完成的小任务中，能不能给出可采用的交付，还需要你补几次专业要求、返工几轮。
+
+目前免费找3位已有可用Codex的人试用，用公开或自己创作的素材即可。模型和外部工具费用另计，不需要公司/客户保密资料或完整聊天记录。你想做什么、哪里不会说，可以直接告诉我；参与观察前另征同意。
+https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work
+
+X thread: each body below fits an ordinary 280-character post including the full URL.
+
+[1]
+I made a free Codex skill for everyday ideas that need professional requirements.
+
+Start by inspecting an actual modeling brief and its revision. It's an internal example, not a customer result.
+
+https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work
+
+[2]
+In the example, the name and scarf color change. Registration access, static fallback and earlier decisions stay intact.
+
+All four comparison arms passed it. No claim of unique gains, automatic memory or fewer corrections.
+
+[3]
+I'm looking for 3 early testers with working Codex setups and a small public task they actually need.
+
+Did you use the result? How many technical instructions and quality-fix rounds were needed? No benefit is useful feedback too. Model/tool costs are separate.
+
+Instagram / Facebook caption (only use "link in bio" after setting/checking that link)
+
+You know what you want to make. You don't know all the technical requirements.
+
+That's the problem I'm exploring with Intent Compiler, currently free on Agensi for existing Codex users.
+
+The demo follows an actual internal modeling brief: a rabbit for a club registration page, then a name and scarf-color change. The registration purpose, static fallback and confirmed choices still matter. It is a synthetic example with twenty input messages, not a customer success story or a completed 3D model. All four comparison arms passed; it doesn't establish a unique skill advantage.
+
+Bring a small task using public or self-created materials. I'll ask whether you adopted the result, what extra technical instructions you needed, and what had to be redone. Private files and full chat logs aren't required; observation is optional. Model and external-tool costs are separate.
+
+Facebook: https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work
+Instagram: link in bio.
+
+#Codex #AIAgents #BuildInPublic
+
+配图/录屏使用当前本地演示和实际文件，按demo/recording.txt制作；没有视频时不写“观看完整录屏”。原文中的“人工编写”标签不准确，演示已解释为开发助手构造，不剪掉该说明冒充真人需求。
+不把本站可加载格式、平台图标列表或作者自测当成所有宿主业务兼容，也不承诺自动长期记忆。

@@ -2,6 +2,8 @@
 
 ## Unreleased — 2.0 candidate
 
+- Add a one-page bilingual start route and an inspectable local demo using frozen R99 model artifacts, with original/revised views and a labelled English reading aid. Preserve the source serialization failure/fix and unverified clipboard readback with a selected-text fallback. Reuse feedback with three acquisition fields and one conditional15USD offer; no runtime/package/price/license change or new model/user result.
+
 - Run one fixed synthetic intent-handoff comparison through eight actual fresh-session Codex turns. Raw, generic, published and overlay arms all retain purpose/current choices; keep the overlay unadopted, failed commands, cost and developer-only acceptance. Existing free runtime stays unchanged; clarify public-material onboarding and distinguish it from unverified automatic long-term memory.
 
 - Submit the owner-approved cefba82 update on the existing free Agensi listing and verify official platform1.1/live/approved status plus public source metadata. Reuse pilot materials for public/self-created professional tasks, separating an accurate modeling brief from making a model; no confidential client files, new questionnaire, runtime rules, model tests or effectiveness claims. Keep old package evidence and economic assumptions separate.

@@ -1,0 +1,14 @@
+R100 演示逐镜脚本 / recording storyboard
+30—45秒，尚未录制；使用当前文件，不重新生成模型产物。
+
+0—6秒：打开本页，展示“已有可用Codex / 免费Skill但不含模型额度”。画外音：“有想法，但不知道专业要求怎么说，可以先看看一份实际交付。”
+6—14秒：滚到原始需求节选，强调“内部合成案例，完整输入20条消息”。不要把节选剪成模型只收到一句话。
+14—22秒：选择“初次交接”，展示跳跳、浅绿色围巾及已明确的网页报名用途。
+22—33秒：选择“修改后的说明”，展示芽芽、暖黄色围巾，其他既有决定和待定事项仍在；下载原文并打开实际文件。
+33—40秒：打开来源与限制：“这是需求说明，未制作模型；四组都通过本例，不证明独有优势。”
+40—45秒：展示免费Agensi入口及反馈路径：“用你自己的小任务试，告诉我结果是否采用，还补了几次专业要求、返工几轮。”
+
+英文配音要点：
+“Start with an everyday goal. This is an internal synthetic example with twenty input messages, not a one-line miracle. Here is the actual initial handoff, and here is the revised brief. The name and color change; the registration purpose and existing choices remain. All four comparison arms passed this example. It is a brief, not a finished model. Try the free Codex pilot with your own public task and tell me what still needs work.”
+
+只录当前演示标签页，隐藏其他标签、私人目录、邮箱和账户资料。不用实际客户文件、虚构推荐或模拟付费弹窗。录屏工具存在不等于已获录制其他应用/用户资料的同意；本轮没有录制视频。

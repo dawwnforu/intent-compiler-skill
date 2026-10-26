@@ -1,5 +1,7 @@
 # Intent Compiler：上架候选交付
 
+**2026-10-26 首次用户交付：** 发给试用者的入口改为[一页开始说明](../pilot/START_HERE.md)，无需先读本页历史；[可操作本地演示](../pilot/demo/index.html)复用实际R99交接/修改/说明，并准备中英文发布稿和逐镜脚本，未公开部署或录制。现有Agensi免费商品仍1.1／cefba82；本轮没有重传ZIP、改价或提交审核。仅提出一个[15美元材料包假设](offer-hypothesis.md)，渠道及专业验收仍待验证。实际检查、失败和限制见[R100](../tests/v2-pilot-entry.md)；外部用户和订单仍为0。
+
 **R99上线定位更新（2026-10-24）：** 现有免费商品资料已保存并实际公开，名称改为 **Intent Compiler — Everyday Ideas to Usable Work**；平台自动产生[新领取入口](https://www.agensi.io/skills/intent-compiler-everyday-ideas-to-usable-work)，旧网页链接实际重定向到该页，不是新建第二个商品。仍为平台1.1／cefba82／Free，未重传ZIP、提交新包审核或设置收款。说明现面向用公开／自制素材完成陌生专业任务的人，保留建模说明、字体、页面和客户交付等使用方向，并明示尚未证明独有理解优势、自动长期记忆或减少返工。首次用户资料不再是必要条件。[R99四组实测](../tests/v2-intent-handoff.md)没有显示意图交接候选的独有收益，因此不采纳该规则、不更新运行包。当前可直接开展小规模免费试用；平台许可澄清和真实用户反馈继续单列，不能用更多合成题替代。
 
 **最新回执（2026-10-24，R98）：** 用户明确允许保存已备字段、提交cefba82审核及批准后更新免费公开版。沿用同一商品和已上传的37,716字节ZIP，只保存已审字段并走一次最终提交。只读`my_skills(status:"live")`随后返回唯一商品`version: 1.1 / review_status: live / security_status: approved / pricing: Free / pending_update: null`；实际公开页已显示cefba82343fef6512a31f96013fc20793f878dd5来源与包名。标准MIT、清单0.2.0、价格及正式安装不变；新版渠道加载／业务没有运行，不能借用R92–R94旧包结果证明新包行为。扫描仍显示1条警告，详情未知；平台批准不等于MIT渠道问题已澄清。首次自动审批因差异快照缺少价格证据拒绝保存动作，补全免费选中及完整字段证据后，同一正常UI路径获准；未改权限或换通道绕过。操作、字段和官方回执保存在本机`outputs/intent-compiler-v2/submission-r98/`。
